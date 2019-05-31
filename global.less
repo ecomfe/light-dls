@@ -93,7 +93,13 @@
 @dls-font-weight-semi-bold: 600;
 @dls-font-weight-bold: 700;
 
-@dls-line-height: 1.5;
+@dls-line-height-m: 1.5;
+@dls-line-height-l: 2;
+
+@dls-font-color-strong: @dls-color-gray-10;
+@dls-font-color-normal: @dls-color-gray-9;
+@dls-font-color-aux: @dls-color-gray-8;
+@dls-font-color-weak: @dls-color-gray-7;
 
 /**
  * Spacing
@@ -102,6 +108,26 @@
 @dls-padding-unit: @dls-spacing-unit;
 @dls-height-unit: @dls-spacing-unit;
 
+/**
+ * Background colors
+ */
+
+@dls-background-color-strong: @dls-color-gray-2;
+@dls-background-color-strong-hover: @dls-color-gray-3;
+@dls-background-color-strong-active: @dls-color-gray-4;
+
+@dls-background-color-normal: @dls-color-gray-1;
+@dls-background-color-normal-hover: @dls-color-gray-2;
+@dls-background-color-normal-active: @dls-color-gray-3;
+
+/**
+ * Borders
+ */
+
+/* Border colors */
+@dls-border-color-strong: @dls-color-gray-5;
+@dls-border-color-normal: @dls-color-gray-4;
+
 /* Border radii */
 @dls-border-radius-s: 2px;
 @dls-border-radius-m: 3px;
@@ -109,7 +135,7 @@
 
 /* Shadows */
 
-// general overlays
+// General overlays
 @dls-shadow-color: @dls-color-gray-10;
 
 @dls-shadow-opacity: 0.15;
@@ -119,7 +145,7 @@
 @dls-shadow: @dls-shadow-offset-x @dls-shadow-offset-y @dls-shadow-blur-radius
   fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
 
-// docked overlays
+// Docked overlays
 @dls-shadow-docked-opacity: 0.1;
 @dls-shadow-docked-offset: 4px;
 @dls-shadow-docked-blur-radius: 8px;
