@@ -18,6 +18,18 @@
 @dls-color-brand-10: dls-shade(@dls-color-brand, 10);
 
 /* Contextual colors */
+@dls-color-info: dls-contextual(@dls-color-brand, info);
+@dls-color-info-1: dls-shade(@dls-color-info, 1);
+@dls-color-info-2: dls-shade(@dls-color-info, 2);
+@dls-color-info-3: dls-shade(@dls-color-info, 3);
+@dls-color-info-4: dls-shade(@dls-color-info, 4);
+@dls-color-info-5: dls-shade(@dls-color-info, 5);
+@dls-color-info-6: dls-shade(@dls-color-info, 6);
+@dls-color-info-7: dls-shade(@dls-color-info, 7);
+@dls-color-info-8: dls-shade(@dls-color-info, 8);
+@dls-color-info-9: dls-shade(@dls-color-info, 9);
+@dls-color-info-10: dls-shade(@dls-color-info, 10);
+
 @dls-color-success: dls-contextual(@dls-color-brand, success);
 @dls-color-success-1: dls-shade(@dls-color-success, 1);
 @dls-color-success-2: dls-shade(@dls-color-success, 2);
@@ -88,32 +100,16 @@
  */
 @dls-spacing-unit: 4px;
 @dls-padding-unit: @dls-spacing-unit;
-
-/* Paddings */
-@dls-padding-1: @dls-padding-unit * 1;
-@dls-padding-2: @dls-padding-unit * 2;
-@dls-padding-3: @dls-padding-unit * 3;
-@dls-padding-4: @dls-padding-unit * 4;
-@dls-padding-5: @dls-padding-unit * 5;
-@dls-padding-6: @dls-padding-unit * 6;
-
-/* Heights */
 @dls-height-unit: @dls-spacing-unit;
-@dls-height-1: @dls-spacing-unit * 1;
-@dls-height-2: @dls-spacing-unit * 2;
-@dls-height-3: @dls-spacing-unit * 3;
-@dls-height-4: @dls-spacing-unit * 4;
-@dls-height-5: @dls-spacing-unit * 5;
-@dls-height-6: @dls-spacing-unit * 6;
 
 /* Border radii */
-@dls-border-radius-1: 2px;
-@dls-border-radius-2: 3px;
-@dls-border-radius-3: 4px;
+@dls-border-radius-s: 2px;
+@dls-border-radius-m: 3px;
+@dls-border-radius-l: 4px;
 
 /* Shadows */
 
-// dialogs
+// general overlays
 @dls-shadow-color: @dls-color-gray-10;
 
 @dls-shadow-opacity: 0.15;
@@ -123,13 +119,17 @@
 @dls-shadow: @dls-shadow-offset-x @dls-shadow-offset-y @dls-shadow-blur-radius
   fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
 
-// aside
-@dls-shadow-aside-opacity: 0.1;
-@dls-shadow-aside-offset: 3px;
-@dls-shadow-aside-blur-radius: @dls-shadow-blur-radius;
-@dls-shadow-top: 0 @dls-shadow-aside-offset @dls-shadow-aside-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-aside-opacity));
-@dls-shadow-right: -@dls-shadow-aside-offset 0 @dls-shadow-aside-blur-radius fade(@dls-shadow-color, percentage(@dls-shadow-aside-opacity));
-@dls-shadow-bottom: 0 -@dls-shadow-aside-offset @dls-shadow-aside-blur-radius fade(@dls-shadow-color, percentage(@dls-shadow-aside-opacity));
-@dls-shadow-left: @dls-shadow-aside-offset 0 @dls-shadow-aside-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-aside-opacity));
+// docked overlays
+@dls-shadow-docked-opacity: 0.1;
+@dls-shadow-docked-offset: 4px;
+@dls-shadow-docked-blur-radius: 8px;
+@dls-shadow-docked-top: 0 @dls-shadow-docked-offset
+  @dls-shadow-docked-blur-radius
+  fade(@dls-shadow-color, percentage(@dls-shadow-docked-opacity));
+@dls-shadow-docked-right: -@dls-shadow-docked-offset 0 @dls-shadow-docked-blur-radius
+  fade(@dls-shadow-color, percentage(@dls-shadow-docked-opacity));
+@dls-shadow-docked-bottom: 0 -@dls-shadow-docked-offset @dls-shadow-docked-blur-radius
+  fade(@dls-shadow-color, percentage(@dls-shadow-docked-opacity));
+@dls-shadow-docked-left: @dls-shadow-docked-offset 0
+  @dls-shadow-docked-blur-radius
+  fade(@dls-shadow-color, percentage(@dls-shadow-docked-opacity));
