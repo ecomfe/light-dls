@@ -78,15 +78,15 @@
 @dls-color-gray-9: #333;
 @dls-color-gray-10: #000;
 
-/* Color usages */
-@dls-color-separator-1: @dls-color-gray-4;
-@dls-color-separator-2: @dls-color-gray-5;
-
 /**
  * Typography
  */
 @dls-font-family: "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
   "Microsoft YaHei", sans-serif;
+
+@dls-font-size-s: 12px;
+@dls-font-size-m: 14px;
+@dls-font-size-l: 16px;
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#Common_weight_name_mapping
 @dls-font-weight-normal: 400;
@@ -121,6 +121,8 @@
 @dls-background-color-normal-hover: @dls-color-gray-2;
 @dls-background-color-normal-active: @dls-color-gray-3;
 
+@dls-background-color-disabled: @dls-color-gray-6;
+
 /**
  * Borders
  */
@@ -128,6 +130,10 @@
 /* Border colors */
 @dls-border-color-strong: @dls-color-gray-5;
 @dls-border-color-normal: @dls-color-gray-4;
+
+/* Separator colors */
+@dls-separator-color-strong: @dls-border-color-strong;
+@dls-separator-color-normal: @dls-border-color-normal;
 
 /* Border radii */
 @dls-border-radius-s: 2px;
