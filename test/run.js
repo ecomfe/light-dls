@@ -3,9 +3,10 @@ import path from 'path'
 import chalk from 'chalk'
 import less from 'less'
 import strip from 'strip-css-comments'
+import plugin from '../dist'
 const diff = require('diff')
 
-const INCLUDE_PATH = path.resolve(__dirname, '..')
+const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
 
 function logDiff (left, right) {
@@ -125,7 +126,8 @@ function getTests (specDir) {
       less
         .render(suite.src, {
           paths: [INCLUDE_PATH],
-          javascriptEnabled: true
+          javascriptEnabled: true,
+          plugins: [plugin]
         })
         .then(
           result => {

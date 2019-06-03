@@ -25,8 +25,8 @@ div {
   -dls-button-border-color-normal: #e0e0e0;
   -dls-button-border-color-normal-disabled: #eee;
   -dls-button-background-color-normal: #fff;
-  -dls-button-background-color-normal-hover: #fafafa;
-  -dls-button-background-color-normal-active: #f5f5f5;
+  -dls-button-background-color-normal-hover: #f5f5f5;
+  -dls-button-background-color-normal-active: #eee;
   -dls-button-background-color-normal-disabled: #ccc;
   -dls-button-font-color-strong: #3d88f2;
   -dls-button-font-color-strong-disabled: #8cb8ff;

@@ -68,9 +68,9 @@ div {
   -dls-font-size-s: 12px;
   -dls-font-size-m: 14px;
   -dls-font-size-l: 16px;
-  -dls-font-weight-normal: 400;
-  -dls-font-weight-semi-bold: 600;
-  -dls-font-weight-bold: 700;
+  -dls-font-weight-1: 400;
+  -dls-font-weight-2: 500;
+  -dls-font-weight-3: 600;
   -dls-line-height-m: 1.5;
   -dls-line-height-l: 2;
   -dls-font-color-strong: #000;
@@ -82,11 +82,11 @@ div {
   -dls-padding-unit: 4px;
   -dls-height-unit: 4px;
   -dls-background-color-strong: #fafafa;
-  -dls-background-color-strong-hover: #f5f5f5;
-  -dls-background-color-strong-active: #eee;
+  -dls-background-color-strong-hover: #eee;
+  -dls-background-color-strong-active: #e0e0e0;
   -dls-background-color-normal: #fff;
-  -dls-background-color-normal-hover: #fafafa;
-  -dls-background-color-normal-active: #f5f5f5;
+  -dls-background-color-normal-hover: #f5f5f5;
+  -dls-background-color-normal-active: #eee;
   -dls-background-color-disabled: #ccc;
   -dls-border-color-strong: #e0e0e0;
   -dls-border-color-normal: #eee;

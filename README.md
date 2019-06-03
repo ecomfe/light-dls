@@ -13,7 +13,7 @@ npm i --save-dev less-plugin-dls
 ## Usage
 
 ```less
-@import "~less-plugin-dls/global.less";
+@import "~less-plugin-dls/src/index.less";
 ```
 
 ## License
