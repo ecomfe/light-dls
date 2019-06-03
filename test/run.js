@@ -3,7 +3,7 @@ import path from 'path'
 import chalk from 'chalk'
 import less from 'less'
 import strip from 'strip-css-comments'
-import plugin from '../dist'
+import dls from '../dist'
 const diff = require('diff')
 
 const INCLUDE_PATH = path.resolve(__dirname, '../src')
@@ -127,7 +127,7 @@ function getTests (specDir) {
         .render(suite.src, {
           paths: [INCLUDE_PATH],
           javascriptEnabled: true,
-          plugins: [plugin]
+          plugins: [dls()]
         })
         .then(
           result => {
