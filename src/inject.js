@@ -1,7 +1,7 @@
 const path = require('path')
 
 const SELF_MODULE_PATH = path.resolve(__dirname, '..')
-const ENTRY_LESS = path.resolve(__dirname, '../index.less')
+const ENTRY_LESS = path.resolve(__dirname, '../tokens/index.less')
 
 class Injector {
   process (src, extra) {

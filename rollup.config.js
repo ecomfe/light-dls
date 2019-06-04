@@ -3,7 +3,7 @@ import nodeResolve from 'rollup-plugin-node-resolve'
 
 export default [
   {
-    input: 'src/plugin/index.js',
+    input: 'src/index.js',
     output: {
       file: 'dist/index.js',
       format: 'cjs'
@@ -11,7 +11,7 @@ export default [
     plugins: [nodeResolve(), commonjs()]
   },
   {
-    input: 'src/plugin/functions.js',
+    input: 'src/functions.js',
     output: {
       file: 'dist/functions.js',
       format: 'cjs'

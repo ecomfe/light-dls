@@ -55,7 +55,7 @@ function getTests (specDir) {
   /**
    * Get all modules
    */
-  let srcDir = path.resolve(__dirname, '../src/components')
+  let srcDir = path.resolve(__dirname, '../tokens/components')
   let modules = [
     'global',
     ...fs
