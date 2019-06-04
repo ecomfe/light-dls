@@ -30,7 +30,7 @@ less
 ### Import from stylesheets
 
 ```less
-@import "~less-plugin-dls/src/index.less";
+@import "~less-plugin-dls/tokens/index.less";
 
 a { color: @dls-link-font-color-normal; }
 ```
