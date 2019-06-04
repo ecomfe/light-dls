@@ -1,19 +1,5 @@
-import inject from './inject'
-import shade from './shade'
-import contextual from './contextual'
-
-class Plugin {
-  constructor (options) {
-    this.options = options
-  }
-
-  install (...args) {
-    inject.apply(this, args)
-    shade.apply(this, args)
-    contextual.apply(this, args)
-  }
-}
-
-export default function dls (options) {
-  return new Plugin(options)
-}
+/**
+ * This is required because the entry file is run
+ * in a sandbox in Less.
+ */
+module.exports = require('./main')

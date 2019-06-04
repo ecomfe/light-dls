@@ -1,12 +1,12 @@
 {
   "name": "less-plugin-dls",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
     "test": "node -r esm test/run.js",
-    "build": "rollup -c",
+    "build": "rollup -c && cp src/index.js dist/index.js",
     "prepublishOnly": "npm run test"
   },
   "keywords": [
