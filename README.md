@@ -29,6 +29,8 @@ less
 
 ### Import from stylesheets
 
+With [less-loader](https://github.com/webpack-contrib/less-loader):
+
 ```less
 @import "~less-plugin-dls/tokens/index.less";
 

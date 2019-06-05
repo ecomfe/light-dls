@@ -1,3 +1,8 @@
+## 0.1.3
+
+- Fix colors for translucent buttons.
+- Add `variables.json` to export meta.
+
 ## 0.1.2
 
 - Allow CLI usage with `--dls`.
