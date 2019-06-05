@@ -45,13 +45,17 @@ div {
   -dls-button-background-color-primary-active: #2970cc;
   -dls-button-background-color-primary-disabled: #d9e6ff;
   -dls-button-font-color-translucent: #fff;
-  -dls-button-font-color-translucent-disabled: #999;
+  -dls-button-font-color-translucent-disabled: #fff;
   -dls-button-border-color-translucent: transparent;
   -dls-button-border-color-translucent-disabled: transparent;
   -dls-button-background-color-translucent: rgba(0, 0, 0, 0.6);
   -dls-button-background-color-translucent-hover: rgba(0, 0, 0, 0.5);
   -dls-button-background-color-translucent-active: rgba(0, 0, 0, 0.7);
+<<<<<<< HEAD
   -dls-button-background-color-translucent-disabled: rgba(0, 0, 0, 0.6);
+=======
+  -dls-button-background-color-translucent-disabled: rgba(0, 0, 0, 0.2);
+>>>>>>> 6aa1f872d1d0a95d1fe93c547faa7ac1b7c33dde
   -dls-button-font-color-link: #3d88f2;
   -dls-button-font-color-link-disabled: #ccc;
 }
