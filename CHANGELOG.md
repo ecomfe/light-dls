@@ -1,3 +1,7 @@
+## 0.1.4
+
+- Added equal value information in exported meta file.
+
 ## 0.1.3
 
 - Fix colors for translucent buttons.

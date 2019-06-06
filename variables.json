@@ -1,702 +1,1462 @@
 {
   "dls-color-brand": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-color-brand-1": {
     "value": "#f2f7ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-1",
+      "dls-button-background-color-strong-hover",
+      "dls-button-background-color-strong-disabled"
+    ]
   },
   "dls-color-brand-2": {
     "value": "#d9e6ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-2",
+      "dls-button-border-color-strong-disabled",
+      "dls-button-background-color-strong-active",
+      "dls-button-background-color-primary-disabled"
+    ]
   },
   "dls-color-brand-3": {
     "value": "#b3cfff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-3"
+    ]
   },
   "dls-color-brand-4": {
     "value": "#8cb8ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-4",
+      "dls-button-font-color-strong-disabled"
+    ]
   },
   "dls-color-brand-5": {
     "value": "#66a3ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-5",
+      "dls-button-border-color-strong",
+      "dls-button-background-color-primary-hover",
+      "dls-link-font-color-strong-hover"
+    ]
   },
   "dls-color-brand-6": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-color-brand-7": {
     "value": "#2970cc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-7",
+      "dls-button-background-color-primary-active",
+      "dls-link-font-color-strong-active"
+    ]
   },
   "dls-color-brand-8": {
     "value": "#1958a6",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-8"
+    ]
   },
   "dls-color-brand-9": {
     "value": "#0d4280",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-9"
+    ]
   },
   "dls-color-brand-10": {
     "value": "#042d59",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-info-10"
+    ]
   },
   "dls-color-info": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-color-info-1": {
     "value": "#f2f7ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-1",
+      "dls-button-background-color-strong-hover",
+      "dls-button-background-color-strong-disabled"
+    ]
   },
   "dls-color-info-2": {
     "value": "#d9e6ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-2",
+      "dls-button-border-color-strong-disabled",
+      "dls-button-background-color-strong-active",
+      "dls-button-background-color-primary-disabled"
+    ]
   },
   "dls-color-info-3": {
     "value": "#b3cfff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-3"
+    ]
   },
   "dls-color-info-4": {
     "value": "#8cb8ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-4",
+      "dls-button-font-color-strong-disabled"
+    ]
   },
   "dls-color-info-5": {
     "value": "#66a3ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-5",
+      "dls-button-border-color-strong",
+      "dls-button-background-color-primary-hover",
+      "dls-link-font-color-strong-hover"
+    ]
   },
   "dls-color-info-6": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-color-info-7": {
     "value": "#2970cc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-7",
+      "dls-button-background-color-primary-active",
+      "dls-link-font-color-strong-active"
+    ]
   },
   "dls-color-info-8": {
     "value": "#1958a6",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-8"
+    ]
   },
   "dls-color-info-9": {
     "value": "#0d4280",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-9"
+    ]
   },
   "dls-color-info-10": {
     "value": "#042d59",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-10"
+    ]
   },
   "dls-color-success": {
     "value": "#39bf45",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-success-6"
+    ]
   },
   "dls-color-success-1": {
     "value": "#f2fff4",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-2": {
     "value": "#d0f2d5",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-3": {
     "value": "#a5e6ae",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-4": {
     "value": "#7ed988",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-5": {
     "value": "#5acc65",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-6": {
     "value": "#39bf45",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-success"
+    ]
   },
   "dls-color-success-7": {
     "value": "#26992e",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-8": {
     "value": "#17731c",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-9": {
     "value": "#0b4d0e",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-success-10": {
     "value": "#042604",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning": {
     "value": "#f27c49",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-warning-6"
+    ]
   },
   "dls-color-warning-1": {
     "value": "#fff7f2",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-2": {
     "value": "#ffe8db",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-3": {
     "value": "#ffd1b8",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-4": {
     "value": "#ffb894",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-5": {
     "value": "#ff9d70",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-6": {
     "value": "#f27c49",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-warning"
+    ]
   },
   "dls-color-warning-7": {
     "value": "#cc5e33",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-8": {
     "value": "#a64521",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-9": {
     "value": "#802e13",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-warning-10": {
     "value": "#591c09",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error": {
     "value": "#e64552",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-error-6"
+    ]
   },
   "dls-color-error-1": {
     "value": "#fff2f2",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-2": {
     "value": "#ffdbdc",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-3": {
     "value": "#ffb8ba",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-4": {
     "value": "#ff9499",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-5": {
     "value": "#f26b74",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-6": {
     "value": "#e64552",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-error"
+    ]
   },
   "dls-color-error-7": {
     "value": "#bf303e",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-8": {
     "value": "#991f2d",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-9": {
     "value": "#73111e",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-error-10": {
     "value": "#4d0812",
-    "type": "color"
+    "type": "color",
+    "equals": []
   },
   "dls-color-gray-1": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-background-color-normal",
+      "dls-button-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-primary-disabled",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-color-gray-2": {
     "value": "#fafafa",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-background-color-strong",
+      "dls-background-color-disabled",
+      "dls-button-background-color-normal-disabled"
+    ]
   },
   "dls-color-gray-3": {
     "value": "#f5f5f5",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-background-color-normal-hover",
+      "dls-button-background-color-normal-hover"
+    ]
   },
   "dls-color-gray-4": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-background-color-strong-hover",
+      "dls-background-color-normal-active",
+      "dls-border-color-normal",
+      "dls-separator-color-normal",
+      "dls-button-border-color-normal-disabled",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-color-gray-5": {
     "value": "#e0e0e0",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-background-color-strong-active",
+      "dls-border-color-strong",
+      "dls-separator-color-strong",
+      "dls-button-border-color-normal"
+    ]
   },
   "dls-color-gray-6": {
     "value": "#ccc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-font-color-disabled",
+      "dls-button-font-color-normal-disabled",
+      "dls-button-font-color-link-disabled"
+    ]
   },
   "dls-color-gray-7": {
     "value": "#999",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-font-color-weak",
+      "dls-button-font-color-translucent-disabled"
+    ]
   },
   "dls-color-gray-8": {
     "value": "#666",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-font-color-aux",
+      "dls-link-font-color-normal-hover"
+    ]
   },
   "dls-color-gray-9": {
     "value": "#333",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-font-color-normal",
+      "dls-button-font-color-normal",
+      "dls-link-font-color-normal"
+    ]
   },
   "dls-color-gray-10": {
     "value": "#000",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-font-color-strong",
+      "dls-shadow-color",
+      "dls-link-font-color-normal-active"
+    ]
   },
   "dls-font-family": {
     "value": "\"Helvetica Neue\", Arial, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-font-size-s": {
     "value": "12px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-font-size-xs",
+      "dls-button-font-size-s",
+      "dls-button-padding-s",
+      "dls-link-font-size-s"
+    ]
   },
   "dls-font-size-m": {
     "value": "14px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-font-size-m",
+      "dls-link-font-size-m"
+    ]
   },
   "dls-font-size-l": {
     "value": "16px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-font-size-l",
+      "dls-button-font-size-xl",
+      "dls-button-padding-m"
+    ]
   },
   "dls-font-weight-1": {
     "value": "400",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": [
+      "dls-link-font-weight",
+      "dls-link-font-weight-hover",
+      "dls-link-font-weight-active"
+    ]
   },
   "dls-font-weight-2": {
     "value": "500",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-font-weight-3": {
     "value": "600",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-line-height-m": {
     "value": "1.5",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-line-height-l": {
     "value": "2",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-font-color-strong": {
     "value": "#000",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-10",
+      "dls-shadow-color",
+      "dls-link-font-color-normal-active"
+    ]
   },
   "dls-font-color-normal": {
     "value": "#333",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-9",
+      "dls-button-font-color-normal",
+      "dls-link-font-color-normal"
+    ]
   },
   "dls-font-color-aux": {
     "value": "#666",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-8",
+      "dls-link-font-color-normal-hover"
+    ]
   },
   "dls-font-color-weak": {
     "value": "#999",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-7",
+      "dls-button-font-color-translucent-disabled"
+    ]
   },
   "dls-font-color-disabled": {
     "value": "#ccc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-6",
+      "dls-button-font-color-normal-disabled",
+      "dls-button-font-color-link-disabled"
+    ]
   },
   "dls-spacing-unit": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-padding-unit": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-height-unit": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-background-color-strong": {
     "value": "#fafafa",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-2",
+      "dls-background-color-disabled",
+      "dls-button-background-color-normal-disabled"
+    ]
   },
   "dls-background-color-strong-hover": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-normal-active",
+      "dls-border-color-normal",
+      "dls-separator-color-normal",
+      "dls-button-border-color-normal-disabled",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-background-color-strong-active": {
     "value": "#e0e0e0",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-5",
+      "dls-border-color-strong",
+      "dls-separator-color-strong",
+      "dls-button-border-color-normal"
+    ]
   },
   "dls-background-color-normal": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-button-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-primary-disabled",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-background-color-normal-hover": {
     "value": "#f5f5f5",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-3",
+      "dls-button-background-color-normal-hover"
+    ]
   },
   "dls-background-color-normal-active": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-strong-hover",
+      "dls-border-color-normal",
+      "dls-separator-color-normal",
+      "dls-button-border-color-normal-disabled",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-background-color-disabled": {
-    "value": "#ccc",
-    "type": "color"
+    "value": "#fafafa",
+    "type": "color",
+    "equals": [
+      "dls-color-gray-2",
+      "dls-background-color-strong",
+      "dls-button-background-color-normal-disabled"
+    ]
   },
   "dls-border-color-strong": {
     "value": "#e0e0e0",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-5",
+      "dls-background-color-strong-active",
+      "dls-separator-color-strong",
+      "dls-button-border-color-normal"
+    ]
   },
   "dls-border-color-normal": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-strong-hover",
+      "dls-background-color-normal-active",
+      "dls-separator-color-normal",
+      "dls-button-border-color-normal-disabled",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-separator-color-strong": {
     "value": "#e0e0e0",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-5",
+      "dls-background-color-strong-active",
+      "dls-border-color-strong",
+      "dls-button-border-color-normal"
+    ]
   },
   "dls-separator-color-normal": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-strong-hover",
+      "dls-background-color-normal-active",
+      "dls-border-color-normal",
+      "dls-button-border-color-normal-disabled",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-border-radius-s": {
     "value": "2px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-border-radius-xs",
+      "dls-button-border-radius-s"
+    ]
   },
   "dls-border-radius-m": {
     "value": "3px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-border-radius-m"
+    ]
   },
   "dls-border-radius-l": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-shadow-color": {
     "value": "#000",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-10",
+      "dls-font-color-strong",
+      "dls-link-font-color-normal-active"
+    ]
   },
   "dls-shadow-opacity": {
     "value": "0.15",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-shadow-offset-x": {
     "value": "0",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-shadow-offset-y": {
     "value": "1px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-shadow-blur-radius": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-shadow": {
     "value": "0 1px 4px rgba(0, 0, 0, 0.15)",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-shadow-docked-opacity": {
     "value": "0.1",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": []
   },
   "dls-shadow-docked-offset": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-shadow-docked-blur-radius": {
     "value": "8px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-padding-xs"
+    ]
   },
   "dls-shadow-docked-top": {
     "value": "0 4px 8px rgba(0, 0, 0, 0.1)",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-shadow-docked-right": {
     "value": "-4px 0 8px rgba(0, 0, 0, 0.1)",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-shadow-docked-bottom": {
     "value": "0 -4px 8px rgba(0, 0, 0, 0.1)",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-shadow-docked-left": {
     "value": "4px 0 8px rgba(0, 0, 0, 0.1)",
-    "type": "complex"
+    "type": "complex",
+    "equals": []
   },
   "dls-button-font-size-xs": {
     "value": "12px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-s",
+      "dls-button-font-size-s",
+      "dls-button-padding-s",
+      "dls-link-font-size-s"
+    ]
   },
   "dls-button-font-size-s": {
     "value": "12px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-s",
+      "dls-button-font-size-xs",
+      "dls-button-padding-s",
+      "dls-link-font-size-s"
+    ]
   },
   "dls-button-font-size-m": {
     "value": "14px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-m",
+      "dls-link-font-size-m"
+    ]
   },
   "dls-button-font-size-l": {
     "value": "16px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-l",
+      "dls-button-font-size-xl",
+      "dls-button-padding-m"
+    ]
   },
   "dls-button-font-size-xl": {
     "value": "16px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-l",
+      "dls-button-font-size-l",
+      "dls-button-padding-m"
+    ]
   },
   "dls-button-height-xs": {
     "value": "24px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-padding-xl"
+    ]
   },
   "dls-button-height-s": {
     "value": "28px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-button-height-m": {
     "value": "32px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-button-height-l": {
     "value": "36px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-button-height-xl": {
     "value": "40px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-button-padding-xs": {
     "value": "8px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-shadow-docked-blur-radius"
+    ]
   },
   "dls-button-padding-s": {
     "value": "12px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-s",
+      "dls-button-font-size-xs",
+      "dls-button-font-size-s",
+      "dls-link-font-size-s"
+    ]
   },
   "dls-button-padding-m": {
     "value": "16px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-l",
+      "dls-button-font-size-l",
+      "dls-button-font-size-xl"
+    ]
   },
   "dls-button-padding-l": {
     "value": "20px",
-    "type": "length"
+    "type": "length",
+    "equals": []
   },
   "dls-button-padding-xl": {
     "value": "24px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-button-height-xs"
+    ]
   },
   "dls-button-border-radius-xs": {
     "value": "2px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-border-radius-s",
+      "dls-button-border-radius-s"
+    ]
   },
   "dls-button-border-radius-s": {
     "value": "2px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-border-radius-s",
+      "dls-button-border-radius-xs"
+    ]
   },
   "dls-button-border-radius-m": {
     "value": "3px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-border-radius-m"
+    ]
   },
   "dls-button-border-radius-l": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-xl",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-button-border-radius-xl": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-content-spacing"
+    ]
   },
   "dls-button-content-spacing": {
     "value": "4px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-spacing-unit",
+      "dls-padding-unit",
+      "dls-height-unit",
+      "dls-border-radius-l",
+      "dls-shadow-blur-radius",
+      "dls-shadow-docked-offset",
+      "dls-button-border-radius-l",
+      "dls-button-border-radius-xl"
+    ]
   },
   "dls-button-font-color-normal": {
     "value": "#333",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-9",
+      "dls-font-color-normal",
+      "dls-link-font-color-normal"
+    ]
   },
   "dls-button-font-color-normal-disabled": {
     "value": "#ccc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-6",
+      "dls-font-color-disabled",
+      "dls-button-font-color-link-disabled"
+    ]
   },
   "dls-button-border-color-normal": {
     "value": "#e0e0e0",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-5",
+      "dls-background-color-strong-active",
+      "dls-border-color-strong",
+      "dls-separator-color-strong"
+    ]
   },
   "dls-button-border-color-normal-disabled": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-strong-hover",
+      "dls-background-color-normal-active",
+      "dls-border-color-normal",
+      "dls-separator-color-normal",
+      "dls-button-background-color-normal-active"
+    ]
   },
   "dls-button-background-color-normal": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-primary-disabled",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-button-background-color-normal-hover": {
     "value": "#f5f5f5",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-3",
+      "dls-background-color-normal-hover"
+    ]
   },
   "dls-button-background-color-normal-active": {
     "value": "#eee",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-4",
+      "dls-background-color-strong-hover",
+      "dls-background-color-normal-active",
+      "dls-border-color-normal",
+      "dls-separator-color-normal",
+      "dls-button-border-color-normal-disabled"
+    ]
   },
   "dls-button-background-color-normal-disabled": {
-    "value": "#ccc",
-    "type": "color"
+    "value": "#fafafa",
+    "type": "color",
+    "equals": [
+      "dls-color-gray-2",
+      "dls-background-color-strong",
+      "dls-background-color-disabled"
+    ]
   },
   "dls-button-font-color-strong": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-button-font-color-strong-disabled": {
     "value": "#8cb8ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-4",
+      "dls-color-info-4"
+    ]
   },
   "dls-button-border-color-strong": {
     "value": "#66a3ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-5",
+      "dls-color-info-5",
+      "dls-button-background-color-primary-hover",
+      "dls-link-font-color-strong-hover"
+    ]
   },
   "dls-button-border-color-strong-disabled": {
     "value": "#d9e6ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-2",
+      "dls-color-info-2",
+      "dls-button-background-color-strong-active",
+      "dls-button-background-color-primary-disabled"
+    ]
   },
   "dls-button-background-color-strong": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-background-color-normal",
+      "dls-button-background-color-normal",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-primary-disabled",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-button-background-color-strong-hover": {
     "value": "#f2f7ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-1",
+      "dls-color-info-1",
+      "dls-button-background-color-strong-disabled"
+    ]
   },
   "dls-button-background-color-strong-active": {
     "value": "#d9e6ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-2",
+      "dls-color-info-2",
+      "dls-button-border-color-strong-disabled",
+      "dls-button-background-color-primary-disabled"
+    ]
   },
   "dls-button-background-color-strong-disabled": {
     "value": "#f2f7ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-1",
+      "dls-color-info-1",
+      "dls-button-background-color-strong-hover"
+    ]
   },
   "dls-button-font-color-primary": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-background-color-normal",
+      "dls-button-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary-disabled",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-button-font-color-primary-disabled": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-background-color-normal",
+      "dls-button-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-translucent"
+    ]
   },
   "dls-button-border-color-primary": {
     "value": "transparent",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-button-border-color-primary-disabled",
+      "dls-button-border-color-translucent",
+      "dls-button-border-color-translucent-disabled"
+    ]
   },
   "dls-button-border-color-primary-disabled": {
     "value": "transparent",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-button-border-color-primary",
+      "dls-button-border-color-translucent",
+      "dls-button-border-color-translucent-disabled"
+    ]
   },
   "dls-button-background-color-primary": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-font-color-link",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-button-background-color-primary-hover": {
     "value": "#66a3ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-5",
+      "dls-color-info-5",
+      "dls-button-border-color-strong",
+      "dls-link-font-color-strong-hover"
+    ]
   },
   "dls-button-background-color-primary-active": {
     "value": "#2970cc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-7",
+      "dls-color-info-7",
+      "dls-link-font-color-strong-active"
+    ]
   },
   "dls-button-background-color-primary-disabled": {
     "value": "#d9e6ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-2",
+      "dls-color-info-2",
+      "dls-button-border-color-strong-disabled",
+      "dls-button-background-color-strong-active"
+    ]
   },
   "dls-button-font-color-translucent": {
     "value": "#fff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-1",
+      "dls-background-color-normal",
+      "dls-button-background-color-normal",
+      "dls-button-background-color-strong",
+      "dls-button-font-color-primary",
+      "dls-button-font-color-primary-disabled"
+    ]
   },
   "dls-button-font-color-translucent-disabled": {
     "value": "#999",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-7",
+      "dls-font-color-weak"
+    ]
   },
   "dls-button-border-color-translucent": {
     "value": "transparent",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-button-border-color-primary",
+      "dls-button-border-color-primary-disabled",
+      "dls-button-border-color-translucent-disabled"
+    ]
   },
   "dls-button-border-color-translucent-disabled": {
     "value": "transparent",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-button-border-color-primary",
+      "dls-button-border-color-primary-disabled",
+      "dls-button-border-color-translucent"
+    ]
   },
   "dls-button-background-color-translucent": {
-    "value": "rgba(255, 255, 255, 0.6)",
-    "type": "color"
+    "value": "rgba(0, 0, 0, 0.6)",
+    "type": "color",
+    "equals": [
+      "dls-button-background-color-translucent-disabled"
+    ]
   },
   "dls-button-background-color-translucent-hover": {
-    "value": "rgba(255, 255, 255, 0.5)",
-    "type": "color"
+    "value": "rgba(0, 0, 0, 0.5)",
+    "type": "color",
+    "equals": []
   },
   "dls-button-background-color-translucent-active": {
-    "value": "rgba(255, 255, 255, 0.7)",
-    "type": "color"
+    "value": "rgba(0, 0, 0, 0.7)",
+    "type": "color",
+    "equals": []
   },
   "dls-button-background-color-translucent-disabled": {
-    "value": "rgba(255, 255, 255, 0.6)",
-    "type": "color"
+    "value": "rgba(0, 0, 0, 0.6)",
+    "type": "color",
+    "equals": [
+      "dls-button-background-color-translucent"
+    ]
   },
   "dls-button-font-color-link": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-link-font-color-strong"
+    ]
   },
   "dls-button-font-color-link-disabled": {
     "value": "#ccc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-6",
+      "dls-font-color-disabled",
+      "dls-button-font-color-normal-disabled"
+    ]
   },
   "dls-link-font-size-s": {
     "value": "12px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-s",
+      "dls-button-font-size-xs",
+      "dls-button-font-size-s",
+      "dls-button-padding-s"
+    ]
   },
   "dls-link-font-size-m": {
     "value": "14px",
-    "type": "length"
+    "type": "length",
+    "equals": [
+      "dls-font-size-m",
+      "dls-button-font-size-m"
+    ]
   },
   "dls-link-font-weight": {
     "value": "400",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": [
+      "dls-font-weight-1",
+      "dls-link-font-weight-hover",
+      "dls-link-font-weight-active"
+    ]
   },
   "dls-link-font-weight-hover": {
     "value": "400",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": [
+      "dls-font-weight-1",
+      "dls-link-font-weight",
+      "dls-link-font-weight-active"
+    ]
   },
   "dls-link-font-weight-active": {
     "value": "400",
-    "type": "numeric"
+    "type": "numeric",
+    "equals": [
+      "dls-font-weight-1",
+      "dls-link-font-weight",
+      "dls-link-font-weight-hover"
+    ]
   },
   "dls-link-font-color-normal": {
     "value": "#333",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-9",
+      "dls-font-color-normal",
+      "dls-button-font-color-normal"
+    ]
   },
   "dls-link-font-color-normal-hover": {
     "value": "#666",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-8",
+      "dls-font-color-aux"
+    ]
   },
   "dls-link-font-color-normal-active": {
     "value": "#000",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-gray-10",
+      "dls-font-color-strong",
+      "dls-shadow-color"
+    ]
   },
   "dls-link-font-color-strong": {
     "value": "#3d88f2",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand",
+      "dls-color-brand-6",
+      "dls-color-info",
+      "dls-color-info-6",
+      "dls-button-font-color-strong",
+      "dls-button-background-color-primary",
+      "dls-button-font-color-link"
+    ]
   },
   "dls-link-font-color-strong-hover": {
     "value": "#66a3ff",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-5",
+      "dls-color-info-5",
+      "dls-button-border-color-strong",
+      "dls-button-background-color-primary-hover"
+    ]
   },
   "dls-link-font-color-strong-active": {
     "value": "#2970cc",
-    "type": "color"
+    "type": "color",
+    "equals": [
+      "dls-color-brand-7",
+      "dls-color-info-7",
+      "dls-button-background-color-primary-active"
+    ]
   }
 }

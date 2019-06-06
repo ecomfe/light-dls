@@ -31,7 +31,7 @@ less
     paths: ['tokens']
   })
   .then(() => {
-    let src = [
+    const src = [
       `${SELECTOR}{`,
       visitor.variables.map(v => `${v.slice(1)}: ${v}`).join(';'),
       '}'
@@ -41,20 +41,33 @@ less
     })
   })
   .then(({ css }) => {
+    const variableTuples = css
+      .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
+      .replace(/}[\n\s]*$/, '')
+      .split(/;[\n\s]*/)
+      .filter(v => v)
+      .map(decl => decl.split(/:\s*/))
+
+    const valueMap = variableTuples.reduce((map, [key, value]) => {
+      const occurrences = map.get(value)
+      if (!occurrences) {
+        map.set(value, new Set([key]))
+      } else {
+        occurrences.add(key)
+      }
+      return map
+    }, new Map())
+
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.json'),
       JSON.stringify(
-        css
-          .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
-          .replace(/}[\n\s]*$/, '')
-          .split(/;[\n\s]*/)
-          .filter(v => v)
-          .map(decl => {
-            let [key, value] = decl.split(/:\s*/)
+        variableTuples
+          .map(([key, value]) => {
             return {
               [key]: {
                 value,
-                type: getType(value)
+                type: getType(value),
+                equals: except(valueMap.get(value), key)
               }
             }
           })
@@ -70,6 +83,11 @@ less
       )
     )
   })
+
+function except (set, value) {
+  const values = [...set]
+  return values.filter(v => v !== value)
+}
 
 // https://code.visualstudio.com/api/references/vscode-api#CompletionItemKind
 function getType (value) {
