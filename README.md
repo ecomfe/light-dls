@@ -45,6 +45,14 @@ a { color: @dls-link-font-color-normal; }
 lessc style.less --dls
 ```
 
+## Tooling
+
+### Editor Extensions
+
+- **Baidu DLS (VS Code)**
+
+  [Marketplace](https://marketplace.visualstudio.com/items?itemName=justice360.vscode-dls) / [GitHub](https://github.com/Justineo/vscode-dls)
+
 ## License
 
 [MIT](https://github.com/ecomfe/less-plugin-dls/blob/master/LICENSE)
