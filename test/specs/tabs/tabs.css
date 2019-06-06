@@ -1,0 +1,27 @@
+div {
+  -dls-tab-padding-y-s: 8px;
+  -dls-tab-padding-y-m: 12px;
+  -dls-tab-padding-y-l: 16px;
+  -dls-tab-padding-x-s: 0px;
+  -dls-tab-padding-x-m: 0px;
+  -dls-tab-padding-x-l: 0px;
+  -dls-tab-spacing-x-s: 40px;
+  -dls-tab-spacing-x-m: 48px;
+  -dls-tab-spacing-x-l: 60px;
+  -dls-tab-font-size-s: 12px;
+  -dls-tab-font-size-m: 14px;
+  -dls-tab-font-size-l: 16px;
+  -dls-tab-font-color: #333;
+  -dls-tab-font-color-hover: #000;
+  -dls-tab-font-color-active: #3d88f2;
+  -dls-tab-font-color-current: #3d88f2;
+  -dls-tab-font-color-disabled: #ccc;
+  -dls-tab-font-weight: 400;
+  -dls-tab-font-weight-hover: 500;
+  -dls-tab-font-weight-active: 500;
+  -dls-tab-font-weight-current: 500;
+  -dls-tab-container-border-color: #e0e0e0;
+  -dls-tab-container-border-width: 1px;
+  -dls-tab-indicator-color: #3d88f2;
+  -dls-tab-indicator-height: 2px;
+}
