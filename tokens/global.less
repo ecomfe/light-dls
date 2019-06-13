@@ -130,6 +130,7 @@
 /* Border colors */
 @dls-border-color-strong: @dls-color-gray-5;
 @dls-border-color-normal: @dls-color-gray-4;
+@dls-border-color-focus: @dls-color-brand-6;
 
 /* Separator colors */
 @dls-separator-color-strong: @dls-border-color-strong;
@@ -166,3 +167,10 @@
 @dls-shadow-docked-left: @dls-shadow-docked-offset 0
   @dls-shadow-docked-blur-radius
   fade(@dls-shadow-color, percentage(@dls-shadow-docked-opacity));
+
+// Focus rings
+@dls-shadow-focus-opacity: 0.2;
+@dls-shadow-focus-spread: 2px;
+@dls-shadow-focus-color: @dls-color-brand-6;
+@dls-shadow-focus: 0 0 0 @dls-shadow-focus-spread
+  fade(@dls-shadow-focus-color, percentage(@dls-shadow-focus-opacity));

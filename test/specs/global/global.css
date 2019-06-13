@@ -90,6 +90,7 @@ div {
   -dls-background-color-disabled: #fafafa;
   -dls-border-color-strong: #e0e0e0;
   -dls-border-color-normal: #eee;
+  -dls-border-color-focus: #3d88f2;
   -dls-separator-color-strong: #e0e0e0;
   -dls-separator-color-normal: #eee;
   -dls-border-radius-s: 2px;
@@ -108,4 +109,8 @@ div {
   -dls-shadow-docked-right: -4px 0 8px rgba(0, 0, 0, 0.1);
   -dls-shadow-docked-bottom: 0 -4px 8px rgba(0, 0, 0, 0.1);
   -dls-shadow-docked-left: 4px 0 8px rgba(0, 0, 0, 0.1);
+  -dls-shadow-focus-opacity: 0.2;
+  -dls-shadow-focus-spread: 2px;
+  -dls-shadow-focus-color: #3d88f2;
+  -dls-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
 }
