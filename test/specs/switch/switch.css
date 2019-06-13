@@ -1,0 +1,32 @@
+div {
+  -dls-switch-width-xs: 24px;
+  -dls-switch-width-s: 32px;
+  -dls-switch-width-m: 40px;
+  -dls-switch-height-xs: 12px;
+  -dls-switch-height-s: 16px;
+  -dls-switch-height-m: 20px;
+  -dls-switch-thumb-size-xs: 8px;
+  -dls-switch-thumb-size-s: 12px;
+  -dls-switch-thumb-size-m: 16px;
+  -dls-switch-padding-xs: 2px;
+  -dls-switch-padding-s: 2px;
+  -dls-switch-padding-m: 2px;
+  -dls-switch-track-color-on: #3d88f2;
+  -dls-switch-track-color-on-hover: #66a3ff;
+  -dls-switch-track-color-on-active: #2970cc;
+  -dls-switch-track-color-on-disabled: #d9e6ff;
+  -dls-switch-track-color-off: #ccc;
+  -dls-switch-track-color-off-hover: #999;
+  -dls-switch-track-color-off-active: #666;
+  -dls-switch-track-color-off-disabled: #e0e0e0;
+  -dls-switch-thumb-color-on: #fff;
+  -dls-switch-thumb-color-on-hover: #fff;
+  -dls-switch-thumb-color-on-active: #fff;
+  -dls-switch-thumb-color-on-disabled: #fff;
+  -dls-switch-thumb-color-off: #fff;
+  -dls-switch-thumb-color-off-hover: #fff;
+  -dls-switch-thumb-color-off-active: #fff;
+  -dls-switch-thumb-color-off-disabled: #fff;
+  -dls-switch-font-size: 12px;
+  -dls-switch-font-color: #fff;
+}
