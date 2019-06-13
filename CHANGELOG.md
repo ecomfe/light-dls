@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Add Checkbox.
+
 ## 0.2.0
 
 - [breaking] Dropped `@dls-button-font-color-link` and `@dls-button-font-color-link-disabled`.
