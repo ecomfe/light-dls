@@ -55,13 +55,20 @@ export default function shade (less, pluginManager, functions) {
     if (!isNumber(level.value) || level.value < 1 || level.value > 10) {
       throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')
     }
+
     const color = getShade(
-      kolor(base.value)
+      kolor
+        .rgb(base.rgb)
         .hsv()
         .toArray(),
       level.value
     )
 
-    return kolor.hsv(color).hex()
+    return less.color(
+      kolor
+        .hsv(color)
+        .hex()
+        .slice(1)
+    )
   })
 }
