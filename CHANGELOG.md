@@ -1,3 +1,10 @@
+## 0.2.0
+
+- [breaking] Dropped `@dls-button-font-color-link` and `@dls-button-font-color-link-disabled`.
+- Add Switch.
+- Add Radio.
+- Add focus related variables to existing components.
+
 ## 0.1.4
 
 - Added equal value information in exported meta file.
