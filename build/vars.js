@@ -83,6 +83,9 @@ less
       )
     )
   })
+  .catch(e => {
+    console.error(e)
+  })
 
 function except (set, value) {
   const values = [...set]

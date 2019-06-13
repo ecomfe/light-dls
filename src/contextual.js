@@ -58,12 +58,18 @@ export default function shade (less, pluginManager, functions) {
     }
 
     const color = getContextual(
-      kolor(base.value)
+      kolor
+        .rgb(base.rgb)
         .hsv()
         .toArray(),
       type.value
     )
 
-    return kolor.hsv(color).hex()
+    return less.color(
+      kolor
+        .hsv(color)
+        .hex()
+        .slice(1)
+    )
   })
 }
