@@ -1,0 +1,70 @@
+@import "../global.less";
+
+/** Font sizes */
+@dls-number-input-font-size-xs: @dls-font-size-s;
+@dls-number-input-font-size-s: @dls-font-size-s;
+@dls-number-input-font-size-m: @dls-font-size-m;
+
+/** Metrics **/
+
+// 高度，基本的和加强的高度一致
+@dls-number-input-height-xs: @dls-height-unit * 6;
+@dls-number-input-height-s: @dls-height-unit * 7;
+@dls-number-input-height-m: @dls-height-unit * 8;
+
+// 宽度-基本
+@dls-number-input-basic-width-xs: 60px;
+@dls-number-input-basic-width-s: 60px;
+@dls-number-input-basic-width-m: 63px;
+
+// 宽度-基本-右侧箭头调节器
+@dls-number-input-arrow-adjuster-width: 17px;
+
+// 宽度-基本-左侧输入框
+@dls-number-input-basic-input-width-xs: @dls-number-input-basic-width-xs - @dls-number-input-arrow-adjuster-width;
+@dls-number-input-basic-input-width-s: @dls-number-input-basic-width-s - @dls-number-input-arrow-adjuster-width;
+@dls-number-input-basic-input-width-m: @dls-number-input-basic-width-m - @dls-number-input-arrow-adjuster-width;
+
+// 宽度-箭头图标 icon 尺寸
+@dls-number-input-arrow-icon-size: 8px;
+@dls-number-input-arrow-icon-width: @dls-number-input-arrow-icon-size;
+@dls-number-input-arrow-icon-height: @dls-number-input-arrow-icon-size;
+
+// 宽度-加强
+@dls-number-input-enhanced-width-xs: 96px;
+@dls-number-input-enhanced-width-s: 104px;
+@dls-number-input-enhanced-width-m: 124px;
+
+// 宽度-加强-加减调节器
+@dls-number-input-minus-plus-adjuster-width-xs: 24px;
+@dls-number-input-minus-plus-adjuster-width-s: 28px;
+@dls-number-input-minus-plus-adjuster-width-m: 32px;
+
+// 宽度-加强-中间输入框
+@dls-number-input-enhanced-input-width-xs: @dls-number-input-enhanced-width-xs - @dls-number-input-minus-plus-adjuster-width-xs * 2;
+@dls-number-input-enhanced-input-width-s: @dls-number-input-enhanced-width-s - @dls-number-input-minus-plus-adjuster-width-s * 2;
+@dls-number-input-enhanced-input-width-m: @dls-number-input-enhanced-width-m - @dls-number-input-minus-plus-adjuster-width-m * 2;
+
+// 宽度-加减图标 icon
+@dls-number-input-minus-plus-icon-size: 10px;
+@dls-number-input-plus-icon-width: @dls-number-input-minus-plus-icon-size;
+@dls-number-input-plus-icon-height: @dls-number-input-minus-plus-icon-size;
+@dls-number-input-minus-icon-width: @dls-number-input-minus-plus-icon-size;
+@dls-number-input-minus-icon-height: @dls-number-input-minus-plus-icon-size;
+
+// 圆角
+@dls-number-input-border-radius-xs: @dls-border-radius-s;
+@dls-number-input-border-radius-s: @dls-border-radius-m;
+@dls-number-input-border-radius-m: @dls-border-radius-m;
+
+/** Colors */
+@dls-number-input-color: @dls-font-color-normal;
+@dls-number-input-color-disabled: @dls-font-color-disabled;
+
+@dls-number-input-border-color: @dls-border-color-strong;
+@dls-number-input-border-color-disabled: @dls-border-color-normal;
+@dls-number-input-border-color-hover: @dls-color-gray-7;
+@dls-number-input-border-color-active: @dls-color-brand-6;
+
+/* Focus ring */
+@dls-number-input-shadow-focus: @dls-shadow-focus;
