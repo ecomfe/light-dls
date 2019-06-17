@@ -20,14 +20,4 @@ div {
   -dls-number-input-border-radius-xs: 2px;
   -dls-number-input-border-radius-s: 3px;
   -dls-number-input-border-radius-m: 3px;
-  -dls-number-input-color: #333;
-  -dls-number-input-color-disabled: #ccc;
-  -dls-number-input-border-color: #e0e0e0;
-  -dls-number-input-border-color-hover: #999;
-  -dls-number-input-border-color-focus: #3d88f2;
-  -dls-number-input-border-color-active: #3d88f2;
-  -dls-number-input-border-color-disabled: #eee;
-  -dls-number-input-background-color: #fff;
-  -dls-number-input-background-color-disabled: #fafafa;
-  -dls-number-input-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
 }
