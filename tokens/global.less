@@ -101,6 +101,7 @@
 @dls-font-color-aux: @dls-color-gray-8;
 @dls-font-color-weak: @dls-color-gray-7;
 @dls-font-color-disabled: @dls-color-gray-6;
+@dls-font-color-error: @dls-color-error-6;
 
 /**
  * Spacing
@@ -131,6 +132,9 @@
 @dls-border-color-strong: @dls-color-gray-5;
 @dls-border-color-normal: @dls-color-gray-4;
 @dls-border-color-focus: @dls-color-brand-6;
+@dls-border-color-error: @dls-color-error-6;
+@dls-border-color-disabled: @dls-border-color-normal;
+@dls-border-color-hover: @dls-color-gray-7;
 
 /* Separator colors */
 @dls-separator-color-strong: @dls-border-color-strong;
@@ -174,3 +178,10 @@
 @dls-shadow-focus-color: @dls-color-brand-6;
 @dls-shadow-focus: 0 0 0 @dls-shadow-focus-spread
   fade(@dls-shadow-focus-color, percentage(@dls-shadow-focus-opacity));
+
+// Height
+@dls-height-xs: @dls-height-unit * 6;
+@dls-height-s: @dls-height-unit * 7;
+@dls-height-m: @dls-height-unit * 8;
+@dls-height-l: @dls-height-unit * 9;
+@dls-height-xl: @dls-height-unit * 10;
