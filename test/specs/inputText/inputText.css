@@ -18,7 +18,8 @@ div {
   -dls-input-text-border-color-hover: #999;
   -dls-input-text-border-color-active: #3d88f2;
   -dls-input-text-border-color-error: #e64552;
-  -dls-input-text-border-color-disabled: #ff9499;
+  -dls-input-text-border-color-disabled: #eee;
+  -dls-input-text-border-color-blur: #e0e0e0;
   -dls-input-text-background-color: #fff;
   -dls-input-text-background-color-disabled: #fafafa;
   -dls-input-text-font-color: #333;
