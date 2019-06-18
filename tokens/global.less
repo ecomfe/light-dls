@@ -110,6 +110,13 @@
 @dls-padding-unit: @dls-spacing-unit;
 @dls-height-unit: @dls-spacing-unit;
 
+// Heights
+@dls-height-xs: @dls-height-unit * 6;
+@dls-height-s: @dls-height-unit * 7;
+@dls-height-m: @dls-height-unit * 8;
+@dls-height-l: @dls-height-unit * 9;
+@dls-height-xl: @dls-height-unit * 10;
+
 /**
  * Background colors
  */
@@ -178,10 +185,5 @@
 @dls-shadow-focus-color: @dls-color-brand-6;
 @dls-shadow-focus: 0 0 0 @dls-shadow-focus-spread
   fade(@dls-shadow-focus-color, percentage(@dls-shadow-focus-opacity));
-
-// Height
-@dls-height-xs: @dls-height-unit * 6;
-@dls-height-s: @dls-height-unit * 7;
-@dls-height-m: @dls-height-unit * 8;
-@dls-height-l: @dls-height-unit * 9;
-@dls-height-xl: @dls-height-unit * 10;
+@dls-shadow-focus-error: 0 0 0 @dls-shadow-focus-spread
+  fade(@dls-color-error-6, percentage(@dls-shadow-focus-opacity));

@@ -81,6 +81,11 @@ div {
   -dls-spacing-unit: 4px;
   -dls-padding-unit: 4px;
   -dls-height-unit: 4px;
+  -dls-height-xs: 24px;
+  -dls-height-s: 28px;
+  -dls-height-m: 32px;
+  -dls-height-l: 36px;
+  -dls-height-xl: 40px;
   -dls-background-color-strong: #fafafa;
   -dls-background-color-strong-hover: #eee;
   -dls-background-color-strong-active: #e0e0e0;
@@ -113,4 +118,5 @@ div {
   -dls-shadow-focus-spread: 2px;
   -dls-shadow-focus-color: #3d88f2;
   -dls-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
+  -dls-shadow-focus-error: 0 0 0 2px rgba(230, 69, 82, 0.2);
 }
