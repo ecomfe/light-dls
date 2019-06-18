@@ -7,15 +7,11 @@ div {
   -dls-text-input-border-radius-s: 2px;
   -dls-text-input-border-radius-m: 3px;
   -dls-text-input-border-radius-l: 4px;
-  -dls-text-input-count-spacing: 4px;
-  -dls-text-input-content-spacing: 8px;
-  -dls-text-input-inner-spacing: 12px;
+  -dls-text-input-padding: 12px;
   -dls-text-input-border-color: #e0e0e0;
   -dls-text-input-border-color-hover: #999;
-  -dls-text-input-border-color-active: #3d88f2;
   -dls-text-input-border-color-error: #e64552;
   -dls-text-input-border-color-disabled: #eee;
-  -dls-text-input-border-color-blur: #e0e0e0;
   -dls-text-input-background-color: #fff;
   -dls-text-input-background-color-disabled: #fafafa;
   -dls-text-input-font-color: #333;
