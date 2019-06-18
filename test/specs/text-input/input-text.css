@@ -12,6 +12,7 @@ div {
   -dls-text-input-border-color-hover: #999;
   -dls-text-input-border-color-error: #e64552;
   -dls-text-input-border-color-disabled: #eee;
+  -dls-text-input-border-color-read-only: #eee;
   -dls-text-input-background-color: #fff;
   -dls-text-input-background-color-disabled: #fafafa;
   -dls-text-input-font-color: #333;
