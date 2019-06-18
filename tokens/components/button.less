@@ -77,7 +77,7 @@
 @dls-button-background-color-translucent-active: fade(@dls-color-gray-10, 70%);
 @dls-button-background-color-translucent-disabled: @dls-button-background-color-translucent;
 
-// text
+// text buttons
 @dls-button-font-color-text: @dls-color-brand-6;
 @dls-button-font-color-text-hover: @dls-color-brand-5;
 @dls-button-font-color-text-focus: @dls-color-brand-6;
@@ -85,15 +85,32 @@
 @dls-button-font-color-text-disabled: @dls-color-brand-3;
 
 @dls-button-background-color-text: transparent;
-@dls-button-background-color-text-hover: @dls-color-brand-1;
-@dls-button-background-color-text-focus: @dls-color-brand-1;
-@dls-button-background-color-text-active: @dls-color-brand-2;
+@dls-button-background-color-text-hover: @dls-button-background-color-text;
+@dls-button-background-color-text-focus: @dls-button-background-color-text;
+@dls-button-background-color-text-active: @dls-button-background-color-text;
 @dls-button-background-color-text-disabled: @dls-button-background-color-text;
 
 @dls-button-font-weight-text: @dls-font-weight-1;
 @dls-button-font-weight-text-hover: @dls-font-weight-2;
 @dls-button-font-weight-text-focus: @dls-font-weight-2;
 @dls-button-font-weight-text-active: @dls-font-weight-2;
+
+@dls-button-padding-text: @dls-padding-unit * 1;
+
+// icon buttons
+@dls-button-font-color-icon: @dls-font-color-weak;
+@dls-button-font-color-icon-hover: @dls-font-color-aux;
+@dls-button-font-color-icon-focus: @dls-font-color-aux;
+@dls-button-font-color-icon-active: @dls-font-color-normal;
+@dls-button-font-color-icon-disabled: @dls-font-color-disabled;
+
+@dls-button-background-color-icon: transparent;
+@dls-button-background-color-icon-hover: @dls-button-background-color-icon;
+@dls-button-background-color-icon-focus: @dls-button-background-color-icon;
+@dls-button-background-color-icon-active: @dls-button-background-color-icon;
+@dls-button-background-color-icon-disabled: @dls-button-background-color-icon;
+
+@dls-button-padding-icon: @dls-padding-unit * 0.5;
 
 /* Focus rings */
 @dls-button-border-color-focus: @dls-border-color-focus;
