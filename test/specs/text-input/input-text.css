@@ -3,6 +3,10 @@ div {
   -dls-text-input-font-size-s: 12px;
   -dls-text-input-font-size-m: 14px;
   -dls-text-input-font-size-l: 16px;
+  -dls-text-input-height-xs: 24px;
+  -dls-text-input-height-s: 28px;
+  -dls-text-input-height-m: 32px;
+  -dls-text-input-height-l: 36px;
   -dls-text-input-border-radius-xs: 2px;
   -dls-text-input-border-radius-s: 2px;
   -dls-text-input-border-radius-m: 3px;
