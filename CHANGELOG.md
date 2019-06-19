@@ -1,3 +1,9 @@
+## 0.4.0
+
+- Add TextInput.
+- Add NumberInput.
+- Add `dls-sum` function.
+
 ## 0.3.0
 
 - Add Checkbox.

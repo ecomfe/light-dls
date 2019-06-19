@@ -1,45 +1,67 @@
 @import "../global.less";
 
-/** Metrics **/
+/* Metrics */
 
-// Height
-@dls-number-input-height-xs: @dls-height-unit * 6;
-@dls-number-input-height-s: @dls-height-unit * 7;
-@dls-number-input-height-m: @dls-height-unit * 8;
+// Heights
+@dls-number-input-height-xs: @dls-height-xs;
+@dls-number-input-height-s: @dls-height-s;
+@dls-number-input-height-m: @dls-height-m;
 
-// Normal number input style variant
-@dls-number-input-width-normal-xs: @dls-padding-unit * 15;
-@dls-number-input-width-normal-s: @dls-padding-unit * 15;
-@dls-number-input-width-normal-m: @dls-padding-unit * 16;
+// Widths
 
-// Normal spin button
-@dls-number-input-spin-button-width-normal: @dls-padding-unit * 4.5;
+// Normal
+@dls-number-input-spin-icon-size-normal: 8px;
+@dls-number-input-spin-button-min-width-normal: 18px;
+@dls-number-input-spin-button-width-normal-xs: max(
+  @dls-number-input-spin-button-min-width-normal,
+  @dls-number-input-height-xs / 2
+);
+@dls-number-input-spin-button-width-normal-s: max(
+  @dls-number-input-spin-button-min-width-normal,
+  @dls-number-input-height-s / 2
+);
+@dls-number-input-spin-button-width-normal-m: max(
+  @dls-number-input-spin-button-min-width-normal,
+  @dls-number-input-height-m / 2
+);
 
-@dls-number-input-spin-button-height-normal-xs: @dls-padding-unit * 3;
-@dls-number-input-spin-button-height-normal-s: @dls-padding-unit * 3.5;
-@dls-number-input-spin-button-height-normal-m: @dls-padding-unit * 4;
+@dls-number-input-digits: 3;
+// digits + spin button + horizontal paddings + left border
+@dls-number-input-width-normal-xs: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-spin-button-width-normal-xs,
+  @dls-text-input-padding * 2,
+  1px
+);
+@dls-number-input-width-normal-s: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-spin-button-width-normal-s,
+  @dls-text-input-padding * 2,
+  1px
+);
+@dls-number-input-width-normal-m: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-spin-button-width-normal-m,
+  @dls-text-input-padding * 2,
+  1px
+);
 
-// Normal spin button icon
-@dls-number-input-spin-button-icon-width-normal: @dls-padding-unit * 2;
-@dls-number-input-spin-button-icon-height-normal: @dls-height-unit * 2;
+// Strong
+@dls-number-input-spin-icon-size-strong: 10px;
+// Strong spin buttons' width and height share the same value
 
-// Strong number input style variant
-@dls-number-input-width-strong-xs: @dls-padding-unit * 24;
-@dls-number-input-width-strong-s: @dls-padding-unit * 26;
-@dls-number-input-width-strong-m: @dls-padding-unit * 31;
-
-// Strong spin button
-@dls-number-input-spin-button-width-strong-xs: @dls-padding-unit * 6;
-@dls-number-input-spin-button-width-strong-s: @dls-padding-unit * 7;
-@dls-number-input-spin-button-width-strong-m: @dls-padding-unit * 8;
-
-// Strong spin button icon
-@dls-number-input-spin-button-icon-width-normal: @dls-padding-unit * 2.5;
-@dls-number-input-spin-button-icon-height-normal: @dls-padding-unit * 2.5;
-
-// Radius
-@dls-number-input-border-radius-xs: @dls-border-radius-s;
-@dls-number-input-border-radius-s: @dls-border-radius-m;
-@dls-number-input-border-radius-m: @dls-border-radius-m;
-
-/** Colors, same as input colors */
+@dls-number-input-width-strong-xs: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-height-xs * 2,
+  @dls-text-input-padding * 2
+);
+@dls-number-input-width-strong-s: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-height-s * 2,
+  @dls-text-input-padding * 2
+);
+@dls-number-input-width-strong-m: dls-sum(
+  unit(@dls-number-input-digits, ch),
+  @dls-number-input-height-m * 2,
+  @dls-text-input-padding * 2
+);
