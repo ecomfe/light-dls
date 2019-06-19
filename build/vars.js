@@ -10,7 +10,10 @@ class VariablesOutputVisitor {
   }
 
   run (root) {
-    this.variables = Object.keys(root.variables())
+    // `-dls` prefixed variables are private
+    this.variables = Object.keys(root.variables()).filter(
+      v => v.charAt(1) !== '-'
+    )
     return this._visitor.visit(root)
   }
 }
