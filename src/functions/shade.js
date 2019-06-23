@@ -1,5 +1,5 @@
 import kolor from 'kolor'
-import { isNumber } from './utils'
+import { isNumber } from '../utils'
 
 const S_MAX = 100
 const S_MIN = 5
@@ -50,7 +50,7 @@ function getShade ([h, rawS, rawB], level) {
   }
 }
 
-export default function shade (less, pluginManager, functions) {
+export default function install (less, pluginManager, functions) {
   functions.add('dls-shade', (base = {}, level = {}) => {
     if (!isNumber(level.value) || level.value < 1 || level.value > 10) {
       throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')

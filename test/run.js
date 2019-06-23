@@ -58,6 +58,7 @@ function getTests (specDir) {
   let srcDir = path.resolve(__dirname, '../tokens/components')
   let modules = [
     'global',
+    'functions',
     ...fs
       .readdirSync(srcDir)
       .map(moduleFile => extractName(moduleFile, 'less'))

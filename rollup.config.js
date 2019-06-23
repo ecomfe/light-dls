@@ -1,21 +1,14 @@
 import commonjs from 'rollup-plugin-commonjs'
 import nodeResolve from 'rollup-plugin-node-resolve'
 
-export default [
-  {
-    input: 'src/main.js',
-    output: {
-      file: 'dist/main.js',
-      format: 'cjs'
-    },
-    plugins: [nodeResolve(), commonjs()]
+const ENTRIES = ['main', 'lib']
+
+export default ENTRIES.map(entry => ({
+  input: `src/entries/${entry}.js`,
+  output: {
+    file: `dist/${entry}.js`,
+    format: 'cjs'
   },
-  {
-    input: 'src/functions.js',
-    output: {
-      file: 'dist/functions.js',
-      format: 'cjs'
-    },
-    plugins: [nodeResolve(), commonjs()]
-  }
-]
+  external: ['path', 'fs'],
+  plugins: [nodeResolve(), commonjs()]
+}))

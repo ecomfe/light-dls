@@ -1,6 +1,6 @@
-import inject from './inject'
-import shade from './shade'
-import contextual from './contextual'
+import inject from '../inject'
+import enhancers from '../enhancers'
+import functions from '../functions'
 
 class Plugin {
   constructor (options) {
@@ -9,8 +9,8 @@ class Plugin {
 
   install (...args) {
     inject.apply(this, args)
-    shade.apply(this, args)
-    contextual.apply(this, args)
+    enhancers.apply(this, args)
+    functions.apply(this, args)
   }
 }
 

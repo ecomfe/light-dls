@@ -1,4 +1,4 @@
-export default function sum (less, pluginManager, functions) {
+export default function install (less, pluginManager, functions) {
   functions.add('dls-sum', (...values) => {
     const valueDic = values.reduce((acc, value) => {
       if (value.calc) {
@@ -48,7 +48,12 @@ export default function sum (less, pluginManager, functions) {
 
     return less['call'](
       'calc',
-      [sumExp([...valueDic.calc, ...(merged.calc ? merged.args : [merged])])],
+      [
+        sumExp([
+          ...valueDic.calc,
+          ...(merged.calc ? merged.args : merged.value === 0 ? [] : [merged])
+        ])
+      ],
       0,
       // eslint-disable-next-line no-undef
       fileInfo

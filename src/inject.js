@@ -1,4 +1,4 @@
-const path = require('path')
+import path from 'path'
 
 const SELF_MODULE_PATH = path.resolve(__dirname, '..')
 const ENTRY_LESS = path.resolve(__dirname, '../tokens/index.less')

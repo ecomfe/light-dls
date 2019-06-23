@@ -1,0 +1,11 @@
+div {
+  -v1: 1px;
+  -v2: 3px;
+  -v3: 0;
+  -v4: calc(1px + 2em);
+  -v5: 2em;
+  -v6: calc(2px + 1em);
+  -v7: calc(1px + 1em);
+  -v8: calc(3px + 1em);
+  -v9: calc(3px + 2em);
+}

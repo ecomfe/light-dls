@@ -1,5 +1,5 @@
 import kolor from 'kolor'
-import { isInRanges } from './utils'
+import { isInRanges } from '../utils'
 
 const COLD_RANGES = [[64, 320]]
 
@@ -44,7 +44,7 @@ function getContextual (color, type) {
   ].map((v, i) => (i === 0 ? v : v / 100))
 }
 
-export default function shade (less, pluginManager, functions) {
+export default function install (less, pluginManager, functions) {
   functions.add('dls-contextual', (base = {}, type = {}) => {
     if (
       !type.value ||
