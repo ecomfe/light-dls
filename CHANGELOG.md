@@ -1,3 +1,7 @@
+## 0.5.2
+
+- Fix font color for disabled translucent Button.
+
 ## 0.5.1
 
 - Add focus background colors for Button.
