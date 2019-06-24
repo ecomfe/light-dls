@@ -1,3 +1,7 @@
+## 0.5.1
+
+- Add focus background colors for Button.
+
 ## 0.5.0
 
 - Add Textarea.

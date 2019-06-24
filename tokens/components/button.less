@@ -38,6 +38,7 @@
 
 @dls-button-background-color-normal: @dls-background-color-normal;
 @dls-button-background-color-normal-hover: @dls-background-color-normal-hover;
+@dls-button-background-color-normal-focus: @dls-button-background-color-normal-hover;
 @dls-button-background-color-normal-active: @dls-background-color-normal-active;
 @dls-button-background-color-normal-disabled: @dls-background-color-disabled;
 
@@ -50,6 +51,7 @@
 
 @dls-button-background-color-strong: @dls-background-color-normal;
 @dls-button-background-color-strong-hover: @dls-color-brand-1;
+@dls-button-background-color-strong-focus: @dls-button-background-color-strong-hover;
 @dls-button-background-color-strong-active: @dls-color-brand-2;
 @dls-button-background-color-strong-disabled: @dls-color-brand-1;
 
@@ -62,6 +64,7 @@
 
 @dls-button-background-color-primary: @dls-color-brand-6;
 @dls-button-background-color-primary-hover: @dls-color-brand-5;
+@dls-button-background-color-primary-focus: @dls-button-background-color-primary-hover;
 @dls-button-background-color-primary-active: @dls-color-brand-7;
 @dls-button-background-color-primary-disabled: @dls-color-brand-2;
 
@@ -74,6 +77,7 @@
 
 @dls-button-background-color-translucent: fade(@dls-color-gray-10, 60%);
 @dls-button-background-color-translucent-hover: fade(@dls-color-gray-10, 50%);
+@dls-button-background-color-translucent-focus: @dls-button-background-color-translucent-hover;
 @dls-button-background-color-translucent-active: fade(@dls-color-gray-10, 70%);
 @dls-button-background-color-translucent-disabled: @dls-button-background-color-translucent;
 
@@ -86,7 +90,7 @@
 
 @dls-button-background-color-text: transparent;
 @dls-button-background-color-text-hover: @dls-button-background-color-text;
-@dls-button-background-color-text-focus: @dls-button-background-color-text;
+@dls-button-background-color-text-focus: @dls-button-background-color-text-hover;
 @dls-button-background-color-text-active: @dls-button-background-color-text;
 @dls-button-background-color-text-disabled: @dls-button-background-color-text;
 
@@ -100,13 +104,13 @@
 // icon buttons
 @dls-button-font-color-icon: @dls-font-color-weak;
 @dls-button-font-color-icon-hover: @dls-font-color-aux;
-@dls-button-font-color-icon-focus: @dls-font-color-aux;
+@dls-button-font-color-icon-focus: @dls-button-font-color-icon-hover;
 @dls-button-font-color-icon-active: @dls-font-color-normal;
 @dls-button-font-color-icon-disabled: @dls-font-color-disabled;
 
 @dls-button-background-color-icon: transparent;
 @dls-button-background-color-icon-hover: @dls-button-background-color-icon;
-@dls-button-background-color-icon-focus: @dls-button-background-color-icon;
+@dls-button-background-color-icon-focus: @dls-button-background-color-icon-hover;
 @dls-button-background-color-icon-active: @dls-button-background-color-icon;
 @dls-button-background-color-icon-disabled: @dls-button-background-color-icon;
 
