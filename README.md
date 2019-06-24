@@ -47,7 +47,7 @@ lessc style.less --dls
 
 ## Custom functions
 
-### `contextual(@color, @type)`
+### `dls-contextual(@color, @type)`
 
 To generate contextual colors according to the given brand color.
 
@@ -61,10 +61,10 @@ To generate contextual colors according to the given brand color.
 `Color` - the generated contextual color.
 
 ```less
-@color: contextual(#3d88f2, success); // → #39bf45
+@color: dls-contextual(#3d88f2, success); // → #39bf45
 ```
 
-### `shade(@color, @level)`
+### `dls-shade(@color, @level)`
 
 To generate a specific level of shade of the given base color.
 
@@ -78,10 +78,10 @@ To generate a specific level of shade of the given base color.
 `Color` - the generated shaded color.
 
 ```less
-@color: shade(#3d88f2, 3); // → #b3cfff
+@color: dls-shade(#3d88f2, 3); // → #b3cfff
 ```
 
-### `sum(...@dimensions)`
+### `dls-sum(...@dimensions)`
 
 To get the sum of the given dimensions or `calc` expressions.
 
@@ -94,13 +94,13 @@ To get the sum of the given dimensions or `calc` expressions.
 `Dimension | Calc` - the total value of the given list.
 
 ```less
-@width: sum(1px, 30%); // → calc(1px + 30%)
-@height: sum(1px, 10px, 100px); // → 100px
-@top: sum(calc(1px + 5em), -1px); // → 5em
-@left: sum(calc(1px + 5em), -1px, calc(-5em)); // → 0
+@width: dls-sum(1px, 30%); // → calc(1px + 30%)
+@height: dls-sum(1px, 10px, 100px); // → 100px
+@top: dls-sum(calc(1px + 5em), -1px); // → 5em
+@left: dls-sum(calc(1px + 5em), -1px, calc(-5em)); // → 0
 ```
 
-### `line-height(@line-height, @font-size): Dimension`
+### `dls-line-height(@line-height, @font-size): Dimension`
 
 To calculate the absolute `line-height` from the given `line-height` and `font-size` value.
 
@@ -116,9 +116,9 @@ Will return `@line-height` directly if it is an absolute length (eg. `15px`, `2e
 The absolute length of the line height.
 
 ```less
-@h1: line-height(1.5, 16px); // → 24px
-@h2: line-height(120%, 15px); // → 18px
-@h3: line-height(2em, 1.2em); // → 2em
+@h1: dls-line-height(1.5, 16px); // → 24px
+@h2: dls-line-height(120%, 15px); // → 18px
+@h3: dls-line-height(2em, 1.2em); // → 2em
 ```
 
 ## Options

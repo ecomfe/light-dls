@@ -1,3 +1,9 @@
+## 0.5.0
+
+- Add Textarea.
+- Add `dls-line-height` function.
+- Add `reduceCalc` option.
+
 ## 0.4.0
 
 - Add TextInput.
