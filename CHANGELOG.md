@@ -1,6 +1,7 @@
 ## 0.5.1
 
 - Add focus background colors for Button.
+- Fix background color for disabled translucent Button.
 
 ## 0.5.0
 

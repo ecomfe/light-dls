@@ -79,7 +79,10 @@
 @dls-button-background-color-translucent-hover: fade(@dls-color-gray-10, 50%);
 @dls-button-background-color-translucent-focus: @dls-button-background-color-translucent-hover;
 @dls-button-background-color-translucent-active: fade(@dls-color-gray-10, 70%);
-@dls-button-background-color-translucent-disabled: @dls-button-background-color-translucent;
+@dls-button-background-color-translucent-disabled: fade(
+  @dls-color-gray-10,
+  20%
+);
 
 // text buttons
 @dls-button-font-color-text: @dls-color-brand-6;

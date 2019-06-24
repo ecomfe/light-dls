@@ -55,7 +55,7 @@ div {
   -dls-button-background-color-translucent-hover: rgba(0, 0, 0, 0.5);
   -dls-button-background-color-translucent-focus: rgba(0, 0, 0, 0.5);
   -dls-button-background-color-translucent-active: rgba(0, 0, 0, 0.7);
-  -dls-button-background-color-translucent-disabled: rgba(0, 0, 0, 0.6);
+  -dls-button-background-color-translucent-disabled: rgba(0, 0, 0, 0.2);
   -dls-button-font-color-text: #3d88f2;
   -dls-button-font-color-text-hover: #66a3ff;
   -dls-button-font-color-text-focus: #3d88f2;
