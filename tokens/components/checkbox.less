@@ -14,6 +14,16 @@
 
 @dls-checkbox-spacing: @dls-padding-unit * 2;
 
+@dls-checkbox-icon-min-size: 8px;
+@dls-checkbox-icon-size-s: max(
+  @dls-checkbox-icon-min-size,
+  @dls-checkbox-size-s / 2
+);
+@dls-checkbox-icon-size-m: max(
+  @dls-checkbox-icon-min-size,
+  @dls-checkbox-size-m / 2
+);
+
 /* Colors */
 @dls-checkbox-border-color: @dls-color-gray-6;
 @dls-checkbox-border-color-hover: @dls-color-gray-7;

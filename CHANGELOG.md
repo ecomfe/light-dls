@@ -1,3 +1,7 @@
+## 0.5.3
+
+- Add icon size for Checkbox.
+
 ## 0.5.2
 
 - Fix font color for disabled translucent Button.
