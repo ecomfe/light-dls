@@ -10,19 +10,19 @@
 @dls-checkbox-size-s: @dls-checkbox-font-size-s + 2px;
 @dls-checkbox-size-m: @dls-checkbox-font-size-m + 2px;
 
-@dls-checkbox-border-radius: @dls-border-radius-s;
-
-@dls-checkbox-spacing: @dls-padding-unit * 2;
-
 @dls-checkbox-icon-min-size: 8px;
 @dls-checkbox-icon-size-s: max(
   @dls-checkbox-icon-min-size,
-  @dls-checkbox-size-s / 2
+  @dls-checkbox-size-s - 6px
 );
 @dls-checkbox-icon-size-m: max(
   @dls-checkbox-icon-min-size,
-  @dls-checkbox-size-m / 2
+  @dls-checkbox-size-m - 6px
 );
+
+@dls-checkbox-border-radius: @dls-border-radius-s;
+
+@dls-checkbox-spacing: @dls-padding-unit * 2;
 
 /* Colors */
 @dls-checkbox-border-color: @dls-color-gray-6;

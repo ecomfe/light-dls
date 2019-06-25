@@ -1,3 +1,7 @@
+## 0.6.0
+
+- [breaking] Dropped variables related to `font-weight` for Button and Link.
+
 ## 0.5.3
 
 - Add icon size for Checkbox.

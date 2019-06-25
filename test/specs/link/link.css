@@ -1,10 +1,6 @@
 div {
   -dls-link-font-size-s: 12px;
   -dls-link-font-size-m: 14px;
-  -dls-link-font-weight: 400;
-  -dls-link-font-weight-hover: 500;
-  -dls-link-font-weight-focus: 500;
-  -dls-link-font-weight-active: 500;
   -dls-link-text-decoration: none;
   -dls-link-text-decoration-hover: underline;
   -dls-link-text-decoration-focus: underline;
