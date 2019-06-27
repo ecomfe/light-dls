@@ -1,3 +1,8 @@
+## 0.7.0
+
+- [breaking] Rename `docked` to `anchored` for global box-shadows.
+- Add focus related variables to Switch.
+
 ## 0.6.0
 
 - [breaking] Dropped variables related to `font-weight` for Button and Link.

@@ -20,23 +20,31 @@
 /* Colors */
 @dls-switch-track-color-on: @dls-color-brand-6;
 @dls-switch-track-color-on-hover: @dls-color-brand-5;
+@dls-switch-track-color-on-focus: @dls-switch-track-color-on-hover;
 @dls-switch-track-color-on-active: @dls-color-brand-7;
 @dls-switch-track-color-on-disabled: @dls-color-brand-2;
 
 @dls-switch-track-color-off: @dls-color-gray-6;
 @dls-switch-track-color-off-hover: @dls-color-gray-7;
+@dls-switch-track-color-off-focus: @dls-switch-track-color-off-hover;
 @dls-switch-track-color-off-active: @dls-color-gray-8;
 @dls-switch-track-color-off-disabled: @dls-color-gray-5;
 
 @dls-switch-thumb-color-on: @dls-color-gray-1;
 @dls-switch-thumb-color-on-hover: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-on-focus: @dls-switch-thumb-color-on-hover;
 @dls-switch-thumb-color-on-active: @dls-switch-thumb-color-on;
 @dls-switch-thumb-color-on-disabled: @dls-switch-thumb-color-on;
 
 @dls-switch-thumb-color-off: @dls-switch-thumb-color-on;
 @dls-switch-thumb-color-off-hover: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-off-focus: @dls-switch-thumb-color-off-hover;
 @dls-switch-thumb-color-off-active: @dls-switch-thumb-color-on;
 @dls-switch-thumb-color-off-disabled: @dls-switch-thumb-color-on;
+
+@dls-switch-focus-shadow-on: @dls-shadow-focus;
+@dls-switch-focus-shadow-off: 0 0 0 @dls-shadow-focus-spread
+  fade(@dls-color-gray-7, percentage(@dls-shadow-focus-opacity));
 
 /* Typography */
 @dls-switch-font-size: @dls-font-size-s;
