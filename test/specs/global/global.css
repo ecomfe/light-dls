@@ -88,9 +88,11 @@ div {
   -dls-height-xl: 40px;
   -dls-background-color-strong: #fafafa;
   -dls-background-color-strong-hover: #eee;
+  -dls-background-color-strong-focus: #f2f7ff;
   -dls-background-color-strong-active: #e0e0e0;
   -dls-background-color-normal: #fff;
   -dls-background-color-normal-hover: #f5f5f5;
+  -dls-background-color-normal-focus: #f2f7ff;
   -dls-background-color-normal-active: #eee;
   -dls-background-color-disabled: #fafafa;
   -dls-border-color-strong: #e0e0e0;
