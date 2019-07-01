@@ -35,8 +35,8 @@ div {
   -dls-option-background-color-selected-parent: #f5f5f5;
   -dls-option-font-weight-selected-parent: 500;
   -dls-option-font-weight-selected: 500;
-  -dls-option-group-title-line-height: 1.5;
-  -dls-option-group-title-font-color: #999;
-  -dls-option-group-title-padding-y: 4px;
+  -dls-option-group-label-line-height: 1.5;
+  -dls-option-group-label-font-color: #999;
+  -dls-option-group-label-padding-y: 4px;
   -dls-option-group-padding-y: 4px;
 }
