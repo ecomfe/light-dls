@@ -1,0 +1,5 @@
+div {
+  -dls-time-picker-width: 150px;
+  -dls-time-picker-dropdown-min-width: 150px;
+  -dls-time-picker-option-content-min-width: 2ch;
+}
