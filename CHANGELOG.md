@@ -1,6 +1,7 @@
 ## 0.8.0
 
 - [breaking] Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's name convention.
+- Add Option.
 
 ## 0.7.0
 
