@@ -18,6 +18,10 @@
   ],
   "author": "Justineo (justice360@gmail.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/less-plugin-dls.git"
+  },
   "devDependencies": {
     "diff": "^4.0.1",
     "eslint": "^5.16.0",
