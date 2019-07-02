@@ -39,4 +39,6 @@ div {
   -dls-option-group-label-font-color: #999;
   -dls-option-group-label-padding-y: 4px;
   -dls-option-group-padding-y: 4px;
+  -dls-option-group-separator-color: #eee;
+  -dls-option-dropdown-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
