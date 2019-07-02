@@ -48,7 +48,7 @@ div {
   -dls-button-background-color-primary-active: #2970cc;
   -dls-button-background-color-primary-disabled: #d9e6ff;
   -dls-button-font-color-translucent: #fff;
-  -dls-button-font-color-translucent-disabled: #fff;
+  -dls-button-font-color-translucent-disabled: rgba(255, 255, 255, 0.3);
   -dls-button-border-color-translucent: transparent;
   -dls-button-border-color-translucent-disabled: transparent;
   -dls-button-background-color-translucent: rgba(0, 0, 0, 0.6);
