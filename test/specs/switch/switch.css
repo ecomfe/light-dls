@@ -31,8 +31,8 @@ div {
   -dls-switch-thumb-color-off-focus: #fff;
   -dls-switch-thumb-color-off-active: #fff;
   -dls-switch-thumb-color-off-disabled: #fff;
-  -dls-switch-focus-shadow-on: 0 0 0 2px rgba(61, 136, 242, 0.2);
-  -dls-switch-focus-shadow-off: 0 0 0 2px rgba(153, 153, 153, 0.2);
+  -dls-switch-shadow-on-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
+  -dls-switch-shadow-off-focus: 0 0 0 2px rgba(153, 153, 153, 0.2);
   -dls-switch-font-size: 12px;
   -dls-switch-font-color: #fff;
 }
