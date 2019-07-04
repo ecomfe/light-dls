@@ -36,6 +36,6 @@ div {
   -dls-checkbox-foreground-color-disabled: #fff;
   -dls-checkbox-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
   -dls-checkbox-strong-check-icon-size: 8px;
-  -dls-checkbox-strong-check-icon-color-hover: #ccc;
-  -dls-checkbox-strong-check-icon-color-focus: #ccc;
+  -dls-checkbox-strong-check-icon-spacing: 4px;
+  -dls-checkbox-strong-checked-separator-color: #8cb8ff;
 }
