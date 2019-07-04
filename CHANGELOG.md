@@ -1,3 +1,7 @@
+## 0.9.2
+
+- Add `@dls-checkbox-strong-checked-separator-color-disabled`.
+
 ## 0.9.1
 
 - Add check icon variables for strong Checkbox.

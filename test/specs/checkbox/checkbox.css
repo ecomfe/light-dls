@@ -42,4 +42,5 @@ div {
   -dls-checkbox-strong-check-icon-size: 8px;
   -dls-checkbox-strong-check-icon-spacing: 4px;
   -dls-checkbox-strong-checked-separator-color: #8cb8ff;
+  -dls-checkbox-strong-checked-separator-color-disabled: #f2f7ff;
 }
