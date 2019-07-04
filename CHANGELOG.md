@@ -1,3 +1,7 @@
+## 0.9.1
+
+- Add check icon variables for strong Checkbox.
+
 ## 0.9.0
 
 - Add TimePicker.
