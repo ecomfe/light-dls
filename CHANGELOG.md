@@ -1,3 +1,7 @@
+## 0.9.3
+
+- Differentiate default digits for normal/strong number inputs.
+
 ## 0.9.2
 
 - Add `@dls-checkbox-strong-checked-separator-color-disabled`.

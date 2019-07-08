@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-dls",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
