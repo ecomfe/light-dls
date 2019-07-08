@@ -14,9 +14,9 @@ div {
   -dls-text-input-border-radius-l: 4px;
   -dls-text-input-padding: 12px;
   -dls-text-input-content-spacing: 8px;
-  -dls-text-input-border-color-normal: #e0e0e0;
-  -dls-text-input-border-color-normal-hover: #999;
-  -dls-text-input-border-color-normal-focus: #3d88f2;
+  -dls-text-input-border-color: #e0e0e0;
+  -dls-text-input-border-color-hover: #999;
+  -dls-text-input-border-color-focus: #3d88f2;
   -dls-text-input-border-color-error: #e64552;
   -dls-text-input-border-color-error-hover: #e64552;
   -dls-text-input-border-color-error-focus: #e64552;
@@ -24,10 +24,10 @@ div {
   -dls-text-input-border-color-read-only-hover: #eee;
   -dls-text-input-border-color-read-only-focus: #eee;
   -dls-text-input-border-color-disabled: #eee;
-  -dls-text-input-background-color-normal: #fff;
+  -dls-text-input-background-color: #fff;
   -dls-text-input-background-color-read-only: #fafafa;
   -dls-text-input-background-color-disabled: #fafafa;
-  -dls-text-input-font-color-normal: #333;
+  -dls-text-input-font-color: #333;
   -dls-text-input-font-color-error: #e64552;
   -dls-text-input-font-color-read-only: #999;
   -dls-text-input-font-color-disabled: #ccc;

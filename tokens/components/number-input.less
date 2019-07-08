@@ -10,7 +10,7 @@
 // Widths
 
 // Normal
-@dls-number-input-spin-icon-size-normal: 8px;
+@dls-number-input-spin-icon-size-normal: @dls-height-unit * 2;
 @dls-number-input-spin-button-min-width-normal: 18px;
 @dls-number-input-spin-button-width-normal-xs: max(
   @dls-number-input-spin-button-min-width-normal,
@@ -25,22 +25,22 @@
   @dls-number-input-height-m / 2
 );
 
-@dls-number-input-digits: 3;
+@dls-number-input-digits-normal: 3;
 // digits + spin button + horizontal paddings + left border
 @dls-number-input-width-normal-xs: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-normal, ch),
   @dls-number-input-spin-button-width-normal-xs,
   @dls-text-input-padding * 2,
   1px
 );
 @dls-number-input-width-normal-s: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-normal, ch),
   @dls-number-input-spin-button-width-normal-s,
   @dls-text-input-padding * 2,
   1px
 );
 @dls-number-input-width-normal-m: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-normal, ch),
   @dls-number-input-spin-button-width-normal-m,
   @dls-text-input-padding * 2,
   1px
@@ -50,18 +50,20 @@
 @dls-number-input-spin-icon-size-strong: 10px;
 // Strong spin buttons' width and height share the same value
 
+@dls-number-input-digits-strong: 4;
+
 @dls-number-input-width-strong-xs: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-strong, ch),
   @dls-number-input-height-xs * 2,
   @dls-text-input-padding * 2
 );
 @dls-number-input-width-strong-s: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-strong, ch),
   @dls-number-input-height-s * 2,
   @dls-text-input-padding * 2
 );
 @dls-number-input-width-strong-m: dls-sum(
-  unit(@dls-number-input-digits, ch),
+  unit(@dls-number-input-digits-strong, ch),
   @dls-number-input-height-m * 2,
   @dls-text-input-padding * 2
 );
