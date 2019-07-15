@@ -4,7 +4,7 @@ import { isInRanges } from '../utils'
 const COLD_RANGES = [[64, 320]]
 
 const CONTEXTUAL_RANGES = {
-  info: [[215, 215]],
+  info: [[210, 225]],
   success: [[95, 125]],
   warning: [[18, 24]],
   error: [[0, 5], [355, 360]]
@@ -12,13 +12,13 @@ const CONTEXTUAL_RANGES = {
 
 const CONTEXTUAL_COLORS = {
   cold: {
-    info: [215, 75, 95],
+    info: [225, 75, 95],
     success: [125, 70, 75],
     warning: [18, 70, 95],
     error: [355, 70, 90]
   },
   warm: {
-    info: [215, 75, 95],
+    info: [210, 75, 95],
     success: [95, 70, 75],
     warning: [24, 75, 95],
     error: [5, 70, 90]
