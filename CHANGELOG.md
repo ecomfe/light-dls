@@ -2,6 +2,7 @@
 
 - Add Pagination.
 - Add Badge.
+- Add Breadcrumbs.
 
 ## 0.9.3
 
