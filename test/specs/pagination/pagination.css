@@ -1,0 +1,16 @@
+div {
+  -dls-pagination-font-size-xs: 12px;
+  -dls-pagination-font-size-s: 12px;
+  -dls-pagination-font-size-m: 14px;
+  -dls-pagination-page-item-min-width-xs: 24px;
+  -dls-pagination-page-item-min-width-s: 28px;
+  -dls-pagination-page-item-min-width-m: 32px;
+  -dls-pagination-page-item-padding-x: 4px;
+  -dls-pagination-page-item-spacing: 4px;
+  -dls-pagination-page-items-margin-before: 40px;
+  -dls-pagination-page-items-margin-after: 20px;
+  -dls-pagination-spacing-1: 4px;
+  -dls-pagination-spacing-2: 8px;
+  -dls-pagination-spacing-3: 12px;
+  -dls-pagination-page-item-background-color-current: #f2f7ff;
+}
