@@ -10,7 +10,6 @@ div {
   -dls-pagination-page-items-margin-before: 40px;
   -dls-pagination-page-items-margin-after: 20px;
   -dls-pagination-spacing-1: 4px;
-  -dls-pagination-spacing-2: 8px;
-  -dls-pagination-spacing-3: 12px;
+  -dls-pagination-spacing-2: 12px;
   -dls-pagination-page-item-background-color-current: #f2f7ff;
 }
