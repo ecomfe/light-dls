@@ -1,3 +1,7 @@
+## 0.10.0
+
+- Add Pagination.
+
 ## 0.9.3
 
 - Differentiate default digits for normal/strong number inputs.
