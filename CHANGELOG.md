@@ -1,6 +1,7 @@
 ## 0.10.0
 
 - Add Pagination.
+- Add Badge.
 
 ## 0.9.3
 
