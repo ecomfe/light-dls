@@ -109,16 +109,17 @@ div {
   -dls-shadow-offset-y: 1px;
   -dls-shadow-blur-radius: 4px;
   -dls-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-  -dls-shadow-anchored-opacity: 0.1;
-  -dls-shadow-anchored-offset: 4px;
-  -dls-shadow-anchored-blur-radius: 8px;
+  -dls-shadow-opacity-anchored: 0.1;
+  -dls-shadow-offset-anchored: 4px;
+  -dls-shadow-blur-radius-anchored: 8px;
   -dls-shadow-anchored-top: 0 4px 8px rgba(0, 0, 0, 0.1);
   -dls-shadow-anchored-right: -4px 0 8px rgba(0, 0, 0, 0.1);
   -dls-shadow-anchored-bottom: 0 -4px 8px rgba(0, 0, 0, 0.1);
   -dls-shadow-anchored-left: 4px 0 8px rgba(0, 0, 0, 0.1);
-  -dls-shadow-focus-opacity: 0.2;
-  -dls-shadow-focus-spread: 2px;
-  -dls-shadow-focus-color: #3d88f2;
+  -dls-shadow-opacity-focus: 0.2;
+  -dls-shadow-spread-focus: 2px;
+  -dls-shadow-color-focus: #3d88f2;
+  -dls-shadow-color-error-focus: #e64552;
   -dls-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
-  -dls-shadow-focus-error: 0 0 0 2px rgba(230, 69, 82, 0.2);
+  -dls-shadow-error-focus: 0 0 0 2px rgba(230, 69, 82, 0.2);
 }
