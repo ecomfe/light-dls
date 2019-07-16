@@ -3,6 +3,9 @@
 - Add Pagination.
 - Add Badge.
 - Add Breadcrumbs.
+- Add Steps.
+- Add info color generation rules.
+- [breaking] Rename focus shadow related variables according to DLS's naming convention.
 
 ## 0.9.3
 
@@ -24,7 +27,7 @@
 
 ## 0.8.0
 
-- [breaking] Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's name convention.
+- [breaking] Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's naming convention.
 - Add Option.
 
 ## 0.7.0
