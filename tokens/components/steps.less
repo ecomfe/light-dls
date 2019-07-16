@@ -4,6 +4,9 @@
 @dls-steps-title-font-size-s: @dls-font-size-s;
 @dls-steps-title-font-size-m: @dls-font-size-m;
 @dls-steps-desc-font-size-s: @dls-font-size-s;
+@dls-steps-desc-font-size-m: @dls-font-size-s;
+@dls-steps-marker-font-size-s: @dls-steps-marker-size-s / 2;
+@dls-steps-marker-font-size-m: @dls-steps-marker-size-m / 2;
 @dls-steps-title-font-weight: @dls-font-weight-2;
 
 @dls-steps-title-font-color: @dls-font-color-normal;
@@ -19,6 +22,8 @@
 /* Markers */
 @dls-steps-marker-size-s: @dls-height-s;
 @dls-steps-marker-size-m: @dls-height-m;
+@dls-steps-marker-icon-size-s: @dls-steps-marker-size-s / 3;
+@dls-steps-marker-icon-size-m: @dls-steps-marker-size-m / 3;
 
 /* Spacing */
 @dls-steps-marker-spacing: @dls-padding-unit * 2;
@@ -43,16 +48,6 @@
 @dls-steps-marker-shadow-completed-focus: @dls-shadow-focus;
 @dls-steps-connector-color-completed: @dls-steps-marker-border-color-completed;
 
-// Current
-@dls-steps-marker-background-color-current: @dls-color-brand-6;
-@dls-steps-marker-background-color-current-hover: @dls-color-brand-5;
-@dls-steps-marker-background-color-current-focus: @dls-steps-marker-background-color-current-hover;
-@dls-steps-marker-background-color-current-active: @dls-color-brand-7;
-@dls-steps-marker-border-color-current: @dls-steps-marker-background-color-current;
-@dls-steps-marker-foreground-color-current: @dls-color-gray-1;
-@dls-steps-marker-shadow-current-focus: @dls-shadow-focus;
-@dls-steps-connector-color-current: @dls-steps-marker-border-color-current;
-
 // Error
 @dls-steps-marker-background-color-error: @dls-color-gray-1;
 @dls-steps-marker-background-color-error-hover: @dls-color-error-1;
@@ -62,3 +57,25 @@
 @dls-steps-marker-foreground-color-error: @dls-steps-marker-border-color-error;
 @dls-steps-marker-shadow-error-focus: @dls-shadow-error-focus;
 @dls-steps-connector-color-error: @dls-steps-marker-border-color-error;
+
+// Current
+@dls-steps-marker-background-color-current: @dls-color-brand-6;
+@dls-steps-marker-background-color-current-hover: @dls-color-brand-5;
+@dls-steps-marker-background-color-current-focus: @dls-steps-marker-background-color-current-hover;
+@dls-steps-marker-background-color-current-active: @dls-color-brand-7;
+@dls-steps-marker-border-color-current: transparent;
+@dls-steps-marker-border-color-current-focus: @dls-steps-marker-background-color-current;
+@dls-steps-marker-foreground-color-current: @dls-color-gray-1;
+@dls-steps-marker-shadow-current-focus: @dls-shadow-focus;
+@dls-steps-connector-color-current: @dls-steps-marker-background-color-current;
+
+// Error & current
+@dls-steps-marker-background-color-error-current: @dls-color-error-6;
+@dls-steps-marker-background-color-error-current-hover: @dls-color-error-5;
+@dls-steps-marker-background-color-error-current-focus: @dls-steps-marker-background-color-error-current-hover;
+@dls-steps-marker-background-color-error-current-active: @dls-color-error-7;
+@dls-steps-marker-border-color-error-current: transparent;
+@dls-steps-marker-border-color-error-current-focus: @dls-steps-marker-background-color-error-current;
+@dls-steps-marker-foreground-color-error-current: @dls-color-gray-1;
+@dls-steps-marker-shadow-error-current-focus: @dls-shadow-error-focus;
+@dls-steps-connector-color-error-current: @dls-steps-marker-background-color-error-current;
