@@ -35,5 +35,5 @@ div {
   -dls-text-input-count-color: #999;
   -dls-text-input-count-color-error: #e64552;
   -dls-text-input-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
-  -dls-text-input-shadow-focus-error: 0 0 0 2px rgba(230, 69, 82, 0.2);
+  -dls-text-input-shadow-error-focus: 0 0 0 2px rgba(230, 69, 82, 0.2);
 }

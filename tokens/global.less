@@ -156,7 +156,6 @@
 
 // General overlays
 @dls-shadow-color: @dls-color-gray-10;
-
 @dls-shadow-opacity: 0.15;
 @dls-shadow-offset-x: 0;
 @dls-shadow-offset-y: 1px;
@@ -165,25 +164,26 @@
   fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
 
 // Anchored overlays
-@dls-shadow-anchored-opacity: 0.1;
-@dls-shadow-anchored-offset: 4px;
-@dls-shadow-anchored-blur-radius: 8px;
-@dls-shadow-anchored-top: 0 @dls-shadow-anchored-offset
-  @dls-shadow-anchored-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-anchored-opacity));
-@dls-shadow-anchored-right: -@dls-shadow-anchored-offset 0 @dls-shadow-anchored-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-anchored-opacity));
-@dls-shadow-anchored-bottom: 0 -@dls-shadow-anchored-offset @dls-shadow-anchored-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-anchored-opacity));
-@dls-shadow-anchored-left: @dls-shadow-anchored-offset 0
-  @dls-shadow-anchored-blur-radius
-  fade(@dls-shadow-color, percentage(@dls-shadow-anchored-opacity));
+@dls-shadow-opacity-anchored: 0.1;
+@dls-shadow-offset-anchored: 4px;
+@dls-shadow-blur-radius-anchored: 8px;
+@dls-shadow-anchored-top: 0 @dls-shadow-offset-anchored
+  @dls-shadow-blur-radius-anchored
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-anchored));
+@dls-shadow-anchored-right: -@dls-shadow-offset-anchored 0 @dls-shadow-blur-radius-anchored
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-anchored));
+@dls-shadow-anchored-bottom: 0 -@dls-shadow-offset-anchored @dls-shadow-blur-radius-anchored
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-anchored));
+@dls-shadow-anchored-left: @dls-shadow-offset-anchored 0
+  @dls-shadow-blur-radius-anchored
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-anchored));
 
 // Focus rings
-@dls-shadow-focus-opacity: 0.2;
-@dls-shadow-focus-spread: 2px;
-@dls-shadow-focus-color: @dls-color-brand-6;
-@dls-shadow-focus: 0 0 0 @dls-shadow-focus-spread
-  fade(@dls-shadow-focus-color, percentage(@dls-shadow-focus-opacity));
-@dls-shadow-focus-error: 0 0 0 @dls-shadow-focus-spread
-  fade(@dls-color-error-6, percentage(@dls-shadow-focus-opacity));
+@dls-shadow-opacity-focus: 0.2;
+@dls-shadow-spread-focus: 2px;
+@dls-shadow-color-focus: @dls-color-brand-6;
+@dls-shadow-color-error-focus: @dls-color-error-6;
+@dls-shadow-focus: 0 0 0 @dls-shadow-spread-focus
+  fade(@dls-shadow-color-focus, percentage(@dls-shadow-opacity-focus));
+@dls-shadow-error-focus: 0 0 0 @dls-shadow-spread-focus
+  fade(@dls-shadow-color-error-focus, percentage(@dls-shadow-opacity-focus));
