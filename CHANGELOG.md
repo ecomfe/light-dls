@@ -1,3 +1,8 @@
+## 0.11.0
+
+- Add Tag.
+- Add Anchor.
+
 ## 0.10.0
 
 - [breaking] Rename focus shadow related variables according to DLS's naming convention. See [5080fb1](https://github.com/ecomfe/less-plugin-dls/commit/5080fb1077c4c18a4a5571644fa97bd0c34438f6) for details.
