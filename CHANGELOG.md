@@ -1,3 +1,7 @@
+## 0.12.0
+
+- Add Loading.
+
 ## 0.11.0
 
 - Add Tag.
