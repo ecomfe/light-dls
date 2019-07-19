@@ -1,3 +1,7 @@
+## 0.13.0
+
+- Add Progress.
+
 ## 0.12.0
 
 - Add Loading.
