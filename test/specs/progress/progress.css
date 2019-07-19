@@ -1,0 +1,24 @@
+div {
+  -dls-progress-width-bar-s: 200px;
+  -dls-progress-width-bar-m: 300px;
+  -dls-progress-size-circular: 108px;
+  -dls-progress-font-size-s: 12px;
+  -dls-progress-font-size-m: 14px;
+  -dls-progress-font-size-circular: 16px;
+  -dls-progress-font-color: #666;
+  -dls-progress-icon-size-bar: 1em;
+  -dls-progress-icon-size-circular: 32px;
+  -dls-progress-track-width-s: 4px;
+  -dls-progress-track-width-m: 8px;
+  -dls-progress-border-radius-s: 2px;
+  -dls-progress-border-radius-m: 4px;
+  -dls-progress-track-spacing-bar: 8px;
+  -dls-progress-icon-spacing-bar: 4px;
+  -dls-progress-track-color: #eee;
+  -dls-progress-indicator-color: #3d88f2;
+  -dls-progress-indicator-color-success: #39bf45;
+  -dls-progress-indicator-color-error: #e64552;
+  -dls-progress-icon-color: #ccc;
+  -dls-progress-icon-color-success: #39bf45;
+  -dls-progress-icon-color-error: #e64552;
+}
