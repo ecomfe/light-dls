@@ -1,0 +1,27 @@
+div {
+  -dls-transfer-border-radius-s: 2px;
+  -dls-transfer-border-radius-m: 3px;
+  -dls-transfer-padding-x: 16px;
+  -dls-transfer-header-content-spacing-1: 4px;
+  -dls-transfer-header-content-spacing-2: 8px;
+  -dls-transfer-content-padding-y: 4px;
+  -dls-transfer-item-height-s: 28px;
+  -dls-transfer-item-height-m: 32px;
+  -dls-transfer-header-height-s: 32px;
+  -dls-transfer-header-height-m: 36px;
+  -dls-transfer-header-background-color: #fafafa;
+  -dls-transfer-header-font-color: #666;
+  -dls-transfer-header-font-weight: 500;
+  -dls-transfer-header-icon-color: #999;
+  -dls-transfer-header-button-font-weight: 600;
+  -dls-transfer-border-color: #eee;
+  -dls-transfer-item-background-color: #fff;
+  -dls-transfer-item-background-color-hover: #f5f5f5;
+  -dls-transfer-item-background-color-focus: #f2f7ff;
+  -dls-transfer-item-background-color-active: #eee;
+  -dls-transfer-item-font-color: #333;
+  -dls-transfer-item-font-color-hover: #000;
+  -dls-transfer-item-font-color-focus: #000;
+  -dls-transfer-item-font-color-active: #000;
+  -dls-transfer-item-font-color-disabled: #ccc;
+}

@@ -1,6 +1,8 @@
 ## 0.13.0
 
 - Add Progress.
+- Add Tree.
+- Add Transfer.
 
 ## 0.12.0
 
