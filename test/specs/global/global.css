@@ -122,4 +122,6 @@ div {
   -dls-shadow-color-error-focus: #e64552;
   -dls-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
   -dls-shadow-error-focus: 0 0 0 2px rgba(230, 69, 82, 0.2);
+  -dls-icon-size-normal: 1em;
+  -dls-icon-size-aux: calc(1em - 4px);
 }
