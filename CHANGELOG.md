@@ -3,6 +3,8 @@
 - Add Progress.
 - Add Tree.
 - Add Transfer.
+- Add Tabs.
+- Add Menu.
 
 ## 0.12.0
 

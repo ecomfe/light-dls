@@ -65,15 +65,13 @@ less
       path.resolve(__dirname, '..', 'variables.json'),
       JSON.stringify(
         variableTuples
-          .map(([key, value]) => {
-            return {
-              [key]: {
-                value,
-                type: getType(value),
-                equals: except(valueMap.get(value), key)
-              }
+          .map(([key, value]) => ({
+            [key]: {
+              value,
+              type: getType(value),
+              equals: except(valueMap.get(value), key)
             }
-          })
+          }))
           .reduce(
             (acc, cur) => ({
               ...acc,
