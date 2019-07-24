@@ -11,6 +11,7 @@
 - Add Transfer.
 - Add Tabs.
 - Add Menu.
+- Add Select.
 - Adjust aux icon sizes.
 
 ## 0.12.0
