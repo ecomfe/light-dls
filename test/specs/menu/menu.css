@@ -14,12 +14,8 @@ div {
   -dls-menu-footer-height-s: 28px;
   -dls-menu-footer-height-m: 28px;
   -dls-menu-footer-height-l: 28px;
-  -dls-menu-item-icon-size-s: 1em;
-  -dls-menu-item-icon-size-m: 1em;
-  -dls-menu-item-icon-size-l: 1em;
-  -dls-menu-item-icon-size-aux-s: calc(1em - 4px);
-  -dls-menu-item-icon-size-aux-m: calc(1em - 4px);
-  -dls-menu-item-icon-size-aux-l: calc(1em - 4px);
+  -dls-menu-item-icon-size: 1em;
+  -dls-menu-item-icon-size-aux: calc(1em - 4px);
   -dls-menu-border-color: #e0e0e0;
   -dls-menu-separator-color: #eee;
   -dls-menu-item-font-color: #333;

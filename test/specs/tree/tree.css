@@ -3,8 +3,8 @@ div {
   -dls-tree-node-height-m: 32px;
   -dls-tree-font-size-s: 12px;
   -dls-tree-font-size-m: 14px;
-  -dls-tree-icon-size-s: 1em;
-  -dls-tree-icon-size-m: 1em;
+  -dls-tree-icon-size: 1em;
+  -dls-tree-icon-size-aux: calc(1em - 4px);
   -dls-tree-padding-x: 16px;
   -dls-tree-node-content-spacing: 8px;
   -dls-tree-node-font-color: #333;

@@ -40,5 +40,9 @@ div {
   -dls-option-group-label-padding-y: 4px;
   -dls-option-group-padding-y: 4px;
   -dls-option-group-separator-color: #eee;
+  -dls-option-dropdown-max-height-xs: 248px;
+  -dls-option-dropdown-max-height-s: 288px;
+  -dls-option-dropdown-max-height-m: 328px;
+  -dls-option-dropdown-max-height-l: 368px;
   -dls-option-dropdown-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }

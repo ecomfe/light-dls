@@ -1,10 +1,15 @@
 ## 0.13.0
 
+- [breaking] Rename `@dls-breadcrumbs-icon-size` to `@dls-breadcrumbs-separator-icon-size`.
+- [breaking] Merge `@dls-checkbox-icon-size-s` and `@dls-checkbox-icon-size-m` into `@dls-checkbox-icon-size`.
+- [breaking] Merge `@dls-steps-marker-icon-size-s` and `@dls-steps-marker-icon-size-m` into `@dls-steps-marker-icon-size`.
+- Add max heights for option group dropdowns.
 - Add Progress.
 - Add Tree.
 - Add Transfer.
 - Add Tabs.
 - Add Menu.
+- Adjust aux icon sizes.
 
 ## 0.12.0
 
