@@ -1,8 +1,10 @@
+> ⚠️ - Breaking Changes
+
 ## 0.13.0
 
-- [breaking] Rename `@dls-breadcrumbs-icon-size` to `@dls-breadcrumbs-separator-icon-size`.
-- [breaking] Merge `@dls-checkbox-icon-size-s` and `@dls-checkbox-icon-size-m` into `@dls-checkbox-icon-size`.
-- [breaking] Merge `@dls-steps-marker-icon-size-s` and `@dls-steps-marker-icon-size-m` into `@dls-steps-marker-icon-size`.
+- ⚠️ Rename `@dls-breadcrumbs-icon-size` to `@dls-breadcrumbs-separator-icon-size`.
+- ⚠️ Merge `@dls-checkbox-icon-size-s` and `@dls-checkbox-icon-size-m` into `@dls-checkbox-icon-size`.
+- ⚠️ Merge `@dls-steps-marker-icon-size-s` and `@dls-steps-marker-icon-size-m` into `@dls-steps-marker-icon-size`.
 - Add max heights for option group dropdowns.
 - Add Progress.
 - Add Tree.
@@ -22,7 +24,7 @@
 
 ## 0.10.0
 
-- [breaking] Rename focus shadow related variables according to DLS's naming convention. See [5080fb1](https://github.com/ecomfe/less-plugin-dls/commit/5080fb1077c4c18a4a5571644fa97bd0c34438f6) for details.
+- ⚠️ Rename focus shadow related variables according to DLS's naming convention. See [5080fb1](https://github.com/ecomfe/less-plugin-dls/commit/5080fb1077c4c18a4a5571644fa97bd0c34438f6) for details.
 - Add Pagination.
 - Add Badge.
 - Add Breadcrumbs.
@@ -49,17 +51,17 @@
 
 ## 0.8.0
 
-- [breaking] Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's naming convention.
+- ⚠️ Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's naming convention.
 - Add Option.
 
 ## 0.7.0
 
-- [breaking] Rename `docked` to `anchored` for global box-shadows.
+- ⚠️ Rename `docked` to `anchored` for global box-shadows.
 - Add focus related variables to Switch.
 
 ## 0.6.0
 
-- [breaking] Dropped variables related to `font-weight` for Button and Link.
+- ⚠️ Dropped variables related to `font-weight` for Button and Link.
 
 ## 0.5.3
 
@@ -92,7 +94,7 @@
 
 ## 0.2.0
 
-- [breaking] Dropped `@dls-button-font-color-link` and `@dls-button-font-color-link-disabled`.
+- ⚠️ Dropped `@dls-button-font-color-link` and `@dls-button-font-color-link-disabled`.
 - Add Switch.
 - Add Radio.
 - Add focus related variables to existing components.
