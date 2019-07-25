@@ -80,4 +80,6 @@ div {
   -dls-button-padding-icon: 2px;
   -dls-button-border-color-focus: #3d88f2;
   -dls-button-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
+  -dls-button-group-separator-color-primary: #8cb8ff;
+  -dls-button-group-separator-color-primary-disabled: #f2f7ff;
 }
