@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.14.0
+
+- ⚠️ Remove interactive variants for option toggle icons.
+
 ## 0.13.0
 
 - ⚠️ Rename `@dls-breadcrumbs-icon-size` to `@dls-breadcrumbs-separator-icon-size`.

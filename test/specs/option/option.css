@@ -19,11 +19,8 @@ div {
   -dls-option-font-color-active: #000;
   -dls-option-font-color-disabled: #ccc;
   -dls-option-font-color-highlighted: #f27c49;
-  -dls-option-icon-color: #999;
-  -dls-option-icon-color-hover: #666;
-  -dls-option-icon-color-focus: #666;
-  -dls-option-icon-color-active: #333;
-  -dls-option-icon-color-disabled: #ccc;
+  -dls-option-icon-color-aux: #999;
+  -dls-option-icon-color-aux-disabled: #ccc;
   -dls-option-font-color-selected: #3d88f2;
   -dls-option-font-color-selected-hover: #3d88f2;
   -dls-option-font-color-selected-focus: #3d88f2;
