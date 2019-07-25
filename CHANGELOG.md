@@ -5,6 +5,7 @@
 - ⚠️ Remove interactive variants for option toggle icons.
 - ⚠️ Remove `@dls-progress-icon-color`.
 - Add Dropdown.
+- Add SearchBox.
 - Add button group separator colors.
 
 ## 0.13.0
