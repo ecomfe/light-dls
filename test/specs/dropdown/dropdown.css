@@ -1,0 +1,10 @@
+div {
+  -dls-dropdown-icon-spacing-aux: 8px;
+  -dls-dropdown-split-button-padding-x: 8px;
+  -dls-dropdown-icon-color-aux-normal: #999;
+  -dls-dropdown-icon-color-aux-normal-disabled: #ccc;
+  -dls-dropdown-icon-color-aux-primary: currentColor;
+  -dls-dropdown-icon-color-aux-primary-disabled: currentColor;
+  -dls-dropdown-split-separator-color-primary: #8cb8ff;
+  -dls-dropdown-split-separator-color-primary-disabled: #f2f7ff;
+}
