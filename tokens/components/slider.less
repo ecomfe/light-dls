@@ -1,0 +1,76 @@
+@import "../global.less";
+
+/* Metrics */
+@dls-slider-thumb-size-s: @dls-height-unit * 2;
+@dls-slider-thumb-size-m: @dls-height-unit * 3;
+
+@dls-slider-track-min-width: 2px;
+@dls-slider-track-width-s: max(
+  @dls-slider-thumb-size-s - @dls-height-unit * 2,
+  @dls-slider-track-min-width
+);
+@dls-slider-track-width-m: max(
+  @dls-slider-thumb-size-m - @dls-height-unit * 2,
+  @dls-slider-track-min-width
+);
+
+@dls-slider-track-border-radius-s: @dls-slider-track-width-s / 2;
+@dls-slider-track-border-radius-m: @dls-slider-track-width-m / 2;
+
+@dls-slider-thumb-dot-min-size: @dls-slider-track-min-width;
+@dls-slider-thumb-dot-size-s: max(
+  @dls-slider-track-width-s,
+  @dls-slider-thumb-dot-min-size
+);
+@dls-slider-thumb-dot-size-m: max(
+  @dls-slider-track-width-m,
+  @dls-slider-thumb-dot-min-size
+);
+
+@dls-slider-mark-min-size: 4px;
+@dls-slider-mark-size-s: max(
+  @dls-slider-thumb-size-s - @dls-height-unit * 1,
+  @dls-slider-mark-min-size
+);
+@dls-slider-mark-size-m: max(
+  @dls-slider-thumb-size-m - @dls-height-unit * 1,
+  @dls-slider-mark-min-size
+);
+
+@dls-slider-font-size-s: @dls-font-size-s;
+@dls-slider-font-size-m: @dls-font-size-m;
+
+@dls-slider-label-spacing: @dls-padding-unit * 1;
+
+/* Colors */
+@dls-slider-font-color: @dls-font-color-aux;
+@dls-slider-font-color-disabled: @dls-font-color-disabled;
+
+@dls-slider-thumb-background-color: @dls-color-brand-6;
+@dls-slider-thumb-background-color-hover: @dls-color-brand-5;
+@dls-slider-thumb-background-color-focus: @dls-slider-thumb-background-color-hover;
+@dls-slider-thumb-background-color-active: @dls-color-brand-7;
+
+@dls-slider-thumb-background-color-read-only: @dls-color-gray-6;
+@dls-slider-thumb-background-color-read-only-hover: @dls-color-gray-7;
+@dls-slider-thumb-background-color-read-only-focus: @dls-slider-thumb-background-color-read-only-hover;
+
+@dls-slider-thumb-background-color-disabled: @dls-color-brand-2;
+
+@dls-slider-thumb-border-color-focus: @dls-border-color-focus;
+@dls-slider-thumb-border-color-read-only-focus: @dls-border-color-focus;
+
+@dls-slider-thumb-shadow-focus: @dls-shadow-focus;
+@dls-slider-thumb-shadow-read-only-focus: @dls-shadow-focus;
+
+@dls-slider-thumb-dot-color: @dls-color-gray-1;
+
+@dls-slider-track-color: @dls-color-gray-4;
+@dls-slider-track-color-hover: @dls-color-gray-5;
+@dls-slider-track-color-read-only: @dls-color-gray-3;
+@dls-slider-track-color-disabled: @dls-slider-track-color-read-only;
+
+@dls-slider-track-progress-color: @dls-slider-thumb-background-color;
+@dls-slider-track-progress-color-hover: @dls-slider-thumb-background-color-hover;
+@dls-slider-track-progress-color-read-only: @dls-color-gray-6;
+@dls-slider-track-progress-color-disabled: @dls-slider-thumb-background-color-disabled;

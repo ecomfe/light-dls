@@ -6,6 +6,7 @@
 - ⚠️ Remove `@dls-progress-icon-color`.
 - Add Dropdown.
 - Add SearchBox.
+- Add Slider.
 - Add button group separator colors.
 
 ## 0.13.0
