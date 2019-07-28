@@ -1,0 +1,24 @@
+div {
+  -dls-collapse-header-padding-x: 16px;
+  -dls-collapse-header-padding-y: 16px;
+  -dls-collapse-header-content-spacing: 8px;
+  -dls-collapse-header-font-size-s: 12px;
+  -dls-collapse-header-font-size-m: 14px;
+  -dls-collapse-panel-padding-x: 16px;
+  -dls-collapse-panel-padding-y: 16px;
+  -dls-collapse-panel-font-size-s: 12px;
+  -dls-collapse-panel-font-size-m: 14px;
+  -dls-collapse-icon-size-aux: calc(1em - 4px);
+  -dls-collapse-header-font-color: #333;
+  -dls-collapse-header-border-color: #eee;
+  -dls-collapse-header-border-color-hover: #e0e0e0;
+  -dls-collapse-header-border-color-focus: #3d88f2;
+  -dls-collapse-header-border-color-active: #e0e0e0;
+  -dls-collapse-header-background-color: #fff;
+  -dls-collapse-header-background-color-hover: #f5f5f5;
+  -dls-collapse-header-background-color-focus: #f2f7ff;
+  -dls-collapse-header-background-color-active: #eee;
+  -dls-collapse-panel-font-color: #333;
+  -dls-collapse-panel-background-color: #fafafa;
+  -dls-collapse-icon-color-aux: #999;
+}
