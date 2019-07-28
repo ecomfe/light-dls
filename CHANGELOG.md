@@ -4,9 +4,11 @@
 
 - ⚠️ Remove interactive variants for option toggle icons.
 - ⚠️ Remove `@dls-progress-icon-color`.
+- ⚠️ Use separate global border colors with their own interactive style variants. See [69e4c0e](https://github.com/ecomfe/less-plugin-dls/commit/69e4c0ec6a287bfc1accfa338859c0994ae5da68).
 - Add Dropdown.
 - Add SearchBox.
 - Add Slider.
+- Add Collapse.
 - Add button group separator colors.
 
 ## 0.13.0
