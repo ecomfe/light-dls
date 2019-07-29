@@ -9,6 +9,8 @@
 - Add SearchBox.
 - Add Slider.
 - Add Collapse.
+- Add Tooltip.
+- Add Popover.
 - Add button group separator colors.
 
 ## 0.13.0
