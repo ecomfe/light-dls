@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.14.1
+
+- Fix missing variables for Pagination.
+
 ## 0.14.0
 
 - ⚠️ Rename `TextInput` to `Input`.

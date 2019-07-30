@@ -12,4 +12,7 @@ div {
   -dls-pagination-spacing-1: 4px;
   -dls-pagination-spacing-2: 12px;
   -dls-pagination-page-item-background-color-current: #f2f7ff;
+  -dls-pagination-page-item-border-color-current: #3d88f2;
+  -dls-pagination-page-item-font-color-current: #3d88f2;
+  -dls-pagination-page-item-font-weight-current: 500;
 }
