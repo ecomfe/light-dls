@@ -16,8 +16,16 @@
 @dls-pagination-page-items-margin-before: @dls-padding-unit * 10;
 @dls-pagination-page-items-margin-after: @dls-padding-unit * 5;
 
-@dls-pagination-spacing-1: @dls-padding-unit * 1;
+@dls-pagination-spacing-1: @dls-padding-unit * 2;
 @dls-pagination-spacing-2: @dls-padding-unit * 3;
+
+@dls-pagination-goto-input-padding-x: @dls-padding-unit * 2;
+@dls-pagination-goto-input-digits: 3;
+@dls-pagination-goto-input-width: dls-sum(
+  1ch * @dls-pagination-goto-input-digits,
+  @dls-pagination-goto-input-padding-x * 2,
+  2px
+);
 
 /* Colors */
 @dls-pagination-page-item-background-color-current: @dls-color-brand-1;

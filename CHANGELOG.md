@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.14.2
+
+- Add goto input variables for Pagination.
+
 ## 0.14.1
 
 - Fix missing variables for Pagination.

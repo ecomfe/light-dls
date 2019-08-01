@@ -9,8 +9,11 @@ div {
   -dls-pagination-page-item-spacing: 4px;
   -dls-pagination-page-items-margin-before: 40px;
   -dls-pagination-page-items-margin-after: 20px;
-  -dls-pagination-spacing-1: 4px;
+  -dls-pagination-spacing-1: 8px;
   -dls-pagination-spacing-2: 12px;
+  -dls-pagination-goto-input-padding-x: 8px;
+  -dls-pagination-goto-input-digits: 3;
+  -dls-pagination-goto-input-width: calc(3ch + 18px);
   -dls-pagination-page-item-background-color-current: #f2f7ff;
   -dls-pagination-page-item-border-color-current: #3d88f2;
   -dls-pagination-page-item-font-color-current: #3d88f2;
