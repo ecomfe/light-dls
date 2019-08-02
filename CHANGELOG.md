@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.14.3
+
+- Add `@dls-font-color-highlighted`, and make all search highlighted colors refer to it.
+- Add `@dls-tree-node-font-color-highlighted`.
+
 ## 0.14.2
 
 - Add goto input variables for Pagination.

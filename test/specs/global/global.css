@@ -78,6 +78,8 @@ div {
   -dls-font-color-aux: #666;
   -dls-font-color-weak: #999;
   -dls-font-color-disabled: #ccc;
+  -dls-font-color-error: #e64552;
+  -dls-font-color-highlighted: #f27c49;
   -dls-spacing-unit: 4px;
   -dls-padding-unit: 4px;
   -dls-height-unit: 4px;
