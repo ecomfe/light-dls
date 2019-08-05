@@ -1,0 +1,5 @@
+div {
+  -dls-embedded-title-font-size-s: 14px;
+  -dls-embedded-title-font-size-m: 16px;
+  -dls-embedded-close-icon-size: calc(1em - 4px);
+}

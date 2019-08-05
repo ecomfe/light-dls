@@ -1,5 +1,15 @@
 > ⚠️ - Breaking Changes
 
+## 0.15.0
+
+- Add Dialog.
+- Add Drawer.
+- Add Embedded.
+- Add Toast.
+- Add Alert.
+- Add Carousel.
+- Add min-height and panel spacing for Transfer.
+
 ## 0.14.3
 
 - Add `@dls-font-color-highlighted`, and make all search highlighted colors refer to it.

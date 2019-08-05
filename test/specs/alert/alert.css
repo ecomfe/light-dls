@@ -1,0 +1,37 @@
+div {
+  -dls-alert-font-size-s: 12px;
+  -dls-alert-font-size-m: 14px;
+  -dls-alert-border-radius-s: 2px;
+  -dls-alert-border-radius-m: 3px;
+  -dls-alert-line-height: 2;
+  -dls-alert-icon-size: 1em;
+  -dls-alert-icon-size-titled: calc(1em + 6px);
+  -dls-alert-icon-size-aux: calc(1em - 4px);
+  -dls-alert-padding-x: 16px;
+  -dls-alert-padding-y: 4px;
+  -dls-alert-padding-y-multiline: 8px;
+  -dls-alert-padding-y-titled: 16px;
+  -dls-alert-content-spacing-before: 8px;
+  -dls-alert-content-spacing-after: 16px;
+  -dls-alert-title-font-size-s: 12px;
+  -dls-alert-title-font-size-m: 14px;
+  -dls-alert-title-font-weight: 500;
+  -dls-alert-title-line-height: 1.5;
+  -dls-alert-title-spacing-after: 4px;
+  -dls-alert-font-color: #333;
+  -dls-alert-title-font-color: #333;
+  -dls-alert-background-color-info: #f2f7ff;
+  -dls-alert-background-color-success: #f2fff4;
+  -dls-alert-background-color-warning: #fff7f2;
+  -dls-alert-background-color-error: #fff2f2;
+  -dls-alert-border-color-info: #d9e6ff;
+  -dls-alert-border-color-success: #d0f2d5;
+  -dls-alert-border-color-warning: #ffe8db;
+  -dls-alert-border-color-error: #ffdbdc;
+  -dls-alert-icon-color-info: #3d88f2;
+  -dls-alert-icon-color-success: #39bf45;
+  -dls-alert-icon-color-warning: #f27c49;
+  -dls-alert-icon-color-error: #e64552;
+  -dls-alert-pages-spacing: 4px;
+  -dls-alert-pages-font-color: #999;
+}
