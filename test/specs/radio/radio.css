@@ -33,4 +33,5 @@ div {
   -dls-radio-dot-color-active: #2970cc;
   -dls-radio-dot-color-disabled: #d9e6ff;
   -dls-radio-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
+  -dls-radio-group-spacing: 48px;
 }
