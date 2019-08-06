@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.16.1
+
+- Update Link hover color.
+
 ## 0.16.0
 
 - ⚠️ Rename Breadcrumbs to Breadcrumb.
