@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.15.2
+
+- Fix min-height variables for Textarea.
+
 ## 0.15.1
 
 - Add spacing variables for Checkbox/Radio groups.
