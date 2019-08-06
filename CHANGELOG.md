@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.16.0
+
+- ⚠️ Rename Breadcrumbs to Breadcrumb.
+
 ## 0.15.2
 
 - Fix min-height variables for Textarea.

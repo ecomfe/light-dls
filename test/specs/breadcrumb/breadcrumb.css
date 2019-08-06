@@ -1,0 +1,8 @@
+div {
+  -dls-breadcrumb-font-size-s: 12px;
+  -dls-breadcrumb-font-size-m: 14px;
+  -dls-breadcrumb-separator-icon-size: calc(1em - 4px);
+  -dls-breadcrumb-separator-color: #999;
+  -dls-breadcrumb-separator-spacing: 8px;
+  -dls-breadcrumb-item-current-font-weight: 500;
+}
