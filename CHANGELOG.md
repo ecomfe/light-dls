@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 0.16.2
+
+- Add missing disabled colors and border radii for Collapse.
+- Add default connector length for vertical Steps.
+- Add option dropdown target spacing for Option.
+
 ## 0.16.1
 
 - Update Link hover color.

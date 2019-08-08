@@ -83,6 +83,8 @@ less
         '  '
       )
     )
+
+    console.log(`${variableTuples.length} variables generated.`)
   })
   .catch(e => {
     console.error(e)

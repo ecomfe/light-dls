@@ -20,6 +20,7 @@ div {
   -dls-steps-title-spacing: 4px;
   -dls-steps-connector-spacing-horizontal: 12px;
   -dls-steps-connector-spacing-vertical: 8px;
+  -dls-steps-connector-length-vertical: 60px;
   -dls-steps-marker-background-color-incomplete: #fff;
   -dls-steps-marker-border-color-incomplete: #e0e0e0;
   -dls-steps-marker-foreground-color-incomplete: #999;
