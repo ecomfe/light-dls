@@ -12,13 +12,10 @@ div {
   -dls-collapse-border-radius-s: 2px;
   -dls-collapse-border-radius-m: 3px;
   -dls-collapse-icon-size-aux: calc(1em - 4px);
+  -dls-collapse-border-color: #eee;
+  -dls-collapse-border-color-focus: #3d88f2;
   -dls-collapse-header-font-color: #333;
   -dls-collapse-header-font-color-disabled: #ccc;
-  -dls-collapse-header-border-color: #eee;
-  -dls-collapse-header-border-color-hover: #e0e0e0;
-  -dls-collapse-header-border-color-focus: #3d88f2;
-  -dls-collapse-header-border-color-active: #e0e0e0;
-  -dls-collapse-header-border-color-disabled: #eee;
   -dls-collapse-header-background-color: #fafafa;
   -dls-collapse-header-background-color-hover: #f5f5f5;
   -dls-collapse-header-background-color-focus: #f2f7ff;

@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.16.3
+
+- ⚠️ Merged Collapse border colors into `@dls-collapse-border-color` and `@dls-collapse-border-color-focus`.
+
 ## 0.16.2
 
 - Add missing disabled colors and border radii for Collapse.
