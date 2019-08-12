@@ -7,8 +7,11 @@ div {
   -dls-transfer-content-padding-y: 4px;
   -dls-transfer-item-height-s: 28px;
   -dls-transfer-item-height-m: 32px;
+  -dls-transfer-item-content-spacing: 8px;
   -dls-transfer-content-min-height-s: 288px;
   -dls-transfer-content-min-height-m: 328px;
+  -dls-transfer-panel-width-s: 236px;
+  -dls-transfer-panel-width-m: 268px;
   -dls-transfer-panel-spacing: 12px;
   -dls-transfer-header-height-s: 32px;
   -dls-transfer-header-height-m: 36px;

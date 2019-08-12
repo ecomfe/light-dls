@@ -1,8 +1,18 @@
 > ⚠️ - Breaking Changes
 
+## 0.17.0
+
+- ⚠️ Rename `panel` inside Collapse to `body` (align with Bootstrap naming).
+- ⚠️ Adjust variant styles for Tag.
+- Add contextual variants for Dialogs.
+- Add background and backdrop colors for Dialog.
+- Add border color and shadow for Embedded.
+- Add border radii for Popover.
+- Add panel width and item content spacing for Transfer.
+
 ## 0.16.3
 
-- ⚠️ Merged Collapse border colors into `@dls-collapse-border-color` and `@dls-collapse-border-color-focus`.
+- ⚠️ Merge Collapse border colors into `@dls-collapse-border-color` and `@dls-collapse-border-color-focus`.
 
 ## 0.16.2
 
