@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.17.1
+
+- ⚠️ Fix `@dls-dialog-close-icon-fullscreen` to `@dls-dialog-close-icon-size-fullscreen`.
+
 ## 0.17.0
 
 - ⚠️ Rename `panel` inside Collapse to `body` (align with Bootstrap naming).
