@@ -130,4 +130,6 @@ div {
   -dls-shadow-error-focus: 0 0 0 2px rgba(230, 69, 82, 0.2);
   -dls-icon-size-normal: 1em;
   -dls-icon-size-aux: calc(1em - 4px);
+  -dls-icon-color-aux: #999;
+  -dls-icon-color-aux-disabled: #ccc;
 }

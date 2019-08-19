@@ -3,6 +3,7 @@
 ## 0.17.1
 
 - ⚠️ Fix `@dls-dialog-close-icon-fullscreen` to `@dls-dialog-close-icon-size-fullscreen`.
+- Add `@dls-icon-color-aux` and `@dls-icon-color-aux-disabled`.
 
 ## 0.17.0
 

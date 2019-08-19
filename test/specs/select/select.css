@@ -8,4 +8,6 @@ div {
   -dls-select-content-spacing: 8px;
   -dls-select-tag-spacing: 4px;
   -dls-select-icon-size-aux: calc(1em - 4px);
+  -dls-select-icon-color-aux: #999;
+  -dls-select-icon-color-aux-disabled: #ccc;
 }

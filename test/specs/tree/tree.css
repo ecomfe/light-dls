@@ -7,6 +7,8 @@ div {
   -dls-tree-icon-size-aux: calc(1em - 4px);
   -dls-tree-padding-x: 16px;
   -dls-tree-node-content-spacing: 8px;
+  -dls-tree-icon-color-aux: #999;
+  -dls-tree-icon-color-aux-disabled: #ccc;
   -dls-tree-node-font-color: #333;
   -dls-tree-node-font-color-disabled: #ccc;
   -dls-tree-node-font-color-current: #3d88f2;
