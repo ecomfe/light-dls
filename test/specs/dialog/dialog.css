@@ -2,6 +2,7 @@ div {
   -dls-dialog-width-wide: 800px;
   -dls-dialog-width-medium: 600px;
   -dls-dialog-width-narrow: 400px;
+  -dls-dialog-width-contextual: 400px;
   -dls-dialog-border-radius: 4px;
   -dls-dialog-spacing-y: 20px;
   -dls-dialog-max-height: calc(100vh - 40px);
@@ -14,9 +15,15 @@ div {
   -dls-dialog-title-spacing-after-contextual: 4px;
   -dls-dialog-icon-spacing-contextual: 12px;
   -dls-dialog-icon-size-contextual: calc(1em + 4px);
+  -dls-dialog-title-line-height: 1.5;
+  -dls-dialog-body-line-height: 1.5;
+  -dls-dialog-body-line-height-contextual: 2;
   -dls-dialog-title-font-size-s: 14px;
   -dls-dialog-title-font-size-m: 16px;
+  -dls-dialog-body-font-size-s: 12px;
+  -dls-dialog-body-font-size-m: 14px;
   -dls-dialog-title-font-color: #000;
+  -dls-dialog-body-font-color: #333;
   -dls-dialog-close-icon-size: calc(1em - 4px);
   -dls-dialog-close-icon-size-fullscreen: calc(1em - 4px);
   -dls-dialog-close-icon-min-size: 10px;

@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.19.0
+
+- Add necessary variables for Dialog.
+
 ## 0.18.0
 
 - Add `@dls-icon-color-aux` and `@dls-icon-color-aux-disabled`.
