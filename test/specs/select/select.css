@@ -1,4 +1,5 @@
 div {
+  -dls-select-width: 300px;
   -dls-select-tag-height-xs: 16px;
   -dls-select-tag-height-s: 20px;
   -dls-select-tag-height-m: 24px;

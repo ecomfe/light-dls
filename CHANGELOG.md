@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 0.20.0
+
+- ⚠️ Use `@dls-steps-connector-min-length` instead of `@dls-steps-connector-length-vertical`.
+- Add default width for Select.
+- Add max width for Options.
+
 ## 0.19.0
 
 - Add necessary variables for Dialog.

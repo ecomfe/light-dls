@@ -11,6 +11,10 @@ div {
   -dls-option-padding-s: 16px;
   -dls-option-padding-m: 16px;
   -dls-option-padding-l: 16px;
+  -dls-option-max-width-xs: calc(40em + 32px);
+  -dls-option-max-width-s: calc(40em + 32px);
+  -dls-option-max-width-m: calc(40em + 32px);
+  -dls-option-max-width-l: calc(40em + 32px);
   -dls-option-label-spacing-before: 8px;
   -dls-option-label-spacing-after: 12px;
   -dls-option-font-color: #333;
