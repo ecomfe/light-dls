@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.20.1
+
+- Update global font family. Remove explicit `Helvetica Neue` due to its different line height across different font weights.
+
 ## 0.20.0
 
 - ⚠️ Use `@dls-steps-connector-min-length` instead of `@dls-steps-connector-length-vertical`.
