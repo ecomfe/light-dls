@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.20.2
+
+- Add `@dls-dropdown-icon-size-aux`.
+
 ## 0.20.1
 
 - Update global font family. Remove explicit `Helvetica Neue` due to its different line height across different font weights.
