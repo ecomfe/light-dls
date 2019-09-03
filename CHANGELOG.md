@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.20.3
+
+- Add variables for option dropdown border radii.
+
 ## 0.20.2
 
 - Add `@dls-dropdown-icon-size-aux`.
