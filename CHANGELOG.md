@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.21.1
+
+- Fix `esm` dependency.
+
 ## 0.21.0
 
 - Add CLI command to check implementation quality.

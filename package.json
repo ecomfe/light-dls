@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-dls",
-  "version": "0.21.0",
+  "version": "0.21.1",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
@@ -34,7 +34,6 @@
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "esm": "^3.2.25",
     "kolor": "^1.1.9",
     "less": "^3.9.0",
     "postcss-values-parser": "^3.0.4",
@@ -50,6 +49,7 @@
   },
   "dependencies": {
     "arg": "^4.1.1",
+    "esm": "^3.2.25",
     "fast-glob": "^3.0.4"
   }
 }
