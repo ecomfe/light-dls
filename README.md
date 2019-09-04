@@ -131,6 +131,48 @@ Default value: `true`.
 
 ## Tooling
 
+### CLI checker
+
+```sh
+npx dls check -c -o result.log
+```
+
+#### Commands
+
+##### `check`
+
+To check which variables are not used inside a directory. The current strategy is plain text search so that doesn't cover the case of Less's variable name interpolation.
+
+###### Options
+
+- `--dir` / `-d`
+
+  The target directory to check.
+
+  Default: `.`.
+
+- `--exclude` / `-x`
+
+  Comma-separated glob expression, indicates which files should be ignored.
+
+  Default: `node_modules,test`.
+
+  ```sh
+  npx dls check -x node_modules,test,dist # or --exclude=node_modules,test,dist
+  ```
+
+- `--components` / `-c`
+
+  If set, only component-level variables will be checked.
+
+- `--output` / `-o`
+
+  The output file for the check result.
+
+  ```sh
+  npx dls check -o result.log # or --output=result.log
+  ```
+
 ### Editor Extensions
 
 - **Baidu DLS (VS Code)**
