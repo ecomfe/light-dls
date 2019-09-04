@@ -1,0 +1,173 @@
+@import "../global.less";
+
+// Date Input see TextInput for input styles
+
+/**
+ * Date Picker Panel
+ *  only has small and middle size
+ */
+
+/* Font size */
+@dls-date-picker-font-size-s: @dls-font-size-s;
+@dls-date-picker-font-size-m: @dls-font-size-m;
+
+/* Background Color */
+@dls-date-picker-background-color: @dls-background-color-normal;
+
+/* Radius */
+@dls-date-picker-panel-border-radius-s: @dls-border-radius-s;
+@dls-date-picker-panel-border-radius-m: @dls-border-radius-m;
+
+/* Shadow */
+@dls-date-picker-panel-shadow: @dls-shadow;
+
+/**
+ * Date Picker Input
+ *  The difference between date-picker-input and default-input:
+ *  1. only has border at bottom
+ *  2. focus: shadows is 0 1 0 0, not fade
+ */
+
+/* Color */
+@dls-date-picker-input-border-color: @dls-border-color-strong;
+@dls-date-picker-input-border-color-hover: @dls-border-color-strong-hover;
+@dls-date-picker-input-border-color-focus: @dls-border-color-focus;
+@dls-date-picker-input-border-color-read-only: @dls-border-color-disabled;
+@dls-date-picker-input-border-color-read-only-hover: @dls-border-color-strong-hover;
+@dls-date-picker-input-border-color-read-only-focus: @dls-border-color-focus;
+
+/* Height */
+@dls-date-picker-input-height-s: @dls-height-s;
+@dls-date-picker-input-height-m: @dls-height-m;
+
+/* Padding */
+@dls-date-picker-input-padding: @dls-padding-unit * 3;
+
+/* Spacing */
+@dls-date-picker-input-range-spacing: @dls-spacing-unit * 3;
+
+@dls-date-picker-input-compare-range-spacing: @dls-spacing-unit * 2;
+@dls-date-picker-input-compare-panel-spacing: @dls-spacing-unit * 4;
+
+/**
+ * Date Picker Header
+ *  select year / month
+ */
+
+/* Font Size */
+@dls-date-picker-header-switch-btn-font-size-s: @dls-font-size-s - 2;
+@dls-date-picker-header-switch-btn-font-size-m: @dls-font-size-m - 2;
+@dls-date-picker-header-dropdown-arrow-font-size-s:  @dls-font-size-s - 4;
+@dls-date-picker-header-dropdown-arrow-font-size-m: @dls-font-size-m - 4;
+
+/* Padding & Spacing */
+@dls-date-picker-header-padding-x: @dls-padding-unit * 2;
+@dls-date-picker-header-padding-y: @dls-padding-unit * 4;
+@dls-date-picker-header-switch-btn-spacing: @dls-padding-unit * 3;
+@dls-date-picker-header-dropdown-arrow-spacing: @dls-padding-unit * 2;
+
+/**
+ * Date Picker Body
+ *  includes week header, day and month and year container
+ */
+@dls-date-picker-day-container-padding-x: @dls-padding-unit * 4;
+@dls-date-picker-day-container-padding-bottom: @dls-padding-unit * 4;
+@dls-date-picker-week-column-padding-top: @dls-padding-unit * 2;
+@dls-date-picker-week-column-padding-bottom: @dls-padding-unit * 3;
+
+@dls-date-picker-month-container-padding-top: @dls-padding-unit * 6;
+@dls-date-picker-year-container-padding-top: @dls-padding-unit * 6;
+
+
+/**
+ * Date Picker Cell
+ *  includes date picker cell, month picker and year picker
+ */
+
+/* Height */
+@dls-date-picker-cell-height-s: @dls-height-s;
+@dls-date-picker-cell-height-m: @dls-height-m;
+
+/* Border Radius */
+@dls-date-picker-cell-border-radius-s: @dls-border-radius-s;
+@dls-date-picker-cell-border-radius-m: @dls-border-radius-m;
+
+/* Focus rings */
+@dls-date-picker-cell-shadow-focus: @dls-shadow-focus;
+
+/* Font colors */
+@dls-date-picker-cell-font-color: @dls-font-color-normal;
+@dls-date-picker-cell-font-color-read-only: @dls-font-color-weak;
+@dls-date-picker-cell-font-color-disabled: @dls-font-color-disabled;
+
+/* Spacing, except for beginning and end */
+// day
+@dls-date-picker-day-cell-spacing-horizontal: @dls-spacing-unit;
+@dls-date-picker-day-cell-spacing-vertical: @dls-spacing-unit * 2;
+// month
+@dls-date-picker-month-cell-spacing-horizontal: @dls-spacing-unit * 5;
+@dls-date-picker-month-cell-spacing-vertical: @dls-spacing-unit * 6;
+// year
+@dls-date-picker-year-cell-spacing-horizontal: @dls-spacing-unit* 5;
+@dls-date-picker-year-cell-spacing-vertical: @dls-spacing-unit * 2;
+
+/* Background */
+// default
+@dls-date-picker-cell-background-color: @dls-color-gray-1;
+@dls-date-picker-cell-background-color-hover: @dls-color-brand-1;
+@dls-date-picker-cell-background-color-focus: @dls-color-brand-1;
+@dls-date-picker-cell-background-color-active: @dls-color-brand-2;
+@dls-date-picker-cell-background-color-disabled: @dls-color-gray-2;
+
+// range end
+@dls-date-picker-cell-background-color-range-end-hover: @dls-color-brand-1;
+@dls-date-picker-cell-background-color-range-end-focus: @dls-color-brand-2;
+
+// selected
+@dls-date-picker-cell-background-color-selected: @dls-color-brand-6;
+@dls-date-picker-cell-background-color-selected-hover: @dls-color-brand-5;
+@dls-date-picker-cell-background-color-selected-focus: @dls-color-brand-5;
+@dls-date-picker-cell-background-color-selected-active: @dls-color-brand-7;
+
+// readonly
+@dls-date-picker-cell-background-color-read-only: @dls-color-gray-1;
+@dls-date-picker-cell-background-color-read-only-selected: @dls-color-gray-3;
+@dls-date-picker-cell-background-color-read-only-focus: @dls-color-gray-3;
+@dls-date-picker-cell-background-color-read-only-active: @dls-color-gray-4;
+
+/* Border Color */
+@dls-date-picker-cell-border-color: transparent;
+@dls-date-picker-input-border-color-focus: @dls-color-brand-6;
+
+// range end
+@dls-date-picker-input-border-color-hover: @dls-color-brand-6;
+@dls-date-picker-input-border-color-active: @dls-color-brand-6;
+
+// readonly
+@dls-date-picker-input-border-color-read-only-focus: @dls-color-brand-6;
+
+/**
+ * Year Scroller
+ */
+
+@dls-date-picker-year-scroller-width: 80px;
+@dls-date-picker-year-scroller-height-m: @dls-height-m;
+@dls-date-picker-year-scroller-height-s: @dls-height-s;
+
+@dls-date-picker-year-scroller-background-color: @dls-background-color-normal;
+@dls-date-picker-year-scroller-background-color-focus: @dls-background-color-normal-focus;
+@dls-date-picker-year-scroller-background-color-hover: @dls-background-color-normal-hover;
+@dls-date-picker-year-scroller-background-color-active: @dls-background-color-normal-active;
+
+@dls-date-picker-year-scroller-font-color: @dls-font-color-normal;
+@dls-date-picker-year-scroller-font-color-focus: @dls-font-color-aux;
+@dls-date-picker-year-scroller-font-color-hover: @dls-font-color-aux;
+@dls-date-picker-year-scroller-font-color-active: @dls-font-color-strong;
+
+@dls-date-picker-year-scroller-font-color-selected: @dls-color-brand-6;
+@dls-date-picker-year-scroller-font-color-selected-focus: @dls-color-brand-5;
+@dls-date-picker-year-scroller-font-color-selected-hover: @dls-color-brand-5;
+@dls-date-picker-year-scroller-font-color-selected-active: @dls-color-brand-7;
+
+@dls-date-picker-year-scroller-font-weight-selected: @dls-font-weight-2;
+
