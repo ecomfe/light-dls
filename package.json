@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-dls",
-  "version": "0.20.3",
+  "version": "0.21.0",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "test": "node -r esm test/run.js",
     "build": "rollup -c && cp src/index.js dist/index.js && node -r esm build/vars.js",
     "prepublishOnly": "npm run test"
+  },
+  "bin": {
+    "dls": "bin/dls"
   },
   "keywords": [
     "less",
@@ -44,5 +47,9 @@
     "stylelint": "^10.0.1",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-standard": "^18.3.0"
+  },
+  "dependencies": {
+    "arg": "^4.1.1",
+    "fast-glob": "^3.0.4"
   }
 }

@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.21.0
+
+- Add CLI command to check implementation quality.
+
 ## 0.20.3
 
 - Add variables for option dropdown border radii.

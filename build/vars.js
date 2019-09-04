@@ -61,6 +61,7 @@ less
       return map
     }, new Map())
 
+    // generate variables.json
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.json'),
       JSON.stringify(
