@@ -1,5 +1,14 @@
 > ⚠️ - Breaking Changes
 
+## 0.23.0
+
+- ⚠️ Rename `@dls-tag-icon-size` to `@dls-tag-icon-size-aux`.
+- Add icon variables for Input.
+
+## 0.22.0
+
+- Conditionally inject tokens only if a file matches the
+
 ## 0.21.1
 
 - Fix `esm` dependency.
