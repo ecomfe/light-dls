@@ -1,12 +1,16 @@
 import path from 'path'
 
 const SELF_MODULE_PATH = path.resolve(__dirname, '..')
+const INJECT_HINT = /@dls-|\bdls(-\w+)+\(/
 const ENTRY_LESS = path.resolve(__dirname, '../tokens/index.less')
 
 class Injector {
   process (src, extra) {
     // Don't inject self
-    if (extra.fileInfo.filename.indexOf(SELF_MODULE_PATH) >= 0) {
+    if (
+      extra.fileInfo.filename.indexOf(SELF_MODULE_PATH) >= 0 ||
+      !INJECT_HINT.test(src)
+    ) {
       return src
     }
 
