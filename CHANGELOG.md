@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.23.1
+
+- Revert optimization due to unexpected failure in certain cases.
+
 ## 0.23.0
 
 - ⚠️ Rename `@dls-tag-icon-size` to `@dls-tag-icon-size-aux`.
