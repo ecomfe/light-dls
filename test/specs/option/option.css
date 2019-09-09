@@ -51,4 +51,6 @@ div {
   -dls-option-dropdown-border-radius-l: 4px;
   -dls-option-dropdown-target-spacing: 4px;
   -dls-option-dropdown-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  -dls-option-dropdown-placeholder-padding-y: 8px;
+  -dls-option-dropdown-placeholder-font-color: #ccc;
 }

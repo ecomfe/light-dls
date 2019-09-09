@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.23.3
+
+- ⚠️ Revert 0.23.2: remove Tag font sizes in Select.
+- Add Option dropdown placeholder variables.
+
 ## 0.23.2
 
 - Add Tag font sizes in Select.
