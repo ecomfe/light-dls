@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.23.2
+
+- Add Tag font sizes in Select.
+
 ## 0.23.1
 
 - Revert optimization due to unexpected failure in certain cases.
