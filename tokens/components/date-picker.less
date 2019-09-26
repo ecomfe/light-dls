@@ -3,7 +3,7 @@
 // Date Input see TextInput for input styles
 
 /**
- * Date Picker Panel
+ * Date Picker Dropdown
  *  only has small and middle size
  */
 
@@ -15,13 +15,12 @@
 @dls-date-picker-background-color: @dls-background-color-normal;
 
 /* Radius */
-@dls-date-picker-panel-border-radius-s: @dls-border-radius-s;
-@dls-date-picker-panel-border-radius-m: @dls-border-radius-m;
+@dls-date-picker-dropdown-border-radius-s: @dls-border-radius-s;
+@dls-date-picker-dropdown-border-radius-m: @dls-border-radius-m;
 
 /* Shadow */
-@dls-date-picker-panel-shadow: @dls-shadow;
+@dls-date-picker-dropdown-shadow: @dls-shadow;
 
-@dls-date-picker-panel-separator-color: @dls-border-color-normal;
 
 /**
  * Date Picker Input
@@ -30,12 +29,16 @@
  *  2. focus: shadows is 0 1 0 0, not fade
  */
 
-/* Height */
-@dls-date-picker-input-height-s: @dls-height-s;
-@dls-date-picker-input-height-m: @dls-height-m;
-
 /* Spacing */
 @dls-date-picker-input-range-spacing: @dls-spacing-unit * 3;
+
+
+/**
+ * Date Picker Plane
+ */
+
+@dls-date-picker-panel-separator-color: @dls-border-color-normal;
+@dls-date-picker-panel-padding-x:  @dls-padding-unit * 4;
 
 /**
  * Date Picker Header
@@ -54,17 +57,14 @@
 
 /**
  * Date Picker Body
- *  includes day-header（weekdays）, day and month and year body
+ *  includes weekdays, day and month and year body
  */
-@dls-date-picker-day-header-padding-top: @dls-padding-unit * 2; // 星期距分割线
-@dls-date-picker-day-body-padding-x: @dls-padding-unit * 4;
-@dls-date-picker-day-body-padding-top: @dls-padding-unit * 3;
+@dls-date-picker-weekdays-padding-y: @dls-padding-unit * 2; // 星期距分割线
+
 @dls-date-picker-day-body-padding-bottom: @dls-padding-unit * 4;
 
 @dls-date-picker-month-body-padding-top: @dls-padding-unit * 6;
-@dls-date-picker-month-body-padding-y: @dls-padding-unit * 4;
 @dls-date-picker-year-body-padding-top: @dls-padding-unit * 6;
-@dls-date-picker-month-body-padding-y: @dls-padding-unit * 4;
 
 /**
  * Date Picker Cell
