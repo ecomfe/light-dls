@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.24.2
+
+- Fix `.dlsignore` comments.
+- Fix `dls check` without `--components` argument.
+
 ## 0.24.1
 
 - Add `@dls-carousel-pages-border-radius` for Carousel.
