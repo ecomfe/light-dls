@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.24.1
+
+- Add `@dls-carousel-pages-border-radius` for Carousel.
+
 ## 0.24.0
 
 - Add `@dls-time-picker-icon-color` for TimePicker.

@@ -13,8 +13,10 @@ div {
   -dls-carousel-control-border-radius: 50%;
   -dls-carousel-control-icon-size: 12px;
   -dls-carousel-control-spacing: 24px;
+  -dls-carousel-pages-height: 20px;
   -dls-carousel-pages-font-size: 12px;
   -dls-carousel-pages-font-color: #fff;
   -dls-carousel-pages-background-color: rgba(0, 0, 0, 0.2);
   -dls-carousel-pages-padding-x: 4px;
+  -dls-carousel-pages-border-radius: 2px;
 }
