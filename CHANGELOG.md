@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 0.24.0
+
+- Add `@dls-time-picker-icon-color` for TimePicker.
+- Update indicator size for Carousel.
+- ⚠️ Add support for specifying which components will be checked when running `dls check`. `--components` now requires an argument value.
+
 ## 0.23.3
 
 - ⚠️ Revert 0.23.2: remove Tag font sizes in Select.

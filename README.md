@@ -163,7 +163,9 @@ To check which variables are not used inside a directory. The current strategy i
 
 - `--components` / `-c`
 
-  If set, only component-level variables will be checked.
+  Comma-separated component names to specify which component-level variables will be checked. `--components=all` will check all component-level variables.
+
+  Variables can be ignored if you put a `.dlsignore` file under the project root directory, with each variable (should be prefixed by `@`) on a single line. Lines leaded by `#` will be treated as comments.
 
 - `--output` / `-o`
 

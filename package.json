@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-dls",
-  "version": "0.23.3",
+  "version": "0.24.0",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
@@ -50,6 +50,7 @@
   "dependencies": {
     "arg": "^4.1.1",
     "esm": "^3.2.25",
-    "fast-glob": "^3.0.4"
+    "fast-glob": "^3.0.4",
+    "pkg-dir": "^4.2.0"
   }
 }
