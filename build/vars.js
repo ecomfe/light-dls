@@ -61,6 +61,14 @@ less
       return map
     }, new Map())
 
+    // generate variables.less
+    fs.writeFileSync(
+      path.resolve(__dirname, '..', 'variables.less'),
+      variableTuples.map(([key, value]) => `@${key}: ${value};`).join('\n') +
+        '\n',
+      'utf8'
+    )
+
     // generate variables.json
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.json'),
@@ -82,7 +90,8 @@ less
           ),
         null,
         '  '
-      )
+      ),
+      'utf8'
     )
 
     console.log(`${variableTuples.length} variables generated.`)

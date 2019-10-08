@@ -3,4 +3,5 @@ node_modules
 npm-debug.log
 .vscode
 **/dist
-variables.json
+/variables.json
+/variables.less
