@@ -13,7 +13,7 @@ div {
   -dls-progress-border-radius-s: 2px;
   -dls-progress-border-radius-m: 4px;
   -dls-progress-track-spacing-bar: 8px;
-  -dls-progress-icon-spacing-bar: 4px;
+  -dls-progress-icon-spacing-bar: 12px;
   -dls-progress-track-color: #eee;
   -dls-progress-indicator-color: #3d88f2;
   -dls-progress-indicator-color-success: #39bf45;
