@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.25.0
+
+- ⚠️ Remove `@dls-checkbox-strong-check-icon-spacing`.
+- ⚠️ Remove `@dls-checkbox-strong-checked-separator-color` and `@dls-checkbox-strong-checked-separator-color-disabled`. Use `@dls-button-group-separator-color-primary` and `@dls-button-group-separator-color-primary-disabled` instead.
+
 ## 0.24.2
 
 - Fix `.dlsignore` comments.
