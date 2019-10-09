@@ -4,8 +4,9 @@
 
 - ⚠️ Remove `@dls-checkbox-strong-check-icon-spacing`.
 - ⚠️ Remove `@dls-checkbox-strong-checked-separator-color` and `@dls-checkbox-strong-checked-separator-color-disabled`. Use `@dls-button-group-separator-color-primary` and `@dls-button-group-separator-color-primary-disabled` instead.
-- ⚠️ Remove the redundant `@dls-tooltip-arrow-height` because tooltip arrows are designed as right triangles.
-- Update value of `@dls-progress-icon-spacing-bar`.
+- ⚠️ Remove the redundant `@dls-tooltip-arrow-height` as tooltip arrows are designed as right triangles.
+- ⚠️ Remove `@dls-slider-label-spacing` as it should be always consistent with Tooltip's arrow spacing.
+- Fix value of `@dls-progress-icon-spacing-bar`.
 
 ## 0.24.2
 
