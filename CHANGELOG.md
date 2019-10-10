@@ -7,6 +7,7 @@
 - ⚠️ Remove the redundant `@dls-tooltip-arrow-height` as tooltip arrows are designed as right triangles.
 - ⚠️ Remove `@dls-slider-label-spacing` as it should be always consistent with Tooltip's arrow spacing.
 - Fix value of `@dls-progress-icon-spacing-bar`.
+- Add `@dls-time-picker-icon-color-disabled`.
 
 ## 0.24.2
 
