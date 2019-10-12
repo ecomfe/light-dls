@@ -167,6 +167,11 @@ To check which variables are not used inside a directory. The current strategy i
 
   Variables can be ignored if you put a `.dlsignore` file under the project root directory, with each variable (should be prefixed by `@`) on a single line. Lines leaded by `#` will be treated as comments.
 
+  ```sh
+  npx dls check -c button,select # or --components=button,select
+  npx dls check -c all # or --components=all
+  ```
+
 - `--output` / `-o`
 
   The output file for the check result.
