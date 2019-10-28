@@ -26,7 +26,8 @@
  */
 
 /* Spacing */
-@dls-date-picker-input-range-spacing: @dls-spacing-unit * 3;
+@dls-date-picker-range-connector-padding-x: @dls-spacing-unit * 3; // The "~" connector for ranges
+@dls-date-picker-range-panel-spacing: @dls-spacing-unit * 2;
 
 /**
  * DatePicker panel
@@ -45,7 +46,6 @@
 @dls-date-picker-header-icon-size-aux: @dls-icon-size-aux; // expand/collapse
 
 /* Padding & spacing */
-@dls-date-picker-header-padding-x: @dls-padding-unit * 4;
 @dls-date-picker-header-padding-y: @dls-padding-unit * 2;
 @dls-date-picker-header-pagination-spacing: @dls-padding-unit * 3; // between pagination icons
 @dls-date-picker-header-icon-aux-spacing: @dls-padding-unit * 2; // between label & toggle icon
@@ -54,11 +54,9 @@
  * DatePicker body,
  * including weekdays, day/month/year body
  */
-@dls-date-picker-weekdays-padding-y: @dls-padding-unit * 2;
-@dls-date-picker-weekdays-spacing-after: @dls-padding-unit * 1; // P2 + P1 = P3
-
 @dls-date-picker-day-body-padding-top: @dls-padding-unit * 2;
 @dls-date-picker-day-body-padding-bottom: @dls-padding-unit * 4;
+@dls-date-picker-weekdays-spacing-after: @dls-padding-unit * 3;
 @dls-date-picker-month-body-padding-top: @dls-padding-unit * 6;
 @dls-date-picker-year-body-padding-top: @dls-padding-unit * 6;
 
@@ -108,7 +106,7 @@
 // default & in-range
 @dls-date-picker-cell-background-color: @dls-background-color-normal;
 @dls-date-picker-cell-background-color-focus: @dls-background-color-normal-focus;
-@dls-date-picker-cell-background-color-disabled: @dls-background-color-disabled;
+@dls-date-picker-cell-background-color-disabled: @dls-date-picker-cell-background-color;
 @dls-date-picker-cell-background-color-hover: @dls-color-brand-1;
 @dls-date-picker-cell-background-color-active: @dls-color-brand-2;
 
@@ -119,7 +117,7 @@
 @dls-date-picker-cell-background-color-selected-active: @dls-color-brand-7;
 
 // aux
-@dls-date-picker-cell-background-color-aux: @dls-background-color-normal;
+@dls-date-picker-cell-background-color-aux: @dls-date-picker-cell-background-color;
 @dls-date-picker-cell-background-color-aux-hover: @dls-background-color-normal-hover;
 @dls-date-picker-cell-background-color-aux-focus: @dls-background-color-normal-hover;
 @dls-date-picker-cell-background-color-aux-active: @dls-background-color-normal-active;
