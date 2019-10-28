@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.0
+
+- Add DatePicker.
+
 ## 0.25.0
 
 - ⚠️ Remove `@dls-checkbox-strong-check-icon-spacing`.
