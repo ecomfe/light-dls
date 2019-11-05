@@ -1,0 +1,35 @@
+div {
+  -dls-upload-font-size-s: 12px;
+  -dls-upload-font-size-m: 14px;
+  -dls-upload-file-button-spacing-right: 8px;
+  -dls-upload-file-button-spacing-bottom: 4px;
+  -dls-upload-file-button-notice-color: #999;
+  -dls-upload-file-button-margin-y: 12px;
+  -dls-upload-file-list-item-icon-spacing: 4px;
+  -dls-upload-file-list-item-title-spacing: 8px;
+  -dls-upload-file-list-item-close-icon-spacing: 4px;
+  -dls-upload-file-list-item-width: 252px;
+  -dls-upload-file-list-item-height: 20px;
+  -dls-upload-file-list-item-background-color: transparent;
+  -dls-upload-file-list-item-background-color-hover: #999;
+  -dls-upload-file-list-item-font-color: #333;
+  -dls-upload-file-list-item-padding-y-medium: 12px;
+  -dls-upload-file-list-item-padding-y-small: 8px;
+  -dls-upload-file-slider-width: 252px;
+  -dls-upload-error-color: #e64552;
+  -dls-upload-success-color: #39bf45;
+  -dls-upload-image-anchor-height: 120px;
+  -dls-upload-image-anchor-width: 120px;
+  -dls-upload-image-anchor-icon-height: 40px;
+  -dls-upload-image-anchor-icon-width: 40px;
+  -dls-upload-image-anchor-padding-top: 36px;
+  -dls-upload-image-anchor-slider-spacing-top: 8px;
+  -dls-upload-image-view-mask-background-color: #000;
+  -dls-upload-image-view-mask-opacity: 0.6;
+  -dls-upload-image-view-mask-icon-color: #fff;
+  -dls-upload-image-view-mask-icon-spacing: 12px;
+  -dls-upload-image-view-mask-padding-y: 4px;
+  -dls-upload-image-multiple-view-spacing: 16px;
+  -dls-upload-image-multiple-view-error-spacing: 12px;
+  -dls-upload-image-multiple-error-text-spacing: 4px;
+}
