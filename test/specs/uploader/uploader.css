@@ -1,0 +1,32 @@
+div {
+  -dls-uploader-font-size-s: 12px;
+  -dls-uploader-font-size-m: 14px;
+  -dls-uploader-helper-text-spacing-x: 8px;
+  -dls-uploader-helper-text-spacing-y: 4px;
+  -dls-uploader-helper-text-font-color: #999;
+  -dls-uploader-file-item-spacing-y: 12px;
+  -dls-uploader-file-item-label-spacing-before: 4px;
+  -dls-uploader-file-item-label-spacing-after: 8px;
+  -dls-uploader-file-item-close-icon-spacing: 4px;
+  -dls-uploader-file-item-width: 252px;
+  -dls-uploader-file-item-height: 20px;
+  -dls-uploader-file-item-background-color: transparent;
+  -dls-uploader-file-item-background-color-hover: #999;
+  -dls-uploader-file-item-font-color: #333;
+  -dls-uploader-file-progress-width: 244px;
+  -dls-uploader-error-color: #e64552;
+  -dls-uploader-success-color: #39bf45;
+  -dls-uploader-image-anchor-height: 120px;
+  -dls-uploader-image-anchor-width: 120px;
+  -dls-uploader-image-anchor-icon-height: 40px;
+  -dls-uploader-image-anchor-icon-width: 40px;
+  -dls-uploader-image-anchor-padding-top: 36px;
+  -dls-uploader-image-progress-spacing-before: 8px;
+  -dls-uploader-mask-icon-color: #fff;
+  -dls-uploader-mask-icon-spacing: 12px;
+  -dls-uploader-mask-padding-y: 4px;
+  -dls-uploader-mask-padding-x: 12px;
+  -dls-uploader-image-spacing: 16px;
+  -dls-uploader-image-spacing-y: 36px;
+  -dls-uploader-image-error-spacing: 4px;
+}
