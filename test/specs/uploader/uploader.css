@@ -16,11 +16,11 @@ div {
   -dls-uploader-file-progress-width: 244px;
   -dls-uploader-error-color: #e64552;
   -dls-uploader-success-color: #39bf45;
-  -dls-uploader-image-anchor-height: 120px;
-  -dls-uploader-image-anchor-width: 120px;
-  -dls-uploader-image-anchor-icon-height: 40px;
-  -dls-uploader-image-anchor-icon-width: 40px;
-  -dls-uploader-image-anchor-padding-top: 36px;
+  -dls-uploader-image-height: 120px;
+  -dls-uploader-image-width: 120px;
+  -dls-uploader-image-icon-height: 40px;
+  -dls-uploader-image-icon-width: 40px;
+  -dls-uploader-image-padding-top: 36px;
   -dls-uploader-image-progress-spacing-before: 8px;
   -dls-uploader-mask-icon-color: #fff;
   -dls-uploader-mask-icon-spacing: 12px;
