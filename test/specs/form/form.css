@@ -1,0 +1,8 @@
+div {
+  -dls-form-field-spacing-y: 36px;
+  -dls-form-field-spacing-x: 60px;
+  -dls-form-operation-spacing: 40px;
+  -dls-form-label-spacing-y: 8px;
+  -dls-form-label-spacing-x: 24px;
+  -dls-form-error-message-spacing: 4px;
+}
