@@ -4,7 +4,7 @@
 
 Less plugin for Baidu DLS.
 
-🚧 This is a work in progress. 🚧
+🚧 `less-plugin-dls` is a work in progress. 🚧
 
 ## Installation
 
@@ -66,7 +66,7 @@ To generate contextual colors according to the given brand color.
 
 ### `dls-shade(@color, @level)`
 
-To generate a specific level of shade of the given base color.
+To generate a specific shade level of the given base color.
 
 **Params**:
 
@@ -113,7 +113,7 @@ Will return `@line-height` directly if it is an absolute length (eg. `15px`, `2e
 
 **Return value**:
 
-The absolute length of the line height.
+The absolute length of the line-height.
 
 ```less
 @h1: dls-line-height(1.5, 16px); // → 24px
@@ -125,7 +125,7 @@ The absolute length of the line height.
 
 ### `reduceCalc: boolean`
 
-Whether to reduce `calc` expression to the simplest form.
+Indicates whether to reduce `calc` expression to the simplest form or not.
 
 Default value: `true`.
 
@@ -165,7 +165,7 @@ To check which variables are not used inside a directory. The current strategy i
 
   Comma-separated component names to specify which component-level variables will be checked. `--components=all` will check all component-level variables.
 
-  Variables can be ignored if you put a `.dlsignore` file under the project root directory, with each variable (should be prefixed by `@`) on a single line. Lines leaded by `#` will be treated as comments.
+  Variables can be ignored if you put a `.dlsignore` file under the project root directory, with each variable (should be prefixed by `@`) on a single line. Lines led by `#` will be treated as comments.
 
   ```sh
   npx dls check -c button,select # or --components=button,select

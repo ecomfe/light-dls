@@ -8,8 +8,8 @@
 
 - ⚠️ Remove `@dls-checkbox-strong-check-icon-spacing`.
 - ⚠️ Remove `@dls-checkbox-strong-checked-separator-color` and `@dls-checkbox-strong-checked-separator-color-disabled`. Use `@dls-button-group-separator-color-primary` and `@dls-button-group-separator-color-primary-disabled` instead.
-- ⚠️ Remove the redundant `@dls-tooltip-arrow-height` as tooltip arrows are designed as right triangles.
-- ⚠️ Remove `@dls-slider-label-spacing` as it should be always consistent with Tooltip's arrow spacing.
+- ⚠️ Remove the redundant `@dls-tooltip-arrow-height` as tooltip arrows are designed to be right triangles.
+- ⚠️ Remove `@dls-slider-label-spacing` as it should always be consistent with Tooltip's arrow spacing.
 - Fix value of `@dls-progress-icon-spacing-bar`.
 - Add `@dls-time-picker-icon-color-disabled`.
 
@@ -26,7 +26,7 @@
 
 - Add `@dls-time-picker-icon-color` for TimePicker.
 - Update indicator size for Carousel.
-- ⚠️ Add support for specifying which components will be checked when running `dls check`. `--components` now requires an argument value.
+- ⚠️ Add support for specifying which components will be checked against when running `dls check`. `--components` now requires an argument value.
 
 ## 0.23.3
 
@@ -68,13 +68,13 @@
 
 ## 0.20.1
 
-- Update global font family. Remove explicit `Helvetica Neue` due to its different line height across different font weights.
+- Update the global font family. Remove explicit `Helvetica Neue` due to its different line-height across different font weights.
 
 ## 0.20.0
 
 - ⚠️ Use `@dls-steps-connector-min-length` instead of `@dls-steps-connector-length-vertical`.
 - Add default width for Select.
-- Add max width for Options.
+- Add max-width for Options.
 
 ## 0.19.0
 
@@ -153,7 +153,7 @@
 - ⚠️ Rename `TextInput` to `Input`.
 - ⚠️ Remove interactive variants for option toggle icons.
 - ⚠️ Remove `@dls-progress-icon-color`.
-- ⚠️ Use separate global border colors with their own interactive style variants. See [69e4c0e](https://github.com/ecomfe/less-plugin-dls/commit/69e4c0ec6a287bfc1accfa338859c0994ae5da68).
+- ⚠️ Use separate global border colors with their interactive style variants. See [69e4c0e](https://github.com/ecomfe/less-plugin-dls/commit/69e4c0ec6a287bfc1accfa338859c0994ae5da68).
 - Add Dropdown.
 - Add SearchBox.
 - Add Slider.
@@ -204,7 +204,7 @@
 
 ## 0.9.1
 
-- Add check icon variables for strong Checkbox.
+- Add check icon variables for strong Checkboxes.
 
 ## 0.9.0
 
@@ -264,7 +264,7 @@
 
 ## 0.1.4
 
-- Added equal value information in exported meta file.
+- Added equal value information in the exported metafile.
 
 ## 0.1.3
 
