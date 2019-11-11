@@ -2,6 +2,7 @@
 
 ## 0.26.1
 
+- ⚠️ Remove `@dls-dialog-body-line-height-contextual`.
 - Fix value for `@dls-dialog-body-line-height`.
 
 ## 0.26.0
