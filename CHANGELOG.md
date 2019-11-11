@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.1
+
+- Fix value for `@dls-dialog-body-line-height`.
+
 ## 0.26.0
 
 - Add DatePicker.
