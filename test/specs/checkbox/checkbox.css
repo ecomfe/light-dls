@@ -36,8 +36,8 @@ div {
   -dls-checkbox-shadow-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
   -dls-checkbox-strong-check-icon-color: #ccc;
   -dls-checkbox-strong-check-icon-color-disabled: #e0e0e0;
-  -dls-checkbox-strong-check-icon-color-checked: #fff;
-  -dls-checkbox-strong-check-icon-color-checked-disabled: #fff;
+  -dls-checkbox-strong-check-icon-color-checked: currentColor;
+  -dls-checkbox-strong-check-icon-color-checked-disabled: currentColor;
   -dls-checkbox-strong-check-icon-size: 8px;
   -dls-checkbox-group-spacing: 48px;
 }
