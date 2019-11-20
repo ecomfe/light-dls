@@ -63,7 +63,11 @@
 
 /* Focus rings */
 @dls-input-shadow-focus: @dls-shadow-focus;
+@dls-input-shadow-inline-focus: 0 1px 0 0
+  fade(@dls-shadow-color-focus, percentage(@dls-shadow-opacity-focus));
 @dls-input-shadow-error-focus: @dls-shadow-error-focus;
+@dls-input-shadow-inline-error-focus: 0 1px 0 0
+  fade(@dls-shadow-color-error-focus, percentage(@dls-shadow-opacity-focus));
 
 /* Icons */
 // Clear icon or clock/calendar icon used in TimePicker/DatePicker

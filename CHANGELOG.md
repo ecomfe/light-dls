@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.2
+
+- Update checkmark color for strong CheckboxGroup.
+- Add inline style variables for Input.
+
 ## 0.26.1
 
 - ⚠️ Remove `@dls-dialog-body-line-height-contextual`.
