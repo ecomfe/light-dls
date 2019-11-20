@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.3
+
+- Fix box shadow color for inline Input.
+
 ## 0.26.2
 
 - Update checkmark color for strong CheckboxGroup.
