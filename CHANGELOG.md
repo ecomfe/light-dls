@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.4
+
+- Add missing variables for Uploader.
+
 ## 0.26.3
 
 - Fix box shadow color for inline Input.
