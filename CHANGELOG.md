@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.5
+
+- Adjust the max-width of Tooltip.
+
 ## 0.26.4
 
 - Add missing variables for Uploader.

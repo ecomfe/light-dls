@@ -1,5 +1,5 @@
 div {
-  -dls-tooltip-max-width: 10em;
+  -dls-tooltip-max-width: calc(16em + 16px);
   -dls-tooltip-font-size: 12px;
   -dls-tooltip-line-height: 1.5;
   -dls-tooltip-padding-x: 8px;
