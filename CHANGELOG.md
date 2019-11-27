@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.6
+
+- Adjust default width of NumberInput.
+- Add global overflow shadow.
+
 ## 0.26.5
 
 - Adjust the max-width of Tooltip.
