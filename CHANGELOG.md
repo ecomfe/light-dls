@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.7
+
+- Fix Dropdown button padding.
+- Add Uploader mask opacity.
+
 ## 0.26.6
 
 - Adjust default width of NumberInput.
