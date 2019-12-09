@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.26.8
+
+- Fix error font color for Input.
+
 ## 0.26.7
 
 - Fix Dropdown button padding.
