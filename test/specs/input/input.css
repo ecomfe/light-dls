@@ -28,7 +28,7 @@ div {
   -dls-input-background-color-read-only: #fafafa;
   -dls-input-background-color-disabled: #fafafa;
   -dls-input-font-color: #333;
-  -dls-input-font-color-error: #e64552;
+  -dls-input-font-color-error: #333;
   -dls-input-font-color-read-only: #999;
   -dls-input-font-color-disabled: #ccc;
   -dls-input-placeholder-color: #999;
