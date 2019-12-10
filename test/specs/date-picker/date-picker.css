@@ -5,6 +5,8 @@ div {
   -dls-date-picker-dropdown-border-radius-s: 2px;
   -dls-date-picker-dropdown-border-radius-m: 3px;
   -dls-date-picker-dropdown-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  -dls-date-picker-icon-color: #999;
+  -dls-date-picker-icon-color-disabled: #ccc;
   -dls-date-picker-range-connector-padding-x: 12px;
   -dls-date-picker-range-panel-spacing: 8px;
   -dls-date-picker-panel-separator-color: #eee;

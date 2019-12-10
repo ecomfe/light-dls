@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.27.0
+
+- Add `@dls-date-picker-icon-color` & `@dls-date-picker-icon-color-disabled`.
+
 ## 0.26.8
 
 - Fix error font color for Input.
