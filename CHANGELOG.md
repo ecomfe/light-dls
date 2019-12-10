@@ -2,6 +2,8 @@
 
 ## 0.27.0
 
+- ⚠️ Remove `@dls-uploader-file-progress-width` and `@dls-uploader-file-item-close-icon-spacing`. Use `@dls-uploader-file-item-width` with `@dls-uploader-file-item-padding-x` instead.
+- Add `@dls-uploader-file-item-padding-x`.
 - Add `@dls-date-picker-icon-color` & `@dls-date-picker-icon-color-disabled`.
 
 ## 0.26.8

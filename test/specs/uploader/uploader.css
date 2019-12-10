@@ -8,12 +8,11 @@ div {
   -dls-uploader-file-item-label-spacing-before: 4px;
   -dls-uploader-file-item-label-spacing-after: 8px;
   -dls-uploader-file-item-close-icon-spacing: 4px;
-  -dls-uploader-file-item-width: 252px;
+  -dls-uploader-file-item-width: 256px;
   -dls-uploader-file-item-height: 20px;
   -dls-uploader-file-item-background-color: transparent;
   -dls-uploader-file-item-background-color-hover: #f5f5f5;
   -dls-uploader-file-item-font-color: #333;
-  -dls-uploader-file-progress-width: 244px;
   -dls-uploader-error-color: #e64552;
   -dls-uploader-success-color: #39bf45;
   -dls-uploader-image-height: 120px;
