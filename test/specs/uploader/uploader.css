@@ -5,9 +5,9 @@ div {
   -dls-uploader-helper-text-spacing-y: 4px;
   -dls-uploader-helper-text-font-color: #999;
   -dls-uploader-file-item-spacing-y: 12px;
+  -dls-uploader-file-item-padding-x: 4px;
   -dls-uploader-file-item-label-spacing-before: 4px;
   -dls-uploader-file-item-label-spacing-after: 8px;
-  -dls-uploader-file-item-close-icon-spacing: 4px;
   -dls-uploader-file-item-width: 256px;
   -dls-uploader-file-item-height: 20px;
   -dls-uploader-file-item-background-color: transparent;
