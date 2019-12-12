@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.28.0
+
+- ⚠️ Rename `@dls-date-picker-year-scroller-*` to `@dls-date-picker-list-*` as they apply to both shortcut list and year scroller now.
+- Add `@dls-date-picker-list-background-color-selected`.
+
 ## 0.27.0
 
 - ⚠️ Remove `@dls-uploader-file-progress-width` and `@dls-uploader-file-item-close-icon-spacing`. Use `@dls-uploader-file-item-width` with `@dls-uploader-file-item-padding-x` instead.
