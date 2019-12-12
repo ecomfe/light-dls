@@ -95,7 +95,7 @@ To get the sum of the given dimensions or `calc` expressions.
 
 ```less
 @width: dls-sum(1px, 30%); // → calc(1px + 30%)
-@height: dls-sum(1px, 10px, 100px); // → 100px
+@height: dls-sum(1px, 10px, 100px); // → 111px
 @top: dls-sum(calc(1px + 5em), -1px); // → 5em
 @left: dls-sum(calc(1px + 5em), -1px, calc(-5em)); // → 0
 ```
