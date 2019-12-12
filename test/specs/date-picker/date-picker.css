@@ -60,7 +60,6 @@ div {
   -dls-date-picker-cell-border-focus-color: #3d88f2;
   -dls-date-picker-cell-border-color-range-end-hover: #3d88f2;
   -dls-date-picker-cell-border-color-range-end-active: #3d88f2;
-  -dls-date-picker-list-width: 80px;
   -dls-date-picker-list-item-height-m: 32px;
   -dls-date-picker-list-item-height-s: 28px;
   -dls-date-picker-list-padding-y: 8px;
@@ -81,4 +80,5 @@ div {
   -dls-date-picker-list-font-color-selected-active: #2970cc;
   -dls-date-picker-list-font-weight: 400;
   -dls-date-picker-list-font-weight-selected: 500;
+  -dls-date-picker-year-scroller-width: 80px;
 }
