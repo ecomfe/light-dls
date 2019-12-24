@@ -31,6 +31,11 @@ div {
   -dls-tab-font-weight-current: 500;
   -dls-tab-container-separator-color: #e0e0e0;
   -dls-tab-container-border-width: 1px;
+  -dls-tab-panel-padding-top: 16px;
+  -dls-tab-panel-padding-x-segment: 16px;
+  -dls-tab-panel-padding-y-segment: 16px;
+  -dls-tab-overflow-shadow-right: -2px 0 4px rgba(0, 0, 0, 0.15);
+  -dls-tab-overflow-shadow-left: 2px 0 4px rgba(0, 0, 0, 0.15);
   -dls-tab-indicator-color: #3d88f2;
   -dls-tab-indicator-width: 2px;
   -dls-tab-icon-size: 1em;
