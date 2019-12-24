@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.29.0
+
+- Add global overflow shadows.
+- Add overflow shadows and panel paddings for Tabs.
+
 ## 0.28.0
 
 - ⚠️ Rename `@dls-date-picker-year-scroller-*` to `@dls-date-picker-list-*` as they apply to both shortcut list and year scroller now.
