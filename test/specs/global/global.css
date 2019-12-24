@@ -126,8 +126,8 @@ div {
   -dls-shadow-offset-x-overflow: 2px;
   -dls-shadow-offset-y-overflow: 0;
   -dls-shadow-blur-radius-overflow: 4px;
-  -dls-shaoow-overflow-right: -2px 0 4px rgba(0, 0, 0, 0.15);
-  -dls-shaoow-overflow-left: 2px 0 4px rgba(0, 0, 0, 0.15);
+  -dls-shadow-overflow-right: -2px 0 4px rgba(0, 0, 0, 0.15);
+  -dls-shadow-overflow-left: 2px 0 4px rgba(0, 0, 0, 0.15);
   -dls-shadow-opacity-focus: 0.2;
   -dls-shadow-spread-focus: 2px;
   -dls-shadow-color-focus: #3d88f2;
