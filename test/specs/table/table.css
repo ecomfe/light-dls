@@ -1,0 +1,28 @@
+div {
+  -dls-table-column-min-width: calc(3em + 32px);
+  -dls-table-border-color: #eee;
+  -dls-table-border-color-dragging: #ccc;
+  -dls-table-cell-padding-x: 16px;
+  -dls-table-cell-padding-y: 16px;
+  -dls-table-cell-content-spacing: 4px;
+  -dls-table-cell-background-color: #fff;
+  -dls-table-cell-background-color-hover: #f5f5f5;
+  -dls-table-cell-font-color: #333;
+  -dls-table-header-padding-x: 16px;
+  -dls-table-header-padding-y: 12px;
+  -dls-table-header-background-color: #f5f5f5;
+  -dls-table-header-background-color-hover: #eee;
+  -dls-table-header-font-weight: 500;
+  -dls-table-header-font-color: #333;
+  -dls-table-sub-row-background-color: #fafafa;
+  -dls-table-sub-row-background-color-hover: #eee;
+  -dls-table-font-size-m: 14px;
+  -dls-table-font-size-s: 12px;
+  -dls-table-border-radius-m: 3px;
+  -dls-table-border-radius-s: 2px;
+  -dls-table-icon-size: 1em;
+  -dls-table-icon-size-aux: calc(1em - 4px);
+  -dls-table-header-icon-color-activated: #3d88f2;
+  -dls-table-overflow-shadow-right: -2px 0 4px rgba(0, 0, 0, 0.15);
+  -dls-table-overflow-shadow-left: 2px 0 4px rgba(0, 0, 0, 0.15);
+}

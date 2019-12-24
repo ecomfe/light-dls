@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.30.0
+
+- Add Table variables.
+
 ## 0.29.0
 
 - Add global overflow shadows.
