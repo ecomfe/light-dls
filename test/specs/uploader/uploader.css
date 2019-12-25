@@ -1,9 +1,10 @@
 div {
   -dls-uploader-font-size-s: 12px;
   -dls-uploader-font-size-m: 14px;
-  -dls-uploader-helper-text-spacing-x: 8px;
-  -dls-uploader-helper-text-spacing-y: 4px;
+  -dls-uploader-helper-text-spacing-file: 8px;
+  -dls-uploader-helper-text-spacing-image: 12px;
   -dls-uploader-helper-text-font-color: #999;
+  -dls-uploader-helper-text-max-width-image: 10em;
   -dls-uploader-file-item-spacing-y: 12px;
   -dls-uploader-file-item-padding-x: 4px;
   -dls-uploader-file-item-label-spacing-before: 4px;
@@ -27,7 +28,7 @@ div {
   -dls-uploader-mask-padding-x: 12px;
   -dls-uploader-mask-opacity: 0.6;
   -dls-uploader-image-spacing-x: 16px;
-  -dls-uploader-image-spacing-y: 36px;
+  -dls-uploader-image-spacing-y: 24px;
   -dls-uploader-image-error-spacing: 4px;
   -dls-uploader-image-preview-min-width: 240px;
   -dls-uploader-image-preview-max-width: 480px;

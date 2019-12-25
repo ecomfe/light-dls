@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 0.31.0
+
+- ⚠️ Remove `@dls-uploader-helper-text-spacing-y` as helper text is now always on the right.
+- ⚠️ Split `@dls-uploader-helper-text-spacing-x` into `@dls-uploader-helper-text-spacing-file` and `@dls-uploader-helper-text-spacing-image`.
+- Add `@dls-uploader-helper-text-max-width-image`.
+- Adjust vertical spacing of multi-line image uploader.
+
 ## 0.30.0
 
 - Add Table variables.
