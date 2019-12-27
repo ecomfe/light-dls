@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 0.32.0
+
+- ⚠️ Remove `@dls-shadow-offset-x-overflow` and `@dls-shadow-offset-y-overflow` and provide a single `@dls-shadow-offset-overflow`.
+- Add overflow shadows for Table.
+- Add Toast spacing.
+- Add default width for DatePicker.
+
 ## 0.31.0
 
 - ⚠️ Remove `@dls-uploader-helper-text-spacing-y` as helper text is now always on the right.
