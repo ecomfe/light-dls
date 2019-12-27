@@ -23,6 +23,8 @@ div {
   -dls-table-icon-size: 1em;
   -dls-table-icon-size-aux: calc(1em - 4px);
   -dls-table-header-icon-color-activated: #3d88f2;
+  -dls-table-overflow-shadow-top: 0 2px 4px rgba(0, 0, 0, 0.15);
   -dls-table-overflow-shadow-right: -2px 0 4px rgba(0, 0, 0, 0.15);
+  -dls-table-overflow-shadow-bottom: 0 -2px 4px rgba(0, 0, 0, 0.15);
   -dls-table-overflow-shadow-left: 2px 0 4px rgba(0, 0, 0, 0.15);
 }

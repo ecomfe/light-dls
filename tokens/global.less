@@ -185,13 +185,17 @@
 
 // Overflow shadow
 @dls-shadow-opacity-overflow: 0.15;
-@dls-shadow-offset-x-overflow: 2px;
-@dls-shadow-offset-y-overflow: 0;
+@dls-shadow-offset-overflow: 2px;
 @dls-shadow-blur-radius-overflow: 4px;
-@dls-shadow-overflow-right: -@dls-shadow-offset-x-overflow @dls-shadow-offset-y-overflow
-  @dls-shadow-blur-radius-overflow fade(@dls-shadow-color, percentage(@dls-shadow-opacity-overflow));
-@dls-shadow-overflow-left: @dls-shadow-offset-x-overflow
-  @dls-shadow-offset-y-overflow @dls-shadow-blur-radius-overflow
+@dls-shadow-overflow-top: 0 @dls-shadow-offset-overflow
+  @dls-shadow-blur-radius-overflow
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-overflow));
+@dls-shadow-overflow-right: -@dls-shadow-offset-overflow 0 @dls-shadow-blur-radius-overflow
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-overflow));
+@dls-shadow-overflow-bottom: 0 -@dls-shadow-offset-overflow @dls-shadow-blur-radius-overflow
+  fade(@dls-shadow-color, percentage(@dls-shadow-opacity-overflow));
+@dls-shadow-overflow-left: @dls-shadow-offset-overflow 0
+  @dls-shadow-blur-radius-overflow
   fade(@dls-shadow-color, percentage(@dls-shadow-opacity-overflow));
 
 // Focus rings
