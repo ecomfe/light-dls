@@ -1,4 +1,6 @@
 div {
+  -dls-date-picker-width: 160px;
+  -dls-date-picker-width-range: 248px;
   -dls-date-picker-font-size-s: 12px;
   -dls-date-picker-font-size-m: 14px;
   -dls-date-picker-dropdown-background-color: #fff;
