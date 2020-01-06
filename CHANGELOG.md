@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 0.33.0
+
+- ⚠️ Rename `@dls-tree-node-*-current-*` to `@dls-tree-node-*-selected-*` for correct semantics.
+- Add `@dls-tree-node-background-color-selected-*`.
+
 ## 0.32.0
 
 - ⚠️ Remove `@dls-shadow-offset-x-overflow` and `@dls-shadow-offset-y-overflow` and provide a single `@dls-shadow-offset-overflow`.
