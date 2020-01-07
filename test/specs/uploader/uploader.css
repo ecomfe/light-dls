@@ -19,9 +19,8 @@ div {
   -dls-uploader-image-height: 120px;
   -dls-uploader-image-width: 120px;
   -dls-uploader-image-icon-size: 40px;
-  -dls-uploader-image-padding-top: 36px;
   -dls-uploader-image-padding-x: 12px;
-  -dls-uploader-image-progress-spacing-before: 8px;
+  -dls-uploader-image-content-spacing: 8px;
   -dls-uploader-mask-icon-color: #fff;
   -dls-uploader-mask-icon-spacing: 12px;
   -dls-uploader-mask-padding-y: 4px;

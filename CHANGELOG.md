@@ -3,6 +3,8 @@
 ## 0.33.0
 
 - ⚠️ Rename `@dls-tree-node-*-current-*` to `@dls-tree-node-*-selected-*` for correct semantics.
+- ⚠️ Remove `@dls-uploader-image-padding-top` because contents are now centered vertically.
+- ⚠️ Replace `@dls-uploader-image-progress-spacing-before` with `@dls-uploader-image-content-spacing`.
 - Add `@dls-tree-node-background-color-selected-*`.
 
 ## 0.32.0
