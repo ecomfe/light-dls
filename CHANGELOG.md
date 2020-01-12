@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.33.1
+
+- Add `@dls-textarea-count-border-radius`.
+
 ## 0.33.0
 
 - ⚠️ Rename `@dls-tree-node-*-current-*` to `@dls-tree-node-*-selected-*` for correct semantics.
