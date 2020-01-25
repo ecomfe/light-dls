@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.33.2
+
+- Add `@dls-toast-list-spacing-before`.
+
 ## 0.33.1
 
 - Add `@dls-textarea-count-border-radius`.
