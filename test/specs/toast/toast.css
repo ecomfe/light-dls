@@ -13,7 +13,8 @@ div {
   -dls-toast-padding-y-titled: 16px;
   -dls-toast-content-spacing-before: 8px;
   -dls-toast-content-spacing-after: 16px;
-  -dls-toast-spacing: 16px;
+  -dls-toast-spacing: 8px;
+  -dls-toast-list-spacing-before: 8px;
   -dls-toast-max-width: 400px;
   -dls-toast-title-font-size-s: 12px;
   -dls-toast-title-font-size-m: 14px;
