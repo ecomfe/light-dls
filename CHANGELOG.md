@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 0.33.3
+
+- Add `@dls-menu-item-content-spacing`.
+- Add `@dls-table-body-height-no-data`.
+- Add `@dls-table-action-spacing`.
+
 ## 0.33.2
 
 - Add `@dls-toast-list-spacing-before`.
