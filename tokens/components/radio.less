@@ -7,8 +7,8 @@
 @dls-radio-font-color: @dls-font-color-normal;
 
 /* Metrics */
-@dls-radio-size-s: @dls-radio-font-size-s + 2px;
-@dls-radio-size-m: @dls-radio-font-size-m + 2px;
+@dls-radio-size-s: dls-sum(@dls-radio-font-size-s, 2px);
+@dls-radio-size-m: dls-sum(@dls-radio-font-size-m, 2px);
 
 @dls-radio-dot-size-s: @dls-radio-size-s - 8px;
 @dls-radio-dot-size-m: @dls-radio-size-m - 8px;
