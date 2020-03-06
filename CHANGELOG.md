@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.33.4
+
+- Add `@dls-tooltip-border-radius`.
+
 ## 0.33.3
 
 - Add `@dls-menu-item-content-spacing`.
