@@ -38,7 +38,7 @@ export default function install (less, pluginManager, functions) {
         [sumExp(nonZero.map(unit => less.dimension(valueDic[unit], unit)))],
         0,
         // eslint-disable-next-line no-undef
-        fileInfo
+        typeof fileInfo === 'undefined' ? null : fileInfo
       )
     }
 
@@ -56,7 +56,7 @@ export default function install (less, pluginManager, functions) {
       ],
       0,
       // eslint-disable-next-line no-undef
-      fileInfo
+      typeof fileInfo === 'undefined' ? null : fileInfo
     )
   })
 
