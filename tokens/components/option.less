@@ -1,10 +1,10 @@
 @import "../global.less";
 
 /* Font sizes */
-@dls-option-font-size-xs: @dls-font-size-s;
-@dls-option-font-size-s: @dls-font-size-s;
-@dls-option-font-size-m: @dls-font-size-m;
-@dls-option-font-size-l: @dls-font-size-l;
+@dls-option-font-size-xs: @dls-font-size-0;
+@dls-option-font-size-s: @dls-font-size-0;
+@dls-option-font-size-m: @dls-font-size-1;
+@dls-option-font-size-l: @dls-font-size-2;
 
 /* Metrics */
 @dls-option-height-xs: @dls-height-unit * 6;
@@ -29,37 +29,37 @@
 @dls-option-label-spacing-after: @dls-padding-unit * 3;
 
 /* States */
-@dls-option-font-color: @dls-font-color-normal;
-@dls-option-font-color-hover: @dls-font-color-strong;
+@dls-option-font-color: @dls-foreground-color-neutral;
+@dls-option-font-color-hover: @dls-option-font-color;
 @dls-option-font-color-focus: @dls-option-font-color-hover;
 @dls-option-font-color-active: @dls-option-font-color-hover;
-@dls-option-font-color-disabled: @dls-font-color-disabled;
-@dls-option-font-color-highlighted: @dls-font-color-highlighted;
+@dls-option-font-color-disabled: @dls-foreground-color-neutral-disabled;
+@dls-option-font-color-highlighted: @dls-foreground-color-highlighted;
 
 @dls-option-icon-color-aux: @dls-icon-color-aux;
 @dls-option-icon-color-aux-disabled: @dls-icon-color-aux-disabled;
 
-@dls-option-font-color-selected: @dls-color-brand-6;
-@dls-option-font-color-selected-hover: @dls-option-font-color-selected;
-@dls-option-font-color-selected-focus: @dls-option-font-color-selected;
-@dls-option-font-color-selected-active: @dls-option-font-color-selected;
+@dls-option-font-color-selected: @dls-foreground-color-primary;
+@dls-option-font-color-selected-hover: @dls-foreground-color-primary-hover;
+@dls-option-font-color-selected-focus: @dls-option-font-color-selected-hover;
+@dls-option-font-color-selected-active: @dls-foreground-color-primary-active;
 
-@dls-option-background-color: @dls-background-color-normal;
-@dls-option-background-color-hover: @dls-background-color-normal-hover;
-@dls-option-background-color-focus: @dls-background-color-normal-focus;
-@dls-option-background-color-active: @dls-background-color-normal-active;
+@dls-option-background-color: @dls-background-color-pressable;
+@dls-option-background-color-hover: @dls-background-color-pressable-hover;
+@dls-option-background-color-focus: @dls-background-color-focus;
+@dls-option-background-color-active: @dls-background-color-pressable-active;
 
-@dls-option-background-color-selected-parent: @dls-background-color-normal-hover;
+@dls-option-background-color-selected-parent: @dls-option-background-color-hover;
 
 @dls-option-font-weight-selected-parent: @dls-font-weight-2;
 @dls-option-font-weight-selected: @dls-font-weight-2;
 
 /* Option group title */
-@dls-option-group-label-line-height: @dls-line-height-m;
-@dls-option-group-label-font-color: @dls-font-color-weak;
+@dls-option-group-label-line-height: @dls-line-height-1;
+@dls-option-group-label-font-color: @dls-foreground-color-neutral-weak;
 @dls-option-group-label-padding-y: @dls-padding-unit * 1;
 @dls-option-group-padding-y: @dls-padding-unit * 1;
-@dls-option-group-separator-color: @dls-border-color-normal;
+@dls-option-group-separator-color: @dls-line-color-1;
 
 /* Option dropdown */
 @dls-option-dropdown-max-height-xs: @dls-option-height-xs * 10 +
@@ -70,11 +70,11 @@
   @dls-option-group-padding-y * 2;
 @dls-option-dropdown-max-height-l: @dls-option-height-l * 10 +
   @dls-option-group-padding-y * 2;
-@dls-option-dropdown-border-radius-xs: @dls-border-radius-s;
-@dls-option-dropdown-border-radius-s: @dls-border-radius-s;
-@dls-option-dropdown-border-radius-m: @dls-border-radius-m;
-@dls-option-dropdown-border-radius-l: @dls-border-radius-l;
+@dls-option-dropdown-border-radius-xs: @dls-border-radius-0;
+@dls-option-dropdown-border-radius-s: @dls-border-radius-0;
+@dls-option-dropdown-border-radius-m: @dls-border-radius-1;
+@dls-option-dropdown-border-radius-l: @dls-border-radius-2;
 @dls-option-dropdown-target-spacing: @dls-padding-unit * 1;
-@dls-option-dropdown-shadow: @dls-shadow;
+@dls-option-dropdown-shadow: @dls-shadow-1;
 @dls-option-dropdown-placeholder-padding-y: @dls-padding-unit * 2;
-@dls-option-dropdown-placeholder-font-color: @dls-font-color-weak;
+@dls-option-dropdown-placeholder-font-color: @dls-foreground-color-neutral-weak;

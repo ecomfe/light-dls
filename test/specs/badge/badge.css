@@ -5,10 +5,10 @@ div {
   -dls-badge-label-min-width: 16px;
   -dls-badge-label-padding-x: 4px;
   -dls-badge-label-spacing-status: 8px;
-  -dls-badge-background-color-info: #3d88f2;
-  -dls-badge-background-color-success: #39bf45;
-  -dls-badge-background-color-warning: #f27c49;
-  -dls-badge-background-color-error: #e64552;
-  -dls-badge-background-color-aux: #ccc;
+  -dls-badge-background-color-info: #0052cc;
+  -dls-badge-background-color-success: #00cc63;
+  -dls-badge-background-color-warning: #ff9100;
+  -dls-badge-background-color-error: #cc1800;
+  -dls-badge-background-color-aux: #a8b0bf;
   -dls-badge-font-color: #fff;
 }
