@@ -4,11 +4,11 @@
 /* Typography */
 
 // Font sizes
-@dls-textarea-font-size-s: @dls-font-size-s;
-@dls-textarea-font-size-m: @dls-font-size-m;
+@dls-textarea-font-size-s: @dls-font-size-0;
+@dls-textarea-font-size-m: @dls-font-size-1;
 
 // Line height
-@dls-textarea-line-height: @dls-line-height-m;
+@dls-textarea-line-height: @dls-line-height-1;
 
 /* Metrics */
 
@@ -37,9 +37,9 @@
 /* Character count */
 @dls-textarea-count-height: @dls-height-unit * 4;
 @dls-textarea-count-padding: @dls-padding-unit * 1;
-@dls-textarea-count-font-size: @dls-font-size-s;
-@dls-textarea-count-font-color: @dls-color-gray-1;
-@dls-textarea-count-font-color-error: @dls-textarea-count-font-color;
-@dls-textarea-count-background-color: fade(@dls-color-gray-8, 80%);
-@dls-textarea-count-background-color-error: fade(@dls-color-error-6, 80%);
-@dls-textarea-count-border-radius: @dls-border-radius-s;
+@dls-textarea-count-font-size: @dls-font-size-0;
+@dls-textarea-count-font-color: @dls-foreground-color-reverse;
+@dls-textarea-count-font-color-error: @dls-foreground-color-reverse;
+@dls-textarea-count-background-color: @dls-background-color-translucent;
+@dls-textarea-count-background-color-error: fade(@dls-background-color-error-primary, 60%);
+@dls-textarea-count-border-radius: @dls-border-radius-0;

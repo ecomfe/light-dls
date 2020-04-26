@@ -18,19 +18,19 @@
 @dls-switch-padding-m: (@dls-switch-height-m - @dls-switch-thumb-size-m) / 2;
 
 /* Colors */
-@dls-switch-track-color-on: @dls-color-brand-6;
-@dls-switch-track-color-on-hover: @dls-color-brand-5;
+@dls-switch-track-color-on: @dls-background-color-primary;
+@dls-switch-track-color-on-hover: @dls-background-color-primary-hover;
 @dls-switch-track-color-on-focus: @dls-switch-track-color-on-hover;
-@dls-switch-track-color-on-active: @dls-color-brand-7;
-@dls-switch-track-color-on-disabled: @dls-color-brand-2;
+@dls-switch-track-color-on-active: @dls-background-color-primary-active;
+@dls-switch-track-color-on-disabled: @dls-background-color-primary-disabled;
 
-@dls-switch-track-color-off: @dls-color-gray-6;
-@dls-switch-track-color-off-hover: @dls-color-gray-7;
+@dls-switch-track-color-off: @dls-background-color-neutral-primary;
+@dls-switch-track-color-off-hover: @dls-background-color-neutral-primary-hover;
 @dls-switch-track-color-off-focus: @dls-switch-track-color-off-hover;
-@dls-switch-track-color-off-active: @dls-color-gray-8;
-@dls-switch-track-color-off-disabled: @dls-color-gray-5;
+@dls-switch-track-color-off-active: @dls-background-color-neutral-primary-active;
+@dls-switch-track-color-off-disabled: @dls-background-color-neutral-primary-disabled;
 
-@dls-switch-thumb-color-on: @dls-color-gray-1;
+@dls-switch-thumb-color-on: @dls-foreground-color-primary-reverse;
 @dls-switch-thumb-color-on-hover: @dls-switch-thumb-color-on;
 @dls-switch-thumb-color-on-focus: @dls-switch-thumb-color-on-hover;
 @dls-switch-thumb-color-on-active: @dls-switch-thumb-color-on;
@@ -43,9 +43,4 @@
 @dls-switch-thumb-color-off-disabled: @dls-switch-thumb-color-on;
 
 @dls-switch-shadow-on-focus: @dls-shadow-focus;
-@dls-switch-shadow-off-focus: 0 0 0 @dls-shadow-spread-focus
-  fade(@dls-color-gray-7, percentage(@dls-shadow-opacity-focus));
-
-/* Typography */
-@dls-switch-font-size: @dls-font-size-s;
-@dls-switch-font-color: @dls-color-gray-1;
+@dls-switch-shadow-off-focus: @dls-switch-shadow-on-focus;

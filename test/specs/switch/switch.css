@@ -11,16 +11,16 @@ div {
   -dls-switch-padding-xs: 2px;
   -dls-switch-padding-s: 2px;
   -dls-switch-padding-m: 2px;
-  -dls-switch-track-color-on: #3d88f2;
-  -dls-switch-track-color-on-hover: #66a3ff;
-  -dls-switch-track-color-on-focus: #66a3ff;
-  -dls-switch-track-color-on-active: #2970cc;
-  -dls-switch-track-color-on-disabled: #d9e6ff;
-  -dls-switch-track-color-off: #ccc;
-  -dls-switch-track-color-off-hover: #999;
-  -dls-switch-track-color-off-focus: #999;
-  -dls-switch-track-color-off-active: #666;
-  -dls-switch-track-color-off-disabled: #e0e0e0;
+  -dls-switch-track-color-on: #0052cc;
+  -dls-switch-track-color-on-hover: #0067ff;
+  -dls-switch-track-color-on-focus: #0067ff;
+  -dls-switch-track-color-on-active: #00359e;
+  -dls-switch-track-color-on-disabled: #deebff;
+  -dls-switch-track-color-off: #a8b0bf;
+  -dls-switch-track-color-off-hover: #848b99;
+  -dls-switch-track-color-off-focus: #848b99;
+  -dls-switch-track-color-off-active: #545b66;
+  -dls-switch-track-color-off-disabled: #e2e6f0;
   -dls-switch-thumb-color-on: #fff;
   -dls-switch-thumb-color-on-hover: #fff;
   -dls-switch-thumb-color-on-focus: #fff;
@@ -31,8 +31,6 @@ div {
   -dls-switch-thumb-color-off-focus: #fff;
   -dls-switch-thumb-color-off-active: #fff;
   -dls-switch-thumb-color-off-disabled: #fff;
-  -dls-switch-shadow-on-focus: 0 0 0 2px rgba(61, 136, 242, 0.2);
-  -dls-switch-shadow-off-focus: 0 0 0 2px rgba(153, 153, 153, 0.2);
-  -dls-switch-font-size: 12px;
-  -dls-switch-font-color: #fff;
+  -dls-switch-shadow-on-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
+  -dls-switch-shadow-off-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
 }

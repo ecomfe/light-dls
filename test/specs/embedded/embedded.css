@@ -1,7 +1,7 @@
 div {
-  -dls-embedded-title-font-size-s: 14px;
-  -dls-embedded-title-font-size-m: 16px;
-  -dls-embedded-close-icon-size: calc(1em - 4px);
-  -dls-embedded-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-  -dls-embedded-border-color: #e0e0e0;
+  -dls-embedded-title-font-size-s: 16px;
+  -dls-embedded-title-font-size-m: 20px;
+  -dls-embedded-close-icon-size: 1.2em;
+  -dls-embedded-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
+  -dls-embedded-border-color: #e2e6f0;
 }

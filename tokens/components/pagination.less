@@ -2,9 +2,9 @@
 @import "./button.less";
 
 /* Metrics */
-@dls-pagination-font-size-xs: @dls-font-size-s;
-@dls-pagination-font-size-s: @dls-font-size-s;
-@dls-pagination-font-size-m: @dls-font-size-m;
+@dls-pagination-font-size-xs: @dls-font-size-0;
+@dls-pagination-font-size-s: @dls-font-size-0;
+@dls-pagination-font-size-m: @dls-font-size-1;
 
 @dls-pagination-page-item-min-width-xs: @dls-button-height-xs;
 @dls-pagination-page-item-min-width-s: @dls-button-height-s;
@@ -13,11 +13,11 @@
 @dls-pagination-page-item-padding-x: @dls-padding-unit * 1;
 @dls-pagination-page-item-spacing: @dls-padding-unit * 1;
 
-@dls-pagination-page-items-margin-before: @dls-padding-unit * 10;
-@dls-pagination-page-items-margin-after: @dls-padding-unit * 5;
+@dls-pagination-page-items-margin-before: @dls-padding-unit * 12;
+@dls-pagination-page-items-margin-after: @dls-padding-unit * 6;
 
 @dls-pagination-spacing-1: @dls-padding-unit * 2;
-@dls-pagination-spacing-2: @dls-padding-unit * 3;
+@dls-pagination-spacing-2: @dls-padding-unit * 2;
 
 @dls-pagination-goto-input-padding-x: @dls-padding-unit * 2;
 @dls-pagination-goto-input-digits: 3;
@@ -28,8 +28,4 @@
   2px
 );
 
-/* Colors */
-@dls-pagination-page-item-background-color-current: @dls-color-brand-1;
-@dls-pagination-page-item-border-color-current: @dls-color-brand-6;
-@dls-pagination-page-item-font-color-current: @dls-color-brand-6;
-@dls-pagination-page-item-font-weight-current: @dls-font-weight-2;
+/* Use primary button styles for current page styles */
