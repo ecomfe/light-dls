@@ -4,13 +4,13 @@
 // See Progress for progress styles
 
 /* Font size */
-@dls-uploader-font-size-s: @dls-font-size-s;
-@dls-uploader-font-size-m: @dls-font-size-m;
+@dls-uploader-font-size-s: @dls-font-size-0;
+@dls-uploader-font-size-m: @dls-font-size-1;
 
 // file button spacing with helper text
 @dls-uploader-helper-text-spacing-file: @dls-padding-unit * 2;
 @dls-uploader-helper-text-spacing-image: @dls-padding-unit * 3;
-@dls-uploader-helper-text-font-color: @dls-font-color-weak;
+@dls-uploader-helper-text-font-color: @dls-foreground-color-neutral-weak;
 @dls-uploader-helper-text-max-width-image: 10em;
 
 //file button margin with list
@@ -23,28 +23,31 @@
 @dls-uploader-file-item-width: @dls-height-unit * 64;
 @dls-uploader-file-item-height: @dls-height-unit * 5;
 @dls-uploader-file-item-background-color: transparent;
-@dls-uploader-file-item-background-color-hover: @dls-background-color-normal-hover;
-@dls-uploader-file-item-font-color: @dls-font-color-normal;
+@dls-uploader-file-item-background-color-hover: @dls-background-color-base-1-hover;
+@dls-uploader-file-item-font-color: @dls-foreground-color-neutral;
+@dls-uploader-file-item-icon-color: @dls-foreground-color-neutral-weak;
 
 // feedback
-@dls-uploader-error-color: @dls-color-error;
-@dls-uploader-success-color: @dls-color-success;
+@dls-uploader-foreground-color-error: @dls-foreground-color-error-primary;
+@dls-uploader-foreground-color-success: @dls-foreground-color-success-primary;
+@dls-uploader-image-border-color-error: @dls-border-color-error-strong;
 
 // upload image
 @dls-uploader-image-height: @dls-height-unit * 30;
 @dls-uploader-image-width: @dls-uploader-image-height;
 @dls-uploader-image-icon-size: @dls-uploader-image-height / 3;
+@dls-uploader-image-icon-color: @dls-foreground-color-neutral-weak;
 @dls-uploader-image-padding-x: @dls-padding-unit * 3;
 @dls-uploader-image-content-spacing: @dls-padding-unit * 2;
 
 // See button for upload image button styles
 
 // mask
-@dls-uploader-mask-icon-color: @dls-color-gray-1;
+@dls-uploader-mask-icon-color: @dls-foreground-color-reverse;
 @dls-uploader-mask-icon-spacing: @dls-padding-unit * 3;
 @dls-uploader-mask-padding-y: @dls-padding-unit * 1;
 @dls-uploader-mask-padding-x: @dls-padding-unit * 3;
-@dls-uploader-mask-opacity: 0.6;
+@dls-uploader-mask-background-color: @dls-background-color-modal;
 
 // See whole view styles in dialog styles
 

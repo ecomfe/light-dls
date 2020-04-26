@@ -5,7 +5,7 @@
 @dls-dialog-width-narrow: 400px;
 @dls-dialog-width-contextual: 400px;
 
-@dls-dialog-border-radius: @dls-border-radius-l;
+@dls-dialog-border-radius: @dls-border-radius-2;
 
 @dls-dialog-spacing-y: 20px;
 @dls-dialog-max-height: calc(100vh - @dls-dialog-spacing-y * 2);
@@ -20,29 +20,29 @@
 
 @dls-dialog-title-spacing-after-contextual: @dls-padding-unit * 1;
 @dls-dialog-icon-spacing-contextual: @dls-padding-unit * 3;
-@dls-dialog-icon-size-contextual: calc(1em + 4px);
+@dls-dialog-icon-size-contextual: @dls-icon-size-normal;
 
-@dls-dialog-title-line-height: @dls-line-height-m;
-@dls-dialog-body-line-height: @dls-line-height-l;
+@dls-dialog-title-line-height: @dls-line-height-1;
+@dls-dialog-body-line-height: @dls-line-height-3;
 
-@dls-dialog-title-font-size-s: @dls-font-size-m;
-@dls-dialog-title-font-size-m: @dls-font-size-l;
-@dls-dialog-body-font-size-s: @dls-font-size-s;
-@dls-dialog-body-font-size-m: @dls-font-size-m;
+@dls-dialog-title-font-size-s: @dls-font-size-2;
+@dls-dialog-title-font-size-m: @dls-font-size-3;
+@dls-dialog-body-font-size-s: @dls-font-size-0;
+@dls-dialog-body-font-size-m: @dls-font-size-1;
 
-@dls-dialog-title-font-color: @dls-font-color-strong;
-@dls-dialog-body-font-color: @dls-font-color-normal;
+@dls-dialog-title-font-color: @dls-foreground-color-neutral;
+@dls-dialog-body-font-color: @dls-foreground-color-neutral;
 
 @dls-dialog-close-icon-size: @dls-icon-size-aux;
 @dls-dialog-close-icon-size-fullscreen: @dls-dialog-close-icon-size;
 @dls-dialog-close-icon-min-size: 10px;
 
-@dls-dialog-icon-color-info: @dls-color-info-6;
-@dls-dialog-icon-color-success: @dls-color-success-6;
-@dls-dialog-icon-color-warning: @dls-color-warning-6;
-@dls-dialog-icon-color-error: @dls-color-error-6;
+@dls-dialog-icon-color-info: @dls-foreground-color-info-primary;
+@dls-dialog-icon-color-success: @dls-foreground-color-success-primary;
+@dls-dialog-icon-color-warning: @dls-foreground-color-warning-primary;
+@dls-dialog-icon-color-error: @dls-foreground-color-error-primary;
 
-@dls-dialog-background-color: @dls-background-color-normal;
-@dls-dialog-backdrop-color: fade(@dls-color-gray-10, 60%);
+@dls-dialog-background-color: @dls-background-color-base-1;
+@dls-dialog-backdrop-color: @dls-background-color-modal;
 
-@dls-dialog-shadow: @dls-shadow;
+@dls-dialog-shadow: @dls-shadow-2;

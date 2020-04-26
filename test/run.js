@@ -3,11 +3,15 @@ import path from 'path'
 import chalk from 'chalk'
 import less from 'less'
 import strip from 'strip-css-comments'
+import mkdirp from 'mkdirp'
+import rimraf from 'rimraf'
 import dls from '../dist'
 const diff = require('diff')
 
 const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
+const SNAPSHOT_DIR = path.resolve(__dirname, 'snapshots')
+const SRC_DIR = path.resolve(__dirname, '../tokens/components')
 
 function logDiff (left, right) {
   diff.diffLines(left, right).forEach(item => {
@@ -55,14 +59,49 @@ function getTests (specDir) {
   /**
    * Get all modules
    */
-  let srcDir = path.resolve(__dirname, '../tokens/components')
   let modules = [
     'global',
     'functions',
-    ...fs
-      .readdirSync(srcDir)
-      .map(moduleFile => extractName(moduleFile, 'less'))
-      .filter(m => m)
+    'link',
+    'button',
+    'dropdown',
+    'select',
+    'option',
+    'input',
+    'textarea',
+    'steps',
+    'breadcrumb',
+    'pagination',
+    'table',
+    'popover',
+    'toast',
+    'badge',
+    'switch',
+    'time-picker',
+    'toast',
+    'tree',
+    'anchor',
+    'radio',
+    'checkbox',
+    'transfer',
+    'date-picker',
+    'uploader',
+    'carousel',
+    'form',
+    'dialog',
+    'drawer',
+    'embedded',
+    'collapse',
+    'alert',
+    'tooltip',
+    'loading',
+    'progress',
+    'menu',
+    'number-input'
+    // ...fs
+    //   .readdirSync(SRC_DIR)
+    //   .map(moduleFile => extractName(moduleFile, 'less'))
+    //   .filter(m => m)
   ]
 
   /**
@@ -100,7 +139,9 @@ function getTests (specDir) {
         }
 
         suites.push({
-          part: chalk.bold(module) + chalk.white('.') + part,
+          title: chalk.bold(module) + chalk.white('.') + part,
+          module,
+          part,
           src,
           expected
         })
@@ -136,18 +177,25 @@ function getTests (specDir) {
             let actual = strip(result.css, { preserve: false })
               .replace(/\n+/g, '\n')
               .replace(/^\n/, '')
+
+            let snapshotDir = path.join(SNAPSHOT_DIR, suite.module)
+            if (!fs.existsSync(snapshotDir)) {
+              mkdirp.sync(snapshotDir)
+            }
+            fs.writeFileSync(path.join(snapshotDir, `${suite.part}.css`), actual, 'utf8')
+
             let expected = suite.expected
             if (actual !== expected) {
-              logLine(chalk.red('\u2718 ' + suite.part))
+              logLine(chalk.red('\u2718 ' + suite.title))
               logDiff(actual, expected)
               passed = false
             } else {
-              logLine(chalk.green('\u2714 ' + suite.part))
+              logLine(chalk.green('\u2714 ' + suite.title))
             }
             done(passed)
           },
           err => {
-            logLine(chalk.red('\u2718 ' + suite.part))
+            logLine(chalk.red('\u2718 ' + suite.title))
             logLine('Less compile error:')
             logLine(err)
             done(false)
@@ -212,4 +260,5 @@ class TestRunner {
   }
 }
 
+rimraf.sync(SNAPSHOT_DIR)
 new TestRunner(getTests(SPEC_DIR)).start()

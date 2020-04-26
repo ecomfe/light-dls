@@ -13,18 +13,18 @@
  */
 
 /* Font size */
-@dls-date-picker-font-size-s: @dls-font-size-s;
-@dls-date-picker-font-size-m: @dls-font-size-m;
+@dls-date-picker-font-size-s: @dls-font-size-0;
+@dls-date-picker-font-size-m: @dls-font-size-1;
 
 /* Background color */
-@dls-date-picker-dropdown-background-color: @dls-background-color-normal;
+@dls-date-picker-dropdown-background-color: @dls-background-color-base-1;
 
 /* Radius */
-@dls-date-picker-dropdown-border-radius-s: @dls-border-radius-s;
-@dls-date-picker-dropdown-border-radius-m: @dls-border-radius-m;
+@dls-date-picker-dropdown-border-radius-s: @dls-border-radius-0;
+@dls-date-picker-dropdown-border-radius-m: @dls-border-radius-1;
 
 /* Shadow */
-@dls-date-picker-dropdown-shadow: @dls-shadow;
+@dls-date-picker-dropdown-shadow: @dls-shadow-1;
 
 /**
  * DatePicker input
@@ -42,7 +42,7 @@
  * DatePicker panel
  */
 
-@dls-date-picker-panel-separator-color: @dls-separator-color-normal;
+@dls-date-picker-panel-separator-color: @dls-line-color-1;
 @dls-date-picker-panel-padding-x: @dls-padding-unit * 4;
 
 /**
@@ -81,18 +81,18 @@
 @dls-date-picker-cell-width-m: @dls-date-picker-cell-height-m;
 
 /* Border radii */
-@dls-date-picker-cell-border-radius-s: @dls-border-radius-s;
-@dls-date-picker-cell-border-radius-m: @dls-border-radius-m;
+@dls-date-picker-cell-border-radius-s: @dls-border-radius-0;
+@dls-date-picker-cell-border-radius-m: @dls-border-radius-1;
 
 /* Focus rings */
 @dls-date-picker-cell-shadow-focus: @dls-shadow-focus;
 
 /* Font colors */
-@dls-date-picker-cell-font-color: @dls-font-color-normal;
-@dls-date-picker-cell-font-color-current: @dls-color-brand-6; // Today / current month
-@dls-date-picker-cell-font-color-aux: @dls-font-color-weak;
-@dls-date-picker-cell-font-color-disabled: @dls-font-color-disabled;
-@dls-date-picker-cell-font-color-selected: @dls-color-gray-1;
+@dls-date-picker-cell-font-color: @dls-foreground-color-neutral;
+@dls-date-picker-cell-font-color-current: @dls-foreground-color-primary; // Today / current month
+@dls-date-picker-cell-font-color-aux: @dls-foreground-color-neutral-weak;
+@dls-date-picker-cell-font-color-disabled: @dls-foreground-color-neutral-disabled;
+@dls-date-picker-cell-font-color-selected: @dls-foreground-color-primary-reverse;
 
 /* Font weights */
 @dls-date-picker-cell-font-weight: @dls-font-weight-1;
@@ -113,35 +113,36 @@
 
 /* Background */
 // default & in-range
-@dls-date-picker-cell-background-color: @dls-background-color-normal;
-@dls-date-picker-cell-background-color-focus: @dls-background-color-normal-focus;
-@dls-date-picker-cell-background-color-disabled: @dls-date-picker-cell-background-color;
-@dls-date-picker-cell-background-color-hover: @dls-color-brand-1;
-@dls-date-picker-cell-background-color-active: @dls-color-brand-2;
+@dls-date-picker-cell-background-color: transparent;
+@dls-date-picker-cell-background-color-hover: @dls-background-color-pressable-hover;
+@dls-date-picker-cell-background-color-focus: @dls-date-picker-cell-background-color-hover;
+@dls-date-picker-cell-background-color-active: @dls-background-color-pressable-active;
+@dls-date-picker-cell-background-color-disabled: @dls-background-color-pressable-disabled;
 
 // selected
-@dls-date-picker-cell-background-color-selected: @dls-color-brand-6;
-@dls-date-picker-cell-background-color-selected-hover: @dls-color-brand-5;
-@dls-date-picker-cell-background-color-selected-focus: @dls-color-brand-5;
-@dls-date-picker-cell-background-color-selected-active: @dls-color-brand-7;
+@dls-date-picker-cell-background-color-selected: @dls-background-color-primary;
+@dls-date-picker-cell-background-color-selected-hover: @dls-background-color-primary-hover;
+@dls-date-picker-cell-background-color-selected-focus: @dls-date-picker-cell-background-color-selected-hover;
+@dls-date-picker-cell-background-color-selected-active: @dls-background-color-primary-active;
 
 // aux
-@dls-date-picker-cell-background-color-aux: @dls-date-picker-cell-background-color;
-@dls-date-picker-cell-background-color-aux-hover: @dls-background-color-normal-hover;
-@dls-date-picker-cell-background-color-aux-focus: @dls-background-color-normal-hover;
-@dls-date-picker-cell-background-color-aux-active: @dls-background-color-normal-active;
+@dls-date-picker-cell-background-color-aux: @dls-date-picker-cell-background-color-selected-hover;
+@dls-date-picker-cell-background-color-aux-hover: @dls-date-picker-cell-background-color-hover;
+@dls-date-picker-cell-background-color-aux-focus: @dls-date-picker-cell-background-color-focus;
+@dls-date-picker-cell-background-color-aux-active: @dls-date-picker-cell-background-color-active;
 
 // end of a range during selection
-@dls-date-picker-cell-background-color-range-end-hover: @dls-date-picker-cell-background-color-hover;
-@dls-date-picker-cell-background-color-range-end-focus: @dls-date-picker-cell-background-color-active;
+@dls-date-picker-cell-background-color-range-end-hover: @dls-background-color-current-hover;
+@dls-date-picker-cell-background-color-range-end-active: @dls-background-color-current-active;
+@dls-date-picker-cell-background-color-range-end-focus: @dls-date-picker-cell-background-color-range-end-hover;
 
 /* Border color */
 @dls-date-picker-cell-border-color: transparent;
 @dls-date-picker-cell-border-focus-color: @dls-border-color-focus;
 
 // end of a range during selection
-@dls-date-picker-cell-border-color-range-end-hover: @dls-color-brand-6;
-@dls-date-picker-cell-border-color-range-end-active: @dls-color-brand-6;
+@dls-date-picker-cell-border-color-range-end-hover: transparent;
+@dls-date-picker-cell-border-color-range-end-active: @dls-date-picker-cell-border-color-range-end-hover;
 
 /**
  * List: year scroller & shortcut list
@@ -154,21 +155,21 @@
 @dls-date-picker-list-item-spacing: @dls-spacing-unit * 1;
 @dls-date-picker-list-item-padding-x: @dls-padding-unit * 4;
 
-@dls-date-picker-list-background-color: @dls-background-color-normal;
-@dls-date-picker-list-background-color-focus: @dls-background-color-normal-focus;
-@dls-date-picker-list-background-color-hover: @dls-background-color-normal-hover;
-@dls-date-picker-list-background-color-active: @dls-background-color-normal-active;
-@dls-date-picker-list-background-color-selected: @dls-color-brand-1;
+@dls-date-picker-list-background-color: transparent;
+@dls-date-picker-list-background-color-hover: @dls-background-color-pressable-hover;
+@dls-date-picker-list-background-color-focus: @dls-date-picker-list-background-color-hover;
+@dls-date-picker-list-background-color-active: @dls-background-color-pressable-active;
+@dls-date-picker-list-background-color-selected: @dls-background-color-current;
 
-@dls-date-picker-list-font-color: @dls-font-color-normal;
-@dls-date-picker-list-font-color-focus: @dls-font-color-aux;
-@dls-date-picker-list-font-color-hover: @dls-font-color-aux;
-@dls-date-picker-list-font-color-active: @dls-font-color-strong;
+@dls-date-picker-list-font-color: @dls-foreground-color-neutral;
+@dls-date-picker-list-font-color-hover: @dls-date-picker-list-font-color;
+@dls-date-picker-list-font-color-focus: @dls-date-picker-list-font-color-hover;
+@dls-date-picker-list-font-color-active: @dls-date-picker-list-font-color-hover;
 
-@dls-date-picker-list-font-color-selected: @dls-color-brand-6;
-@dls-date-picker-list-font-color-selected-focus: @dls-color-brand-5;
-@dls-date-picker-list-font-color-selected-hover: @dls-color-brand-5;
-@dls-date-picker-list-font-color-selected-active: @dls-color-brand-7;
+@dls-date-picker-list-font-color-selected: @dls-foreground-color-primary;
+@dls-date-picker-list-font-color-selected-hover: @dls-date-picker-list-font-color-selected;
+@dls-date-picker-list-font-color-selected-focus: @dls-date-picker-list-font-color-selected-hover;
+@dls-date-picker-list-font-color-selected-active: @dls-date-picker-list-font-color-selected-hover;
 
 @dls-date-picker-list-font-weight: @dls-font-weight-1;
 @dls-date-picker-list-font-weight-selected: @dls-font-weight-2;

@@ -2,15 +2,17 @@ div {
   -dls-loading-font-size-s: 12px;
   -dls-loading-font-size-m: 14px;
   -dls-loading-font-size-l: 16px;
-  -dls-loading-size-s: 1em;
-  -dls-loading-size-m: 1em;
-  -dls-loading-size-l: 24px;
+  -dls-loading-size-s: 1.2em;
+  -dls-loading-size-m: 1.2em;
+  -dls-loading-size-l: 1.2em;
   -dls-loading-padding: 8px;
   -dls-loading-content-spacing: 8px;
-  -dls-loading-font-color-normal: #000;
-  -dls-loading-font-color-strong: #000;
+  -dls-loading-font-color-normal: #282c33;
+  -dls-loading-font-color-strong: #282c33;
   -dls-loading-font-color-reverse: #fff;
-  -dls-loading-color-normal: #999;
-  -dls-loading-color-strong: #3d88f2;
+  -dls-loading-color-normal: #848b99;
+  -dls-loading-color-strong: #0052cc;
   -dls-loading-color-reverse: #fff;
+  -dls-loading-background-color: rgba(255, 255, 255, 0.8);
+  -dls-loading-background-color-reverse: rgba(0, 0, 0, 0.6);
 }
