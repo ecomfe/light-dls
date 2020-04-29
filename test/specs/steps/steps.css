@@ -24,9 +24,9 @@ div {
   -dls-steps-connector-spacing-vertical: 8px;
   -dls-steps-connector-min-length: 24px;
   -dls-steps-marker-background-color-incomplete: #fff;
-  -dls-steps-marker-border-color-incomplete: #d3d9e6;
+  -dls-steps-marker-border-color-incomplete: #e2e6f0;
   -dls-steps-marker-foreground-color-incomplete: #848b99;
-  -dls-steps-connector-color-incomplete: #d3d9e6;
+  -dls-steps-connector-color-incomplete: #e2e6f0;
   -dls-steps-marker-background-color-completed: #fff;
   -dls-steps-marker-background-color-completed-hover: #f0f6ff;
   -dls-steps-marker-background-color-completed-focus: #f0f6ff;
@@ -51,7 +51,7 @@ div {
   -dls-steps-marker-border-color-current-focus: #0052cc;
   -dls-steps-marker-foreground-color-current: #fff;
   -dls-steps-marker-shadow-current-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
-  -dls-steps-connector-color-current: transparent;
+  -dls-steps-connector-color-current: #0052cc;
   -dls-steps-marker-background-color-error-current: #cc1800;
   -dls-steps-marker-background-color-error-current-hover: #ff1e00;
   -dls-steps-marker-background-color-error-current-focus: #ff1e00;
@@ -60,5 +60,5 @@ div {
   -dls-steps-marker-border-color-error-current-focus: #cc1800;
   -dls-steps-marker-foreground-color-error-current: #fff;
   -dls-steps-marker-shadow-error-current-focus: 0 0 0 2px rgba(255, 30, 0, 0.2);
-  -dls-steps-connector-color-error-current: transparent;
+  -dls-steps-connector-color-error-current: #cc1800;
 }

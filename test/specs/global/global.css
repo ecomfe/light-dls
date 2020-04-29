@@ -123,7 +123,7 @@ div {
   -dls-background-color-base-3: #ebedf5;
   -dls-background-color-base-3-hover: #e2e6f0;
   -dls-background-color-base-3-active: #d3d9e6;
-  -dls-background-color-base-3-disabled: #ebedf5;
+  -dls-background-color-base-3-disabled: #f6f7fa;
   -dls-background-color-primary: #0052cc;
   -dls-background-color-primary-hover: #0067ff;
   -dls-background-color-primary-active: #00359e;
@@ -184,6 +184,12 @@ div {
   -dls-background-color-error-disabled: #fff1f0;
   -dls-border-color-error: #ff9c8f;
   -dls-border-color-error-disabled: #ffe2de;
+  -dls-background-color-neutral: #ebedf5;
+  -dls-background-color-neutral-hover: #e2e6f0;
+  -dls-background-color-neutral-active: #d3d9e6;
+  -dls-background-color-neutral-disabled: #f6f7fa;
+  -dls-border-color-neutral: #c5ccdb;
+  -dls-border-color-neutral-disabled: #ebedf5;
   -dls-background-color-current: #f0f6ff;
   -dls-background-color-current-hover: #deebff;
   -dls-background-color-current-active: #c2daff;
@@ -203,9 +209,9 @@ div {
   -dls-border-color-error-strong: #cc1800;
   -dls-border-color-error-strong-disabled: #ffe2de;
   -dls-background-color-fillable: #fff;
-  -dls-background-color-fillable-hover: #f6f7fa;
-  -dls-background-color-fillable-active: #e2e6f0;
-  -dls-background-color-fillable-disabled: #fff;
+  -dls-background-color-fillable-hover: #ebedf5;
+  -dls-background-color-fillable-active: #d3d9e6;
+  -dls-background-color-fillable-disabled: #f6f7fa;
   -dls-border-color-fillable: #d3d9e6;
   -dls-border-color-fillable-hover: #a8b0bf;
   -dls-border-color-fillable-active: #a8b0bf;

@@ -2,7 +2,8 @@
 
 /* Common */
 @dls-table-column-min-width: dls-sum(3em, @dls-table-cell-padding-x * 2);
-@dls-table-border-color: @dls-line-color-1;
+@dls-table-cell-border-color: @dls-line-color-1;
+@dls-table-header-border-color: @dls-line-color-2;
 @dls-table-border-color-dragging: @dls-line-color-2;
 @dls-table-padding-x: @dls-padding-unit * 4;
 
@@ -46,11 +47,10 @@
 @dls-table-icon-size: @dls-icon-size-normal;
 @dls-table-icon-size-aux: @dls-icon-size-aux;
 
-// TODO: Fix table shadows
-// @dls-table-overflow-shadow-top: @dls-shadow-overflow-top;
-// @dls-table-overflow-shadow-right: @dls-shadow-overflow-right;
-// @dls-table-overflow-shadow-bottom: @dls-shadow-overflow-bottom;
-// @dls-table-overflow-shadow-left: @dls-shadow-overflow-left;
+@dls-table-overflow-shadow-top: none;
+@dls-table-overflow-shadow-right: @dls-shadow-2;
+@dls-table-overflow-shadow-bottom: none;
+@dls-table-overflow-shadow-left: @dls-shadow-2;
 
 @dls-table-body-height-no-data: @dls-height-unit * 27;
 
