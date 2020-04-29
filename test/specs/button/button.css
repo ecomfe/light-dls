@@ -28,7 +28,7 @@ div {
   -dls-button-background-color-normal-hover: #e2e6f0;
   -dls-button-background-color-normal-focus: #e2e6f0;
   -dls-button-background-color-normal-active: #d3d9e6;
-  -dls-button-background-color-normal-disabled: #ebedf5;
+  -dls-button-background-color-normal-disabled: #f6f7fa;
   -dls-button-font-color-basic: #282c33;
   -dls-button-font-color-basic-disabled: #a8b0bf;
   -dls-button-border-color-basic: #e2e6f0;
@@ -57,7 +57,7 @@ div {
   -dls-button-background-color-primary-active: #00359e;
   -dls-button-background-color-primary-disabled: #deebff;
   -dls-button-font-color-translucent: #fff;
-  -dls-button-font-color-translucent-disabled: rgba(255, 255, 255, 0.3);
+  -dls-button-font-color-translucent-disabled: rgba(255, 255, 255, 0.6);
   -dls-button-border-color-translucent: transparent;
   -dls-button-border-color-translucent-disabled: transparent;
   -dls-button-background-color-translucent: rgba(0, 0, 0, 0.6);
@@ -85,6 +85,14 @@ div {
   -dls-button-background-color-text-focus: transparent;
   -dls-button-background-color-text-active: transparent;
   -dls-button-background-color-text-disabled: transparent;
+  -dls-button-background-color-checked: #f0f6ff;
+  -dls-button-background-color-checked-hover: #deebff;
+  -dls-button-background-color-checked-focus: #deebff;
+  -dls-button-background-color-checked-active: #c2daff;
+  -dls-button-background-color-checked-disabled: #f0f6ff;
+  -dls-button-border-color-checked: #0052cc;
+  -dls-button-border-color-checked-disabled: #deebff;
+  -dls-button-foreground-color-checked: #0052cc;
   -dls-button-padding-text: 2px;
   -dls-button-border-color-focus: #0052cc;
   -dls-button-shadow-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);

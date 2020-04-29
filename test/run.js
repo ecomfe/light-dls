@@ -97,7 +97,8 @@ function getTests (specDir) {
     'loading',
     'progress',
     'menu',
-    'number-input'
+    'number-input',
+    'slider'
     // ...fs
     //   .readdirSync(SRC_DIR)
     //   .map(moduleFile => extractName(moduleFile, 'less'))

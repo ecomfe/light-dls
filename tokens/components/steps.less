@@ -38,10 +38,10 @@
 
 /* Statuses */
 // Incomplete
-@dls-steps-marker-background-color-incomplete: @dls-background-color-base-1;
-@dls-steps-marker-border-color-incomplete: @dls-steps-connector-color-incomplete;
+@dls-steps-marker-background-color-incomplete: @dls-background-color-pressable;
+@dls-steps-marker-border-color-incomplete: @dls-border-color-pressable;
 @dls-steps-marker-foreground-color-incomplete: @dls-foreground-color-neutral-weak;
-@dls-steps-connector-color-incomplete: @dls-line-color-2;
+@dls-steps-connector-color-incomplete: @dls-steps-marker-border-color-incomplete;
 
 // Completed
 @dls-steps-marker-background-color-completed: @dls-background-color-strong;
@@ -72,7 +72,7 @@
 @dls-steps-marker-border-color-current-focus: @dls-border-color-focus;
 @dls-steps-marker-foreground-color-current: @dls-foreground-color-primary-reverse;
 @dls-steps-marker-shadow-current-focus: @dls-shadow-focus;
-@dls-steps-connector-color-current: @dls-steps-marker-border-color-current;
+@dls-steps-connector-color-current: @dls-steps-marker-border-color-completed;
 
 // Error & current
 @dls-steps-marker-background-color-error-current: @dls-background-color-error-primary;
@@ -83,4 +83,4 @@
 @dls-steps-marker-border-color-error-current-focus: @dls-border-color-error-focus;
 @dls-steps-marker-foreground-color-error-current: @dls-foreground-color-reverse;
 @dls-steps-marker-shadow-error-current-focus: @dls-shadow-error-focus;
-@dls-steps-connector-color-error-current: @dls-steps-marker-border-color-error-current;
+@dls-steps-connector-color-error-current: @dls-steps-marker-border-color-error;
