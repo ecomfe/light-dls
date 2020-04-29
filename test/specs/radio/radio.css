@@ -18,10 +18,10 @@ div {
   -dls-radio-border-color-checked-active: transparent;
   -dls-radio-border-color-checked-disabled: transparent;
   -dls-radio-background-color: #fff;
-  -dls-radio-background-color-hover: #f6f7fa;
-  -dls-radio-background-color-focus: #f6f7fa;
-  -dls-radio-background-color-active: #e2e6f0;
-  -dls-radio-background-color-disabled: #fff;
+  -dls-radio-background-color-hover: #ebedf5;
+  -dls-radio-background-color-focus: #ebedf5;
+  -dls-radio-background-color-active: #d3d9e6;
+  -dls-radio-background-color-disabled: #f6f7fa;
   -dls-radio-background-color-checked: #0052cc;
   -dls-radio-background-color-checked-hover: #0067ff;
   -dls-radio-background-color-checked-focus: #0067ff;

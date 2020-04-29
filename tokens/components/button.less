@@ -36,11 +36,11 @@
 @dls-button-border-color-normal: transparent;
 @dls-button-border-color-normal-disabled: @dls-button-border-color-normal;
 
-@dls-button-background-color-normal: @dls-background-color-base-3;
-@dls-button-background-color-normal-hover: @dls-background-color-base-3-hover;
+@dls-button-background-color-normal: @dls-background-color-neutral;
+@dls-button-background-color-normal-hover: @dls-background-color-neutral-hover;
 @dls-button-background-color-normal-focus: @dls-button-background-color-normal-hover;
-@dls-button-background-color-normal-active: @dls-background-color-base-3-active;
-@dls-button-background-color-normal-disabled: @dls-background-color-base-3-disabled;
+@dls-button-background-color-normal-active: @dls-background-color-neutral-active;
+@dls-button-background-color-normal-disabled: @dls-background-color-neutral-disabled;
 
 // basic
 @dls-button-font-color-basic: @dls-foreground-color-neutral;
@@ -83,7 +83,7 @@
 
 // translucent
 @dls-button-font-color-translucent: @dls-foreground-color-reverse;
-@dls-button-font-color-translucent-disabled: fade(@dls-foreground-color-reverse, 30%);
+@dls-button-font-color-translucent-disabled: fade(@dls-foreground-color-reverse, 60%);
 
 @dls-button-border-color-translucent: transparent;
 @dls-button-border-color-translucent-disabled: @dls-button-border-color-translucent;
@@ -120,6 +120,18 @@
 @dls-button-background-color-text-disabled: @dls-button-background-color-text;
 
 @dls-button-padding-text: @dls-padding-unit * 0.5;
+
+/* Checked variant */
+@dls-button-background-color-checked: @dls-background-color-current;
+@dls-button-background-color-checked-hover: @dls-background-color-current-hover;
+@dls-button-background-color-checked-focus: @dls-button-background-color-checked-hover;
+@dls-button-background-color-checked-active: @dls-background-color-current-active;
+@dls-button-background-color-checked-disabled: @dls-background-color-current-disabled;
+
+@dls-button-border-color-checked: @dls-border-color-current;
+@dls-button-border-color-checked-disabled: @dls-border-color-current-disabled;
+
+@dls-button-foreground-color-checked: @dls-foreground-color-primary;
 
 /* Focus rings */
 @dls-button-border-color-focus: @dls-border-color-focus;

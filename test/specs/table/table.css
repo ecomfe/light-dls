@@ -1,6 +1,7 @@
 div {
   -dls-table-column-min-width: calc(3em + 16px);
-  -dls-table-border-color: #e2e6f0;
+  -dls-table-cell-border-color: #e2e6f0;
+  -dls-table-header-border-color: #d3d9e6;
   -dls-table-border-color-dragging: #d3d9e6;
   -dls-table-padding-x: 16px;
   -dls-table-cell-padding-x: 8px;
@@ -27,6 +28,10 @@ div {
   -dls-table-border-radius-m: 4px;
   -dls-table-icon-size: 1.2em;
   -dls-table-icon-size-aux: 1.2em;
+  -dls-table-overflow-shadow-top: none;
+  -dls-table-overflow-shadow-right: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
+  -dls-table-overflow-shadow-bottom: none;
+  -dls-table-overflow-shadow-left: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
   -dls-table-body-height-no-data: 108px;
   -dls-table-action-spacing: 16px;
 }
