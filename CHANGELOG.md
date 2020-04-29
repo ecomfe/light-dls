@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.1
+
+- Continue to update more component tokens (WIP).
+
 ## 1.0.0-alpha.0
 
 - Move most tokens to D20 (WIP).
