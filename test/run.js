@@ -62,47 +62,10 @@ function getTests (specDir) {
   let modules = [
     'global',
     'functions',
-    'link',
-    'button',
-    'dropdown',
-    'select',
-    'option',
-    'input',
-    'textarea',
-    'steps',
-    'breadcrumb',
-    'pagination',
-    'table',
-    'popover',
-    'toast',
-    'badge',
-    'switch',
-    'time-picker',
-    'toast',
-    'tree',
-    'anchor',
-    'radio',
-    'checkbox',
-    'transfer',
-    'date-picker',
-    'uploader',
-    'carousel',
-    'form',
-    'dialog',
-    'drawer',
-    'embedded',
-    'collapse',
-    'alert',
-    'tooltip',
-    'loading',
-    'progress',
-    'menu',
-    'number-input',
-    'slider'
-    // ...fs
-    //   .readdirSync(SRC_DIR)
-    //   .map(moduleFile => extractName(moduleFile, 'less'))
-    //   .filter(m => m)
+    ...fs
+      .readdirSync(SRC_DIR)
+      .map(moduleFile => extractName(moduleFile, 'less'))
+      .filter(m => m)
   ]
 
   /**
