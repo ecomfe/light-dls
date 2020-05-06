@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.2
+
+- Continue to update more component tokens (WIP).
+
 ## 1.0.0-alpha.1
 
 - Continue to update more component tokens (WIP).
