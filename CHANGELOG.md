@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.3
+
+- Use opacity for Tag.
+- Add `@dls-line-color-0`.
+
 ## 1.0.0-alpha.2
 
 - Continue to update more component tokens (WIP).

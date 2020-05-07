@@ -27,7 +27,7 @@ div {
   -dls-tag-font-opacity-reversed-disabled: 1;
   -dls-tag-background-opacity: 0.1;
   -dls-tag-background-opacity-hover: 0.2;
-  -dls-tag-background-opacity-active: 0.2;
+  -dls-tag-background-opacity-active: 0.3;
   -dls-tag-background-opacity-disabled: 0.1;
   -dls-tag-background-opacity-selected: 1;
   -dls-tag-background-opacity-selected-hover: 0.6;
@@ -37,6 +37,6 @@ div {
   -dls-tag-background-opacity-reversed-hover: 0.6;
   -dls-tag-background-opacity-reversed-active: 0.8;
   -dls-tag-background-opacity-reversed-disabled: 0.1;
-  -dls-tag-border-opacity: 0.3;
+  -dls-tag-border-opacity: 0.2;
   -dls-tag-border-opacity-disabled: 0.1;
 }

@@ -231,6 +231,7 @@ div {
   -dls-border-color-translucent: transparent;
   -dls-border-color-translucent-disabled: transparent;
   -dls-background-color-modal: rgba(0, 0, 0, 0.6);
+  -dls-line-color-0: #ebedf5;
   -dls-line-color-1: #e2e6f0;
   -dls-line-color-2: #d3d9e6;
   -dls-border-radius-0: 2px;
