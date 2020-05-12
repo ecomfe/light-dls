@@ -1,8 +1,17 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.4
+
+- ⚠️ Remove segment Tabs.
+- Add spacing for add buttons in Tabs.
+- Add simple Tabs and strong Tabs.
+- ⚠️ Rename `@dls-date-picker-cell-border-focus-color` to `@dls-date-picker-cell-border-color-focus` to comply with naming convention.
+- Fix background for aux cells in DatePicker.
+- Add icon size and spacing for strong Checkbox.
+
 ## 1.0.0-alpha.3
 
-- Use opacity for Tag.
+- ⚠️ Use opacity for Tag.
 - Add `@dls-line-color-0`.
 
 ## 1.0.0-alpha.2
