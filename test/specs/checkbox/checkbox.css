@@ -35,4 +35,6 @@ div {
   -dls-checkbox-foreground-color-disabled: #fff;
   -dls-checkbox-shadow-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
   -dls-checkbox-group-spacing: 48px;
+  -dls-checkbox-icon-size-strong: 6px;
+  -dls-checkbox-icon-spacing-strong: 2px;
 }
