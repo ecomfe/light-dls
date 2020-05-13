@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.5
+
+- Fix dot size for Radio.
+- Add font color for Pagination items.
+- Add styles for strong Checkbox.
+
 ## 1.0.0-alpha.4
 
 - ⚠️ Remove segment Tabs.
