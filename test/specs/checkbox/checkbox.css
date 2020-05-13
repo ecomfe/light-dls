@@ -37,4 +37,13 @@ div {
   -dls-checkbox-group-spacing: 48px;
   -dls-checkbox-icon-size-strong: 6px;
   -dls-checkbox-icon-spacing-strong: 2px;
+  -dls-checkbox-font-color-strong-checked: #0052cc;
+  -dls-checkbox-font-color-strong-checked-disabled: #c2daff;
+  -dls-checkbox-border-color-strong-checked: #0052cc;
+  -dls-checkbox-border-color-strong-checked-disabled: #deebff;
+  -dls-checkbox-background-color-strong-checked: #f0f6ff;
+  -dls-checkbox-background-color-strong-checked-hover: #deebff;
+  -dls-checkbox-background-color-strong-checked-focus: #deebff;
+  -dls-checkbox-background-color-strong-checked-active: #c2daff;
+  -dls-checkbox-background-color-strong-checked-disabled: #f0f6ff;
 }
