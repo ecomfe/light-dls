@@ -14,6 +14,8 @@ div {
   -dls-pagination-goto-input-padding-x: 8px;
   -dls-pagination-goto-input-digits: 3;
   -dls-pagination-goto-input-width: calc(3ch + 18px);
+  -dls-pagination-page-item-font-color: #545b66;
+  -dls-pagination-page-item-font-color-disabled: #a8b0bf;
   -dls-pagination-page-item-background-color: #fff;
   -dls-pagination-page-item-background-color-hover: #f6f7fa;
   -dls-pagination-page-item-background-color-focus: #f6f7fa;
