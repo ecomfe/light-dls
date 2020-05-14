@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.6
+
+- Fix focus and active background color for horizontal Menu.
+- Use hard-coded triple shadow for now.
+- Fix Switch sizes.
+- Fix dot size for Radio.
+
 ## 1.0.0-alpha.5
 
 - Fix dot size for Radio.
