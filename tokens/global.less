@@ -327,25 +327,19 @@
 @dls-shadow-offset-y-1: 4px;
 @dls-shadow-blur-radius-1: 6px;
 @dls-shadow-spread-radius-1: 0;
-@dls-shadow-1: @dls-shadow-offset-x-1 @dls-shadow-offset-y-1
-  @dls-shadow-blur-radius-1 @dls-shadow-spread-radius-1
-  fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
+@dls-shadow-1: 0 4px 6px fade(@dls-shadow-color, 6%), 0 1px 10px fade(@dls-shadow-color, 5%), 0 2px 4px -1px fade(@dls-shadow-color, 1%);
 
 @dls-shadow-offset-x-2: 0;
 @dls-shadow-offset-y-2: 8px;
 @dls-shadow-blur-radius-2: 10px;
 @dls-shadow-spread-radius-2: 1px;
-@dls-shadow-2: @dls-shadow-offset-x-2 @dls-shadow-offset-y-2
-  @dls-shadow-blur-radius-2 @dls-shadow-spread-radius-2
-  fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
+@dls-shadow-2: 0 8px 10px 1px fade(@dls-shadow-color, 6%), 0 3px 14px 2px fade(@dls-shadow-color, 5%), 0 5px 5px -3px fade(@dls-shadow-color, 1%);
 
 @dls-shadow-offset-x-3: 0;
 @dls-shadow-offset-y-3: 16px;
 @dls-shadow-blur-radius-3: 24px;
 @dls-shadow-spread-radius-3: 2px;
-@dls-shadow-3: @dls-shadow-offset-x-3 @dls-shadow-offset-y-3
-  @dls-shadow-blur-radius-3 @dls-shadow-spread-radius-3
-  fade(@dls-shadow-color, percentage(@dls-shadow-opacity));
+@dls-shadow-3: 0 16px 24px 2px fade(@dls-shadow-color, 6%), 0 6px 30px 5px fade(@dls-shadow-color, 5%), 0 8px 10px -5px fade(@dls-shadow-color, 1%);
 
 // Focus ring shadows
 @dls-shadow-opacity-focus: 0.2;

@@ -50,7 +50,7 @@ div {
   -dls-option-dropdown-border-radius-m: 4px;
   -dls-option-dropdown-border-radius-l: 6px;
   -dls-option-dropdown-target-spacing: 4px;
-  -dls-option-dropdown-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  -dls-option-dropdown-shadow: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
   -dls-option-dropdown-placeholder-padding-y: 8px;
   -dls-option-dropdown-placeholder-font-color: #848b99;
 }
