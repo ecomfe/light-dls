@@ -1,10 +1,10 @@
 div {
   -dls-drawer-width: 800px;
   -dls-drawer-level-indent: 60px;
-  -dls-drawer-shadow-top: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
-  -dls-drawer-shadow-right: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
-  -dls-drawer-shadow-bottom: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
-  -dls-drawer-shadow-left: 0 8px 10px 1px rgba(0, 0, 0, 0.1);
+  -dls-drawer-shadow-top: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
+  -dls-drawer-shadow-right: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
+  -dls-drawer-shadow-bottom: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
+  -dls-drawer-shadow-left: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
   -dls-drawer-title-font-size-s: 14px;
   -dls-drawer-title-font-size-m: 16px;
   -dls-drawer-close-icon-size: 1.2em;
