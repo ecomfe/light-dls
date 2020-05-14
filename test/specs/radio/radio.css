@@ -5,8 +5,8 @@ div {
   -dls-radio-size-s: 14px;
   -dls-radio-size-m: 16px;
   -dls-radio-spacing: 8px;
-  -dls-radio-dot-size-s: 8px;
-  -dls-radio-dot-size-m: 10px;
+  -dls-radio-dot-size-s: 6px;
+  -dls-radio-dot-size-m: 6px;
   -dls-radio-border-color: #d3d9e6;
   -dls-radio-border-color-hover: #a8b0bf;
   -dls-radio-border-color-focus: #0052cc;
