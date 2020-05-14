@@ -1,16 +1,16 @@
 div {
-  -dls-switch-width-xs: 24px;
-  -dls-switch-width-s: 32px;
-  -dls-switch-width-m: 40px;
+  -dls-switch-width-xs: 20px;
+  -dls-switch-width-s: 26px;
+  -dls-switch-width-m: 32px;
   -dls-switch-height-xs: 12px;
   -dls-switch-height-s: 16px;
   -dls-switch-height-m: 20px;
   -dls-switch-thumb-size-xs: 8px;
   -dls-switch-thumb-size-s: 12px;
-  -dls-switch-thumb-size-m: 16px;
+  -dls-switch-thumb-size-m: 14px;
   -dls-switch-padding-xs: 2px;
   -dls-switch-padding-s: 2px;
-  -dls-switch-padding-m: 2px;
+  -dls-switch-padding-m: 3px;
   -dls-switch-track-color-on: #0052cc;
   -dls-switch-track-color-on-hover: #0067ff;
   -dls-switch-track-color-on-focus: #0067ff;
