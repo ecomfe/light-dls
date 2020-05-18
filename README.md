@@ -100,6 +100,25 @@ To get the sum of the given dimensions or `calc` expressions.
 @left: dls-sum(calc(1px + 5em), -1px, calc(-5em)); // → 0
 ```
 
+### `dls-even(@dimension)`
+
+To calculate the closest even integer value for a given dimension.
+
+**Params**:
+
+- `@dimension: Dimension` - The given length value.
+
+**Return value**:
+
+`Dimension` - the closest even value.
+
+```less
+@width: dls-even(1px); // → 2px
+@height: dls-even(2); // → 2
+@top: dls-even(19.6px); // → 20px
+@left: dls-even(2.8em); // → 2em
+```
+
 ### `dls-line-height(@line-height, @font-size): Dimension`
 
 To calculate the absolute `line-height` from the given `line-height` and `font-size` value.
