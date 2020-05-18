@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.7
+
+- Add `dls-even` function.
+
 ## 1.0.0-alpha.6
 
 - Fix focus and active background color for horizontal Menu.
