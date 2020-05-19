@@ -40,9 +40,9 @@ div {
   -dls-menu-item-background-color-active: #e2e6f0;
   -dls-menu-item-background-color-disabled: #fff;
   -dls-menu-item-font-color-current: #0052cc;
-  -dls-menu-item-font-color-current-hover: #0052cc;
-  -dls-menu-item-font-color-current-focus: #0052cc;
-  -dls-menu-item-font-color-current-active: #0052cc;
+  -dls-menu-item-font-color-current-hover: #0067ff;
+  -dls-menu-item-font-color-current-focus: #0067ff;
+  -dls-menu-item-font-color-current-active: #00359e;
   -dls-menu-item-background-color-current: #f0f6ff;
   -dls-menu-item-background-color-current-hover: #deebff;
   -dls-menu-item-background-color-current-focus: #deebff;
