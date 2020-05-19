@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.8
+
+- Fix font color for current horizontal menu item.
+
 ## 1.0.0-alpha.7
 
 - Add `dls-even` function.
