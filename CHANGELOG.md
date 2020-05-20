@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.9
+
+- ⚠️ Refactor how Tag colors work. Merged background and foreground colors into colors (except for font color of reversed tags).
+- Add `@dls-form-actions-content-spacing`.
+
 ## 1.0.0-alpha.8
 
 - Fix font color for current horizontal menu item.
