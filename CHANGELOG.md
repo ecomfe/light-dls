@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.10
+
+- ⚠️ Rename `reversed` to `reverse` in Tag.
+- Add `@dls-tag-font-color-selected`.
+
 ## 1.0.0-alpha.9
 
 - ⚠️ Refactor how Tag colors work. Merged background and foreground colors into colors (except for font color of reversed tags).
