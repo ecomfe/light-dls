@@ -10,4 +10,5 @@ div {
   -dls-form-field-error-font-color: #cc1800;
   -dls-form-field-error-spacing-before-vertical: 4px;
   -dls-form-actions-spacing-before: 40px;
+  -dls-form-actions-content-spacing: 20px;
 }
