@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.11
+
+- Update table cell border color.
+
 ## 1.0.0-alpha.10
 
 - ⚠️ Rename `reversed` to `reverse` in Tag.
