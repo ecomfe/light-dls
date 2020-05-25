@@ -1,6 +1,6 @@
 div {
   -dls-table-column-min-width: calc(3em + 16px);
-  -dls-table-cell-border-color: #e2e6f0;
+  -dls-table-cell-border-color: #ebedf5;
   -dls-table-header-border-color: #d3d9e6;
   -dls-table-border-color-dragging: #d3d9e6;
   -dls-table-padding-x: 16px;
