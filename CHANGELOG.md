@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.12
+
+- Fix current item color for Breadcrumb.
+
 ## 1.0.0-alpha.11
 
 - Update table cell border color.
