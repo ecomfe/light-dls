@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.13
+
+- Fix default color for Pagination items.
+- Fix `@dls-foreground-color-neutral-weak-disabled`.
+
 ## 1.0.0-alpha.12
 
 - Fix current item color for Breadcrumb.
