@@ -104,13 +104,13 @@ div {
   -dls-foreground-color-neutral-weak-active: #282c33;
   -dls-foreground-color-neutral-weak-disabled: #c5ccdb;
   -dls-foreground-color-info-primary: #0052cc;
-  -dls-foreground-color-info-primary-disabled: #c2daff;
+  -dls-foreground-color-info-primary-disabled: #8fbcff;
   -dls-foreground-color-success-primary: #00cc63;
-  -dls-foreground-color-success-primary-disabled: #c2ffdf;
+  -dls-foreground-color-success-primary-disabled: #8fffc5;
   -dls-foreground-color-warning-primary: #ff9100;
-  -dls-foreground-color-warning-primary-disabled: #ffe4c2;
+  -dls-foreground-color-warning-primary-disabled: #ffce8f;
   -dls-foreground-color-error-primary: #cc1800;
-  -dls-foreground-color-error-primary-disabled: #ffc9c2;
+  -dls-foreground-color-error-primary-disabled: #ff9c8f;
   -dls-foreground-color-highlighted: #cc7400;
   -dls-background-color-base-1: #fff;
   -dls-background-color-base-1-hover: #f6f7fa;
