@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.14
+
+- Fix disabled foreground colors for primary contextual colors.
+
 ## 1.0.0-alpha.13
 
 - Fix default color for Pagination items.
