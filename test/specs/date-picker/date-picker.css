@@ -72,6 +72,9 @@ div {
   -dls-date-picker-list-background-color-hover: #f6f7fa;
   -dls-date-picker-list-background-color-active: #e2e6f0;
   -dls-date-picker-list-background-color-selected: #f0f6ff;
+  -dls-date-picker-list-background-color-selected-hover: #deebff;
+  -dls-date-picker-list-background-color-selected-focus: #deebff;
+  -dls-date-picker-list-background-color-selected-active: #c2daff;
   -dls-date-picker-list-font-color: #282c33;
   -dls-date-picker-list-font-color-focus: #282c33;
   -dls-date-picker-list-font-color-hover: #282c33;

@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.16
+
+- Add hover/focus/active value for DatePicker's selected year list item.
+- Fix base brand color (not directly used).
+
 ## 1.0.0-alpha.15
 
 - Fix `@dls-background-color-pressable-disabled`.
