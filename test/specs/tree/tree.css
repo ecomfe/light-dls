@@ -24,5 +24,5 @@ div {
   -dls-tree-node-background-color-selected-hover: #e0edff;
   -dls-tree-node-background-color-selected-focus: #e0edff;
   -dls-tree-node-background-color-selected-active: #bfd9ff;
-  -dls-tree-node-font-weight-selected: 500;
+  -dls-tree-node-font-weight-selected: 400;
 }
