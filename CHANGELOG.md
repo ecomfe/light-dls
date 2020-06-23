@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.17
+
+- Update color palette algorithm.
+- Fix font size for Progress.
+- Fix font weight for selected Tree node.
+
 ## 1.0.0-alpha.16
 
 - Add hover/focus/active value for DatePicker's selected year list item.
