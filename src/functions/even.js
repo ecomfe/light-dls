@@ -1,4 +1,4 @@
-export default function install (less, pluginManager, functions) {
+export default function install (less, _, functions) {
   functions.add('dls-even', dim => {
     return less.dimension(
       even(dim.value),

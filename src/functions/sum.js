@@ -1,4 +1,4 @@
-export default function install (less, pluginManager, functions) {
+export default function install (less, _, functions) {
   functions.add('dls-sum', (...values) => {
     const valueDic = values.reduce((acc, value) => {
       if (value.calc) {
