@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.18
+
+- Update border colors for Alert.
+
 ## 1.0.0-alpha.17
 
 - Update color palette algorithm.
