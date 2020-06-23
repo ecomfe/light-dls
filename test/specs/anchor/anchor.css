@@ -6,7 +6,7 @@ div {
   -dls-anchor-track-width: 1px;
   -dls-anchor-indicator-width: 2px;
   -dls-anchor-indicator-color: #0052cc;
-  -dls-anchor-indicator-color-hover: #0067ff;
-  -dls-anchor-indicator-color-focus: #0067ff;
-  -dls-anchor-indicator-color-active: #00359e;
+  -dls-anchor-indicator-color-hover: #0066ff;
+  -dls-anchor-indicator-color-focus: #0066ff;
+  -dls-anchor-indicator-color-active: #0045ad;
 }
