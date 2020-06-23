@@ -34,8 +34,8 @@ div {
   -dls-input-placeholder-color: #848b99;
   -dls-input-count-color: #848b99;
   -dls-input-count-color-error: #cc1800;
-  -dls-input-shadow-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
-  -dls-input-shadow-inline-focus: 0 1px 0 0 #0067ff;
+  -dls-input-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
+  -dls-input-shadow-inline-focus: 0 1px 0 0 #0066ff;
   -dls-input-shadow-error-focus: 0 0 0 2px rgba(255, 30, 0, 0.2);
   -dls-input-shadow-inline-error-focus: 0 1px 0 0 #ff1e00;
   -dls-input-icon-size: 1.2em;

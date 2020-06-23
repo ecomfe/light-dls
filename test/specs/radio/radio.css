@@ -23,15 +23,15 @@ div {
   -dls-radio-background-color-active: #d3d9e6;
   -dls-radio-background-color-disabled: #f6f7fa;
   -dls-radio-background-color-checked: #0052cc;
-  -dls-radio-background-color-checked-hover: #0067ff;
-  -dls-radio-background-color-checked-focus: #0067ff;
-  -dls-radio-background-color-checked-active: #00359e;
-  -dls-radio-background-color-checked-disabled: #deebff;
+  -dls-radio-background-color-checked-hover: #0066ff;
+  -dls-radio-background-color-checked-focus: #0066ff;
+  -dls-radio-background-color-checked-active: #0045ad;
+  -dls-radio-background-color-checked-disabled: #e0edff;
   -dls-radio-dot-color: #fff;
   -dls-radio-dot-color-hover: #fff;
   -dls-radio-dot-color-focus: #fff;
   -dls-radio-dot-color-active: #fff;
   -dls-radio-dot-color-disabled: #fff;
-  -dls-radio-shadow-focus: 0 0 0 2px rgba(0, 103, 255, 0.2);
+  -dls-radio-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
   -dls-radio-group-spacing: 48px;
 }

@@ -3,14 +3,19 @@ import path from 'path'
 import chalk from 'chalk'
 import less from 'less'
 import strip from 'strip-css-comments'
-import mkdirp from 'mkdirp'
-import rimraf from 'rimraf'
+import arg from 'arg'
 import dls from '../dist'
 const diff = require('diff')
 
+const args = arg(
+  {
+    '--update-snapshots': Boolean,
+    '-u': '--update-snapshots'
+  }
+)
+
 const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
-const SNAPSHOT_DIR = path.resolve(__dirname, 'snapshots')
 const SRC_DIR = path.resolve(__dirname, '../tokens/components')
 
 function logDiff (left, right) {
@@ -75,7 +80,7 @@ function getTests (specDir) {
   let noTests = []
 
   modules.forEach(module => {
-    let moduleDir = path.join(specDir, module)
+    let moduleDir = path.resolve(specDir, module)
     if (!fs.existsSync(moduleDir)) {
       noTests.push(module)
       return
@@ -91,15 +96,11 @@ function getTests (specDir) {
           // .css files
           return
         }
-        let src = fs.readFileSync(path.resolve(moduleDir, partFile), {
-          encoding: 'utf8'
-        })
+        let src = fs.readFileSync(path.resolve(moduleDir, partFile), 'utf8')
 
         let expected = ''
         if (fs.existsSync(path.resolve(moduleDir, part + '.css'))) {
-          expected = fs.readFileSync(path.resolve(moduleDir, part) + '.css', {
-            encoding: 'utf8'
-          })
+          expected = fs.readFileSync(path.resolve(moduleDir, part) + '.css', 'utf8')
         }
 
         suites.push({
@@ -142,11 +143,11 @@ function getTests (specDir) {
               .replace(/\n+/g, '\n')
               .replace(/^\n/, '')
 
-            let snapshotDir = path.join(SNAPSHOT_DIR, suite.module)
-            if (!fs.existsSync(snapshotDir)) {
-              mkdirp.sync(snapshotDir)
+            if (args['--update-snapshots']) {
+              let moduleDir = path.resolve(specDir, suite.module)
+              fs.writeFileSync(path.resolve(moduleDir, `${suite.part}.css`), actual, 'utf8')
+              suite.expected = actual
             }
-            fs.writeFileSync(path.join(snapshotDir, `${suite.part}.css`), actual, 'utf8')
 
             let expected = suite.expected
             if (actual !== expected) {
@@ -224,5 +225,4 @@ class TestRunner {
   }
 }
 
-rimraf.sync(SNAPSHOT_DIR)
 new TestRunner(getTests(SPEC_DIR)).start()

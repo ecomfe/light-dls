@@ -26,10 +26,10 @@ div {
   -dls-tab-font-color-active: #000;
   -dls-tab-font-color-disabled: #a8b0bf;
   -dls-tab-font-color-current: #0052cc;
-  -dls-tab-font-color-current-hover: #0067ff;
-  -dls-tab-font-color-current-focus: #0067ff;
-  -dls-tab-font-color-current-active: #00359e;
-  -dls-tab-background-color-focus: #deebff;
+  -dls-tab-font-color-current-hover: #0066ff;
+  -dls-tab-font-color-current-focus: #0066ff;
+  -dls-tab-font-color-current-active: #0045ad;
+  -dls-tab-background-color-focus: #e0edff;
   -dls-tab-font-weight-current: 400;
   -dls-tab-container-separator-color: #d3d9e6;
   -dls-tab-container-border-width: 1px;
@@ -50,7 +50,7 @@ div {
   -dls-tab-menu-background-color-strong: #ebedf5;
   -dls-tab-background-color-strong: transparent;
   -dls-tab-background-color-strong-hover: #f6f7fa;
-  -dls-tab-background-color-strong-focus: #deebff;
+  -dls-tab-background-color-strong-focus: #e0edff;
   -dls-tab-background-color-strong-active: #e2e6f0;
   -dls-tab-background-color-strong-disabled: transparent;
   -dls-tab-background-color-strong-current: #fff;
@@ -63,7 +63,7 @@ div {
   -dls-tab-font-color-strong-active: #000;
   -dls-tab-font-color-strong-disabled: #a8b0bf;
   -dls-tab-font-color-strong-current: #0052cc;
-  -dls-tab-font-color-strong-current-hover: #0067ff;
-  -dls-tab-font-color-strong-current-focus: #0067ff;
-  -dls-tab-font-color-strong-current-active: #00359e;
+  -dls-tab-font-color-strong-current-hover: #0066ff;
+  -dls-tab-font-color-strong-current-focus: #0066ff;
+  -dls-tab-font-color-strong-current-active: #0045ad;
 }
