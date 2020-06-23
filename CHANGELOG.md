@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.19
+
+- Fix icon size for Loading.
+
 ## 1.0.0-alpha.18
 
 - Update border colors for Alert.
