@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.20
+
+- Fix header padding for Collapse.
+- Add `@dls-dialog-title-font-weight`.
+- Fix font weight for selected options and their parents.
+- Add hover/focus/active border colors for Button.
+
 ## 1.0.0-alpha.19
 
 - Fix icon size for Loading.
