@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.22
+
+- ⚠️ Remove `@dls-button-border-color-*-focus`, use the existing `@dls-button-border-color-focus` instead.
+
 ## 1.0.0-alpha.21
 
 - Fix Checkbox icon size.
