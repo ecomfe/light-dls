@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.21
+
+- Fix Checkbox icon size.
+- Fix NumberInput icon size.
+- Fix Progress track width.
+
 ## 1.0.0-alpha.20
 
 - Fix header padding for Collapse.
