@@ -24,7 +24,6 @@ div {
   -dls-button-font-color-normal-disabled: #a8b0bf;
   -dls-button-border-color-normal: transparent;
   -dls-button-border-color-normal-hover: transparent;
-  -dls-button-border-color-normal-focus: transparent;
   -dls-button-border-color-normal-active: transparent;
   -dls-button-border-color-normal-disabled: transparent;
   -dls-button-background-color-normal: #ebedf5;
@@ -36,7 +35,6 @@ div {
   -dls-button-font-color-basic-disabled: #a8b0bf;
   -dls-button-border-color-basic: #e2e6f0;
   -dls-button-border-color-basic-hover: #d3d9e6;
-  -dls-button-border-color-basic-focus: #0052cc;
   -dls-button-border-color-basic-active: #d3d9e6;
   -dls-button-border-color-basic-disabled: #ebedf5;
   -dls-button-background-color-basic: #fff;
@@ -48,7 +46,6 @@ div {
   -dls-button-font-color-strong-disabled: #8fbcff;
   -dls-button-border-color-strong: #0052cc;
   -dls-button-border-color-strong-hover: #0052cc;
-  -dls-button-border-color-strong-focus: #0052cc;
   -dls-button-border-color-strong-active: #0052cc;
   -dls-button-border-color-strong-disabled: #e0edff;
   -dls-button-background-color-strong: #fff;
@@ -60,7 +57,6 @@ div {
   -dls-button-font-color-primary-disabled: #fff;
   -dls-button-border-color-primary: transparent;
   -dls-button-border-color-primary-hover: transparent;
-  -dls-button-border-color-primary-focus: transparent;
   -dls-button-border-color-primary-active: transparent;
   -dls-button-border-color-primary-disabled: transparent;
   -dls-button-background-color-primary: #0052cc;
@@ -72,7 +68,6 @@ div {
   -dls-button-font-color-translucent-disabled: rgba(255, 255, 255, 0.6);
   -dls-button-border-color-translucent: transparent;
   -dls-button-border-color-translucent-hover: transparent;
-  -dls-button-border-color-translucent-focus: transparent;
   -dls-button-border-color-translucent-active: transparent;
   -dls-button-border-color-translucent-disabled: transparent;
   -dls-button-background-color-translucent: rgba(0, 0, 0, 0.6);
