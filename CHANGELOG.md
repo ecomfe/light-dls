@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.23
+
+- Add `@dls-tab-spacing-x-strong-m` and `@dls-tab-menu-padding-x-strong-m`.
+- Fix border radii for strong Tabs.
+- Fix font weight for current Menu item.
+
 ## 1.0.0-alpha.22
 
 - ⚠️ Remove `@dls-button-border-color-*-focus`, use the existing `@dls-button-border-color-focus` instead.

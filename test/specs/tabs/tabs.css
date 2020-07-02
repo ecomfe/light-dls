@@ -44,8 +44,10 @@ div {
   -dls-tab-separator-color: #d3d9e6;
   -dls-tab-menu-height-strong-m: 48px;
   -dls-tab-padding-x-strong-m: 24px;
-  -dls-tab-border-radius-strong-m: 6px;
-  -dls-tab-container-border-radius-strong-m: 10px;
+  -dls-tab-spacing-x-strong-m: 0;
+  -dls-tab-menu-padding-x-strong-m: 16px;
+  -dls-tab-border-radius-strong-m: 10px;
+  -dls-tab-container-border-radius-strong-m: 6px;
   -dls-tab-container-border-color-strong: #ebedf5;
   -dls-tab-menu-background-color-strong: #ebedf5;
   -dls-tab-background-color-strong: transparent;
