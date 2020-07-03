@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import less from 'less'
+import camelCase from 'lodash.camelcase'
 import { parse } from 'postcss-values-parser'
 import dls from '../dist'
 
@@ -65,6 +66,13 @@ less
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.less'),
       variableTuples.map(([key, value]) => `@${key}: ${value};`).join('\n') +
+        '\n',
+      'utf8'
+    )
+
+    fs.writeFileSync(
+      path.resolve(__dirname, '..', 'variables.js'),
+      variableTuples.map(([key, value]) => `export const ${camelCase(key)} = '${value}'`).join('\n') +
         '\n',
       'utf8'
     )

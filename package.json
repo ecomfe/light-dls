@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-dls",
-  "version": "1.0.0-alpha.23",
+  "version": "1.0.0-alpha.24",
   "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
@@ -39,6 +39,7 @@
     "fast-glob": "^3.0.4",
     "kolor": "^1.1.9",
     "less": "^3.9.0",
+    "lodash.camelcase": "^4.3.0",
     "pkg-dir": "^4.2.0",
     "postcss-values-parser": "^3.0.4",
     "prettier": "^1.17.1",

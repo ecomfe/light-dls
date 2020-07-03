@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.24
+
+- Add `variables.js` to provide variable values to JavaScript.
+
 ## 1.0.0-alpha.23
 
 - Add `@dls-tab-spacing-x-strong-m` and `@dls-tab-menu-padding-x-strong-m`.
