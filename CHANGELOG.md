@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.25
+
+- Add `@dls-menu-border-color-horizontal`.
+
 ## 1.0.0-alpha.24
 
 - Add `variables.js` to provide variable values to JavaScript.
