@@ -1,4 +1,5 @@
 import kolor from 'kolor'
+import memoize from 'lodash.memoize'
 import { isNumber } from '../utils'
 
 const BASE_LEVEL = 7
@@ -96,27 +97,29 @@ function normalize ([h, s, b]) {
   return [Math.round(h), Math.round(s) / 100, Math.round(b) / 100]
 }
 
+const getColorValue = memoize((rgb, level) => {
+  const color = normalize(
+    getShade(
+      kolor
+        .rgb(rgb)
+        .hsv()
+        .toArray(),
+      level
+    )
+  )
+
+  return kolor
+    .hsv(color)
+    .hex()
+    .slice(1)
+}, (rgb, level) => `${rgb}#${level}`)
+
 export default function install (less, _, functions) {
   functions.add('dls-shade', (base = {}, level = {}) => {
     if (!isNumber(level.value) || level.value < 1 || level.value > 10) {
       throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')
     }
 
-    const color = normalize(
-      getShade(
-        kolor
-          .rgb(base.rgb)
-          .hsv()
-          .toArray(),
-        level.value
-      )
-    )
-
-    return less.color(
-      kolor
-        .hsv(color)
-        .hex()
-        .slice(1)
-    )
+    return less.color(getColorValue(base.rgb, level.value))
   })
 }
