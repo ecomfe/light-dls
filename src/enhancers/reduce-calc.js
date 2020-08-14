@@ -1,4 +1,7 @@
 import reduce from 'reduce-css-calc'
+import memoize from 'lodash.memoize'
+
+const reduceMemo = memoize(reduce)
 
 export default function install (less) {
   const { reduceCalc = true } = this.options || {}
@@ -14,7 +17,7 @@ export default function install (less) {
           isEmpty: () => buffer.length === 0
         }
         genCSS.call(this, context, proxy)
-        output.add(reduce(buffer.join('')))
+        output.add(reduceMemo(buffer.join('')))
         return
       }
 

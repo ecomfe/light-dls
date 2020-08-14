@@ -1,11 +1,15 @@
 import kolor from 'kolor'
+import memoize from 'lodash.memoize'
 import { isInRanges } from '../utils'
 
 const CONTEXTUAL_RANGES = {
   info: [[210, 225]],
   success: [[95, 155]],
   warning: [[30, 45]],
-  error: [[0, 10], [350, 360]]
+  error: [
+    [0, 10],
+    [350, 360]
+  ]
 }
 
 const CONTEXTUAL_COLORS = {
@@ -28,6 +32,20 @@ function getContextual (color, type) {
   return CONTEXTUAL_COLORS[type].map((v, i) => (i === 0 ? v : v / 100))
 }
 
+const getColorValue = memoize((rgb, type) => {
+  const color = getContextual(
+    kolor
+      .rgb(rgb)
+      .hsv()
+      .toArray(),
+    type
+  )
+  return kolor
+    .hsv(color)
+    .hex()
+    .slice(1)
+}, (rgb, type) => `${rgb}#${type}`)
+
 export default function install (less, _, functions) {
   functions.add('dls-contextual', (base = {}, type = {}) => {
     if (
@@ -41,19 +59,6 @@ export default function install (less, _, functions) {
       )
     }
 
-    const color = getContextual(
-      kolor
-        .rgb(base.rgb)
-        .hsv()
-        .toArray(),
-      type.value
-    )
-
-    return less.color(
-      kolor
-        .hsv(color)
-        .hex()
-        .slice(1)
-    )
+    return less.color(getColorValue(base.rgb, type.value))
   })
 }

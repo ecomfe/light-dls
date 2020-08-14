@@ -217,10 +217,17 @@ class TestRunner {
       })
     }
 
+    logLine(
+      'Time elapsed: ' +
+          (Date.now() - this.startTime) +
+          'ms.'
+    )
+
     this.endCallback && this.endCallback()
   }
 
   start () {
+    this.startTime = Date.now()
     this.next()
   }
 }
