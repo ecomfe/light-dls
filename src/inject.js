@@ -27,6 +27,10 @@ class Injector {
   }
 }
 
-export default function inject (less, pluginManager) {
-  pluginManager.addPreProcessor(new Injector())
+export default function inject (_, pluginManager) {
+  const { inject = true } = this.options || {}
+
+  if (inject) {
+    pluginManager.addPreProcessor(new Injector())
+  }
 }
