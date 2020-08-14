@@ -20,60 +20,65 @@ class VariablesOutputVisitor {
 }
 
 const SELECTOR = 'DLS_VARS'
-const visitor = new VariablesOutputVisitor()
 
-less
-  .render(fs.readFileSync('./tokens/index.less', 'utf-8'), {
+async function getVariables (path) {
+  const visitor = new VariablesOutputVisitor()
+
+  await less.render(fs.readFileSync(path, 'utf-8'), {
     plugins: [
-      dls(),
+      dls({
+        inject: false
+      }),
       {
-        install (less, pluginManager) {
+        install (_, pluginManager) {
           pluginManager.addVisitor(visitor)
         }
       }
     ],
     paths: ['tokens']
   })
-  .then(() => {
-    const src = [
-      `${SELECTOR}{`,
-      visitor.variables.map(v => `${v.slice(1)}: ${v}`).join(';'),
-      '}'
-    ].join('')
-    return less.render(src, {
-      plugins: [dls()]
-    })
-  })
-  .then(({ css }) => {
-    const variableTuples = css
-      .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
-      .replace(/}[\n\s]*$/, '')
-      .split(/;[\n\s]*/)
-      .filter(v => v)
-      .map(decl => decl.split(/:\s*/))
 
-    const valueMap = variableTuples.reduce((map, [key, value]) => {
-      const occurrences = map.get(value)
-      if (!occurrences) {
-        map.set(value, new Set([key]))
-      } else {
-        occurrences.add(key)
-      }
-      return map
-    }, new Map())
+  return visitor.variables.map(v => v.slice(1))
+}
+
+async function getTuples (variables) {
+  const src = [
+    `${SELECTOR}{`,
+    variables.map(v => `${v}: @${v}`).join(';'),
+    '}'
+  ].join('')
+
+  const { css } = await less.render(src, {
+    plugins: [dls()]
+  })
+
+  return css
+    .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
+    .replace(/}[\n\s]*$/, '')
+    .split(/;[\n\s]*/)
+    .filter(v => v)
+    .map(decl => decl.split(/:\s*/))
+}
+
+async function generate () {
+  try {
+    const allVariables = await getVariables('./tokens/index.less')
+    const globalVariables = await getVariables('./tokens/global.less')
+
+    const tuples = await getTuples(allVariables)
 
     // generate variables.less
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.less'),
-      variableTuples.map(([key, value]) => `@${key}: ${value};`).join('\n') +
-        '\n',
+      tuples.map(([key, value]) => `@${key}: ${value};`).join('\n') + '\n',
       'utf8'
     )
 
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.js'),
-      variableTuples.map(([key, value]) => `export const ${camelCase(key)} = '${value}'`).join('\n') +
-        '\n',
+      tuples
+        .map(([key, value]) => `export const ${camelCase(key)} = '${value}'`)
+        .join('\n') + '\n',
       'utf8'
     )
 
@@ -81,36 +86,28 @@ less
     fs.writeFileSync(
       path.resolve(__dirname, '..', 'variables.json'),
       JSON.stringify(
-        variableTuples
+        tuples
           .map(([key, value]) => ({
             [key]: {
               value,
               type: getType(value),
-              equals: except(valueMap.get(value), key)
+              global: globalVariables.includes(key)
             }
           }))
-          .reduce(
-            (acc, cur) => ({
-              ...acc,
-              ...cur
-            }),
-            {}
-          ),
+          .reduce((acc, cur) => {
+            Object.assign(acc, cur)
+            return acc
+          }, {}),
         null,
         '  '
       ),
       'utf8'
     )
 
-    console.log(`${variableTuples.length} variables generated.`)
-  })
-  .catch(e => {
+    console.log(`${tuples.length} variables generated.`)
+  } catch (e) {
     console.error(e)
-  })
-
-function except (set, value) {
-  const values = [...set]
-  return values.filter(v => v !== value)
+  }
 }
 
 // https://code.visualstudio.com/api/references/vscode-api#CompletionItemKind
@@ -152,3 +149,5 @@ function getType (value) {
 
   return 'unknown'
 }
+
+generate()
