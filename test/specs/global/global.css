@@ -1,5 +1,6 @@
 div {
   -dls-color-brand: #0052cc;
+  -dls-color-brand-0: #fff;
   -dls-color-brand-1: #f2f7ff;
   -dls-color-brand-2: #e0edff;
   -dls-color-brand-3: #bfd9ff;
@@ -10,7 +11,9 @@ div {
   -dls-color-brand-8: #0045ad;
   -dls-color-brand-9: #003585;
   -dls-color-brand-10: #002152;
+  -dls-color-brand-11: #000;
   -dls-color-info: #0052cc;
+  -dls-color-info-0: #fff;
   -dls-color-info-1: #f2f7ff;
   -dls-color-info-2: #e0edff;
   -dls-color-info-3: #bfd9ff;
@@ -21,7 +24,9 @@ div {
   -dls-color-info-8: #0045ad;
   -dls-color-info-9: #003585;
   -dls-color-info-10: #002152;
+  -dls-color-info-11: #000;
   -dls-color-success: #00bf5c;
+  -dls-color-success-0: #fff;
   -dls-color-success-1: #f2fff8;
   -dls-color-success-2: #e0ffef;
   -dls-color-success-3: #bfffde;
@@ -32,7 +37,9 @@ div {
   -dls-color-success-8: #00a34f;
   -dls-color-success-9: #007d3c;
   -dls-color-success-10: #004d25;
+  -dls-color-success-11: #000;
   -dls-color-warning: #ff9100;
+  -dls-color-warning-0: #fff;
   -dls-color-warning-1: #fff9f2;
   -dls-color-warning-2: #fff4e6;
   -dls-color-warning-3: #ffe8c9;
@@ -43,7 +50,9 @@ div {
   -dls-color-warning-8: #d97b00;
   -dls-color-warning-9: #a65e00;
   -dls-color-warning-10: #663a00;
+  -dls-color-warning-11: #000;
   -dls-color-error: #cc1800;
+  -dls-color-error-0: #fff;
   -dls-color-error-1: #fff4f2;
   -dls-color-error-2: #ffe4e0;
   -dls-color-error-3: #ffc7bf;
@@ -54,6 +63,7 @@ div {
   -dls-color-error-8: #ad1400;
   -dls-color-error-9: #850f00;
   -dls-color-error-10: #520a00;
+  -dls-color-error-11: #000;
   -dls-color-gray-0: #fff;
   -dls-color-gray-1: #f6f7fa;
   -dls-color-gray-2: #ebedf5;
@@ -98,11 +108,21 @@ div {
   -dls-foreground-color-neutral-active: #000;
   -dls-foreground-color-neutral-disabled: #a8b0bf;
   -dls-foreground-color-neutral-strong: #000;
+  -dls-foreground-color-neutral-strong-hover: #0a0b0d;
+  -dls-foreground-color-neutral-strong-active: #000;
+  -dls-foreground-color-neutral-strong-disabled: #a8b0bf;
   -dls-foreground-color-neutral-light: #545b66;
+  -dls-foreground-color-neutral-light-hover: #848b99;
+  -dls-foreground-color-neutral-light-active: #282c33;
+  -dls-foreground-color-neutral-light-disabled: #a8b0bf;
   -dls-foreground-color-neutral-weak: #848b99;
   -dls-foreground-color-neutral-weak-hover: #545b66;
   -dls-foreground-color-neutral-weak-active: #282c33;
   -dls-foreground-color-neutral-weak-disabled: #c5ccdb;
+  -dls-foreground-color-neutral-dim: #a8b0bf;
+  -dls-foreground-color-neutral-dim-hover: #848b99;
+  -dls-foreground-color-neutral-dim-active: #545b66;
+  -dls-foreground-color-neutral-dim-disabled: #e2e6f0;
   -dls-foreground-color-info-primary: #0052cc;
   -dls-foreground-color-info-primary-disabled: #8fbcff;
   -dls-foreground-color-success-primary: #00bf5c;
