@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.26
+
+- Add memoize for plugins.
+- Add `inject` option so that variable injection can be optional.
+- Add `@dls-foreground-color-neutral-dim-*`.
+- Add `@dls-color-*-0` and `@dls-color-*-11` for contextual colors.
+
 ## 1.0.0-alpha.25
 
 - Add `@dls-menu-border-color-horizontal`.
