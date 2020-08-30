@@ -1,11 +1,16 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.27
+
+- Fix dependencies for check command.
+
 ## 1.0.0-alpha.26
 
 - Add memoize for plugins.
 - Add `inject` option so that variable injection can be optional.
 - Add `@dls-foreground-color-neutral-dim-*`.
 - Add `@dls-color-*-0` and `@dls-color-*-11` for contextual colors.
+- Add table header icon colors.
 
 ## 1.0.0-alpha.25
 
