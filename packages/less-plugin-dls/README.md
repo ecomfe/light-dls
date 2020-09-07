@@ -61,7 +61,7 @@ To generate contextual colors according to the given brand color.
 `Color` - the generated contextual color.
 
 ```less
-@color: dls-contextual(#3d88f2, success); // → #39bf45
+@color: dls-contextual(#0052cc, success); // → #39bf45
 ```
 
 ### `dls-shade(@color, @level)`
