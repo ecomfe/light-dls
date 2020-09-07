@@ -65,14 +65,6 @@ function getSatuation (base, level) {
   return portion * base
 }
 
-// function hexToHsv (v) {
-//   return rgbToHsv(hexToRgb(v))
-// }
-
-// function hsvToHex (v) {
-//   return rgbToHex(hsvToRgb(normalizeHsv(v)))
-// }
-
 export default function getShade (color, level) {
   if (!isNumber(level) || level < 1 || level > 10) {
     throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')
@@ -102,6 +94,3 @@ export default function getShade (color, level) {
 
   return hsvToHex([h, clamp(saturation, 0, S_MAX), clamp(brightness, B_MIN, B_MAX)])
 }
-
-const brandColor = '#0052cc'
-getShade(brandColor, 2)
