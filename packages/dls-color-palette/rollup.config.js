@@ -11,23 +11,23 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: 'es/index.js',
+      file: 'dist/index.esm.js',
       format: 'esm',
       sourcemap: true
     },
     {
-      file: 'es/index.min.js',
+      file: 'dist/index.esm.min.js',
       format: 'esm',
       sourcemap: true,
       plugins: [terser()]
     },
     {
-      file: 'dist/index.js',
+      file: 'dist/index.cjs.js',
       format: 'cjs',
       sourcemap: true
     },
     {
-      file: 'dist/index.min.js',
+      file: 'dist/index.cjs.min.js',
       format: 'cjs',
       sourcemap: true,
       plugins: [terser()]

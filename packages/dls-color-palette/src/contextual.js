@@ -39,6 +39,3 @@ export default function getContextual (color, type) {
 
   return hsvToHex(CONTEXTUAL_COLORS[type])
 }
-
-const brandColor = '#0052cc'
-getContextual(brandColor, 'success')

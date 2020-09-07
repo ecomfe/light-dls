@@ -2,8 +2,8 @@
   "name": "dls-color-palette",
   "version": "0.0.1-alpha.0",
   "description": "color palette generator for BAIDU DLS.",
-  "main": "dist/index.mim.js",
-  "module": "es/index.min.js",
+  "main": "dist/index.cjs.mim.js",
+  "module": "dist/index.esm.min.js",
   "scripts": {
     "test": "BABEL_ENV=test jest",
     "build": "rm -rf dist es && rollup -c"
