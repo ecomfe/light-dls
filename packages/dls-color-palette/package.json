@@ -1,0 +1,40 @@
+{
+  "name": "dls-color-palette",
+  "version": "0.0.1-alpha.0",
+  "description": "color palette generator for BAIDU DLS.",
+  "main": "dist/index.mim.js",
+  "module": "es/index.min.js",
+  "scripts": {
+    "test": "BABEL_ENV=test jest",
+    "build": "rm -rf dist es && rollup -c"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "dls",
+    "baidu"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "rollup": "^2.26.10",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "color-converters": "^0.1.1"
+  },
+  "files": [
+    "dist",
+    "es",
+    "src"
+  ]
+}
