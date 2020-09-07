@@ -1,13 +1,13 @@
 {
-  "name": "dls-tooling",
+  "name": "less-plugin-dls",
   "version": "1.0.0-alpha.27",
-  "description": "Tools for Baidu DLS.",
+  "description": "Less plugin for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
-    "test": "lerna run test",
-    "build": "lerna run build",
-    "prepublishOnly": "lerna run test"
+    "test": "node -r esm test/run.js",
+    "build": "rollup -c && cp src/index.js dist/index.js && node -r esm build/vars.js",
+    "prepublishOnly": "npm run test"
   },
   "bin": {
     "dls": "bin/dls"
@@ -44,7 +44,6 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "kolor": "^1.1.9",
-    "lerna": "^3.22.1",
     "less": "^3.9.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.memoize": "^4.1.2",
