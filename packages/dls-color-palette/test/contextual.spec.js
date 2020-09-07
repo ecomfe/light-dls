@@ -2,7 +2,7 @@
  * @file    getContextual test
  * @date    2020-09-07 14:05:13
  */
-import getContextual from '../src/contextual'
+import { getContextual } from '../src/index'
 
 const brandColor = '#0052cc'
 

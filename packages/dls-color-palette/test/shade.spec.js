@@ -2,7 +2,7 @@
  * @file    test for getShade
  * @date    2020-09-04 18:00:24
  */
-import getShade from '../src/shade'
+import { getShade } from '../src/index'
 
 test('getShades', () => {
   const brandColor = '#0052cc'
