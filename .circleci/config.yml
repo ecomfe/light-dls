@@ -3,16 +3,6 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
-commands:
-  create_concatenated_package_json:
-    description: "Concatenate all package.json files recognized by lerna.js into single file. File is used as checksum source for part of caching key."
-    parameters:
-      filename:
-        type: string
-    steps:
-      - run:
-          name: Combine package.json files to single file
-          command: npx lerna list -p -a | awk -F packages '{printf "\"packages%s/package.json\" ", $2}' | xargs cat > << parameters.filename >>
 jobs:
   build:
     docker:
@@ -29,13 +19,10 @@ jobs:
     steps:
       - checkout
 
-      - create_concatenated_package_json:
-          filename: combined-package-json.txt
-
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "combined-package-json.txt" }}
+            - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
@@ -46,7 +33,7 @@ jobs:
             - node_modules
             - packages/less-plugin-dls/node_modules
             - packages/dls-color-palette/node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "combined-package-json.txt" }}
+          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}
 
       # run tests!
       - run: npm run test
