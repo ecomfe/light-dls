@@ -2,9 +2,9 @@
 
 ## 1.0.0-alpha.28
 
-- Refactor: use `dls-color-palette` dep in `dls-shade`and`dls-contextual`plugins.
-- Refactor: use `color-converters` instead of `kolor`
-- Fix: rollup plugin deprecated warnings by changing rollup plugins to `@rollup/*` and upgrade `rollup`
+- Refactor: use `dls-color-palette` dep in `dls-shade` and `dls-contextual` plugins.
+- Refactor: use `color-converters` instead of `kolor`.
+- Fix: rollup plugin deprecated warnings by changing rollup plugins to `@rollup/*` and upgrade `rollup`.
 
 ## 1.0.0-alpha.27
 

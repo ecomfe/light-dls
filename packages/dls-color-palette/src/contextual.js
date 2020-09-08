@@ -29,7 +29,7 @@ export default function getContextual (color, type) {
               ) === -1
   ) {
     throw new Error(
-      '`type` must be one of `info`, `success`, `warning` and `error`.'
+      '`type` must be one of `info`, `success`, `warning` or `error`.'
     )
   }
   const [h] = hexToHsv(color)

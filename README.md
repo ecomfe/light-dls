@@ -6,7 +6,7 @@ Tools for Baidu DLS.
 
 🚧 *This is a work in progress.* 🚧
 
-Packages included in this repo are:
+Packages included:
 
 * [`less-plugin-dls`](./packages/less-plugin-dls)
 * [`dls-color-palette`](./packages/dls-color-palette)
