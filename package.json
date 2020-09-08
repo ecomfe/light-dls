@@ -4,7 +4,6 @@
   "description": "Tools for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
     "test": "lerna run test",
     "build": "lerna run build",
     "prepublishOnly": "lerna run test"
