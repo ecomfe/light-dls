@@ -9,9 +9,6 @@
     "build": "lerna run build",
     "prepublishOnly": "lerna run test"
   },
-  "bin": {
-    "dls": "bin/dls"
-  },
   "keywords": [
     "less",
     "plugin",

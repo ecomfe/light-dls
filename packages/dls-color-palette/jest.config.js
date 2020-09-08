@@ -1,7 +1,3 @@
-/**
- * @file    jest config
- * @date    2020-09-04 17:56:09
- */
 module.exports = {
   moduleFileExtensions: [
     'js'
