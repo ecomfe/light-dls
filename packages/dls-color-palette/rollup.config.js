@@ -38,9 +38,9 @@ export default {
     commonjs(),
     babel({
       // see https://github.com/rollup/plugins/tree/master/packages/babel#babelhelpers
-      babelHelpers: 'runtime',
-      exclude: 'node_modules/**'
+      babelHelpers: 'bundled'
+      // exclude: 'node_modules/**' is not set because color-converters need to be transform
     })
-  ],
-  external: [/@babel\/runtime/]
+  ]
+  // external: [/@babel\/runtime/] is not set to prevent @babel/runtime version conflicts
 }

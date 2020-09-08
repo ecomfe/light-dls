@@ -3,6 +3,5 @@ node_modules
 npm-debug.log
 .vscode
 **/dist
-**/es
 **/variables.*
 **/test/snapshots
