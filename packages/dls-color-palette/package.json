@@ -5,8 +5,9 @@
   "main": "dist/index.cjs.mim.js",
   "module": "dist/index.esm.min.js",
   "scripts": {
-    "test": "BABEL_ENV=test jest",
-    "build": "rollup -c"
+    "prepare": "npm run build",
+    "build": "rollup -c",
+    "test": "BABEL_ENV=test jest"
   },
   "keywords": [
     "color",
