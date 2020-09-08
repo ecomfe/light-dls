@@ -13,10 +13,5 @@ module.exports = {
         'modules': false
       }
     ].filter(Boolean)
-  ],
-  plugins: [
-    [
-      '@babel/transform-runtime'
-    ]
   ]
 }
