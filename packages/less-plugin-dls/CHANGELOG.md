@@ -1,0 +1,526 @@
+> ⚠️ - Breaking Changes
+
+## 1.0.0-alpha.28
+
+- Refactor: use `dls-color-palette` dep in `dls-shade`and`dls-contextual`plugins.
+- Refactor: use `color-converters` instead of `kolor`
+- Fix: rollup plugin deprecated warnings by changing rollup plugins to `@rollup/*` and upgrade `rollup`
+
+## 1.0.0-alpha.27
+
+- Fix dependencies for check command.
+
+## 1.0.0-alpha.26
+
+- Add memoize for plugins.
+- Add `inject` option so that variable injection can be optional.
+- Add `@dls-foreground-color-neutral-dim-*`.
+- Add `@dls-color-*-0` and `@dls-color-*-11` for contextual colors.
+- Add table header icon colors.
+
+## 1.0.0-alpha.25
+
+- Add `@dls-menu-border-color-horizontal`.
+
+## 1.0.0-alpha.24
+
+- Add `variables.js` to provide variable values to JavaScript.
+
+## 1.0.0-alpha.23
+
+- Add `@dls-tab-spacing-x-strong-m` and `@dls-tab-menu-padding-x-strong-m`.
+- Fix border radii for strong Tabs.
+- Fix font weight for current Menu item.
+
+## 1.0.0-alpha.22
+
+- ⚠️ Remove `@dls-button-border-color-*-focus`, use the existing `@dls-button-border-color-focus` instead.
+
+## 1.0.0-alpha.21
+
+- Fix Checkbox icon size.
+- Fix NumberInput icon size.
+- Fix Progress track width.
+
+## 1.0.0-alpha.20
+
+- Fix header padding for Collapse.
+- Add `@dls-dialog-title-font-weight`.
+- Fix font weight for selected options and their parents.
+- Add hover/focus/active border colors for Button.
+
+## 1.0.0-alpha.19
+
+- Fix icon size for Loading.
+
+## 1.0.0-alpha.18
+
+- Update border colors for Alert.
+
+## 1.0.0-alpha.17
+
+- Update color palette algorithm.
+- Fix font size for Progress.
+- Fix font weight for selected Tree node.
+
+## 1.0.0-alpha.16
+
+- Add hover/focus/active value for DatePicker's selected year list item.
+- Fix base brand color (not directly used).
+
+## 1.0.0-alpha.15
+
+- Fix `@dls-background-color-pressable-disabled`.
+
+## 1.0.0-alpha.14
+
+- Fix disabled foreground colors for primary contextual colors.
+
+## 1.0.0-alpha.13
+
+- Fix default color for Pagination items.
+- Fix `@dls-foreground-color-neutral-weak-disabled`.
+
+## 1.0.0-alpha.12
+
+- Fix current item color for Breadcrumb.
+
+## 1.0.0-alpha.11
+
+- Update table cell border color.
+
+## 1.0.0-alpha.10
+
+- ⚠️ Rename `reversed` to `reverse` in Tag.
+- Add `@dls-tag-font-color-selected`.
+
+## 1.0.0-alpha.9
+
+- ⚠️ Refactor how Tag colors work. Merged background and foreground colors into colors (except for font color of reversed tags).
+- Add `@dls-form-actions-content-spacing`.
+
+## 1.0.0-alpha.8
+
+- Fix font color for current horizontal menu item.
+
+## 1.0.0-alpha.7
+
+- Add `dls-even` function.
+
+## 1.0.0-alpha.6
+
+- Fix focus and active background color for horizontal Menu.
+- Use hard-coded triple shadow for now.
+- Fix Switch sizes.
+- Fix dot size for Radio.
+
+## 1.0.0-alpha.5
+
+- Fix dot size for Radio.
+- Add font color for Pagination items.
+- Add styles for strong Checkbox.
+
+## 1.0.0-alpha.4
+
+- ⚠️ Remove segment Tabs.
+- Add spacing for add buttons in Tabs.
+- Add simple Tabs and strong Tabs.
+- ⚠️ Rename `@dls-date-picker-cell-border-focus-color` to `@dls-date-picker-cell-border-color-focus` to comply with naming convention.
+- Fix background for aux cells in DatePicker.
+- Add icon size and spacing for strong Checkbox.
+
+## 1.0.0-alpha.3
+
+- ⚠️ Use opacity for Tag.
+- Add `@dls-line-color-0`.
+
+## 1.0.0-alpha.2
+
+- Continue to update more component tokens (WIP).
+
+## 1.0.0-alpha.1
+
+- Continue to update more component tokens (WIP).
+
+## 1.0.0-alpha.0
+
+- Move most tokens to D20 (WIP).
+
+## 0.33.4
+
+- Add `@dls-tooltip-border-radius`.
+
+## 0.33.3
+
+- Add `@dls-menu-item-content-spacing`.
+- Add `@dls-table-body-height-no-data`.
+- Add `@dls-table-action-spacing`.
+
+## 0.33.2
+
+- Add `@dls-toast-list-spacing-before`.
+
+## 0.33.1
+
+- Add `@dls-textarea-count-border-radius`.
+
+## 0.33.0
+
+- ⚠️ Rename `@dls-tree-node-*-current-*` to `@dls-tree-node-*-selected-*` for correct semantics.
+- ⚠️ Remove `@dls-uploader-image-padding-top` because contents are now centered vertically.
+- ⚠️ Replace `@dls-uploader-image-progress-spacing-before` with `@dls-uploader-image-content-spacing`.
+- Add `@dls-tree-node-background-color-selected-*`.
+
+## 0.32.0
+
+- ⚠️ Remove `@dls-shadow-offset-x-overflow` and `@dls-shadow-offset-y-overflow` and provide a single `@dls-shadow-offset-overflow`.
+- Add overflow shadows for Table.
+- Add Toast spacing.
+- Add default width for DatePicker.
+
+## 0.31.0
+
+- ⚠️ Remove `@dls-uploader-helper-text-spacing-y` as helper text is now always on the right.
+- ⚠️ Split `@dls-uploader-helper-text-spacing-x` into `@dls-uploader-helper-text-spacing-file` and `@dls-uploader-helper-text-spacing-image`.
+- Add `@dls-uploader-helper-text-max-width-image`.
+- Adjust vertical spacing of multi-line image uploader.
+
+## 0.30.0
+
+- Add Table variables.
+
+## 0.29.0
+
+- Add global overflow shadows.
+- Add overflow shadows and panel paddings for Tabs.
+
+## 0.28.0
+
+- ⚠️ Rename `@dls-date-picker-year-scroller-*` to `@dls-date-picker-list-*` as they apply to both shortcut list and year scroller now.
+- Add `@dls-date-picker-list-background-color-selected`.
+
+## 0.27.0
+
+- ⚠️ Remove `@dls-uploader-file-progress-width` and `@dls-uploader-file-item-close-icon-spacing`. Use `@dls-uploader-file-item-width` with `@dls-uploader-file-item-padding-x` instead.
+- Add `@dls-uploader-file-item-padding-x`.
+- Add `@dls-date-picker-icon-color` & `@dls-date-picker-icon-color-disabled`.
+- Add segment style variables for Tabs.
+
+## 0.26.8
+
+- Fix error font color for Input.
+
+## 0.26.7
+
+- Fix Dropdown button padding.
+- Add Uploader mask opacity.
+
+## 0.26.6
+
+- Adjust default width of NumberInput.
+- Add global overflow shadow.
+
+## 0.26.5
+
+- Adjust the max-width of Tooltip.
+
+## 0.26.4
+
+- Add missing variables for Uploader.
+
+## 0.26.3
+
+- Fix box shadow color for inline Input.
+
+## 0.26.2
+
+- Update checkmark color for strong CheckboxGroup.
+- Add inline style variables for Input.
+
+## 0.26.1
+
+- ⚠️ Remove `@dls-dialog-body-line-height-contextual`.
+- Fix value for `@dls-dialog-body-line-height`.
+
+## 0.26.0
+
+- Add DatePicker.
+
+## 0.25.0
+
+- ⚠️ Remove `@dls-checkbox-strong-check-icon-spacing`.
+- ⚠️ Remove `@dls-checkbox-strong-checked-separator-color` and `@dls-checkbox-strong-checked-separator-color-disabled`. Use `@dls-button-group-separator-color-primary` and `@dls-button-group-separator-color-primary-disabled` instead.
+- ⚠️ Remove the redundant `@dls-tooltip-arrow-height` as tooltip arrows are designed to be right triangles.
+- ⚠️ Remove `@dls-slider-label-spacing` as it should always be consistent with Tooltip's arrow spacing.
+- Fix value of `@dls-progress-icon-spacing-bar`.
+- Add `@dls-time-picker-icon-color-disabled`.
+
+## 0.24.2
+
+- Fix `.dlsignore` comments.
+- Fix `dls check` without `--components` argument.
+
+## 0.24.1
+
+- Add `@dls-carousel-pages-border-radius` for Carousel.
+
+## 0.24.0
+
+- Add `@dls-time-picker-icon-color` for TimePicker.
+- Update indicator size for Carousel.
+- ⚠️ Add support for specifying which components will be checked against when running `dls check`. `--components` now requires an argument value.
+
+## 0.23.3
+
+- ⚠️ Revert 0.23.2: remove Tag font sizes in Select.
+- Add Option dropdown placeholder variables.
+
+## 0.23.2
+
+- Add Tag font sizes in Select.
+
+## 0.23.1
+
+- Revert optimization due to unexpected failure in certain cases.
+
+## 0.23.0
+
+- ⚠️ Rename `@dls-tag-icon-size` to `@dls-tag-icon-size-aux`.
+- Add icon variables for Input.
+
+## 0.22.0
+
+- Conditionally inject tokens only if a file matches the
+
+## 0.21.1
+
+- Fix `esm` dependency.
+
+## 0.21.0
+
+- Add CLI command to check implementation quality.
+
+## 0.20.3
+
+- Add variables for option dropdown border radii.
+
+## 0.20.2
+
+- Add `@dls-dropdown-icon-size-aux`.
+
+## 0.20.1
+
+- Update the global font family. Remove explicit `Helvetica Neue` due to its different line-height across different font weights.
+
+## 0.20.0
+
+- ⚠️ Use `@dls-steps-connector-min-length` instead of `@dls-steps-connector-length-vertical`.
+- Add default width for Select.
+- Add max-width for Options.
+
+## 0.19.0
+
+- Add necessary variables for Dialog.
+
+## 0.18.0
+
+- Add `@dls-icon-color-aux` and `@dls-icon-color-aux-disabled`.
+- Add aux icon colors for Select and Tree.
+
+## 0.17.1
+
+- ⚠️ Fix `@dls-dialog-close-icon-fullscreen` to `@dls-dialog-close-icon-size-fullscreen`.
+
+## 0.17.0
+
+- ⚠️ Rename `panel` inside Collapse to `body` (align with Bootstrap naming).
+- ⚠️ Adjust variant styles for Tag.
+- Add contextual variants for Dialogs.
+- Add background and backdrop colors for Dialog.
+- Add border color and shadow for Embedded.
+- Add border radii for Popover.
+- Add panel width and item content spacing for Transfer.
+
+## 0.16.3
+
+- ⚠️ Merge Collapse border colors into `@dls-collapse-border-color` and `@dls-collapse-border-color-focus`.
+
+## 0.16.2
+
+- Add missing disabled colors and border radii for Collapse.
+- Add default connector length for vertical Steps.
+- Add option dropdown target spacing for Option.
+
+## 0.16.1
+
+- Update Link hover color.
+
+## 0.16.0
+
+- ⚠️ Rename Breadcrumbs to Breadcrumb.
+
+## 0.15.2
+
+- Fix min-height variables for Textarea.
+
+## 0.15.1
+
+- Add spacing variables for Checkbox/Radio groups.
+
+## 0.15.0
+
+- Add Dialog.
+- Add Drawer.
+- Add Embedded.
+- Add Toast.
+- Add Alert.
+- Add Carousel.
+- Add min-height and panel spacing for Transfer.
+
+## 0.14.3
+
+- Add `@dls-font-color-highlighted`, and make all search highlighted colors refer to it.
+- Add `@dls-tree-node-font-color-highlighted`.
+
+## 0.14.2
+
+- Add goto input variables for Pagination.
+
+## 0.14.1
+
+- Fix missing variables for Pagination.
+
+## 0.14.0
+
+- ⚠️ Rename `TextInput` to `Input`.
+- ⚠️ Remove interactive variants for option toggle icons.
+- ⚠️ Remove `@dls-progress-icon-color`.
+- ⚠️ Use separate global border colors with their interactive style variants. See [69e4c0e](https://github.com/ecomfe/less-plugin-dls/commit/69e4c0ec6a287bfc1accfa338859c0994ae5da68).
+- Add Dropdown.
+- Add SearchBox.
+- Add Slider.
+- Add Collapse.
+- Add Tooltip.
+- Add Popover.
+- Add button group separator colors.
+
+## 0.13.0
+
+- ⚠️ Rename `@dls-breadcrumbs-icon-size` to `@dls-breadcrumbs-separator-icon-size`.
+- ⚠️ Merge `@dls-checkbox-icon-size-s` and `@dls-checkbox-icon-size-m` into `@dls-checkbox-icon-size`.
+- ⚠️ Merge `@dls-steps-marker-icon-size-s` and `@dls-steps-marker-icon-size-m` into `@dls-steps-marker-icon-size`.
+- Add max heights for option group dropdowns.
+- Add Progress.
+- Add Tree.
+- Add Transfer.
+- Add Tabs.
+- Add Menu.
+- Add Select.
+- Adjust aux icon sizes.
+
+## 0.12.0
+
+- Add Loading.
+
+## 0.11.0
+
+- Add Tag.
+- Add Anchor.
+
+## 0.10.0
+
+- ⚠️ Rename focus shadow related variables according to DLS's naming convention. See [5080fb1](https://github.com/ecomfe/less-plugin-dls/commit/5080fb1077c4c18a4a5571644fa97bd0c34438f6) for details.
+- Add Pagination.
+- Add Badge.
+- Add Breadcrumbs.
+- Add Steps.
+- Add info color generation rules.
+
+## 0.9.3
+
+- Differentiate default digits for normal/strong number inputs.
+
+## 0.9.2
+
+- Add `@dls-checkbox-strong-checked-separator-color-disabled`.
+
+## 0.9.1
+
+- Add check icon variables for strong Checkboxes.
+
+## 0.9.0
+
+- Add TimePicker.
+- Add `@dls-text-input-content-spacing`.
+- Tweak `@dls-button-font-color-translucent-disabled`.
+
+## 0.8.0
+
+- ⚠️ Rename `@dls-switch-focus-shadow-on` and `@dls-switch-focus-shadow-off` to `@dls-switch-shadow-on-focus` and `@dls-switch-shadow-off-focus` respectively, adhering to DLS's naming convention.
+- Add Option.
+
+## 0.7.0
+
+- ⚠️ Rename `docked` to `anchored` for global box-shadows.
+- Add focus related variables to Switch.
+
+## 0.6.0
+
+- ⚠️ Dropped variables related to `font-weight` for Button and Link.
+
+## 0.5.3
+
+- Add icon size for Checkbox.
+
+## 0.5.2
+
+- Fix font color for disabled translucent Button.
+
+## 0.5.1
+
+- Add focus background colors for Button.
+- Fix background color for disabled translucent Button.
+
+## 0.5.0
+
+- Add Textarea.
+- Add `dls-line-height` function.
+- Add `reduceCalc` option.
+
+## 0.4.0
+
+- Add TextInput.
+- Add NumberInput.
+- Add `dls-sum` function.
+
+## 0.3.0
+
+- Add Checkbox.
+
+## 0.2.0
+
+- ⚠️ Dropped `@dls-button-font-color-link` and `@dls-button-font-color-link-disabled`.
+- Add Switch.
+- Add Radio.
+- Add focus related variables to existing components.
+
+## 0.1.4
+
+- Added equal value information in the exported metafile.
+
+## 0.1.3
+
+- Fix colors for translucent buttons.
+- Add `variables.json` to export meta.
+
+## 0.1.2
+
+- Allow CLI usage with `--dls`.
+
+## 0.1.1
+
+- Fix npm package, place Less files into `tokens` directory.
+
+## 0.1.0
+
+- First release.

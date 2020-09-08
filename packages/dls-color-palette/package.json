@@ -6,7 +6,7 @@
   "module": "dist/index.esm.min.js",
   "scripts": {
     "test": "BABEL_ENV=test jest",
-    "build": "rm -rf dist es && rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [
     "color",
