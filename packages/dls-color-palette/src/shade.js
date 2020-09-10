@@ -74,7 +74,7 @@ export default function getShade (color, level) {
   const b = rawB * 100
 
   if (level === BASE_LEVEL) {
-    return hsvToHex([h, s, b])
+    return color
   }
 
   let brightness = getBrightness(b, level)

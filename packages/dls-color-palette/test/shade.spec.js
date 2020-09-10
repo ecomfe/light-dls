@@ -17,3 +17,8 @@ test('getShades', () => {
   expect(getShade(brandColor, 9)).toBe('#003585')
   expect(getShade(brandColor, 10)).toBe('#002152')
 })
+
+test('getShade: level=7 equals to brandColor', () => {
+  const brandColor = '#BD8552'
+  expect(getShade(brandColor, 7)).toBe(brandColor)
+})
