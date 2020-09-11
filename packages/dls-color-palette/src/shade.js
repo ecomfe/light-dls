@@ -69,13 +69,14 @@ export default function getShade (color, level) {
   if (!isNumber(level) || level < 1 || level > 10) {
     throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')
   }
-  const [h, rawS, rawB] = hexToHsv(color)
-  const s = rawS * 100
-  const b = rawB * 100
 
   if (level === BASE_LEVEL) {
     return color
   }
+
+  const [h, rawS, rawB] = hexToHsv(color)
+  const s = rawS * 100
+  const b = rawB * 100
 
   let brightness = getBrightness(b, level)
   let deviation =
