@@ -1,5 +1,8 @@
 > ⚠️ - Breaking Changes
 
+## 0.0.1-alpha.3
+
+- fix⚠️: shade hue accuray loss. Delete Math.round(hue) when normalizeHsv
 
 ## 0.0.1-alpha.2
 

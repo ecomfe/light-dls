@@ -50,7 +50,7 @@ function getSatuation (base, level) {
     level--
   }
 
-  let pl = BASE_LEVEL - 1
+  const pl = BASE_LEVEL - 1
   const portion =
     (S_COEF * level * level +
       ((100 - (pl * pl - 1) * S_COEF) * level) / (pl - 1) +
@@ -78,12 +78,12 @@ export default function getShade (color, level) {
   const s = rawS * 100
   const b = rawB * 100
 
-  let brightness = getBrightness(b, level)
+  const brightness = getBrightness(b, level)
   let deviation =
     s > 0 ? ((Math.log2(100 / s) * s) / 100) * s * LOW_S_DEVIATION_RATIO : 0
 
   if (level < BASE_LEVEL) {
-    let bPrev = getBrightness(b, BASE_LEVEL - 1)
+    const bPrev = getBrightness(b, BASE_LEVEL - 1)
     // brightness may be clamped
     deviation +=
       bPrev > B_MAX
@@ -91,7 +91,7 @@ export default function getShade (color, level) {
         : 0
   }
 
-  let saturation = getSatuation(s - deviation, level)
+  const saturation = getSatuation(s - deviation, level)
 
   return hsvToHex([h, clamp(saturation, 0, S_MAX), clamp(brightness, B_MIN, B_MAX)])
 }
