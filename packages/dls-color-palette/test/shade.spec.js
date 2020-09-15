@@ -7,8 +7,8 @@ import { getShade } from '../src/index'
 test('getShades', () => {
   const brandColor = '#0052cc'
   expect(getShade(brandColor, 1)).toBe('#f2f7ff')
-  expect(getShade(brandColor, 2)).toBe('#e0edff')
-  expect(getShade(brandColor, 3)).toBe('#bfd9ff')
+  expect(getShade(brandColor, 2)).toBe('#e1edff')
+  expect(getShade(brandColor, 3)).toBe('#c0d9ff')
   expect(getShade(brandColor, 4)).toBe('#8fbcff')
   expect(getShade(brandColor, 5)).toBe('#4f96ff')
   expect(getShade(brandColor, 6)).toBe('#0066ff')
