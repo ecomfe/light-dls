@@ -16,7 +16,7 @@ export function isInRanges (h, ranges) {
 }
 
 export function normalizeHsv ([h, s, b]) {
-  return [Math.round(h), Math.round(s) / 100, Math.round(b) / 100]
+  return [h, Math.round(s) / 100, Math.round(b) / 100]
 }
 
 export function hexToHsv (v) {
