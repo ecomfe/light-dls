@@ -1,0 +1,392 @@
+/**
+ * Colors
+ */
+
+/* Brand colors */
+@dls-color-brand: #0052cc;
+@dls-color-brand-0: #fff;
+@dls-color-brand-1: dls-shade(@dls-color-brand, 1);
+@dls-color-brand-2: dls-shade(@dls-color-brand, 2);
+@dls-color-brand-3: dls-shade(@dls-color-brand, 3);
+@dls-color-brand-4: dls-shade(@dls-color-brand, 4);
+@dls-color-brand-5: dls-shade(@dls-color-brand, 5);
+@dls-color-brand-6: dls-shade(@dls-color-brand, 6);
+@dls-color-brand-7: dls-shade(@dls-color-brand, 7);
+@dls-color-brand-8: dls-shade(@dls-color-brand, 8);
+@dls-color-brand-9: dls-shade(@dls-color-brand, 9);
+@dls-color-brand-10: dls-shade(@dls-color-brand, 10);
+@dls-color-brand-11: #000;
+
+/* contextual colors */
+@dls-color-info: dls-contextual(@dls-color-brand, info);
+@dls-color-info-0: #fff;
+@dls-color-info-1: dls-shade(@dls-color-info, 1);
+@dls-color-info-2: dls-shade(@dls-color-info, 2);
+@dls-color-info-3: dls-shade(@dls-color-info, 3);
+@dls-color-info-4: dls-shade(@dls-color-info, 4);
+@dls-color-info-5: dls-shade(@dls-color-info, 5);
+@dls-color-info-6: dls-shade(@dls-color-info, 6);
+@dls-color-info-7: dls-shade(@dls-color-info, 7);
+@dls-color-info-8: dls-shade(@dls-color-info, 8);
+@dls-color-info-9: dls-shade(@dls-color-info, 9);
+@dls-color-info-10: dls-shade(@dls-color-info, 10);
+@dls-color-info-11: #000;
+
+@dls-color-success: dls-contextual(@dls-color-brand, success);
+@dls-color-success-0: #fff;
+@dls-color-success-1: dls-shade(@dls-color-success, 1);
+@dls-color-success-2: dls-shade(@dls-color-success, 2);
+@dls-color-success-3: dls-shade(@dls-color-success, 3);
+@dls-color-success-4: dls-shade(@dls-color-success, 4);
+@dls-color-success-5: dls-shade(@dls-color-success, 5);
+@dls-color-success-6: dls-shade(@dls-color-success, 6);
+@dls-color-success-7: dls-shade(@dls-color-success, 7);
+@dls-color-success-8: dls-shade(@dls-color-success, 8);
+@dls-color-success-9: dls-shade(@dls-color-success, 9);
+@dls-color-success-10: dls-shade(@dls-color-success, 10);
+@dls-color-success-11: #000;
+
+@dls-color-warning: dls-contextual(@dls-color-brand, warning);
+@dls-color-warning-0: #fff;
+@dls-color-warning-1: dls-shade(@dls-color-warning, 1);
+@dls-color-warning-2: dls-shade(@dls-color-warning, 2);
+@dls-color-warning-3: dls-shade(@dls-color-warning, 3);
+@dls-color-warning-4: dls-shade(@dls-color-warning, 4);
+@dls-color-warning-5: dls-shade(@dls-color-warning, 5);
+@dls-color-warning-6: dls-shade(@dls-color-warning, 6);
+@dls-color-warning-7: dls-shade(@dls-color-warning, 7);
+@dls-color-warning-8: dls-shade(@dls-color-warning, 8);
+@dls-color-warning-9: dls-shade(@dls-color-warning, 9);
+@dls-color-warning-10: dls-shade(@dls-color-warning, 10);
+@dls-color-warning-11: #000;
+
+@dls-color-error: dls-contextual(@dls-color-brand, error);
+@dls-color-error-0: #fff;
+@dls-color-error-1: dls-shade(@dls-color-error, 1);
+@dls-color-error-2: dls-shade(@dls-color-error, 2);
+@dls-color-error-3: dls-shade(@dls-color-error, 3);
+@dls-color-error-4: dls-shade(@dls-color-error, 4);
+@dls-color-error-5: dls-shade(@dls-color-error, 5);
+@dls-color-error-6: dls-shade(@dls-color-error, 6);
+@dls-color-error-7: dls-shade(@dls-color-error, 7);
+@dls-color-error-8: dls-shade(@dls-color-error, 8);
+@dls-color-error-9: dls-shade(@dls-color-error, 9);
+@dls-color-error-10: dls-shade(@dls-color-error, 10);
+@dls-color-error-11: #000;
+
+/* Gray scale colors */
+@dls-color-gray-0: #fff;
+@dls-color-gray-1: #f6f7fa;
+@dls-color-gray-2: #ebedf5;
+@dls-color-gray-3: #e2e6f0;
+@dls-color-gray-4: #d3d9e6;
+@dls-color-gray-5: #c5ccdb;
+@dls-color-gray-6: #a8b0bf;
+@dls-color-gray-7: #848b99;
+@dls-color-gray-8: #545b66;
+@dls-color-gray-9: #282c33;
+@dls-color-gray-10: #0a0b0d;
+@dls-color-gray-11: #000;
+
+/**
+ * Typography
+ */
+@dls-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+  sans-serif;
+
+@dls-font-size-0: 12px;
+@dls-font-size-1: 14px;
+@dls-font-size-2: 16px;
+@dls-font-size-3: 20px;
+@dls-font-size-4: 24px;
+@dls-font-size-5: 32px;
+
+@dls-font-weight-1: 400;
+@dls-font-weight-2: 500;
+@dls-font-weight-3: 600;
+
+@dls-line-height-1: 1.4;
+@dls-line-height-2: 1.6;
+@dls-line-height-3: 1.8;
+
+/**
+ * Spacing
+ */
+@dls-spacing-unit: 4px;
+@dls-padding-unit: @dls-spacing-unit;
+@dls-height-unit: @dls-spacing-unit;
+
+// Heights
+@dls-height-xs: @dls-height-unit * 6;
+@dls-height-s: @dls-height-unit * 7;
+@dls-height-m: @dls-height-unit * 8;
+@dls-height-l: @dls-height-unit * 9;
+@dls-height-xl: @dls-height-unit * 10;
+
+/**
+ * Global foreground colors
+ */
+@dls-foreground-color-reverse: @dls-color-gray-0;
+@dls-foreground-color-primary-reverse: @dls-color-gray-0;
+
+@dls-foreground-color-primary: @dls-color-brand-7;
+@dls-foreground-color-primary-hover: @dls-color-brand-6;
+@dls-foreground-color-primary-active: @dls-color-brand-8;
+@dls-foreground-color-primary-disabled: @dls-color-brand-4;
+
+@dls-foreground-color-neutral: @dls-color-gray-9;
+@dls-foreground-color-neutral-hover: @dls-color-gray-8;
+@dls-foreground-color-neutral-active: @dls-color-gray-11;
+@dls-foreground-color-neutral-disabled: @dls-color-gray-6;
+
+@dls-foreground-color-neutral-strong: @dls-color-gray-11;
+@dls-foreground-color-neutral-strong-hover: @dls-color-gray-10;
+@dls-foreground-color-neutral-strong-active: @dls-color-gray-11;
+@dls-foreground-color-neutral-strong-disabled: @dls-color-gray-6;
+
+@dls-foreground-color-neutral-light: @dls-color-gray-8;
+@dls-foreground-color-neutral-light-hover: @dls-color-gray-7;
+@dls-foreground-color-neutral-light-active: @dls-color-gray-9;
+@dls-foreground-color-neutral-light-disabled: @dls-color-gray-6;
+
+@dls-foreground-color-neutral-weak: @dls-color-gray-7;
+@dls-foreground-color-neutral-weak-hover: @dls-color-gray-8;
+@dls-foreground-color-neutral-weak-active: @dls-color-gray-9;
+@dls-foreground-color-neutral-weak-disabled: @dls-color-gray-5;
+
+@dls-foreground-color-neutral-dim: @dls-color-gray-6;
+@dls-foreground-color-neutral-dim-hover: @dls-color-gray-7;
+@dls-foreground-color-neutral-dim-active: @dls-color-gray-8;
+@dls-foreground-color-neutral-dim-disabled: @dls-color-gray-3;
+
+@dls-foreground-color-info-primary: @dls-color-info-7;
+@dls-foreground-color-info-primary-disabled: @dls-color-info-4;
+
+@dls-foreground-color-success-primary: @dls-color-success-7;
+@dls-foreground-color-success-primary-disabled: @dls-color-success-4;
+
+@dls-foreground-color-warning-primary: @dls-color-warning-6;
+@dls-foreground-color-warning-primary-disabled: @dls-color-warning-4;
+
+@dls-foreground-color-error-primary: @dls-color-error-7;
+@dls-foreground-color-error-primary-disabled: @dls-color-error-4;
+
+@dls-foreground-color-highlighted: @dls-color-warning-7;
+
+/**
+ * Global layer styles
+ */
+
+/* Base layers */
+@dls-background-color-base-1: @dls-color-gray-0;
+@dls-background-color-base-1-hover: @dls-color-gray-1;
+@dls-background-color-base-1-active: @dls-color-gray-3;
+@dls-background-color-base-1-disabled: @dls-color-gray-0;
+
+@dls-background-color-base-2: @dls-color-gray-1;
+@dls-background-color-base-2-hover: @dls-color-gray-2;
+@dls-background-color-base-2-active: @dls-color-gray-3;
+@dls-background-color-base-2-disabled: @dls-color-gray-1;
+
+@dls-background-color-base-3: @dls-color-gray-2;
+@dls-background-color-base-3-hover: @dls-color-gray-3;
+@dls-background-color-base-3-active: @dls-color-gray-4;
+@dls-background-color-base-3-disabled: @dls-color-gray-1;
+
+/* Primary layers */
+@dls-background-color-primary: @dls-color-brand-7;
+@dls-background-color-primary-hover: @dls-color-brand-6;
+@dls-background-color-primary-active: @dls-color-brand-8;
+@dls-background-color-primary-disabled: @dls-color-brand-2;
+@dls-border-color-primary: transparent;
+@dls-border-color-primary-disabled: @dls-border-color-primary;
+
+@dls-background-color-info-primary: @dls-color-info-7;
+@dls-background-color-info-primary-hover: @dls-color-info-6;
+@dls-background-color-info-primary-active: @dls-color-info-8;
+@dls-background-color-info-primary-disabled: @dls-color-info-2;
+@dls-border-color-info-primary: transparent;
+@dls-border-color-info-primary-disabled: @dls-border-color-info-primary;
+
+@dls-background-color-success-primary: @dls-color-success-7;
+@dls-background-color-success-primary-hover: @dls-color-success-6;
+@dls-background-color-success-primary-active: @dls-color-success-8;
+@dls-background-color-success-primary-disabled: @dls-color-success-2;
+@dls-border-color-success-primary: transparent;
+@dls-border-color-success-primary-disabled: @dls-border-color-success-primary;
+
+@dls-background-color-warning-primary: @dls-color-warning-6;
+@dls-background-color-warning-primary-hover: @dls-color-warning-5;
+@dls-background-color-warning-primary-active: @dls-color-warning-7;
+@dls-background-color-warning-primary-disabled: @dls-color-warning-2;
+@dls-border-color-warning-primary: transparent;
+@dls-border-color-warning-primary-disabled: @dls-border-color-warning-primary;
+
+@dls-background-color-error-primary: @dls-color-error-7;
+@dls-background-color-error-primary-hover: @dls-color-error-6;
+@dls-background-color-error-primary-active: @dls-color-error-8;
+@dls-background-color-error-primary-disabled: @dls-color-error-2;
+@dls-border-color-error-primary: transparent;
+@dls-border-color-error-primary-disabled: @dls-border-color-error-primary;
+
+@dls-background-color-neutral-primary: @dls-color-gray-6;
+@dls-background-color-neutral-primary-hover: @dls-color-gray-7;
+@dls-background-color-neutral-primary-active: @dls-color-gray-8;
+@dls-background-color-neutral-primary-disabled: @dls-color-gray-3;
+@dls-border-color-neutral-primary: transparent;
+@dls-border-color-neutral-primary-disabled: @dls-border-color-neutral-primary;
+
+/* Normal layers */
+@dls-background-color-info: @dls-color-info-1;
+@dls-background-color-info-hover: @dls-color-info-2;
+@dls-background-color-info-active: @dls-color-info-3;
+@dls-background-color-info-disabled: @dls-background-color-info;
+@dls-border-color-info: @dls-color-info-4;
+@dls-border-color-info-disabled: @dls-color-info-2;
+
+@dls-background-color-success: @dls-color-success-1;
+@dls-background-color-success-hover: @dls-color-success-2;
+@dls-background-color-success-active: @dls-color-success-3;
+@dls-background-color-success-disabled: @dls-background-color-success;
+@dls-border-color-success: @dls-color-success-4;
+@dls-border-color-success-disabled: @dls-color-success-2;
+
+@dls-background-color-warning: @dls-color-warning-1;
+@dls-background-color-warning-hover: @dls-color-warning-2;
+@dls-background-color-warning-active: @dls-color-warning-3;
+@dls-background-color-warning-disabled: @dls-background-color-warning;
+@dls-border-color-warning: @dls-color-warning-4;
+@dls-border-color-warning-disabled: @dls-color-warning-2;
+
+@dls-background-color-error: @dls-color-error-1;
+@dls-background-color-error-hover: @dls-color-error-2;
+@dls-background-color-error-active: @dls-color-error-3;
+@dls-background-color-error-disabled: @dls-background-color-error;
+@dls-border-color-error: @dls-color-error-4;
+@dls-border-color-error-disabled: @dls-color-error-2;
+
+@dls-background-color-neutral: @dls-color-gray-2;
+@dls-background-color-neutral-hover: @dls-color-gray-3;
+@dls-background-color-neutral-active: @dls-color-gray-4;
+@dls-background-color-neutral-disabled: @dls-color-gray-1;
+@dls-border-color-neutral: @dls-color-gray-5;
+@dls-border-color-neutral-disabled: @dls-color-gray-2;
+
+/* Current layers */
+@dls-background-color-current: @dls-color-brand-1;
+@dls-background-color-current-hover: @dls-color-brand-2;
+@dls-background-color-current-active: @dls-color-brand-3;
+@dls-background-color-current-disabled: @dls-background-color-current;
+@dls-border-color-current: @dls-color-brand-7;
+@dls-border-color-current-disabled: @dls-color-brand-2;
+
+/* Strong layers */
+@dls-background-color-strong: @dls-color-brand-0;
+@dls-background-color-strong-hover: @dls-color-brand-1;
+@dls-background-color-strong-active: @dls-color-brand-2;
+@dls-background-color-strong-disabled: @dls-color-brand-1;
+@dls-border-color-strong: @dls-color-brand-7;
+@dls-border-color-strong-disabled: @dls-color-brand-2;
+
+@dls-background-color-error-strong: @dls-color-error-0;
+@dls-background-color-error-strong-hover: @dls-color-error-1;
+@dls-background-color-error-strong-active: @dls-color-error-2;
+@dls-background-color-error-strong-disabled: @dls-color-error-1;
+@dls-border-color-error-strong: @dls-color-error-7;
+@dls-border-color-error-strong-disabled: @dls-color-error-2;
+
+/* Fillable & pressable layers */
+@dls-background-color-fillable: @dls-background-color-base-1;
+@dls-background-color-fillable-hover: @dls-color-gray-2;
+@dls-background-color-fillable-active: @dls-color-gray-4;
+@dls-background-color-fillable-disabled: @dls-color-gray-1;
+@dls-border-color-fillable: @dls-color-gray-4;
+@dls-border-color-fillable-hover: @dls-color-gray-6;
+@dls-border-color-fillable-active: @dls-color-gray-6;
+@dls-border-color-fillable-disabled: @dls-color-gray-2;
+
+@dls-background-color-pressable: @dls-background-color-base-1;
+@dls-background-color-pressable-hover: @dls-color-gray-1;
+@dls-background-color-pressable-active: @dls-color-gray-3;
+@dls-background-color-pressable-disabled: @dls-color-gray-1;
+@dls-border-color-pressable: @dls-color-gray-3;
+@dls-border-color-pressable-hover: @dls-color-gray-4;
+@dls-border-color-pressable-active: @dls-color-gray-4;
+@dls-border-color-pressable-disabled: @dls-color-gray-2;
+
+/* Translucent layers */
+@dls-background-color-translucent: fade(@dls-color-gray-11, 60%);
+@dls-background-color-translucent-hover: fade(@dls-color-gray-11, 50%);
+@dls-background-color-translucent-active: fade(@dls-color-gray-11, 70%);
+@dls-background-color-translucent-disabled: fade(@dls-color-gray-11, 20%);
+@dls-border-color-translucent: transparent;
+@dls-border-color-translucent-disabled: @dls-border-color-translucent;
+
+/* Modal layers */
+@dls-background-color-modal: fade(@dls-color-gray-11, 60%);
+
+/**
+ * Misc
+ */
+
+/* Line colors */
+@dls-line-color-0: @dls-color-gray-2;
+@dls-line-color-1: @dls-color-gray-3;
+@dls-line-color-2: @dls-color-gray-4;
+
+/* Border radii */
+@dls-border-radius-0: 2px;
+@dls-border-radius-1: 4px;
+@dls-border-radius-2: 6px;
+@dls-border-radius-3: 10px;
+
+/* Shadows */
+@dls-shadow-color: @dls-color-gray-11;
+@dls-shadow-opacity: 0.1;
+
+@dls-shadow-offset-x-1: 0;
+@dls-shadow-offset-y-1: 4px;
+@dls-shadow-blur-radius-1: 6px;
+@dls-shadow-spread-radius-1: 0;
+@dls-shadow-1: 0 4px 6px fade(@dls-shadow-color, 6%),
+  0 1px 10px fade(@dls-shadow-color, 5%),
+  0 2px 4px -1px fade(@dls-shadow-color, 1%);
+
+@dls-shadow-offset-x-2: 0;
+@dls-shadow-offset-y-2: 8px;
+@dls-shadow-blur-radius-2: 10px;
+@dls-shadow-spread-radius-2: 1px;
+@dls-shadow-2: 0 8px 10px 1px fade(@dls-shadow-color, 6%),
+  0 3px 14px 2px fade(@dls-shadow-color, 5%),
+  0 5px 5px -3px fade(@dls-shadow-color, 1%);
+
+@dls-shadow-offset-x-3: 0;
+@dls-shadow-offset-y-3: 16px;
+@dls-shadow-blur-radius-3: 24px;
+@dls-shadow-spread-radius-3: 2px;
+@dls-shadow-3: 0 16px 24px 2px fade(@dls-shadow-color, 6%),
+  0 6px 30px 5px fade(@dls-shadow-color, 5%),
+  0 8px 10px -5px fade(@dls-shadow-color, 1%);
+
+// Focus ring shadows
+@dls-shadow-opacity-focus: 0.2;
+@dls-shadow-spread-focus: 2px;
+@dls-shadow-color-focus: @dls-color-brand-6;
+@dls-shadow-color-error-focus: @dls-color-error-6;
+@dls-shadow-focus: 0 0 0 @dls-shadow-spread-focus
+  fade(@dls-shadow-color-focus, percentage(@dls-shadow-opacity-focus));
+@dls-shadow-error-focus: 0 0 0 @dls-shadow-spread-focus
+  fade(@dls-shadow-color-error-focus, percentage(@dls-shadow-opacity-focus));
+
+/* Other focus styles */
+@dls-background-color-focus: @dls-color-brand-2;
+@dls-border-color-focus: @dls-color-brand-7;
+@dls-border-color-error-focus: @dls-color-error-7;
+
+/* Icons */
+@dls-icon-size-normal: 1.2em;
+@dls-icon-size-minor: @dls-icon-size-normal;
+@dls-icon-size-aux: @dls-icon-size-normal;
+@dls-icon-color-aux: @dls-foreground-color-neutral-weak;
+@dls-icon-color-aux-disabled: @dls-foreground-color-neutral-disabled;

@@ -1,0 +1,37 @@
+div {
+  -dls-dialog-width-wide: 800px;
+  -dls-dialog-width-medium: 600px;
+  -dls-dialog-width-narrow: 400px;
+  -dls-dialog-width-contextual: 400px;
+  -dls-dialog-border-radius: 6px;
+  -dls-dialog-spacing-y: 20px;
+  -dls-dialog-max-height: calc(100vh - 40px);
+  -dls-dialog-padding-x: 24px;
+  -dls-dialog-padding-y: 24px;
+  -dls-dialog-title-content-spacing: 16px;
+  -dls-dialog-title-spacing-after: 12px;
+  -dls-dialog-action-spacing-before: 20px;
+  -dls-dialog-action-content-spacing: 12px;
+  -dls-dialog-title-spacing-after-contextual: 4px;
+  -dls-dialog-icon-spacing-contextual: 12px;
+  -dls-dialog-icon-size-contextual: 1.2em;
+  -dls-dialog-title-line-height: 1.4;
+  -dls-dialog-body-line-height: 1.8;
+  -dls-dialog-title-font-size-s: 14px;
+  -dls-dialog-title-font-size-m: 16px;
+  -dls-dialog-body-font-size-s: 12px;
+  -dls-dialog-body-font-size-m: 14px;
+  -dls-dialog-title-font-weight: 500;
+  -dls-dialog-title-font-color: #282c33;
+  -dls-dialog-body-font-color: #282c33;
+  -dls-dialog-close-icon-size: 1.2em;
+  -dls-dialog-close-icon-size-fullscreen: 1.2em;
+  -dls-dialog-close-icon-min-size: 10px;
+  -dls-dialog-icon-color-info: #0052cc;
+  -dls-dialog-icon-color-success: #00bf5c;
+  -dls-dialog-icon-color-warning: #ffa733;
+  -dls-dialog-icon-color-error: #cc1800;
+  -dls-dialog-background-color: #fff;
+  -dls-dialog-backdrop-color: rgba(0, 0, 0, 0.6);
+  -dls-dialog-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
+}

@@ -1,0 +1,21 @@
+div {
+  -dls-number-input-height-xs: 24px;
+  -dls-number-input-height-s: 28px;
+  -dls-number-input-height-m: 32px;
+  -dls-number-input-spin-icon-size-normal: 0.85em;
+  -dls-number-input-spin-button-min-width-normal: 18px;
+  -dls-number-input-spin-button-width-normal-xs: 18px;
+  -dls-number-input-spin-button-width-normal-s: 18px;
+  -dls-number-input-spin-button-width-normal-m: 18px;
+  -dls-number-input-digits-normal: 6;
+  -dls-number-input-width-normal-xs: calc(6ch + 43px);
+  -dls-number-input-width-normal-s: calc(6ch + 43px);
+  -dls-number-input-width-normal-m: calc(6ch + 43px);
+  -dls-number-input-spin-icon-size-strong: 1em;
+  -dls-number-input-digits-strong: 6;
+  -dls-number-input-width-strong-xs: calc(6ch + 72px);
+  -dls-number-input-width-strong-s: calc(6ch + 80px);
+  -dls-number-input-width-strong-m: calc(6ch + 88px);
+  -dls-number-input-spin-icon-color: #848b99;
+  -dls-number-input-spin-icon-color-disabled: #c5ccdb;
+}

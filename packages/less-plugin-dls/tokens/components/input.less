@@ -1,0 +1,74 @@
+@import "../global.less";
+
+/* Font sizes */
+@dls-input-font-size-xs: @dls-font-size-0;
+@dls-input-font-size-s: @dls-font-size-0;
+@dls-input-font-size-m: @dls-font-size-1;
+@dls-input-font-size-l: @dls-font-size-2;
+
+/* Metrics */
+
+// Heights
+@dls-input-height-xs: @dls-height-xs;
+@dls-input-height-s: @dls-height-s;
+@dls-input-height-m: @dls-height-m;
+@dls-input-height-l: @dls-height-l;
+
+// Width
+@dls-input-width: 300px; // FIXME: choose a more appropriate defalt value
+
+// Radii
+@dls-input-border-radius-xs: @dls-border-radius-0;
+@dls-input-border-radius-s: @dls-border-radius-0;
+@dls-input-border-radius-m: @dls-border-radius-1;
+@dls-input-border-radius-l: @dls-border-radius-2;
+
+// Paddings
+@dls-input-padding: @dls-padding-unit * 3;
+
+// Spacing
+@dls-input-content-spacing: @dls-padding-unit * 2;
+
+/* Colors & states */
+
+// Border colors
+@dls-input-border-color: @dls-border-color-fillable;
+@dls-input-border-color-hover: @dls-border-color-fillable-hover;
+@dls-input-border-color-focus: @dls-border-color-focus;
+
+@dls-input-border-color-error: @dls-border-color-error-strong;
+@dls-input-border-color-error-hover: @dls-input-border-color-error;
+@dls-input-border-color-error-focus: @dls-border-color-error-focus;
+
+@dls-input-border-color-read-only: @dls-border-color-fillable;
+@dls-input-border-color-read-only-hover: @dls-border-color-fillable-hover;
+@dls-input-border-color-read-only-focus: @dls-border-color-focus;
+
+@dls-input-border-color-disabled: @dls-border-color-fillable-disabled;
+
+// Background colors
+@dls-input-background-color: @dls-background-color-fillable;
+@dls-input-background-color-read-only: @dls-background-color-fillable-disabled;
+@dls-input-background-color-disabled: @dls-background-color-fillable-disabled;
+
+// Font colors
+@dls-input-font-color: @dls-foreground-color-neutral;
+@dls-input-font-color-error: @dls-foreground-color-neutral;
+@dls-input-font-color-read-only: @dls-foreground-color-neutral-weak;
+@dls-input-font-color-disabled: @dls-foreground-color-neutral-disabled;
+
+@dls-input-placeholder-color: @dls-foreground-color-neutral-weak;
+@dls-input-count-color: @dls-foreground-color-neutral-weak;
+@dls-input-count-color-error: @dls-foreground-color-error-primary;
+
+/* Focus rings */
+@dls-input-shadow-focus: @dls-shadow-focus;
+@dls-input-shadow-inline-focus: 0 1px 0 0 @dls-shadow-color-focus;
+@dls-input-shadow-error-focus: @dls-shadow-error-focus;
+@dls-input-shadow-inline-error-focus: 0 1px 0 0 @dls-shadow-color-error-focus;
+
+/* Icons */
+// Clear icon or clock/calendar icon used in TimePicker/DatePicker
+@dls-input-icon-size: @dls-icon-size-normal;
+@dls-input-icon-color: @dls-icon-color-aux;
+@dls-input-icon-color-disabled: @dls-icon-color-aux-disabled;

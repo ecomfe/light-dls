@@ -1,0 +1,53 @@
+@import "../global.less";
+
+/* Typography */
+@dls-radio-font-size-s: @dls-font-size-0;
+@dls-radio-font-size-m: @dls-font-size-1;
+
+@dls-radio-font-color: @dls-foreground-color-neutral;
+
+/* Metrics */
+@dls-radio-size-s: dls-sum(@dls-radio-font-size-s, 2px);
+@dls-radio-size-m: dls-sum(@dls-radio-font-size-m, 2px);
+
+@dls-radio-dot-size-s: ceil(round(@dls-radio-size-s / 3) / 2) * 2;
+@dls-radio-dot-size-m: ceil(round(@dls-radio-size-m / 3) / 2) * 2;
+
+@dls-radio-spacing: @dls-padding-unit * 2;
+
+/* Colors */
+@dls-radio-border-color: @dls-border-color-fillable;
+@dls-radio-border-color-hover: @dls-border-color-fillable-hover;
+@dls-radio-border-color-focus: @dls-border-color-focus;
+@dls-radio-border-color-active: @dls-border-color-fillable-active;
+@dls-radio-border-color-disabled: @dls-border-color-fillable-disabled;
+
+@dls-radio-border-color-checked: @dls-border-color-primary;
+@dls-radio-border-color-checked-hover: @dls-radio-border-color-checked;
+@dls-radio-border-color-checked-focus: @dls-border-color-focus;
+@dls-radio-border-color-checked-active: @dls-radio-border-color-checked-hover;
+@dls-radio-border-color-checked-disabled: @dls-border-color-primary-disabled;
+
+@dls-radio-background-color: @dls-background-color-fillable;
+@dls-radio-background-color-hover: @dls-background-color-fillable-hover;
+@dls-radio-background-color-focus: @dls-radio-background-color-hover;
+@dls-radio-background-color-active: @dls-background-color-fillable-active;
+@dls-radio-background-color-disabled: @dls-background-color-fillable-disabled;
+
+@dls-radio-background-color-checked: @dls-background-color-primary;
+@dls-radio-background-color-checked-hover: @dls-background-color-primary-hover;
+@dls-radio-background-color-checked-focus: @dls-radio-background-color-checked-hover;
+@dls-radio-background-color-checked-active: @dls-background-color-primary-active;
+@dls-radio-background-color-checked-disabled: @dls-background-color-primary-disabled;
+
+@dls-radio-dot-color: @dls-foreground-color-primary-reverse;
+@dls-radio-dot-color-hover: @dls-radio-dot-color;
+@dls-radio-dot-color-focus: @dls-radio-dot-color-hover;
+@dls-radio-dot-color-active: @dls-radio-dot-color-hover;
+@dls-radio-dot-color-disabled: @dls-radio-dot-color;
+
+/* Focus ring */
+@dls-radio-shadow-focus: @dls-shadow-focus;
+
+/* Checkbox group */
+@dls-radio-group-spacing: @dls-padding-unit * 12;

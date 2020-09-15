@@ -1,0 +1,45 @@
+@import "../global.less";
+@import "./input.less";
+
+/* Typography */
+
+// Font sizes
+@dls-textarea-font-size-s: @dls-font-size-0;
+@dls-textarea-font-size-m: @dls-font-size-1;
+
+// Line height
+@dls-textarea-line-height: @dls-line-height-1;
+
+/* Metrics */
+
+// Paddins
+@dls-textarea-padding-x: @dls-padding-unit * 3;
+@dls-textarea-padding-y: @dls-padding-unit * 2;
+
+// Width
+@dls-textarea-width: @dls-input-width;
+
+// Heights
+@dls-textarea-rows: 3;
+@dls-textarea-height-s: dls-sum(
+  dls-line-height(@dls-textarea-line-height, @dls-textarea-font-size-s) *
+    @dls-textarea-rows,
+  @dls-textarea-padding-y * 2,
+  2px
+);
+@dls-textarea-height-m: dls-sum(
+  dls-line-height(@dls-textarea-line-height, @dls-textarea-font-size-m) *
+    @dls-textarea-rows,
+  @dls-textarea-padding-y * 2,
+  2px
+);
+
+/* Character count */
+@dls-textarea-count-height: @dls-height-unit * 4;
+@dls-textarea-count-padding: @dls-padding-unit * 1;
+@dls-textarea-count-font-size: @dls-font-size-0;
+@dls-textarea-count-font-color: @dls-foreground-color-reverse;
+@dls-textarea-count-font-color-error: @dls-foreground-color-reverse;
+@dls-textarea-count-background-color: @dls-background-color-translucent;
+@dls-textarea-count-background-color-error: fade(@dls-background-color-error-primary, 60%);
+@dls-textarea-count-border-radius: @dls-border-radius-0;

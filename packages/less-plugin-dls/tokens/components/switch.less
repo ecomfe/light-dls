@@ -1,0 +1,46 @@
+@import "../global.less";
+
+/* Metrics */
+@dls-switch-width-xs: @dls-padding-unit * 5;
+@dls-switch-width-s: @dls-padding-unit * 6.5;
+@dls-switch-width-m: @dls-padding-unit * 8;
+
+@dls-switch-height-xs: @dls-height-unit * 3;
+@dls-switch-height-s: @dls-height-unit * 4;
+@dls-switch-height-m: @dls-height-unit * 5;
+
+@dls-switch-thumb-size-xs: @dls-height-unit * 2;
+@dls-switch-thumb-size-s: @dls-height-unit * 3;
+@dls-switch-thumb-size-m: @dls-height-unit * 3.5;
+
+@dls-switch-padding-xs: (@dls-switch-height-xs - @dls-switch-thumb-size-xs) / 2;
+@dls-switch-padding-s: (@dls-switch-height-s - @dls-switch-thumb-size-s) / 2;
+@dls-switch-padding-m: (@dls-switch-height-m - @dls-switch-thumb-size-m) / 2;
+
+/* Colors */
+@dls-switch-track-color-on: @dls-background-color-primary;
+@dls-switch-track-color-on-hover: @dls-background-color-primary-hover;
+@dls-switch-track-color-on-focus: @dls-switch-track-color-on-hover;
+@dls-switch-track-color-on-active: @dls-background-color-primary-active;
+@dls-switch-track-color-on-disabled: @dls-background-color-primary-disabled;
+
+@dls-switch-track-color-off: @dls-background-color-neutral-primary;
+@dls-switch-track-color-off-hover: @dls-background-color-neutral-primary-hover;
+@dls-switch-track-color-off-focus: @dls-switch-track-color-off-hover;
+@dls-switch-track-color-off-active: @dls-background-color-neutral-primary-active;
+@dls-switch-track-color-off-disabled: @dls-background-color-neutral-primary-disabled;
+
+@dls-switch-thumb-color-on: @dls-foreground-color-primary-reverse;
+@dls-switch-thumb-color-on-hover: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-on-focus: @dls-switch-thumb-color-on-hover;
+@dls-switch-thumb-color-on-active: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-on-disabled: @dls-switch-thumb-color-on;
+
+@dls-switch-thumb-color-off: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-off-hover: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-off-focus: @dls-switch-thumb-color-off-hover;
+@dls-switch-thumb-color-off-active: @dls-switch-thumb-color-on;
+@dls-switch-thumb-color-off-disabled: @dls-switch-thumb-color-on;
+
+@dls-switch-shadow-on-focus: @dls-shadow-focus;
+@dls-switch-shadow-off-focus: @dls-switch-shadow-on-focus;

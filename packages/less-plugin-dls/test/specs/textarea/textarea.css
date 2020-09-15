@@ -1,0 +1,19 @@
+div {
+  -dls-textarea-font-size-s: 12px;
+  -dls-textarea-font-size-m: 14px;
+  -dls-textarea-line-height: 1.4;
+  -dls-textarea-padding-x: 12px;
+  -dls-textarea-padding-y: 8px;
+  -dls-textarea-width: 300px;
+  -dls-textarea-rows: 3;
+  -dls-textarea-height-s: 68.4px;
+  -dls-textarea-height-m: 76.8px;
+  -dls-textarea-count-height: 16px;
+  -dls-textarea-count-padding: 4px;
+  -dls-textarea-count-font-size: 12px;
+  -dls-textarea-count-font-color: #fff;
+  -dls-textarea-count-font-color-error: #fff;
+  -dls-textarea-count-background-color: rgba(0, 0, 0, 0.6);
+  -dls-textarea-count-background-color-error: rgba(204, 24, 0, 0.6);
+  -dls-textarea-count-border-radius: 2px;
+}

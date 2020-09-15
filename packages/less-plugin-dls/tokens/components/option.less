@@ -1,0 +1,80 @@
+@import "../global.less";
+
+/* Font sizes */
+@dls-option-font-size-xs: @dls-font-size-0;
+@dls-option-font-size-s: @dls-font-size-0;
+@dls-option-font-size-m: @dls-font-size-1;
+@dls-option-font-size-l: @dls-font-size-2;
+
+/* Metrics */
+@dls-option-height-xs: @dls-height-unit * 6;
+@dls-option-height-s: @dls-height-unit * 7;
+@dls-option-height-m: @dls-height-unit * 8;
+@dls-option-height-l: @dls-height-unit * 9;
+
+@dls-option-padding-xs: @dls-option-padding-m;
+@dls-option-padding-s: @dls-option-padding-m;
+@dls-option-padding-m: @dls-padding-unit * 4;
+@dls-option-padding-l: @dls-option-padding-m;
+
+@dls-option-max-width-xs: dls-sum(40em, @dls-option-padding-xs * 2);
+@dls-option-max-width-s: dls-sum(40em, @dls-option-padding-s * 2);
+@dls-option-max-width-m: dls-sum(40em, @dls-option-padding-m * 2);
+@dls-option-max-width-l: dls-sum(40em, @dls-option-padding-l * 2);
+
+@dls-option-icon-size-aux: @dls-icon-size-aux;
+
+// Space between checkboxes & labels, labels and carets
+@dls-option-label-spacing-before: @dls-padding-unit * 2;
+@dls-option-label-spacing-after: @dls-padding-unit * 3;
+
+/* States */
+@dls-option-font-color: @dls-foreground-color-neutral;
+@dls-option-font-color-hover: @dls-option-font-color;
+@dls-option-font-color-focus: @dls-option-font-color-hover;
+@dls-option-font-color-active: @dls-option-font-color-hover;
+@dls-option-font-color-disabled: @dls-foreground-color-neutral-disabled;
+@dls-option-font-color-highlighted: @dls-foreground-color-highlighted;
+
+@dls-option-icon-color-aux: @dls-icon-color-aux;
+@dls-option-icon-color-aux-disabled: @dls-icon-color-aux-disabled;
+
+@dls-option-font-color-selected: @dls-foreground-color-primary;
+@dls-option-font-color-selected-hover: @dls-foreground-color-primary-hover;
+@dls-option-font-color-selected-focus: @dls-option-font-color-selected-hover;
+@dls-option-font-color-selected-active: @dls-foreground-color-primary-active;
+
+@dls-option-background-color: @dls-background-color-pressable;
+@dls-option-background-color-hover: @dls-background-color-pressable-hover;
+@dls-option-background-color-focus: @dls-background-color-focus;
+@dls-option-background-color-active: @dls-background-color-pressable-active;
+
+@dls-option-background-color-selected-parent: @dls-option-background-color-hover;
+
+@dls-option-font-weight-selected-parent: @dls-font-weight-1;
+@dls-option-font-weight-selected: @dls-font-weight-1;
+
+/* Option group title */
+@dls-option-group-label-line-height: @dls-line-height-1;
+@dls-option-group-label-font-color: @dls-foreground-color-neutral-weak;
+@dls-option-group-label-padding-y: @dls-padding-unit * 1;
+@dls-option-group-padding-y: @dls-padding-unit * 1;
+@dls-option-group-separator-color: @dls-line-color-1;
+
+/* Option dropdown */
+@dls-option-dropdown-max-height-xs: @dls-option-height-xs * 10 +
+  @dls-option-group-padding-y * 2;
+@dls-option-dropdown-max-height-s: @dls-option-height-s * 10 +
+  @dls-option-group-padding-y * 2;
+@dls-option-dropdown-max-height-m: @dls-option-height-m * 10 +
+  @dls-option-group-padding-y * 2;
+@dls-option-dropdown-max-height-l: @dls-option-height-l * 10 +
+  @dls-option-group-padding-y * 2;
+@dls-option-dropdown-border-radius-xs: @dls-border-radius-0;
+@dls-option-dropdown-border-radius-s: @dls-border-radius-0;
+@dls-option-dropdown-border-radius-m: @dls-border-radius-1;
+@dls-option-dropdown-border-radius-l: @dls-border-radius-2;
+@dls-option-dropdown-target-spacing: @dls-padding-unit * 1;
+@dls-option-dropdown-shadow: @dls-shadow-1;
+@dls-option-dropdown-placeholder-padding-y: @dls-padding-unit * 2;
+@dls-option-dropdown-placeholder-font-color: @dls-foreground-color-neutral-weak;

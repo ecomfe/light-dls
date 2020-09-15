@@ -1,16 +1,13 @@
 {
-  "name": "less-plugin-dls",
-  "version": "0.33.4",
-  "description": "Less plugin for Baidu DLS.",
+  "name": "dls-tooling",
+  "version": "1.0.0-alpha.27",
+  "description": "Tools for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
-    "test": "node -r esm test/run.js",
-    "build": "rollup -c && cp src/index.js dist/index.js && node -r esm build/vars.js",
-    "prepublishOnly": "npm run test"
-  },
-  "bin": {
-    "dls": "bin/dls"
+    "install": "lerna bootstrap",
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "prepublishOnly": "lerna run test"
   },
   "keywords": [
     "less",
@@ -21,36 +18,26 @@
   ],
   "author": "Justineo (justice360@gmail.com)",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ecomfe/less-plugin-dls.git"
   },
+  "dependencies": {},
   "devDependencies": {
-    "diff": "^4.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "kolor": "^1.1.9",
-    "less": "^3.9.0",
-    "postcss-values-parser": "^3.0.4",
-    "prettier": "^1.17.1",
-    "reduce-css-calc": "^2.1.6",
-    "rollup": "^1.12.4",
-    "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.0.0",
-    "strip-css-comments": "^4.0.0",
-    "stylelint": "^10.0.1",
-    "stylelint-config-prettier": "^5.2.0",
-    "stylelint-config-standard": "^18.3.0"
-  },
-  "dependencies": {
-    "arg": "^4.1.1",
-    "esm": "^3.2.25",
-    "fast-glob": "^3.0.4",
-    "pkg-dir": "^4.2.0"
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
   }
 }

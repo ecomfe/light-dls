@@ -1,0 +1,14 @@
+div {
+  -dls-select-width: 300px;
+  -dls-select-tag-height-xs: 16px;
+  -dls-select-tag-height-s: 20px;
+  -dls-select-tag-height-m: 24px;
+  -dls-select-tag-height-l: 28px;
+  -dls-select-padding-x: 12px;
+  -dls-select-padding-y: 4px;
+  -dls-select-content-spacing: 8px;
+  -dls-select-tag-spacing: 4px;
+  -dls-select-icon-size-aux: 1.2em;
+  -dls-select-icon-color-aux: #848b99;
+  -dls-select-icon-color-aux-disabled: #a8b0bf;
+}

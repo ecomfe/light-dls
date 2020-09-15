@@ -1,0 +1,14 @@
+div {
+  -dls-badge-font-size: 12px;
+  -dls-badge-dot-size: 8px;
+  -dls-badge-label-height: 16px;
+  -dls-badge-label-min-width: 16px;
+  -dls-badge-label-padding-x: 4px;
+  -dls-badge-label-spacing-status: 8px;
+  -dls-badge-background-color-info: #0052cc;
+  -dls-badge-background-color-success: #00bf5c;
+  -dls-badge-background-color-warning: #ffa733;
+  -dls-badge-background-color-error: #cc1800;
+  -dls-badge-background-color-aux: #a8b0bf;
+  -dls-badge-font-color: #fff;
+}

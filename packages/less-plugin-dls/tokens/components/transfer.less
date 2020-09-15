@@ -1,0 +1,68 @@
+@import "../global.less";
+
+/* Metrics */
+@dls-transfer-font-size-s: @dls-font-size-0;
+@dls-transfer-font-size-m: @dls-font-size-1;
+
+@dls-transfer-border-radius-s: @dls-border-radius-0;
+@dls-transfer-border-radius-m: @dls-border-radius-1;
+
+@dls-transfer-padding-x: @dls-padding-unit * 3;
+@dls-transfer-header-content-spacing-1: @dls-padding-unit * 1;
+@dls-transfer-header-content-spacing-2: @dls-padding-unit * 2;
+@dls-transfer-content-padding-y: @dls-padding-unit * 1;
+
+@dls-transfer-item-height-s: @dls-height-unit * 7;
+@dls-transfer-item-height-m: @dls-height-unit * 8;
+
+@dls-transfer-item-content-spacing: @dls-padding-unit * 2;
+
+@dls-transfer-content-min-height-s: dls-sum(
+  @dls-transfer-item-height-s * 10,
+  @dls-transfer-content-padding-y * 2
+);
+@dls-transfer-content-min-height-m: dls-sum(
+  @dls-transfer-item-height-m * 10,
+  @dls-transfer-content-padding-y * 2
+);
+
+@dls-transfer-panel-width-s: dls-sum(
+  @dls-font-size-0 * 15,
+  @dls-transfer-padding-x * 2,
+  2px,
+  @dls-checkbox-size-s,
+  @dls-transfer-item-content-spacing
+);
+@dls-transfer-panel-width-m: dls-sum(
+  @dls-font-size-1 * 15,
+  @dls-transfer-padding-x * 2,
+  2px,
+  @dls-checkbox-size-m,
+  @dls-transfer-item-content-spacing
+);
+
+@dls-transfer-panel-spacing: @dls-padding-unit * 3;
+
+/* Headers */
+@dls-transfer-header-height-s: @dls-height-unit * 8;
+@dls-transfer-header-height-m: @dls-height-unit * 9;
+
+@dls-transfer-header-background-color: @dls-background-color-base-2;
+@dls-transfer-header-font-color: @dls-foreground-color-neutral;
+@dls-transfer-header-font-weight: @dls-font-weight-1;
+@dls-transfer-header-button-font-weight: @dls-font-weight-2;
+
+/* Colors */
+@dls-transfer-border-color: @dls-line-color-2;
+
+@dls-transfer-item-background-color: @dls-background-color-pressable;
+@dls-transfer-item-background-color-hover: @dls-background-color-pressable-hover;
+@dls-transfer-item-background-color-focus: @dls-transfer-item-background-color-hover;
+@dls-transfer-item-background-color-active: @dls-background-color-pressable-active;
+@dls-transfer-item-background-color-disabled: transparent;
+
+@dls-transfer-item-font-color: @dls-foreground-color-neutral;
+@dls-transfer-item-font-color-hover: @dls-transfer-item-font-color;
+@dls-transfer-item-font-color-focus: @dls-transfer-item-font-color-hover;
+@dls-transfer-item-font-color-active: @dls-transfer-item-font-color-hover;
+@dls-transfer-item-font-color-disabled:  @dls-foreground-color-neutral-disabled;

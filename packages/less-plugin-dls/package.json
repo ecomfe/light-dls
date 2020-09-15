@@ -1,0 +1,48 @@
+{
+  "name": "less-plugin-dls",
+  "version": "1.0.0-alpha.28",
+  "description": "Less plugin for Baidu DLS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "node -r esm test/run.js",
+    "build": "rollup -c && cp src/index.js dist/index.js && node -r esm build/vars.js",
+    "prepublishOnly": "npm run test"
+  },
+  "bin": {
+    "dls": "bin/dls"
+  },
+  "keywords": [
+    "less",
+    "plugin",
+    "baidu",
+    "dls",
+    "ecosystem:less"
+  ],
+  "author": "Justineo (justice360@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/less-plugin-dls.git"
+  },
+  "dependencies": {
+    "arg": "^4.1.3",
+    "dls-color-palette": "0.0.1-alpha.2",
+    "esm": "^3.2.25",
+    "fast-glob": "^3.0.4",
+    "pkg-dir": "^4.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "color-converters": "^0.1.1",
+    "diff": "^4.0.1",
+    "less": "^3.9.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.memoize": "^4.1.2",
+    "postcss-values-parser": "^3.0.4",
+    "reduce-css-calc": "^2.1.6",
+    "rollup": "^2.26.10",
+    "strip-css-comments": "^4.0.0"
+  }
+}

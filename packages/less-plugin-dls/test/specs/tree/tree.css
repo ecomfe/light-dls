@@ -1,0 +1,28 @@
+div {
+  -dls-tree-node-height-s: 28px;
+  -dls-tree-node-height-m: 32px;
+  -dls-tree-font-size-s: 12px;
+  -dls-tree-font-size-m: 14px;
+  -dls-tree-icon-size: 1.2em;
+  -dls-tree-icon-size-aux: 1.2em;
+  -dls-tree-padding-x: 16px;
+  -dls-tree-node-content-spacing: 8px;
+  -dls-tree-icon-color-aux: #848b99;
+  -dls-tree-icon-color-aux-disabled: #a8b0bf;
+  -dls-tree-node-font-color: #282c33;
+  -dls-tree-node-font-color-disabled: #a8b0bf;
+  -dls-tree-node-font-color-selected: #0052cc;
+  -dls-tree-node-font-color-selected-hover: #0066ff;
+  -dls-tree-node-font-color-selected-focus: #0066ff;
+  -dls-tree-node-font-color-selected-active: #0045ad;
+  -dls-tree-node-font-color-highlighted: #ff9100;
+  -dls-tree-node-background-color: #fff;
+  -dls-tree-node-background-color-hover: #f6f7fa;
+  -dls-tree-node-background-color-focus: #f6f7fa;
+  -dls-tree-node-background-color-active: #e2e6f0;
+  -dls-tree-node-background-color-selected: #f2f7ff;
+  -dls-tree-node-background-color-selected-hover: #e0edff;
+  -dls-tree-node-background-color-selected-focus: #e0edff;
+  -dls-tree-node-background-color-selected-active: #bfd9ff;
+  -dls-tree-node-font-weight-selected: 400;
+}

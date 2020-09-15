@@ -1,0 +1,86 @@
+@import "../global.less";
+
+/* Typography */
+@dls-steps-title-font-size-s: @dls-font-size-0;
+@dls-steps-title-font-size-m: @dls-font-size-1;
+@dls-steps-desc-font-size-s: @dls-font-size-0;
+@dls-steps-desc-font-size-m: @dls-font-size-0;
+@dls-steps-marker-font-size-s: @dls-font-size-1;
+@dls-steps-marker-font-size-m: @dls-font-size-2;
+@dls-steps-title-font-weight: @dls-font-weight-2;
+
+@dls-steps-title-font-color: @dls-foreground-color-neutral;
+@dls-steps-title-font-color-hover: @dls-steps-title-font-color;
+@dls-steps-title-font-color-focus: @dls-steps-title-font-color-hover;
+@dls-steps-title-font-color-active: @dls-steps-title-font-color-hover;
+@dls-steps-desc-font-color: @dls-foreground-color-neutral-weak;
+
+// Incomplete
+@dls-steps-title-font-color-incomplete: @dls-foreground-color-neutral-weak;
+@dls-steps-desc-font-color-incomplete: @dls-foreground-color-neutral-weak;
+
+/* Markers */
+@dls-steps-marker-size-s: @dls-steps-marker-font-size-s * 2;
+@dls-steps-marker-size-m: @dls-steps-marker-font-size-m * 2;
+@dls-steps-marker-icon-size: @dls-icon-size-aux;
+
+/* Metrics */
+@dls-steps-title-max-width-horizontal: 10em;
+@dls-steps-desc-max-width-horizontal: 12em;
+
+/* Spacing */
+@dls-steps-marker-spacing: @dls-padding-unit * 2;
+@dls-steps-title-spacing: @dls-padding-unit * 1;
+@dls-steps-connector-spacing-horizontal: @dls-padding-unit * 3;
+@dls-steps-connector-spacing-vertical: @dls-padding-unit * 2;
+
+@dls-steps-connector-min-length: @dls-height-unit * 6;
+
+/* Statuses */
+// Incomplete
+@dls-steps-marker-background-color-incomplete: @dls-background-color-pressable;
+@dls-steps-marker-border-color-incomplete: @dls-border-color-pressable;
+@dls-steps-marker-foreground-color-incomplete: @dls-foreground-color-neutral-weak;
+@dls-steps-connector-color-incomplete: @dls-steps-marker-border-color-incomplete;
+
+// Completed
+@dls-steps-marker-background-color-completed: @dls-background-color-strong;
+@dls-steps-marker-background-color-completed-hover: @dls-background-color-strong-hover;
+@dls-steps-marker-background-color-completed-focus: @dls-steps-marker-background-color-completed-hover;
+@dls-steps-marker-background-color-completed-active: @dls-background-color-strong-active;
+@dls-steps-marker-border-color-completed: @dls-border-color-strong;
+@dls-steps-marker-foreground-color-completed: @dls-foreground-color-primary;
+@dls-steps-marker-shadow-completed-focus: @dls-shadow-focus;
+@dls-steps-connector-color-completed: @dls-steps-marker-border-color-completed;
+
+// Error
+@dls-steps-marker-background-color-error: @dls-background-color-error-strong;
+@dls-steps-marker-background-color-error-hover: @dls-background-color-error-strong-hover;
+@dls-steps-marker-background-color-error-focus: @dls-steps-marker-background-color-error-hover;
+@dls-steps-marker-background-color-error-active: @dls-background-color-error-strong-active;
+@dls-steps-marker-border-color-error: @dls-border-color-error-strong;
+@dls-steps-marker-foreground-color-error: @dls-foreground-color-error-primary;
+@dls-steps-marker-shadow-error-focus: @dls-shadow-error-focus;
+@dls-steps-connector-color-error: @dls-steps-marker-border-color-error;
+
+// Current
+@dls-steps-marker-background-color-current: @dls-background-color-primary;
+@dls-steps-marker-background-color-current-hover: @dls-background-color-primary-hover;
+@dls-steps-marker-background-color-current-focus: @dls-steps-marker-background-color-current-hover;
+@dls-steps-marker-background-color-current-active: @dls-background-color-primary-active;
+@dls-steps-marker-border-color-current: @dls-border-color-primary;
+@dls-steps-marker-border-color-current-focus: @dls-border-color-focus;
+@dls-steps-marker-foreground-color-current: @dls-foreground-color-primary-reverse;
+@dls-steps-marker-shadow-current-focus: @dls-shadow-focus;
+@dls-steps-connector-color-current: @dls-steps-marker-border-color-completed;
+
+// Error & current
+@dls-steps-marker-background-color-error-current: @dls-background-color-error-primary;
+@dls-steps-marker-background-color-error-current-hover: @dls-background-color-error-primary-hover;
+@dls-steps-marker-background-color-error-current-focus: @dls-steps-marker-background-color-error-current-hover;
+@dls-steps-marker-background-color-error-current-active: @dls-background-color-error-primary-active;
+@dls-steps-marker-border-color-error-current: @dls-border-color-error-primary;
+@dls-steps-marker-border-color-error-current-focus: @dls-border-color-error-focus;
+@dls-steps-marker-foreground-color-error-current: @dls-foreground-color-reverse;
+@dls-steps-marker-shadow-error-current-focus: @dls-shadow-error-focus;
+@dls-steps-connector-color-error-current: @dls-steps-marker-border-color-error;

@@ -1,0 +1,124 @@
+@import "../global.less";
+
+/**
+ * Shared by horizontal & vertical
+ */
+@dls-menu-item-font-weight-current: @dls-font-weight-1;
+
+@dls-menu-item-icon-color: @dls-icon-color-aux;
+@dls-menu-item-icon-color-disabled: @dls-icon-color-aux-disabled;
+@dls-menu-item-icon-color-current: currentColor;
+@dls-menu-item-icon-color-current-disabled: currentColor;
+
+/* Indicators */
+@dls-menu-indicator-width: 2px;
+@dls-menu-indicator-color: @dls-foreground-color-primary;
+@dls-menu-indicator-color-hover: @dls-menu-indicator-color;
+@dls-menu-indicator-color-focus: @dls-menu-indicator-color-hover;
+@dls-menu-indicator-color-active: @dls-menu-indicator-color;
+
+ /* Metrics */
+@dls-menu-width: 200px;
+@dls-menu-width-collapsed: 60px;
+
+@dls-menu-font-size-s: @dls-font-size-0;
+@dls-menu-font-size-m: @dls-font-size-1;
+@dls-menu-font-size-l: @dls-font-size-2;
+
+@dls-menu-item-height-s: @dls-height-unit * 7;
+@dls-menu-item-height-m: @dls-height-unit * 8;
+@dls-menu-item-height-l: @dls-height-unit * 9;
+
+@dls-menu-padding-x: @dls-padding-unit * 5;
+@dls-menu-padding-y: @dls-padding-unit * 2;
+@dls-menu-item-spacing: @dls-padding-unit * 2;
+@dls-menu-item-content-spacing: @dls-padding-unit * 3;
+@dls-menu-level-indent: @dls-padding-unit * 4;
+
+@dls-menu-footer-height-s: @dls-menu-footer-height-m;
+@dls-menu-footer-height-m: @dls-height-unit * 7;
+@dls-menu-footer-height-l: @dls-menu-footer-height-m;
+
+@dls-menu-item-icon-size: @dls-icon-size-normal;
+@dls-menu-item-icon-size-aux: @dls-icon-size-aux;
+
+/* Colors */
+@dls-menu-border-color: @dls-line-color-1; // right border
+@dls-menu-separator-color: @dls-line-color-1; // internal horizontal separator
+
+@dls-menu-item-font-color: @dls-foreground-color-neutral;
+@dls-menu-item-font-color-hover: @dls-menu-item-font-color;
+@dls-menu-item-font-color-focus: @dls-menu-item-font-color-hover;
+@dls-menu-item-font-color-active: @dls-menu-item-font-color-hover;
+@dls-menu-item-font-color-disabled: @dls-foreground-color-neutral-disabled;
+
+@dls-menu-item-background-color: @dls-background-color-pressable;
+@dls-menu-item-background-color-hover: @dls-background-color-pressable-hover;
+@dls-menu-item-background-color-focus: @dls-background-color-focus;
+@dls-menu-item-background-color-active: @dls-background-color-pressable-active;
+@dls-menu-item-background-color-disabled: @dls-menu-item-background-color;
+
+@dls-menu-item-font-color-current: @dls-foreground-color-primary;
+@dls-menu-item-font-color-current-hover: @dls-foreground-color-primary-hover;
+@dls-menu-item-font-color-current-focus: @dls-menu-item-font-color-current-hover;
+@dls-menu-item-font-color-current-active: @dls-foreground-color-primary-active;
+
+@dls-menu-item-background-color-current: @dls-background-color-current;
+@dls-menu-item-background-color-current-hover: @dls-background-color-current-hover;
+@dls-menu-item-background-color-current-focus: @dls-menu-item-background-color-current-hover;
+@dls-menu-item-background-color-current-active: @dls-background-color-current-active;
+
+@dls-menu-item-group-label-font-color: @dls-foreground-color-neutral;
+@dls-menu-item-group-label-font-weight: @dls-font-weight-2;
+
+/**
+ * Horizontal menu
+ */
+@dls-menu-font-size-horizontal-m: @dls-font-size-1;
+
+@dls-menu-item-height-horizontal-m: @dls-height-unit * 16;
+@dls-menu-item-padding-x-horizontal: @dls-padding-unit * 4;
+
+@dls-menu-border-color-horizontal: @dls-line-color-2;
+
+@dls-menu-item-font-color-horizontal: @dls-foreground-color-neutral;
+@dls-menu-item-font-color-horizontal-hover: @dls-foreground-color-neutral-hover;
+@dls-menu-item-font-color-horizontal-focus: @dls-menu-item-font-color-horizontal-hover;
+@dls-menu-item-font-color-horizontal-active: @dls-foreground-color-neutral-active;
+@dls-menu-item-font-color-horizontal-disabled: @dls-foreground-color-neutral-disabled;
+
+@dls-menu-item-background-color-horizontal: @dls-background-color-pressable;
+@dls-menu-item-background-color-horizontal-hover: @dls-menu-item-background-color-horizontal;
+@dls-menu-item-background-color-horizontal-focus: @dls-background-color-focus;
+@dls-menu-item-background-color-horizontal-active: @dls-menu-item-background-color-horizontal-hover;
+@dls-menu-item-background-color-horizontal-disabled: @dls-menu-item-background-color-horizontal;
+
+@dls-menu-item-font-color-horizontal-current: @dls-foreground-color-primary;
+@dls-menu-item-font-color-horizontal-current-hover: @dls-foreground-color-primary-hover;
+@dls-menu-item-font-color-horizontal-current-focus: @dls-menu-item-font-color-horizontal-current-hover;
+@dls-menu-item-font-color-horizontal-current-active: @dls-foreground-color-primary-active;
+
+@dls-menu-item-background-color-horizontal-current: @dls-background-color-strong;
+@dls-menu-item-background-color-horizontal-current-hover: @dls-menu-item-background-color-horizontal-current;
+@dls-menu-item-background-color-horizontal-current-focus: @dls-background-color-focus;
+@dls-menu-item-background-color-horizontal-current-active: @dls-menu-item-background-color-horizontal-current;
+
+@dls-menu-item-shadow-horizontal-current: 0 1px 2px fade(@dls-menu-indicator-color, 40%);
+
+/* Dropdown card */
+@dls-menu-card-background-color: @dls-background-color-base-1;
+@dls-menu-card-border-radius-m: @dls-border-radius-1;
+@dls-menu-card-background-color: @dls-background-color-base-1;
+@dls-menu-card-padding-x: @dls-padding-unit * 6;
+@dls-menu-card-padding-y: @dls-padding-unit * 6;
+@dls-menu-card-column-spacing: @dls-padding-unit * 12;
+@dls-menu-card-target-spacing: @dls-padding-unit * 1;
+
+@dls-menu-card-title-font-color: @dls-foreground-color-neutral;
+@dls-menu-card-title-font-size-m: @dls-font-size-1;
+@dls-menu-card-title-font-weight: @dls-font-weight-2;
+
+// Use Link for items
+@dls-menu-card-item-spacing: @dls-padding-unit * 4;
+@dls-menu-card-item-font-size-m: @dls-font-size-1;
+@dls-menu-card-item-icon-size: @dls-icon-size-normal;

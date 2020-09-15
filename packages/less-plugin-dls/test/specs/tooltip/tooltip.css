@@ -1,0 +1,17 @@
+div {
+  -dls-tooltip-max-width: calc(16em + 16px);
+  -dls-tooltip-font-size: 12px;
+  -dls-tooltip-line-height: 1.8;
+  -dls-tooltip-padding-x: 8px;
+  -dls-tooltip-padding-y: 4px;
+  -dls-tooltip-target-spacing: 4px;
+  -dls-tooltip-arrow-width: 8px;
+  -dls-tooltip-arrow-spacing: 8px;
+  -dls-tooltip-border-radius: 2px;
+  -dls-tooltip-font-color-normal: #282c33;
+  -dls-tooltip-background-color-normal: #fff;
+  -dls-tooltip-shadow-normal: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+  -dls-tooltip-font-color-reverse: #fff;
+  -dls-tooltip-background-color-reverse: rgba(0, 0, 0, 0.6);
+  -dls-tooltip-shadow-reverse: none;
+}

@@ -1,0 +1,11 @@
+div {
+  -dls-popover-max-width: 400px;
+  -dls-popover-line-height: 1.8;
+  -dls-popover-padding-x: 16px;
+  -dls-popover-padding-y: 16px;
+  -dls-popover-arrow-spacing: 12px;
+  -dls-popover-border-radius-s: 2px;
+  -dls-popover-border-radius-m: 4px;
+  -dls-popover-font-size-s: 12px;
+  -dls-popover-font-size-m: 14px;
+}

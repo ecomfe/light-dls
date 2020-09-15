@@ -1,0 +1,37 @@
+div {
+  -dls-alert-font-size-s: 12px;
+  -dls-alert-font-size-m: 14px;
+  -dls-alert-border-radius-s: 2px;
+  -dls-alert-border-radius-m: 4px;
+  -dls-alert-line-height: 1.8;
+  -dls-alert-icon-size: 1.2em;
+  -dls-alert-icon-size-titled: 1.2em;
+  -dls-alert-icon-size-aux: 1.2em;
+  -dls-alert-padding-x: 16px;
+  -dls-alert-padding-y: 4px;
+  -dls-alert-padding-y-multiline: 8px;
+  -dls-alert-padding-y-titled: 16px;
+  -dls-alert-content-spacing-before: 8px;
+  -dls-alert-content-spacing-after: 16px;
+  -dls-alert-title-font-size-s: 12px;
+  -dls-alert-title-font-size-m: 14px;
+  -dls-alert-title-font-weight: 500;
+  -dls-alert-title-line-height: 1.4;
+  -dls-alert-title-spacing-after: 4px;
+  -dls-alert-font-color: #282c33;
+  -dls-alert-title-font-color: #282c33;
+  -dls-alert-background-color-info: #f2f7ff;
+  -dls-alert-background-color-success: #f2fff8;
+  -dls-alert-background-color-warning: #fff9f2;
+  -dls-alert-background-color-error: #fff4f2;
+  -dls-alert-border-color-info: transparent;
+  -dls-alert-border-color-success: transparent;
+  -dls-alert-border-color-warning: transparent;
+  -dls-alert-border-color-error: transparent;
+  -dls-alert-icon-color-info: #0052cc;
+  -dls-alert-icon-color-success: #00bf5c;
+  -dls-alert-icon-color-warning: #ffa733;
+  -dls-alert-icon-color-error: #cc1800;
+  -dls-alert-pages-spacing: 4px;
+  -dls-alert-pages-font-color: #848b99;
+}

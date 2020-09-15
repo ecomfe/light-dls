@@ -1,0 +1,18 @@
+div {
+  -dls-link-font-size-s: 12px;
+  -dls-link-font-size-m: 14px;
+  -dls-link-text-decoration: none;
+  -dls-link-text-decoration-hover: underline;
+  -dls-link-text-decoration-focus: underline;
+  -dls-link-text-decoration-active: underline;
+  -dls-link-font-color-normal: #282c33;
+  -dls-link-font-color-normal-hover: #545b66;
+  -dls-link-font-color-normal-focus: #545b66;
+  -dls-link-font-color-normal-active: #000;
+  -dls-link-font-color-normal-disabled: #a8b0bf;
+  -dls-link-font-color-strong: #0052cc;
+  -dls-link-font-color-strong-hover: #0066ff;
+  -dls-link-font-color-strong-focus: #0066ff;
+  -dls-link-font-color-strong-active: #0045ad;
+  -dls-link-font-color-strong-disabled: #8fbcff;
+}

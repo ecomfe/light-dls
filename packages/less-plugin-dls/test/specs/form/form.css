@@ -1,0 +1,14 @@
+div {
+  -dls-form-label-spacing-after-horizontal: 32px;
+  -dls-form-label-spacing-after-vertical: 8px;
+  -dls-form-label-content-spacing: 4px;
+  -dls-form-label-width: 7em;
+  -dls-form-label-font-color: #282c33;
+  -dls-form-label-icon-color: #545b66;
+  -dls-form-label-required-color: #cc1800;
+  -dls-form-field-spacing-vertical: 32px;
+  -dls-form-field-error-font-color: #cc1800;
+  -dls-form-field-error-spacing-before-vertical: 4px;
+  -dls-form-actions-spacing-before: 40px;
+  -dls-form-actions-content-spacing: 20px;
+}
