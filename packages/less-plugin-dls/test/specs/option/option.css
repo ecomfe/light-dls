@@ -28,10 +28,10 @@ div {
   -dls-option-font-color-selected: #0052cc;
   -dls-option-font-color-selected-hover: #0066ff;
   -dls-option-font-color-selected-focus: #0066ff;
-  -dls-option-font-color-selected-active: #0045ad;
+  -dls-option-font-color-selected-active: #0046ad;
   -dls-option-background-color: #fff;
   -dls-option-background-color-hover: #f6f7fa;
-  -dls-option-background-color-focus: #e0edff;
+  -dls-option-background-color-focus: #e1edff;
   -dls-option-background-color-active: #e2e6f0;
   -dls-option-background-color-selected-parent: #f6f7fa;
   -dls-option-font-weight-selected-parent: 400;

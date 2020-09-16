@@ -30,7 +30,7 @@ div {
   -dls-steps-marker-background-color-completed: #fff;
   -dls-steps-marker-background-color-completed-hover: #f2f7ff;
   -dls-steps-marker-background-color-completed-focus: #f2f7ff;
-  -dls-steps-marker-background-color-completed-active: #e0edff;
+  -dls-steps-marker-background-color-completed-active: #e1edff;
   -dls-steps-marker-border-color-completed: #0052cc;
   -dls-steps-marker-foreground-color-completed: #0052cc;
   -dls-steps-marker-shadow-completed-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
@@ -38,7 +38,7 @@ div {
   -dls-steps-marker-background-color-error: #fff;
   -dls-steps-marker-background-color-error-hover: #fff4f2;
   -dls-steps-marker-background-color-error-focus: #fff4f2;
-  -dls-steps-marker-background-color-error-active: #ffe4e0;
+  -dls-steps-marker-background-color-error-active: #ffe4e1;
   -dls-steps-marker-border-color-error: #cc1800;
   -dls-steps-marker-foreground-color-error: #cc1800;
   -dls-steps-marker-shadow-error-focus: 0 0 0 2px rgba(255, 30, 0, 0.2);
@@ -46,7 +46,7 @@ div {
   -dls-steps-marker-background-color-current: #0052cc;
   -dls-steps-marker-background-color-current-hover: #0066ff;
   -dls-steps-marker-background-color-current-focus: #0066ff;
-  -dls-steps-marker-background-color-current-active: #0045ad;
+  -dls-steps-marker-background-color-current-active: #0046ad;
   -dls-steps-marker-border-color-current: transparent;
   -dls-steps-marker-border-color-current-focus: #0052cc;
   -dls-steps-marker-foreground-color-current: #fff;
