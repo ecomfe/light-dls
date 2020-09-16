@@ -19,11 +19,11 @@ div {
   -dls-slider-thumb-background-color: #0052cc;
   -dls-slider-thumb-background-color-hover: #0066ff;
   -dls-slider-thumb-background-color-focus: #0066ff;
-  -dls-slider-thumb-background-color-active: #0045ad;
+  -dls-slider-thumb-background-color-active: #0046ad;
   -dls-slider-thumb-background-color-read-only: #a8b0bf;
   -dls-slider-thumb-background-color-read-only-hover: #848b99;
   -dls-slider-thumb-background-color-read-only-focus: #848b99;
-  -dls-slider-thumb-background-color-disabled: #e0edff;
+  -dls-slider-thumb-background-color-disabled: #e1edff;
   -dls-slider-thumb-border-color-focus: #0052cc;
   -dls-slider-thumb-border-color-read-only-focus: #0052cc;
   -dls-slider-thumb-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
@@ -36,5 +36,5 @@ div {
   -dls-slider-track-progress-color: #0052cc;
   -dls-slider-track-progress-color-hover: #0066ff;
   -dls-slider-track-progress-color-read-only: #a8b0bf;
-  -dls-slider-track-progress-color-disabled: #e0edff;
+  -dls-slider-track-progress-color-disabled: #e1edff;
 }
