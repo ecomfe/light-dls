@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.31
+
+- Update font size of dialog title.
+
 ## 1.0.0-alpha.30
 
 - Fix shade accurarcy loss by update dep to `dls-color-palette@0.0.1-alpha.3`.
