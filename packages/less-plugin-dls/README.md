@@ -4,8 +4,6 @@
 
 Less plugin for Baidu DLS.
 
-🚧 `less-plugin-dls` is a work in progress. 🚧
-
 ## Installation
 
 ```sh

@@ -1,6 +1,6 @@
 # dls-color-palette
 
-To generate a color palette of the given base color.
+To generate a color palette out of the given base color.
 
 ## Installation
 
