@@ -1,13 +1,14 @@
-# dls-tooling
+# light-dls
 
-[![](https://badgen.net/circleci/github/ecomfe/less-plugin-dls)](https://circleci.com/gh/ecomfe/less-plugin-dls)
+[![](https://badgen.net/circleci/github/ecomfe/light-dls)](https://circleci.com/gh/ecomfe/light-dls)
 
-Tools for Baidu Light DLS (Design Language System).
+Shared resources and tooling for Baidu Light DLS (Design Language System).
 
 Packages included:
 
 * [`less-plugin-dls`](./packages/less-plugin-dls)
 * [`dls-color-palette`](./packages/dls-color-palette)
+* [`dls-graphics`](./packages/dls-graphics)
 
 ## License
 

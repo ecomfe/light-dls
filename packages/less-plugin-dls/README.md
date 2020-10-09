@@ -1,7 +1,5 @@
 # less-plugin-dls
 
-[![](https://badgen.net/circleci/github/ecomfe/less-plugin-dls)](https://circleci.com/gh/ecomfe/less-plugin-dls)
-
 Less plugin for Baidu DLS.
 
 ## Installation

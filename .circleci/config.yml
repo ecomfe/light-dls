@@ -22,7 +22,7 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}
+            - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}-{{ checksum "packages/dls-graphics/package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
@@ -33,7 +33,8 @@ jobs:
             - node_modules
             - packages/less-plugin-dls/node_modules
             - packages/dls-color-palette/node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}
+            - packages/dls-graphics/node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/less-plugin-dls/package.json" }}-{{ checksum "packages/dls-color-palette/package.json" }}-{{ checksum "packages/dls-graphics/package.json" }}
 
       # run tests!
       - run: npm run test

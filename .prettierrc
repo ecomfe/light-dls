@@ -2,12 +2,16 @@
   "singleQuote": false,
   "overrides": [
     {
-      "files": ".prettierrc",
+      "files": ".*rc",
       "options": { "parser": "json" }
     },
     {
       "files": "*.less",
       "options": { "parser": "less" }
+    },
+    {
+      "files": "*.svg",
+      "options": { "parser": "html" }
     }
   ]
 }

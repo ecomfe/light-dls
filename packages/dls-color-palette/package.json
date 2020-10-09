@@ -16,6 +16,10 @@
     "baidu"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/light-dls.git"
+  },
   "dependencies": {
     "color-converters": "^0.1.1"
   },
