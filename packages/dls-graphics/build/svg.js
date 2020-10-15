@@ -3,6 +3,8 @@ import { parse, stringify } from 'svgson'
 import { process as processCss } from './css'
 import { createHash } from 'crypto'
 
+const STRIP_ROOT_RE = /^[^>]*>|<[^<]*$/g
+
 const svgo = new Svgo({
   plugins: [
     { removeViewBox: false },
@@ -14,14 +16,17 @@ const svgo = new Svgo({
   ]
 })
 
-export async function process (content, { extractCss = false }) {
+export async function process (
+  content,
+  { extractCss = false, exportData = false }
+) {
   const shasum = createHash('sha1')
   shasum.update(content)
   const id = shasum.digest('hex').substring(0, 5)
 
   try {
-    const { data } = await svgo.optimize(content)
-    const el = await parse(data)
+    const { data: optimized } = await svgo.optimize(content)
+    const el = await parse(optimized)
 
     const styleContents = []
 
@@ -56,9 +61,16 @@ export async function process (content, { extractCss = false }) {
       ? await processCss(styleContents.join(''), id)
       : null
 
+    const { xmlns, ...attrs } = { ...el.attributes }
+    const data = {
+      contents: svg.replace(STRIP_ROOT_RE, ''),
+      attrs
+    }
+
     return {
       svg,
-      css
+      css,
+      data
     }
   } catch (e) {
     console.error(e)
