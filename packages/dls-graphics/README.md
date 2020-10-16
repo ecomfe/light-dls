@@ -35,7 +35,12 @@ For example, to use it in a React component:
 import { loading } from 'dls-graphics'
 
 export function IconLoading() {
-  return <svg {...loading.attrs} dangerously={{ __html: loading.contents }} />
+  return (
+    <svg
+      {...loading.attrs}
+      dangerouslySetInnerHTML={{ __html: loading.contents }}
+    />
+  )
 }
 ```
 
