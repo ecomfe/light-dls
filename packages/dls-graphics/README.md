@@ -10,13 +10,43 @@ npm i --save-dev dls-graphics
 
 ## Usage
 
-Currenly all graphics are distributed as SVG files.
+### JavaScript
 
-### Standalone
+```js
+import { loading } from 'dls-graphics'
+
+console.log(loading)
+/*
+{
+  contents: '<g style="transform-origin:50% 50%;animation:spin-359eb...',
+  attrs: {
+    width: '40',
+    height: '40',
+    class: 'dls-loading',
+    viewBox: '0 0 64 64'
+  }
+}
+*/
+```
+
+For example, to use it in a React component:
+
+```js
+import { loading } from 'dls-graphics'
+
+export function IconLoading() {
+  return <svg {...loading.attrs} dangerously={{ __html: loading.contents }} />
+}
+```
+
+### SVG assets
+
+All graphics are also distributed as SVG files. You can acquire these minified SVG source to use properly. eg. import and render into your HTML file with webpack's `HtmlWebpackPlugin`, or use with some custom SVG loader to convert them directly into components.
+
+#### Standalone
 
 Standalone SVGs resides at `dls-graphics/dist`.
 
-### Extracted
+#### Extracted
 
 If you want to use SVGs with `<style>` contents extracted into separate CSS files, you can look into `dls-graphics/dist/separated`
-
