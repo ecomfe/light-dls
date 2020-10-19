@@ -49,9 +49,10 @@ export function IconLoading() {
 To get `<style>` contents extracted outside SVG data, you can use:
 
 ```js
-import { loading } from 'dls-graphics/dist/separate'
+import { loading, loadingCss } from 'dls-graphics/dist/separate'
 
 console.log(loading)
+console.log(loadingCss)
 /*
 {
   contents: '<g style="transform-origin:50% 50%;animation:spin-359eb...',
@@ -60,9 +61,10 @@ console.log(loading)
     height: '40',
     class: 'dls-loading',
     viewBox: '0 0 64 64'
-  },
-  css: '@keyframes spin-359eb{0%{transform:rotate(0deg)}to{transform...'
+  }
 }
+
+@keyframes spin-359eb{0%{transform:rotate(0deg)}to{transform...
 */
 ```
 

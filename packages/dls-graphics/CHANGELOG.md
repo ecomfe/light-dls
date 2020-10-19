@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.1.2
+
+- ⚠️ Adjuted the output of separate data. Move CSS content to individual export statements.
+
 ## 0.1.1
 
 - ⚠️ Renamed `dist/separated` to `dist/separate`.

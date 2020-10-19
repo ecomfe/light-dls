@@ -36,15 +36,25 @@ async function build () {
       const inputFile = resolve(SRC_DIR, file)
       const content = await readFile(inputFile, 'utf8')
 
-      const data = await processContent(file, content, { extractCss: false })
-      const dataSeparate = await processContent(file, content, {
+      const { data: dataSingle } = await processContent(file, content, {
+        extractCss: false
+      })
+      const { data: dataSeparate, css } = await processContent(file, content, {
         extractCss: true
       })
 
       const variable = camelCase(basename(file, extname(file)))
-      exportsSingle.push(renderExport({ variable, data: stringify(data) }))
+      exportsSingle.push(
+        renderExport({ context: { variable, data: stringify(dataSingle) } })
+      )
       exportsSeparate.push(
-        renderExport({ variable, data: stringify(dataSeparate) })
+        renderExport({
+          context: {
+            variable,
+            data: stringify(dataSeparate),
+            css: css ? css.replace(/'/g, "\\'") : null
+          }
+        })
       )
     })
   )
@@ -56,7 +66,8 @@ async function build () {
 }
 
 async function processContent (file, content, { extractCss }) {
-  const { svg, css, data } = await process(content, { extractCss })
+  const result = await process(content, { extractCss })
+  const { svg, css } = result
   const base = basename(file, extname(file))
   const outputDir = extractCss ? SEPARATE_DIR : DIST_DIR
   const outputSvgFile = resolve(outputDir, `${base}.svg`)
@@ -66,7 +77,7 @@ async function processContent (file, content, { extractCss }) {
     await writeFile(outputCssFile, css, 'utf8')
   }
 
-  return data
+  return result
 }
 
 build()

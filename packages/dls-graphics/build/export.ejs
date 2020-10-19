@@ -1,1 +1,2 @@
-export const <%- variable %> = <%- data %>
+export const <%- context.variable %> = <%- context.data %><% if (context.css) { %>
+export const <%- context.variable %>Css = '<%- context.css %>'<% } %>
