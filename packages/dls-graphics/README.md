@@ -44,6 +44,28 @@ export function IconLoading() {
 }
 ```
 
+#### Separate
+
+To get `<style>` contents extracted outside SVG data, you can use:
+
+```js
+import { loading } from 'dls-graphics/dist/separate'
+
+console.log(loading)
+/*
+{
+  contents: '<g style="transform-origin:50% 50%;animation:spin-359eb...',
+  attrs: {
+    width: '40',
+    height: '40',
+    class: 'dls-loading',
+    viewBox: '0 0 64 64'
+  },
+  css: '@keyframes spin-359eb{0%{transform:rotate(0deg)}to{transform...'
+}
+*/
+```
+
 ### SVG assets
 
 All graphics are also distributed as SVG files. You can acquire these minified SVG source to use properly. eg. import and render into your HTML file with webpack's `HtmlWebpackPlugin`, or use with some custom SVG loader to convert them directly into components.
@@ -52,6 +74,6 @@ All graphics are also distributed as SVG files. You can acquire these minified S
 
 Standalone SVGs resides at `dls-graphics/dist`.
 
-#### Extracted
+#### Separate
 
-If you want to use SVGs with `<style>` contents extracted into separate CSS files, you can look into `dls-graphics/dist/separated`
+If you want to use SVGs with `<style>` contents extracted into separate CSS files, you can look into `dls-graphics/dist/separate`.

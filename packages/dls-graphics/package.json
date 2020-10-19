@@ -1,6 +1,6 @@
 {
   "name": "dls-graphics",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Graphics materials for Baidu Light DLS.",
   "scripts": {
     "prepare": "npm run build",

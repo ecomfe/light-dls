@@ -67,6 +67,10 @@ export async function process (
       attrs
     }
 
+    if (css) {
+      data.css = css
+    }
+
     return {
       svg,
       css,
