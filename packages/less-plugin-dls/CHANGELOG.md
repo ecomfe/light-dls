@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.32
+
+- ⚠️ Rename `image` to `media` for Uploader.
+- ⚠️ Split size tokens into sizes `s` and `m` for Uploader.
+- Add tokens for Lightbox.
+
 ## 1.0.0-alpha.31
 
 - Update font size of dialog title.
