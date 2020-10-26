@@ -9,9 +9,9 @@
 
 // file button spacing with helper text
 @dls-uploader-helper-text-spacing-file: @dls-padding-unit * 2;
-@dls-uploader-helper-text-spacing-image: @dls-padding-unit * 3;
+@dls-uploader-helper-text-spacing-media: @dls-padding-unit * 3;
 @dls-uploader-helper-text-font-color: @dls-foreground-color-neutral-weak;
-@dls-uploader-helper-text-max-width-image: 10em;
+@dls-uploader-helper-text-max-width-media: 10em;
 
 //file button margin with list
 @dls-uploader-file-item-spacing-y: @dls-padding-unit * 3;
@@ -30,17 +30,22 @@
 // feedback
 @dls-uploader-foreground-color-error: @dls-foreground-color-error-primary;
 @dls-uploader-foreground-color-success: @dls-foreground-color-success-primary;
-@dls-uploader-image-border-color-error: @dls-border-color-error-strong;
+@dls-uploader-media-border-color-error: @dls-border-color-error-strong;
 
-// upload image
-@dls-uploader-image-height: @dls-height-unit * 30;
-@dls-uploader-image-width: @dls-uploader-image-height;
-@dls-uploader-image-icon-size: @dls-uploader-image-height / 3;
-@dls-uploader-image-icon-color: @dls-foreground-color-neutral-weak;
-@dls-uploader-image-padding-x: @dls-padding-unit * 3;
-@dls-uploader-image-content-spacing: @dls-padding-unit * 2;
+// upload media
+@dls-uploader-media-height-m: @dls-height-unit * 40;
+@dls-uploader-media-height-s: @dls-height-unit * 20;
+@dls-uploader-media-width-m: @dls-uploader-media-height-m;
+@dls-uploader-media-width-s: @dls-uploader-media-height-s;
+@dls-uploader-media-icon-size-m: @dls-height-unit * 10;
+@dls-uploader-media-icon-size-s: @dls-height-unit * 5;
+@dls-uploader-media-icon-color: @dls-foreground-color-neutral-weak;
+@dls-uploader-media-padding-x-m: @dls-padding-unit * 3;
+@dls-uploader-media-padding-x-s: @dls-padding-unit * 2;
+@dls-uploader-media-content-spacing-m: @dls-padding-unit * 3;
+@dls-uploader-media-content-spacing-s: @dls-padding-unit * 3;
 
-// See button for upload image button styles
+// See button for upload media button styles
 
 // mask
 @dls-uploader-mask-icon-color: @dls-foreground-color-reverse;
@@ -49,12 +54,17 @@
 @dls-uploader-mask-padding-x: @dls-padding-unit * 3;
 @dls-uploader-mask-background-color: @dls-background-color-modal;
 
+// entries
+@dls-uploader-media-entry-spacing: @dls-padding-unit * 6;
+@dls-uploader-media-entry-content-spacing: @dls-padding-unit * 2;
+@dls-uploader-media-entry-icon-size: @dls-icon-size-normal;
+
 // See whole view styles in dialog styles
 
-@dls-uploader-image-spacing-x: @dls-padding-unit * 4;
-@dls-uploader-image-spacing-y: @dls-padding-unit * 6;
-@dls-uploader-image-error-spacing: @dls-padding-unit * 1;
+@dls-uploader-media-spacing-x: @dls-padding-unit * 4;
+@dls-uploader-media-spacing-y: @dls-padding-unit * 6;
+@dls-uploader-media-error-spacing: @dls-padding-unit * 1;
 
-// image preview
-@dls-uploader-image-preview-min-width: @dls-height-unit * 60;
-@dls-uploader-image-preview-max-width: @dls-height-unit * 120;
+// media preview
+@dls-uploader-media-preview-min-width: @dls-height-unit * 60;
+@dls-uploader-media-preview-max-width: @dls-height-unit * 120;
