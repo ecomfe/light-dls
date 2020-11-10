@@ -1,6 +1,6 @@
 {
   "name": "dls-tooling",
-  "version": "1.0.0-alpha.27",
+  "version": "0.0.0",
   "description": "Tools for Baidu DLS.",
   "main": "dist/index.js",
   "scripts": {

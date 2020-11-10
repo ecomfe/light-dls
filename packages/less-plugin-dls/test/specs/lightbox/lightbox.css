@@ -6,8 +6,8 @@ div {
   -dls-lightbox-backdrop-color: rgba(0, 0, 0, 0.6);
   -dls-lightbox-font-color: #fff;
   -dls-lightbox-font-size: 14px;
-  -dls-lightbox-close-icon-size: 16px;
+  -dls-lightbox-close-icon-size: 24px;
   -dls-lightbox-control-size: 48px;
   -dls-lightbox-control-border-radius: 50%;
-  -dls-lightbox-control-icon-size: 16px;
+  -dls-lightbox-control-icon-size: 24px;
 }

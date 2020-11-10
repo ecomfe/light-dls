@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.33
+
+- Update icon sizes in Uploader and Lightbox.
+
 ## 1.0.0-alpha.32
 
 - ⚠️ Rename `image` to `media` for Uploader.
