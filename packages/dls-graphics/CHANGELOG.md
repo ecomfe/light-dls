@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.1.3
+
+- Export `<name>Css` even when no styles can be extracted so that implementation can be more transparent.
+
 ## 0.1.2
 
 - ⚠️ Adjuted the output of separate data. Move CSS content to individual export statements.

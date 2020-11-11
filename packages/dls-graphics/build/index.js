@@ -73,9 +73,7 @@ async function processContent (file, content, { extractCss }) {
   const outputSvgFile = resolve(outputDir, `${base}.svg`)
   const outputCssFile = resolve(outputDir, `${base}.css`)
   await writeFile(outputSvgFile, svg, 'utf8')
-  if (css) {
-    await writeFile(outputCssFile, css, 'utf8')
-  }
+  await writeFile(outputCssFile, css || '', 'utf8')
 
   return result
 }
