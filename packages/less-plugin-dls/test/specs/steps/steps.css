@@ -15,7 +15,7 @@ div {
   -dls-steps-desc-font-color-incomplete: #848b99;
   -dls-steps-marker-size-s: 28px;
   -dls-steps-marker-size-m: 32px;
-  -dls-steps-marker-icon-size: 1.2em;
+  -dls-steps-marker-icon-size: calc(1em + 2px);
   -dls-steps-title-max-width-horizontal: 10em;
   -dls-steps-desc-max-width-horizontal: 12em;
   -dls-steps-marker-spacing: 8px;

@@ -2,8 +2,8 @@ div {
   -dls-loading-font-size-s: 12px;
   -dls-loading-font-size-m: 14px;
   -dls-loading-font-size-l: 16px;
-  -dls-loading-size-s: 1.2em;
-  -dls-loading-size-m: 1.2em;
+  -dls-loading-size-s: calc(1em + 2px);
+  -dls-loading-size-m: calc(1em + 2px);
   -dls-loading-size-l: 24px;
   -dls-loading-padding: 8px;
   -dls-loading-content-spacing: 8px;

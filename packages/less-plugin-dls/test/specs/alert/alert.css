@@ -4,9 +4,9 @@ div {
   -dls-alert-border-radius-s: 2px;
   -dls-alert-border-radius-m: 4px;
   -dls-alert-line-height: 1.8;
-  -dls-alert-icon-size: 1.2em;
-  -dls-alert-icon-size-titled: 1.2em;
-  -dls-alert-icon-size-aux: 1.2em;
+  -dls-alert-icon-size: calc(1em + 2px);
+  -dls-alert-icon-size-titled: calc(1em + 2px);
+  -dls-alert-icon-size-aux: calc(1em + 2px);
   -dls-alert-padding-x: 16px;
   -dls-alert-padding-y: 4px;
   -dls-alert-padding-y-multiline: 8px;

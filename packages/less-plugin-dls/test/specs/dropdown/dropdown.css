@@ -1,5 +1,5 @@
 div {
-  -dls-dropdown-icon-size-aux: 1.2em;
+  -dls-dropdown-icon-size-aux: calc(1em + 2px);
   -dls-dropdown-icon-spacing-aux: 8px;
   -dls-dropdown-split-button-padding-x: 12px;
   -dls-dropdown-icon-color-aux-normal: #848b99;

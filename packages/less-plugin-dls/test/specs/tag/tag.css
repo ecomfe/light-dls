@@ -8,7 +8,7 @@ div {
   -dls-tag-list-spacing: 4px;
   -dls-tag-font-size-s: 12px;
   -dls-tag-font-size-m: 14px;
-  -dls-tag-icon-size-aux: 1.2em;
+  -dls-tag-icon-size-aux: calc(1em + 2px);
   -dls-tag-color: #545b66;
   -dls-tag-color-selected: #0052cc;
   -dls-tag-color-info: #0052cc;

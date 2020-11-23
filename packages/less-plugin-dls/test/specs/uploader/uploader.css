@@ -36,7 +36,7 @@ div {
   -dls-uploader-mask-background-color: rgba(0, 0, 0, 0.6);
   -dls-uploader-media-entry-spacing: 24px;
   -dls-uploader-media-entry-content-spacing: 8px;
-  -dls-uploader-media-entry-icon-size: 1.2em;
+  -dls-uploader-media-entry-icon-size: calc(1em + 2px);
   -dls-uploader-media-spacing-x: 16px;
   -dls-uploader-media-spacing-y: 24px;
   -dls-uploader-media-error-spacing: 4px;

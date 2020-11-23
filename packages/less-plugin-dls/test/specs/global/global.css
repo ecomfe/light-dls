@@ -284,9 +284,9 @@ div {
   -dls-background-color-focus: #e1edff;
   -dls-border-color-focus: #0052cc;
   -dls-border-color-error-focus: #cc1800;
-  -dls-icon-size-normal: 1.2em;
-  -dls-icon-size-minor: 1.2em;
-  -dls-icon-size-aux: 1.2em;
+  -dls-icon-size-normal: calc(1em + 2px);
+  -dls-icon-size-minor: calc(1em + 2px);
+  -dls-icon-size-aux: calc(1em + 2px);
   -dls-icon-color-aux: #848b99;
   -dls-icon-color-aux-disabled: #a8b0bf;
 }

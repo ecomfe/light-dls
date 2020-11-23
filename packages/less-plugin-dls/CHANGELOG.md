@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.34
+
+- Update global icon sizes.
+
 ## 1.0.0-alpha.33
 
 - Update icon sizes in Uploader and Lightbox.

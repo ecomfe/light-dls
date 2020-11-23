@@ -13,8 +13,8 @@ div {
   -dls-date-picker-range-panel-spacing: 8px;
   -dls-date-picker-panel-separator-color: #e2e6f0;
   -dls-date-picker-panel-padding-x: 16px;
-  -dls-date-picker-header-pagination-icon-size: 1.2em;
-  -dls-date-picker-header-icon-size-aux: 1.2em;
+  -dls-date-picker-header-pagination-icon-size: calc(1em + 2px);
+  -dls-date-picker-header-icon-size-aux: calc(1em + 2px);
   -dls-date-picker-header-padding-y: 8px;
   -dls-date-picker-header-pagination-spacing: 12px;
   -dls-date-picker-header-icon-aux-spacing: 8px;

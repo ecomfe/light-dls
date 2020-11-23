@@ -25,8 +25,8 @@ div {
   -dls-menu-footer-height-s: 28px;
   -dls-menu-footer-height-m: 28px;
   -dls-menu-footer-height-l: 28px;
-  -dls-menu-item-icon-size: 1.2em;
-  -dls-menu-item-icon-size-aux: 1.2em;
+  -dls-menu-item-icon-size: calc(1em + 2px);
+  -dls-menu-item-icon-size-aux: calc(1em + 2px);
   -dls-menu-border-color: #e2e6f0;
   -dls-menu-separator-color: #e2e6f0;
   -dls-menu-item-font-color: #282c33;
@@ -83,5 +83,5 @@ div {
   -dls-menu-card-title-font-weight: 500;
   -dls-menu-card-item-spacing: 16px;
   -dls-menu-card-item-font-size-m: 14px;
-  -dls-menu-card-item-icon-size: 1.2em;
+  -dls-menu-card-item-icon-size: calc(1em + 2px);
 }

@@ -4,9 +4,9 @@ div {
   -dls-toast-border-radius-s: 2px;
   -dls-toast-border-radius-m: 4px;
   -dls-toast-line-height: 1.8;
-  -dls-toast-icon-size: 1.2em;
-  -dls-toast-icon-size-titled: 1.2em;
-  -dls-toast-icon-size-aux: 1.2em;
+  -dls-toast-icon-size: calc(1em + 2px);
+  -dls-toast-icon-size-titled: calc(1em + 2px);
+  -dls-toast-icon-size-aux: calc(1em + 2px);
   -dls-toast-padding-x: 16px;
   -dls-toast-padding-y: 8px;
   -dls-toast-padding-y-titled: 16px;

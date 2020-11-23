@@ -11,7 +11,7 @@ div {
   -dls-collapse-body-font-size-m: 14px;
   -dls-collapse-border-radius-s: 2px;
   -dls-collapse-border-radius-m: 4px;
-  -dls-collapse-icon-size-aux: 1.2em;
+  -dls-collapse-icon-size-aux: calc(1em + 2px);
   -dls-collapse-border-color: #e2e6f0;
   -dls-collapse-border-color-focus: #e2e6f0;
   -dls-collapse-header-font-color: #282c33;
