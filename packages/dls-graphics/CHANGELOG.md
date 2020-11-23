@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.1.4
+
+- Fix `module` entry.
+
 ## 0.1.3
 
 - Export `<name>Css` even when no styles can be extracted so that implementation can be more transparent.
