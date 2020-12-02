@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.1
+
+- ⚠️ Removed `dist/separate/index.js`.
+- All exports are merged in the main entry. For an asset named `foo`, we always export `foo`, `fooContent` and `fooCss` at the same time.
+- Provided a CJS entry at `dist/index.cjs.js`.
+
 ## 0.1.4
 
 - Fix `module` entry.

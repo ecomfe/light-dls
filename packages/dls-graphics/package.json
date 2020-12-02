@@ -1,17 +1,17 @@
 {
   "name": "dls-graphics",
-  "version": "0.1.4",
+  "version": "1.0.0-alpha.1",
   "description": "Graphics materials for Baidu Light DLS.",
   "scripts": {
     "prepare": "npm run build",
-    "build": "node -r esm build/index.js"
+    "build": "node -r esm build/index.js && rollup -c"
   },
   "keywords": [
     "graphics",
     "baidu",
     "dls"
   ],
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "author": "Justineo (justice360@gmail.com)",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "mkdirp": "^1.0.4",
     "postcss": "^7.0.35",
     "rimraf": "^3.0.2",
+    "rollup": "^2.34.0",
     "stringify-object": "^3.3.0",
     "svgo": "^1.3.2",
     "svgson": "^4.1.0"

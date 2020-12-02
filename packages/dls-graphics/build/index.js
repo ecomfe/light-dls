@@ -14,7 +14,6 @@ const DIST_DIR = resolve(__dirname, '../dist')
 const SEPARATE_DIR = resolve(__dirname, '../dist/separate')
 
 const ENTRY_MODULE = resolve(DIST_DIR, 'index.js')
-const ENTRY_SEPARATE_MODULE = resolve(SEPARATE_DIR, 'index.js')
 const EXPORT_TPL = resolve(__dirname, './export.ejs')
 
 function clearDir (dir) {
@@ -26,8 +25,7 @@ async function build () {
   clearDir(DIST_DIR)
   clearDir(SEPARATE_DIR)
 
-  const exportsSingle = []
-  const exportsSeparate = []
+  const exportStatements = []
   const renderExport = compile(await readFile(EXPORT_TPL, 'utf8'))
   const files = await readdir(SRC_DIR)
 
@@ -44,23 +42,20 @@ async function build () {
       })
 
       const variable = camelCase(basename(file, extname(file)))
-      exportsSingle.push(
-        renderExport({ context: { variable, data: stringify(dataSingle) } })
-      )
-      exportsSeparate.push(
+      exportStatements.push(
         renderExport({
           context: {
             variable,
+            all: stringify(dataSingle),
             data: stringify(dataSeparate),
-            css: css ? css.replace(/'/g, "\\'") : null
+            css: stringify(css || '')
           }
         })
       )
     })
   )
 
-  await writeFile(ENTRY_MODULE, exportsSingle.join('\n'), 'utf8')
-  await writeFile(ENTRY_SEPARATE_MODULE, exportsSeparate.join('\n'), 'utf8')
+  await writeFile(ENTRY_MODULE, exportStatements.join('\n'), 'utf8')
 
   console.log('Build complete.')
 }
@@ -73,7 +68,9 @@ async function processContent (file, content, { extractCss }) {
   const outputSvgFile = resolve(outputDir, `${base}.svg`)
   const outputCssFile = resolve(outputDir, `${base}.css`)
   await writeFile(outputSvgFile, svg, 'utf8')
-  await writeFile(outputCssFile, css || '', 'utf8')
+  if (extractCss) {
+    await writeFile(outputCssFile, css || '', 'utf8')
+  }
 
   return result
 }
