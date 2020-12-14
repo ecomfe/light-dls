@@ -37,7 +37,7 @@
     "@rollup/plugin-node-resolve": "^9.0.0",
     "color-converters": "^0.1.1",
     "diff": "^4.0.1",
-    "less": "^3.13.1-alpha.1",
+    "less": "^3.13.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.memoize": "^4.1.2",
     "postcss-values-parser": "^3.0.4",
