@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.35
+
+- Add table cell extra padding for hidden filters.
+
 ## 1.0.0-alpha.34
 
 - Update global icon sizes.

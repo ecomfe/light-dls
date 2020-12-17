@@ -8,6 +8,7 @@ div {
   -dls-table-cell-padding-y: 12px;
   -dls-table-cell-padding-y-compact: 8px;
   -dls-table-cell-padding-y-loose: 16px;
+  -dls-table-cell-padding-x-extra: 16px;
   -dls-table-cell-content-spacing: 4px;
   -dls-table-cell-background-color: #fff;
   -dls-table-cell-background-color-hover: #f6f7fa;
