@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.2
+
+- New design for `forbidden`, `not-found` and `server-error`.
+- Added `partial-error` and `partial-forbidden`.
+
 ## 1.0.0-alpha.1
 
 - ⚠️ Removed `dist/separate/index.js`.
