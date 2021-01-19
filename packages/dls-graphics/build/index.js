@@ -12,9 +12,10 @@ const { readdir, readFile, writeFile } = fs.promises
 const SRC_DIR = resolve(__dirname, '../src')
 const DIST_DIR = resolve(__dirname, '../dist')
 const SEPARATE_DIR = resolve(__dirname, '../dist/separate')
-
+const README_PATH = resolve(__dirname, '../README.md')
 const ENTRY_MODULE = resolve(DIST_DIR, 'index.js')
 const EXPORT_TPL = resolve(__dirname, './export.ejs')
+const BASE_PREVIEW_URL = 'https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/'
 
 function clearDir (dir) {
   rimraf.sync(dir)
@@ -26,6 +27,7 @@ async function build () {
   clearDir(SEPARATE_DIR)
 
   const exportStatements = []
+  const graphs = []
   const renderExport = compile(await readFile(EXPORT_TPL, 'utf8'))
   const files = await readdir(SRC_DIR)
 
@@ -41,7 +43,11 @@ async function build () {
         extractCss: true
       })
 
-      const variable = camelCase(basename(file, extname(file)))
+      const variable = toVar(file)
+      graphs.push({
+        file,
+        variable
+      })
       exportStatements.push(
         renderExport({
           context: {
@@ -56,6 +62,15 @@ async function build () {
   )
 
   await writeFile(ENTRY_MODULE, exportStatements.join('\n'), 'utf8')
+
+  const readme = await readFile(README_PATH, 'utf8')
+  await writeFile(
+    README_PATH,
+    readme.replace(
+      /<!-- assets-begin -->([\w\W]*?)<!-- assets-end -->/,
+      () => `<!-- assets-begin -->\n${toDoc(graphs)}\n<!-- assets-end -->`
+    )
+  )
 
   console.log('Build complete.')
 }
@@ -76,3 +91,14 @@ async function processContent (file, content, { extractCss }) {
 }
 
 build()
+
+function toVar (file) {
+  return camelCase(basename(file, extname(file)))
+}
+
+function toDoc (graphs) {
+  return graphs.map(({ file, variable }) => `#### \`${variable}\` (${file})
+
+![${variable}](${BASE_PREVIEW_URL + file})
+`).join('\n')
+}

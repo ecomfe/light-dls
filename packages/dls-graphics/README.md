@@ -79,3 +79,32 @@ Standalone SVGs resides at `dls-graphics/dist`.
 #### Separate
 
 If you want to use SVGs with `<style>` contents extracted into separate CSS files, you can look into `dls-graphics/dist/separate`.
+
+### List of available graphs
+
+<!-- assets-begin -->
+#### `forbidden` (forbidden.svg)
+
+![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
+
+#### `notFound` (not-found.svg)
+
+![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
+
+#### `serverError` (server-error.svg)
+
+![serverError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/server-error.svg)
+
+#### `partialError` (partial-error.svg)
+
+![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
+
+#### `partialForbidden` (partial-forbidden.svg)
+
+![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
+
+#### `loading` (loading.svg)
+
+![loading](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/loading.svg)
+
+<!-- assets-end -->
