@@ -39,4 +39,6 @@ div {
   -dls-table-overflow-shadow-left: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
   -dls-table-body-height-no-data: 108px;
   -dls-table-action-spacing: 16px;
+  -dls-table-filter-action-padding-y: 12px;
+  -dls-table-filter-action-spacing: 16px;
 }
