@@ -97,8 +97,8 @@ function toVar (file) {
 }
 
 function toDoc (graphs) {
-  return graphs.map(({ file, variable }) => `#### \`${variable}\` (${file})
+  return graphs.map(({ file, variable }) => `* **\`${variable}\`** (${file})
 
-![${variable}](${BASE_PREVIEW_URL + file})
+  ![${variable}](${BASE_PREVIEW_URL + file})
 `).join('\n')
 }

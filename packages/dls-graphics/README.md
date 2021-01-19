@@ -83,28 +83,28 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 ### List of available graphs
 
 <!-- assets-begin -->
-#### `forbidden` (forbidden.svg)
+* **`forbidden`** (forbidden.svg)
 
-![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
+  ![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
 
-#### `notFound` (not-found.svg)
+* **`partialForbidden`** (partial-forbidden.svg)
 
-![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
+  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
 
-#### `serverError` (server-error.svg)
+* **`notFound`** (not-found.svg)
 
-![serverError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/server-error.svg)
+  ![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
 
-#### `partialError` (partial-error.svg)
+* **`partialError`** (partial-error.svg)
 
-![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
+  ![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
 
-#### `partialForbidden` (partial-forbidden.svg)
+* **`serverError`** (server-error.svg)
 
-![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
+  ![serverError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/server-error.svg)
 
-#### `loading` (loading.svg)
+* **`loading`** (loading.svg)
 
-![loading](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/loading.svg)
+  ![loading](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/loading.svg)
 
 <!-- assets-end -->
