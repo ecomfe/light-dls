@@ -87,10 +87,6 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 
   ![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
 
-* **`partialForbidden`** (partial-forbidden.svg)
-
-  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
-
 * **`notFound`** (not-found.svg)
 
   ![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
@@ -98,6 +94,10 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 * **`partialError`** (partial-error.svg)
 
   ![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
+
+* **`partialForbidden`** (partial-forbidden.svg)
+
+  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
 
 * **`serverError`** (server-error.svg)
 
