@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-alpha.36
+
+- ⚠️ Remove `@dls-table-cell-padding-x-extra`.
+- Add tokens for Table filter action spacing.
+
 ## 1.0.0-alpha.35
 
 - Add table cell extra padding for hidden filters.
@@ -20,7 +25,7 @@
 
 ## 1.0.0-alpha.31
 
-- Update font size of dialog title.
+- Update font size of Dialog title.
 
 ## 1.0.0-alpha.30
 
