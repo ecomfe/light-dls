@@ -7,6 +7,7 @@ class Injector {
   process (src, extra) {
     // Don't inject self
     if (
+      extra.fileInfo.filename !== 'input' &&
       path
         .resolve(process.cwd(), extra.fileInfo.filename)
         .indexOf(SELF_MODULE_PATH) >= 0

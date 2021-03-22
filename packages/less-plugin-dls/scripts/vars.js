@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import camelCase from 'lodash.camelcase'
 import { parse } from 'postcss-values-parser'
-import { getVariables, getTuples } from './evaluate'
+import { getVariables, getTuples } from '../lib/utils/evaluate'
 
 async function generate () {
   try {
