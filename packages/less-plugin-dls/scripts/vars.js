@@ -1,64 +1,8 @@
 import fs from 'fs'
 import path from 'path'
-import less from 'less'
 import camelCase from 'lodash.camelcase'
 import { parse } from 'postcss-values-parser'
-import dls from '../dist'
-
-class VariablesOutputVisitor {
-  constructor () {
-    this._visitor = new less.visitors.Visitor(this)
-  }
-
-  run (root) {
-    // `-dls` prefixed variables are private
-    this.variables = Object.keys(root.variables()).filter(
-      v => v.charAt(1) !== '-'
-    )
-    return this._visitor.visit(root)
-  }
-}
-
-const SELECTOR = 'DLS_VARS'
-
-async function getVariables (path) {
-  const visitor = new VariablesOutputVisitor()
-
-  await less.render(fs.readFileSync(path, 'utf-8'), {
-    plugins: [
-      dls({
-        inject: false
-      }),
-      {
-        install (_, pluginManager) {
-          pluginManager.addVisitor(visitor)
-        }
-      }
-    ],
-    paths: ['tokens']
-  })
-
-  return visitor.variables.map(v => v.slice(1))
-}
-
-async function getTuples (variables) {
-  const src = [
-    `${SELECTOR}{`,
-    variables.map(v => `${v}: @${v}`).join(';'),
-    '}'
-  ].join('')
-
-  const { css } = await less.render(src, {
-    plugins: [dls()]
-  })
-
-  return css
-    .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
-    .replace(/}[\n\s]*$/, '')
-    .split(/;[\n\s]*/)
-    .filter(v => v)
-    .map(decl => decl.split(/:\s*/))
-}
+import { getVariables, getTuples } from './evaluate'
 
 async function generate () {
   try {

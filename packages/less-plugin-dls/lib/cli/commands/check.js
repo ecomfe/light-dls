@@ -2,8 +2,12 @@ import { promisify } from 'util'
 import fs from 'fs'
 import { resolve, basename } from 'path'
 import fg from 'fast-glob'
-import variables from '../../../variables.json'
 import pkgDir from 'pkg-dir'
+import less from 'less'
+import dls from '../../../dist'
+import variables from '../../../variables.json'
+import { VariableInterpolationVisitor, VariablesOutputVisitor } from '../../utils/visitors'
+import { getTuples } from '../../utils/evaluate'
 
 const readFile = promisify(fs.readFile)
 const readdir = promisify(fs.readdir)
@@ -12,6 +16,46 @@ const access = promisify(fs.access)
 
 const COMPONENTS_DIR = resolve(__dirname, '../../../tokens/components')
 const IGNORE_FILE = '.dlsignore'
+
+async function getInterpolatedVariables (content) {
+  const variablesOutputVisitor = new VariablesOutputVisitor()
+  const variableInterpolationVisitor = new VariableInterpolationVisitor()
+
+  await less.render(content, {
+    plugins: [
+      dls({
+        inject: true
+      }),
+      {
+        install (_, pluginManager) {
+          pluginManager.addVisitor(variablesOutputVisitor)
+          pluginManager.addVisitor(variableInterpolationVisitor)
+        }
+      }
+    ]
+  })
+
+  const tuples = await getTuples(variablesOutputVisitor.variables.map(v => v.slice(1)), content)
+  const allVariables = tuples.reduce((map, [key, val]) => {
+    map.set(key, val)
+    return map
+  }, new Map())
+
+  const interpolations = variableInterpolationVisitor.variableInterpolations
+
+  const seenInInterpolations = new Set()
+  interpolations.forEach(name => {
+    const val = allVariables.get(name)
+    if (val) {
+      const [, strVal] = val.match(/^"([^"]+)"$/)
+      if (strVal in variables) {
+        seenInInterpolations.add(`@${strVal}`)
+      }
+    }
+  })
+
+  return seenInInterpolations
+}
 
 export default async function check ({ dir, exclude, components, output }) {
   const ignoreFile = resolve(await pkgDir(), IGNORE_FILE)
@@ -59,6 +103,8 @@ export default async function check ({ dir, exclude, components, output }) {
     try {
       const content = await readFile(file, 'utf8')
 
+      const interpolated = await getInterpolatedVariables(content)
+
       keys.forEach(key => {
         if (seen.get(key)) {
           return
@@ -68,6 +114,8 @@ export default async function check ({ dir, exclude, components, output }) {
           seen.set(key, true)
         }
       })
+
+      interpolated.forEach(key => seen.set(key, true))
     } catch (err) {
       console.error(err)
     }
@@ -86,7 +134,7 @@ export default async function check ({ dir, exclude, components, output }) {
   })
 
   const files = paths.map(path => resolve(dir, path))
-  for (let file of files) {
+  for (const file of files) {
     await processFile(file)
   }
 

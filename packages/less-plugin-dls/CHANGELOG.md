@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-beta.0
+
+- Add interpolation check for `dls check` command.
+- Reduce auto injection created by the injected code itself.
+
 ## 1.0.0-alpha.36
 
 - ⚠️ Remove `@dls-table-cell-padding-x-extra`.

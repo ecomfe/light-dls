@@ -21,18 +21,18 @@ const SRC_DIR = path.resolve(__dirname, '../tokens/components')
 function logDiff (left, right) {
   diff.diffLines(left, right).forEach(item => {
     if (item.added || item.removed) {
-      let text = item.value
+      const text = item.value
         .replace('\n', '\u00b6\n')
         .replace('\ufeff', '[[BOM]]')
       log(chalk[item.added ? 'green' : 'red'](text))
     } else {
-      let value = item.value.replace('\ufeff', '[[BOM]]')
-      let lines = value.split('\n')
+      const value = item.value.replace('\ufeff', '[[BOM]]')
+      const lines = value.split('\n')
 
       // max line count for each item
-      let keepLines = 6
+      const keepLines = 6
       // lines to be omitted
-      let omitLines = lines.length - keepLines
+      const omitLines = lines.length - keepLines
       if (lines.length > keepLines) {
         lines.splice(
           Math.floor(keepLines / 2),
@@ -47,8 +47,8 @@ function logDiff (left, right) {
 }
 
 function extractName (file, ext) {
-  let pattern = new RegExp('([^\\/\\\\]+)\\.' + ext + '$', 'i')
-  let match = file.match(pattern)
+  const pattern = new RegExp('([^\\/\\\\]+)\\.' + ext + '$', 'i')
+  const match = file.match(pattern)
   return match ? match[1] : null
 }
 
@@ -64,7 +64,7 @@ function getTests (specDir) {
   /**
    * Get all modules
    */
-  let modules = [
+  const modules = [
     'global',
     'functions',
     ...fs
@@ -76,27 +76,27 @@ function getTests (specDir) {
   /**
    * Get test suites
    */
-  let suites = []
-  let noTests = []
+  const suites = []
+  const noTests = []
 
   modules.forEach(module => {
-    let moduleDir = path.resolve(specDir, module)
+    const moduleDir = path.resolve(specDir, module)
     if (!fs.existsSync(moduleDir)) {
       noTests.push(module)
       return
     }
     if (fs.statSync(moduleDir).isDirectory()) {
-      let files = fs.readdirSync(moduleDir)
+      const files = fs.readdirSync(moduleDir)
       if (files.length === 0) {
         noTests.push(module)
       }
       files.forEach(partFile => {
-        let part = extractName(partFile, 'less')
+        const part = extractName(partFile, 'less')
         if (!part) {
           // .css files
           return
         }
-        let src = fs.readFileSync(path.resolve(moduleDir, partFile), 'utf8')
+        const src = fs.readFileSync(path.resolve(moduleDir, partFile), 'utf8')
 
         let expected = ''
         if (fs.existsSync(path.resolve(moduleDir, part + '.css'))) {
@@ -139,17 +139,17 @@ function getTests (specDir) {
         .then(
           result => {
             let passed = true
-            let actual = strip(result.css, { preserve: false })
+            const actual = strip(result.css, { preserve: false })
               .replace(/\n+/g, '\n')
               .replace(/^\n/, '')
 
             if (args['--update-snapshots']) {
-              let moduleDir = path.resolve(specDir, suite.module)
+              const moduleDir = path.resolve(specDir, suite.module)
               fs.writeFileSync(path.resolve(moduleDir, `${suite.part}.css`), actual, 'utf8')
               suite.expected = actual
             }
 
-            let expected = suite.expected
+            const expected = suite.expected
             if (actual !== expected) {
               logLine(chalk.red('\u2718 ' + suite.title))
               logDiff(actual, expected)
@@ -179,7 +179,7 @@ class TestRunner {
   }
 
   next () {
-    let runner = this.tests.shift()
+    const runner = this.tests.shift()
     if (runner) {
       runner(passed => {
         if (!passed) {
@@ -199,7 +199,7 @@ class TestRunner {
         'All ' + this.total + ' spec' + (this.total > 1 ? 's' : '') + ' passed.'
       )
     } else {
-      let passed = this.total - this.failed
+      const passed = this.total - this.failed
       logLine(
         passed +
           ' spec' +
