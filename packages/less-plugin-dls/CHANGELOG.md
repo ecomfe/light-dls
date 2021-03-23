@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0-beta.1
+
+- Roll back interpolation check for `dls check` as it's non-trivial to make compilation always work and also very time consuming.
+- Add compatibility support for Less 4.
+
 ## 1.0.0-beta.0
 
 - Add interpolation check for `dls check` command.
