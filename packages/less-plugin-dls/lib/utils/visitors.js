@@ -13,21 +13,3 @@ export class VariablesOutputVisitor {
     return this.native.visit(root)
   }
 }
-
-export class VariableInterpolationVisitor {
-  constructor () {
-    this.native = new less.visitors.Visitor(this)
-    this.isPreEvalVisitor = true
-    this.variableInterpolations = new Set()
-  }
-
-  run (root) {
-    return this.native.visit(root)
-  }
-
-  visitVariable (node) {
-    if (node.name.indexOf('@@') === 0) {
-      this.variableInterpolations.add(node.name.slice(2))
-    }
-  }
-}

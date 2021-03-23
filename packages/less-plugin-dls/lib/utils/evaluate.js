@@ -22,13 +22,13 @@ export async function getVariables (path) {
     paths: ['tokens']
   })
 
-  return visitor.variables.map(v => v.slice(1))
+  return visitor.variables.map((v) => v.slice(1))
 }
 
-export async function getTuples (variables, extra = '') {
+export async function getTuples (variables) {
   const src = [
-    `${extra}${SELECTOR}{`,
-    variables.map(v => `${v}: @${v}`).join(';'),
+    `${SELECTOR}{`,
+    variables.map((v) => `${v}: @${v}`).join(';'),
     '}'
   ].join('')
 
@@ -40,6 +40,6 @@ export async function getTuples (variables, extra = '') {
     .replace(new RegExp(`^[\\s\\S]*${SELECTOR}[\\s\\n]*{[\\s\\n]*`), '')
     .replace(/}[\n\s]*$/, '')
     .split(/;[\n\s]*/)
-    .filter(v => v)
-    .map(decl => decl.split(/:\s*/))
+    .filter((v) => v)
+    .map((decl) => decl.split(/:\s*/))
 }
