@@ -83,21 +83,37 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 ### List of available graphs
 
 <!-- assets-begin -->
+* **`imagePlaceholder`** (image-placeholder.svg)
+
+  ![imagePlaceholder](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/image-placeholder.svg)
+
+* **`partialBlankBrush`** (partial-blank-brush.svg)
+
+  ![partialBlankBrush](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank-brush.svg)
+
+* **`blank`** (blank.svg)
+
+  ![blank](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/blank.svg)
+
+* **`partialBlank`** (partial-blank.svg)
+
+  ![partialBlank](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank.svg)
+
+* **`partialForbidden`** (partial-forbidden.svg)
+
+  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
+
 * **`forbidden`** (forbidden.svg)
 
   ![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
-
-* **`notFound`** (not-found.svg)
-
-  ![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
 
 * **`partialError`** (partial-error.svg)
 
   ![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
 
-* **`partialForbidden`** (partial-forbidden.svg)
+* **`notFound`** (not-found.svg)
 
-  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
+  ![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
 
 * **`serverError`** (server-error.svg)
 

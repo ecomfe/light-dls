@@ -2,6 +2,10 @@
 
 ## 1.0.0-alpha.2
 
+- Added `blank`, `partial-blank`, `partial-blank-brush` and `image-placeholder`.
+
+## 1.0.0-alpha.2
+
 - New design for `forbidden`, `not-found` and `server-error`.
 - Added `partial-error` and `partial-forbidden`.
 
