@@ -83,44 +83,44 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 ### List of available graphs
 
 <!-- assets-begin -->
-* **`imagePlaceholder`** (image-placeholder.svg)
-
-  ![imagePlaceholder](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/image-placeholder.svg)
-
-* **`partialBlankBrush`** (partial-blank-brush.svg)
-
-  ![partialBlankBrush](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank-brush.svg)
-
 * **`blank`** (blank.svg)
 
   ![blank](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/blank.svg)
-
-* **`partialBlank`** (partial-blank.svg)
-
-  ![partialBlank](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank.svg)
-
-* **`partialForbidden`** (partial-forbidden.svg)
-
-  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
 
 * **`forbidden`** (forbidden.svg)
 
   ![forbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/forbidden.svg)
 
-* **`partialError`** (partial-error.svg)
+* **`imagePlaceholder`** (image-placeholder.svg)
 
-  ![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
+  ![imagePlaceholder](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/image-placeholder.svg)
+
+* **`loading`** (loading.svg)
+
+  ![loading](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/loading.svg)
 
 * **`notFound`** (not-found.svg)
 
   ![notFound](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/not-found.svg)
 
+* **`partialBlankBrush`** (partial-blank-brush.svg)
+
+  ![partialBlankBrush](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank-brush.svg)
+
+* **`partialBlank`** (partial-blank.svg)
+
+  ![partialBlank](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-blank.svg)
+
+* **`partialError`** (partial-error.svg)
+
+  ![partialError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-error.svg)
+
+* **`partialForbidden`** (partial-forbidden.svg)
+
+  ![partialForbidden](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/partial-forbidden.svg)
+
 * **`serverError`** (server-error.svg)
 
   ![serverError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/server-error.svg)
-
-* **`loading`** (loading.svg)
-
-  ![loading](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/loading.svg)
 
 <!-- assets-end -->

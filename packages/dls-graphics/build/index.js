@@ -97,7 +97,7 @@ function toVar (file) {
 }
 
 function toDoc (graphs) {
-  return graphs.map(({ file, variable }) => `* **\`${variable}\`** (${file})
+  return graphs.sort((a, b) => a.file >= b.file ? 1 : -1).map(({ file, variable }) => `* **\`${variable}\`** (${file})
 
   ![${variable}](${BASE_PREVIEW_URL + file})
 `).join('\n')
