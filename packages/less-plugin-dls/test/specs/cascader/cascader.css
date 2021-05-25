@@ -1,0 +1,9 @@
+div {
+  -dls-cascader-column-min-width: 120px;
+  -dls-cascader-option-padding-xs: 12px;
+  -dls-cascader-option-padding-s: 12px;
+  -dls-cascader-option-padding-m: 12px;
+  -dls-cascader-option-padding-l: 12px;
+  -dls-cascader-header-padding-y: 8px;
+  -dls-cascader-footer-padding-y: 8px;
+}
