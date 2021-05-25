@@ -1,7 +1,7 @@
 {
-  "name": "dls-tooling",
+  "name": "light-dls",
   "version": "0.0.0",
-  "description": "Tools for Baidu DLS.",
+  "description": "Tooling for Baidu Light DLS.",
   "main": "dist/index.js",
   "scripts": {
     "install": "lerna bootstrap",
