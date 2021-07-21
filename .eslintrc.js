@@ -17,7 +17,7 @@ module.exports = {
   },
   'overrides': [
     {
-      files: ['packages/dls-color-palette/**/*.spec.js'],
+      files: ['packages/dls-color-palette/**/*.spec.js', 'packages/shared-utils/**/*.spec.ts'],
       env: {
         es6: true,
         jest: true
