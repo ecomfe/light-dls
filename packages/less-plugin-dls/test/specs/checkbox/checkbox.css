@@ -2,6 +2,7 @@ div {
   -dls-checkbox-font-size-s: 12px;
   -dls-checkbox-font-size-m: 14px;
   -dls-checkbox-font-color: #282c33;
+  -dls-checkbox-font-color-disabled: #a8b0bf;
   -dls-checkbox-size-s: 14px;
   -dls-checkbox-size-m: 16px;
   -dls-checkbox-icon-min-size: 8px;
