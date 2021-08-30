@@ -13,7 +13,7 @@ div {
   -dls-checkbox-border-color-hover: #a8b0bf;
   -dls-checkbox-border-color-focus: #0052cc;
   -dls-checkbox-border-color-active: #a8b0bf;
-  -dls-checkbox-border-color-disabled: #ebedf5;
+  -dls-checkbox-border-color-disabled: #e2e6f0;
   -dls-checkbox-border-color-checked: transparent;
   -dls-checkbox-border-color-checked-hover: transparent;
   -dls-checkbox-border-color-checked-focus: #0052cc;
@@ -41,7 +41,7 @@ div {
   -dls-checkbox-font-color-strong-checked: #0052cc;
   -dls-checkbox-font-color-strong-checked-disabled: #8fbcff;
   -dls-checkbox-border-color-strong-checked: #0052cc;
-  -dls-checkbox-border-color-strong-checked-disabled: #e1edff;
+  -dls-checkbox-border-color-strong-checked-disabled: #c0d9ff;
   -dls-checkbox-background-color-strong-checked: #f2f7ff;
   -dls-checkbox-background-color-strong-checked-hover: #e1edff;
   -dls-checkbox-background-color-strong-checked-focus: #e1edff;
