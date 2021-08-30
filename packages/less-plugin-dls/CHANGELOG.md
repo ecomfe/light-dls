@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0
+
+- Add more carousel variables.
+- Replace `@dls-carousel-control-spacing` with `@dls-carousel-control-spacing-inside` and `@dls-carousel-control-spacing-outside`.
+- Darken border color for disabled layers.
+- Add disabled font color for checkboxes.
+
 ## 1.0.0-beta.2
 
 - Add Cascader variables.
