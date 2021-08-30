@@ -20,11 +20,11 @@
     "url": "https://github.com/ecomfe/light-dls.git"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
+    "cssnano": "^5.0.8",
     "ejs": "^3.1.5",
     "esm": "^3.2.25",
     "mkdirp": "^1.0.4",
-    "postcss": "^7.0.36",
+    "postcss": "^8.3.6",
     "rimraf": "^3.0.2",
     "rollup": "^2.34.0",
     "stringify-object": "^3.3.0",
