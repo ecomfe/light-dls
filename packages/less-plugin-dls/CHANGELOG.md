@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.1
+
+- Add more indicator colors for Carousel.
+
 ## 1.0.0
 
 - Add more carousel variables.

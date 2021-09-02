@@ -10,6 +10,10 @@ div {
   -dls-carousel-indicator-background-color-hover: rgba(255, 255, 255, 0.4);
   -dls-carousel-indicator-background-color-active: #fff;
   -dls-carousel-indicator-background-color-current: #fff;
+  -dls-carousel-indicator-background-color-outside: #ebedf5;
+  -dls-carousel-indicator-background-color-outside-hover: #e2e6f0;
+  -dls-carousel-indicator-background-color-outside-active: #d3d9e6;
+  -dls-carousel-indicator-background-color-outside-current: #0052cc;
   -dls-carousel-control-size: 32px;
   -dls-carousel-control-border-radius: 50%;
   -dls-carousel-control-shadow: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
