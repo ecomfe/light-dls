@@ -47,4 +47,8 @@ div {
   -dls-checkbox-background-color-strong-checked-focus: #e1edff;
   -dls-checkbox-background-color-strong-checked-active: #c0d9ff;
   -dls-checkbox-background-color-strong-checked-disabled: #f2f7ff;
+  -dls-checkbox-line-spacing-strong: 8px;
+  -dls-checkbox-min-width-strong-stable-s: calc(24px + 4em);
+  -dls-checkbox-min-width-strong-stable-m: calc(32px + 4em);
+  -dls-checkbox-spacing-simple: 8px;
 }

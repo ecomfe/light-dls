@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.1.0
+
+- Add more variables to simple checkbox button groups.
+
 ## 1.0.1
 
 - Add more indicator colors for Carousel.
