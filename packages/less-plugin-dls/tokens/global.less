@@ -160,6 +160,11 @@
 @dls-foreground-color-neutral-dim-active: @dls-color-gray-8;
 @dls-foreground-color-neutral-dim-disabled: @dls-color-gray-3;
 
+@dls-foreground-color-neutral-highlightable: @dls-color-gray-9;
+@dls-foreground-color-neutral-highlightable-hover: @dls-color-brand-6;
+@dls-foreground-color-neutral-highlightable-active: @dls-color-brand-8;
+@dls-foreground-color-neutral-highlightable-disabled: @dls-color-gray-6;
+
 @dls-foreground-color-info-primary: @dls-color-info-7;
 @dls-foreground-color-info-primary-disabled: @dls-color-info-4;
 
@@ -343,31 +348,29 @@
 
 /* Shadows */
 @dls-shadow-color: @dls-color-gray-11;
-@dls-shadow-opacity: 0.1;
 
-@dls-shadow-offset-x-1: 0;
-@dls-shadow-offset-y-1: 4px;
-@dls-shadow-blur-radius-1: 6px;
-@dls-shadow-spread-radius-1: 0;
 @dls-shadow-1: 0 4px 6px fade(@dls-shadow-color, 6%),
   0 1px 10px fade(@dls-shadow-color, 5%),
   0 2px 4px -1px fade(@dls-shadow-color, 1%);
-
-@dls-shadow-offset-x-2: 0;
-@dls-shadow-offset-y-2: 8px;
-@dls-shadow-blur-radius-2: 10px;
-@dls-shadow-spread-radius-2: 1px;
 @dls-shadow-2: 0 8px 10px 1px fade(@dls-shadow-color, 6%),
   0 3px 14px 2px fade(@dls-shadow-color, 5%),
   0 5px 5px -3px fade(@dls-shadow-color, 1%);
-
-@dls-shadow-offset-x-3: 0;
-@dls-shadow-offset-y-3: 16px;
-@dls-shadow-blur-radius-3: 24px;
-@dls-shadow-spread-radius-3: 2px;
 @dls-shadow-3: 0 16px 24px 2px fade(@dls-shadow-color, 6%),
   0 6px 30px 5px fade(@dls-shadow-color, 5%),
   0 8px 10px -5px fade(@dls-shadow-color, 1%);
+
+/* Light shadows */
+@dls-shadow-color-light: @dls-color-gray-11;
+
+@dls-shadow-light-1: 0 4px 10px fade(@dls-shadow-color-light, 3%),
+  0 3px 9px fade(@dls-shadow-color-light, 2%),
+  0 2px 8px fade(@dls-shadow-color-light, 1%);
+@dls-shadow-light-2: 0 6px 28px 2px fade(@dls-shadow-color-light, 4%),
+  0 4px 26px 2px fade(@dls-shadow-color-light, 3%),
+  0 2px 24px 1px fade(@dls-shadow-color-light, 2%);
+@dls-shadow-light-3: 0 6px 32px 2px fade(@dls-shadow-color-light, 6%),
+  0 5px 30px 1px fade(@dls-shadow-color-light, 5%),
+  0 4px 28px 1px fade(@dls-shadow-color-light, 4%);
 
 // Focus ring shadows
 @dls-shadow-opacity-focus: 0.2;

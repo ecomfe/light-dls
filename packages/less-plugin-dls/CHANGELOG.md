@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.2.0
+
+- ⚠️ Remove unused shadow variables.
+- Add light shadows.
+- Add highlightable neutral forground colors.
+
 ## 1.1.0
 
 - Add more variables to simple checkbox button groups.
