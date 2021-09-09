@@ -2,6 +2,7 @@ div {
   -dls-radio-font-size-s: 12px;
   -dls-radio-font-size-m: 14px;
   -dls-radio-font-color: #282c33;
+  -dls-radio-font-color-disabled: #a8b0bf;
   -dls-radio-size-s: 14px;
   -dls-radio-size-m: 16px;
   -dls-radio-spacing: 8px;

@@ -107,4 +107,17 @@ div {
   -dls-button-border-color-focus: #0052cc;
   -dls-button-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
   -dls-button-group-separator-opacity: 0.15;
+  -dls-button-font-color-selected: #0052cc;
+  -dls-button-font-color-selected-disabled: #8fbcff;
+  -dls-button-border-color-selected: #0052cc;
+  -dls-button-border-color-selected-disabled: #c0d9ff;
+  -dls-button-background-color-selected: #f2f7ff;
+  -dls-button-background-color-selected-hover: #e1edff;
+  -dls-button-background-color-selected-focus: #e1edff;
+  -dls-button-background-color-selected-active: #c0d9ff;
+  -dls-button-background-color-selected-disabled: #f2f7ff;
+  -dls-button-line-spacing-strong: 8px;
+  -dls-button-min-width-stable-s: calc(24px + 4em);
+  -dls-button-min-width-stable-m: calc(32px + 4em);
+  -dls-button-spacing-simple: 8px;
 }

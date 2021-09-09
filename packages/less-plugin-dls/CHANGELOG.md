@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 1.3.0
+
+- ⚠️ Move most strong checkbox tokens to button as `@dls-button-*-selected`.
+- Add disabled radio font color.
+- Add strong checkbox icon colors.
+
 ## 1.2.0
 
 - ⚠️ Remove unused shadow variables.
