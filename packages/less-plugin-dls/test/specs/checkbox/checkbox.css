@@ -37,7 +37,7 @@ div {
   -dls-checkbox-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
   -dls-checkbox-group-spacing: 48px;
   -dls-checkbox-icon-size-strong: 6px;
-  -dls-checkbox-icon-spacing-strong: 2px;
+  -dls-checkbox-icon-spacing-strong: 3px;
   -dls-checkbox-icon-color-strong: #d3d9e6;
   -dls-checkbox-icon-color-strong-disabled: #e2e6f0;
   -dls-checkbox-icon-color-strong-checked: #0052cc;
