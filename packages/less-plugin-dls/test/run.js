@@ -16,7 +16,21 @@ const args = arg(
 
 const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
-const SRC_DIR = path.resolve(__dirname, '../tokens/components')
+const SRC_DIR = path.resolve(__dirname, '../tokens')
+const SRC_COMPONENTS_DIR = path.resolve(SRC_DIR, 'components')
+const MANUAL_SPEC_MODULES = ['functions', 'global']
+const VAR_DEF_RE = /@([a-z]+(?:-[a-z0-9]+)*)\s*:/g
+
+function extractVarDefs (file) {
+  const content = fs.readFileSync(file, 'utf8')
+  const varDefs = []
+  let match
+  while ((match = VAR_DEF_RE.exec(content)) !== null) {
+    varDefs.push(match[1])
+  }
+
+  return varDefs
+}
 
 function logDiff (left, right) {
   diff.diffLines(left, right).forEach(item => {
@@ -60,15 +74,14 @@ function logLine (msg) {
   log(msg + '\n')
 }
 
-function getTests (specDir) {
+function getTests () {
   /**
    * Get all modules
    */
   const modules = [
-    'global',
-    'functions',
+    ...MANUAL_SPEC_MODULES,
     ...fs
-      .readdirSync(SRC_DIR)
+      .readdirSync(SRC_COMPONENTS_DIR)
       .map(moduleFile => extractName(moduleFile, 'less'))
       .filter(m => m)
   ]
@@ -79,24 +92,38 @@ function getTests (specDir) {
   const suites = []
   const noTests = []
 
-  modules.forEach(module => {
-    const moduleDir = path.resolve(specDir, module)
+  for (const module of modules) {
+    const moduleDir = path.resolve(SPEC_DIR, module)
     if (!fs.existsSync(moduleDir)) {
       noTests.push(module)
-      return
+      continue
     }
     if (fs.statSync(moduleDir).isDirectory()) {
       const files = fs.readdirSync(moduleDir)
       if (files.length === 0) {
         noTests.push(module)
       }
-      files.forEach(partFile => {
+      for (const partFile of files) {
         const part = extractName(partFile, 'less')
         if (!part) {
           // .css files
-          return
+          continue
         }
-        const src = fs.readFileSync(path.resolve(moduleDir, partFile), 'utf8')
+
+        const specFile = path.resolve(moduleDir, partFile)
+        if (args['--update-snapshots']) {
+          const srcFile = !MANUAL_SPEC_MODULES.includes(module)
+            ? path.resolve(SRC_COMPONENTS_DIR, module + '.less')
+            : module === 'global' ? path.resolve(SRC_DIR, 'global.less') : null
+
+          if (srcFile) {
+            const vars = extractVarDefs(srcFile)
+            if (vars.length) {
+              fs.writeFileSync(specFile, 'div {\n' + vars.map(v => `  -${v}: @${v};`).join('\n') + '\n}\n')
+            }
+          }
+        }
+        const src = fs.readFileSync(specFile, 'utf8')
 
         let expected = ''
         if (fs.existsSync(path.resolve(moduleDir, part + '.css'))) {
@@ -110,9 +137,9 @@ function getTests (specDir) {
           src,
           expected
         })
-      })
+      }
     }
-  })
+  }
   if (noTests.length) {
     logLine(
       '\u2731 No test specs found for the following module' +
@@ -144,7 +171,7 @@ function getTests (specDir) {
               .replace(/^\n/, '')
 
             if (args['--update-snapshots']) {
-              const moduleDir = path.resolve(specDir, suite.module)
+              const moduleDir = path.resolve(SPEC_DIR, suite.module)
               fs.writeFileSync(path.resolve(moduleDir, `${suite.part}.css`), actual, 'utf8')
               suite.expected = actual
             }
@@ -232,4 +259,4 @@ class TestRunner {
   }
 }
 
-new TestRunner(getTests(SPEC_DIR)).start()
+new TestRunner(getTests()).start()
