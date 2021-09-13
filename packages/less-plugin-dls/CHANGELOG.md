@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.4.0
+
+- ⚠️ Move simple radio/checkbox group related stuff out of button:
+
+  - `@dls-button-line-spacing-strong` → `@dls-radio-group-line-spacing-strong`/`@dls-checkbox-group-line-spacing-strong`
+  - `@dls-button-spacing-simple` → `@dls-radio-group-spacing-simple`/`@dls-checkbox-group-spacing-simple`
+
 ## 1.3.0
 
 - ⚠️ Move most strong checkbox tokens to button as `@dls-button-*-selected`.
