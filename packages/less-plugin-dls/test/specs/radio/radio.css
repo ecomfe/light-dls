@@ -5,9 +5,9 @@ div {
   -dls-radio-font-color-disabled: #a8b0bf;
   -dls-radio-size-s: 14px;
   -dls-radio-size-m: 16px;
-  -dls-radio-spacing: 8px;
   -dls-radio-dot-size-s: 6px;
   -dls-radio-dot-size-m: 6px;
+  -dls-radio-spacing: 8px;
   -dls-radio-border-color: #d3d9e6;
   -dls-radio-border-color-hover: #a8b0bf;
   -dls-radio-border-color-focus: #0052cc;
@@ -35,4 +35,6 @@ div {
   -dls-radio-dot-color-disabled: #fff;
   -dls-radio-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
   -dls-radio-group-spacing: 48px;
+  -dls-radio-group-spacing-simple: 8px;
+  -dls-radio-group-line-spacing-strong: 8px;
 }
