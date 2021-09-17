@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 1.5.0
+
+- ⚠️ Renamed line spacing variables for radio/checkbox groups:
+
+  - `@dls-radio-group-line-spacing-strong` → `@dls-radio-group-line-spacing`
+  - `@dls-checkbox-group-line-spacing-strong` → `@dls-checkbox-group-line-spacing`
+
 ## 1.4.0
 
 - ⚠️ Move simple radio/checkbox group related stuff out of button:

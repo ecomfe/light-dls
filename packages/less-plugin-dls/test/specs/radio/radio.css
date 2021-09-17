@@ -36,5 +36,5 @@ div {
   -dls-radio-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
   -dls-radio-group-spacing: 48px;
   -dls-radio-group-spacing-simple: 8px;
-  -dls-radio-group-line-spacing-strong: 8px;
+  -dls-radio-group-line-spacing: 8px;
 }
