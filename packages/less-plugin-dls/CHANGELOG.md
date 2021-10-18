@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 2.0.0
+
+- ⚠️ Remove `@dls-collapse-border-color-focus` and `@dls-collapse-header-background-color-focus`.
+- Add more tokens for ui variants for Collapse.
+- Add spacing tokens for Popover's title and action.
+- Add gutter token for Accordion.
+
 ## 1.5.0
 
 - ⚠️ Renamed line spacing variables for radio/checkbox groups:
