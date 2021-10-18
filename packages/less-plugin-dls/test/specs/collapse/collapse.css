@@ -14,12 +14,10 @@ div {
   -dls-collapse-border-radius-m: 4px;
   -dls-collapse-icon-size-aux: calc(1em + 2px);
   -dls-collapse-border-color: #e2e6f0;
-  -dls-collapse-border-color-focus: #e2e6f0;
   -dls-collapse-header-font-color: #282c33;
   -dls-collapse-header-font-color-disabled: #a8b0bf;
   -dls-collapse-header-background-color: #f6f7fa;
   -dls-collapse-header-background-color-hover: #ebedf5;
-  -dls-collapse-header-background-color-focus: #e1edff;
   -dls-collapse-header-background-color-active: #e2e6f0;
   -dls-collapse-header-background-color-disabled: #f6f7fa;
   -dls-collapse-body-font-color: #545b66;
@@ -28,20 +26,19 @@ div {
   -dls-collapse-icon-color-aux-disabled: #a8b0bf;
   -dls-collapse-header-background-color-simple: transparent;
   -dls-collapse-header-background-color-simple-hover: transparent;
-  -dls-collapse-header-background-color-simple-focus: #e1edff;
   -dls-collapse-header-background-color-simple-active: transparent;
   -dls-collapse-header-background-color-simple-disabled: transparent;
   -dls-collapse-body-background-color-simple: transparent;
   -dls-collapse-header-background-color-basic: #fff;
   -dls-collapse-header-background-color-basic-hover: #f6f7fa;
-  -dls-collapse-header-background-color-basic-focus: #e1edff;
   -dls-collapse-header-background-color-basic-active: #e2e6f0;
   -dls-collapse-header-background-color-basic-disabled: #fff;
   -dls-collapse-body-background-color-basic: #fff;
   -dls-collapse-header-background-color-strong: #f6f7fa;
   -dls-collapse-header-background-color-strong-hover: #ebedf5;
-  -dls-collapse-header-background-color-strong-focus: #e1edff;
   -dls-collapse-header-background-color-strong-active: #e2e6f0;
   -dls-collapse-header-background-color-strong-disabled: #f6f7fa;
   -dls-collapse-body-background-color-strong: #f6f7fa;
+  -dls-collapse-header-border-color-focus: #0052cc;
+  -dls-collapse-header-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
 }
