@@ -12,4 +12,8 @@ div {
   -dls-popover-action-spacing-s: 8px;
   -dls-popover-title-spacing-m: 8px;
   -dls-popover-action-spacing-m: 12px;
+  -dls-popover-title-font-size-s: 14px;
+  -dls-popover-action-font-size-s: 12px;
+  -dls-popover-title-font-size-m: 16px;
+  -dls-popover-action-font-size-m: 14px;
 }
