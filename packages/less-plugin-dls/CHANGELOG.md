@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 2.1.0
+
+- Add title/action font tokens for Popover.
+- Fix the missing accordion tokens.
+
 ## 2.0.0
 
 - ⚠️ Remove `@dls-collapse-border-color-focus` and `@dls-collapse-header-background-color-focus`.
