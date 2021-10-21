@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 3.0.0
+
+- ⚠️ Remove `@dls-popover-action-font-size-s` and `@dls-popover-action-font-size-m`.
+- Add `@dls-popover-title-font-weight`.
+
 ## 2.1.0
 
 - Add title/action font tokens for Popover.
