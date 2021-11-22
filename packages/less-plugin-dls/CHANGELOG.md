@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 4.0.0
+
+- ⚠️ Remove `@dls-pagination-page-items-margin-before`, `dls-pagination-page-items-margin-after`, `@dls-pagination-spacing-1` and `@dls-pagination-spacing-2`.
+- Add `@dls-pagination-part-spacing` and `@dls-pagination-content-spacing`.
+
 ## 3.0.0
 
 - ⚠️ Remove `@dls-popover-action-font-size-s` and `@dls-popover-action-font-size-m`.
