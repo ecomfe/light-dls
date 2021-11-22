@@ -7,10 +7,8 @@ div {
   -dls-pagination-page-item-min-width-m: 32px;
   -dls-pagination-page-item-padding-x: 4px;
   -dls-pagination-page-item-spacing: 4px;
-  -dls-pagination-page-items-margin-before: 48px;
-  -dls-pagination-page-items-margin-after: 24px;
-  -dls-pagination-spacing-1: 8px;
-  -dls-pagination-spacing-2: 8px;
+  -dls-pagination-part-spacing: 24px;
+  -dls-pagination-content-spacing: 8px;
   -dls-pagination-goto-input-padding-x: 8px;
   -dls-pagination-goto-input-digits: 3;
   -dls-pagination-goto-input-width: calc(3ch + 18px);
