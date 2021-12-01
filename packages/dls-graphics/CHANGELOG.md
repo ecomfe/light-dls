@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.0.0
+
+- Adjusted the implementation of `loading` so that it won't trigger Chrome's bug that sometimes animation of different eleeents is not synchronized.
+
 ## 1.0.0-alpha.2
 
 - Added `blank`, `partial-blank`, `partial-blank-brush` and `image-placeholder`.

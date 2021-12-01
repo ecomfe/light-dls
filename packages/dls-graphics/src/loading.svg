@@ -1,72 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="dls-loading" width="40" height="40" viewBox="0 0 64 64">
-  <g
-    style="
-      transform-origin: 50% 50%;
-      animation: 2s linear infinite spin;
-    "
-  >
-    <circle
-      cx="50%"
-      cy="50%"
-      r="29"
-      fill="none"
-      stroke-width="6"
-      stroke-linecap="round"
-      stroke="currentColor"
-      style="
-        transform-origin: 50% 50%;
-        transform: rotateZ(-90deg);
-        stroke-dasharray: 182.21;
-        stroke-dashoffset: 163.99;
-        animation: 2s infinite scale;
-      "
-    />
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="dls-loading"
+  width="40"
+  height="40"
+  viewBox="0 0 64 64"
+>
+  <circle
+    cx="50%"
+    cy="50%"
+    r="29"
+    fill="none"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke="currentColor"
+  />
   <style>
+    .dls-loading circle {
+      transform-origin: 50% 50%;
+      stroke-dasharray: 182.21;
+      animation: 2s infinite chase linear;
+    }
+    @keyframes chase {
+      0% {
+        transform: rotate(-90deg);
+        stroke-dashoffset: 163.99;
+      }
+      60% {
+        stroke-dashoffset: 27.33;
+        transform: rotate(180deg);
+      }
+      100% {
+        transform: rotate(630deg);
+        stroke-dashoffset: 163.99;
+      }
+    }
     @keyframes spin {
       0% {
-        transform: rotateZ(0deg);
+        transform: rotate(0);
       }
-
       100% {
-        transform: rotateZ(450deg);
+        transform: rotate(360deg);
       }
     }
-
-    @keyframes scale {
-      0% {
-        animation-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
-        stroke-dashoffset: 163.99;
-      }
-
-      60% {
-        animation-timing-function: cubic-bezier(0.33, 0, 0.33, 1);
-        stroke-dashoffset: 27.33;
-        transform: rotateZ(-90deg);
-      }
-
-      100% {
-        stroke-dashoffset: 163.99;
-        transform: rotateZ(180deg);
-      }
-    }
-
-    @keyframes simple-spin {
-      0% {
-        transform: rotateZ(-90deg);
-      }
-
-      100% {
-        transform: rotateZ(270deg);
-      }
-    }
-
     /* stylelint-disable-next-line */
     _:-ms-lang(x),
     .dls-loading {
-      animation: 1s infinite linear simple-spin;
+      animation: 1s infinite linear spin;
     }
-
     /* stylelint-disable-next-line */
     _:-ms-lang(x),
     .dls-loading circle {
