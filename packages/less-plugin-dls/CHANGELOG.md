@@ -1,5 +1,24 @@
 > ⚠️ - Breaking Changes
 
+## 5.0.0
+
+- ⚠️ Remove dropdown menu related tokens from option, rename and put them in to dropdown.
+
+  - `@dls-option-dropdown-max-height-xs` → `@dls-dropdown-menu-max-height-xs`
+  - `@dls-option-dropdown-max-height-s` → `@dls-dropdown-menu-max-height-s`
+  - `@dls-option-dropdown-max-height-m` → `@dls-dropdown-menu-max-height-m`
+  - `@dls-option-dropdown-max-height-l` → `@dls-dropdown-menu-max-height-l`
+  - `@dls-option-dropdown-border-radius-xs` → `@dls-dropdown-menu-border-radius-xs`
+  - `@dls-option-dropdown-border-radius-s` → `@dls-dropdown-menu-border-radius-s`
+  - `@dls-option-dropdown-border-radius-m` → `@dls-dropdown-menu-border-radius-m`
+  - `@dls-option-dropdown-border-radius-l` → `@dls-dropdown-menu-border-radius-l`
+  - `@dls-option-dropdown-target-spacing` → `@dls-dropdown-menu-target-spacing`
+  - `@dls-option-dropdown-shadow` → `@dls-dropdown-menu-shadow`
+  - `@dls-option-dropdown-placeholder-padding-y` → `@dls-dropdown-menu-placeholder-padding-y`
+  - `@dls-option-dropdown-placeholder-font-color` → `@dls-dropdown-menu-placeholder-font-color`
+
+- Add tokens for layout.
+
 ## 4.0.0
 
 - ⚠️ Remove `@dls-pagination-page-items-margin-before`, `dls-pagination-page-items-margin-after`, `@dls-pagination-spacing-1` and `@dls-pagination-spacing-2`.
