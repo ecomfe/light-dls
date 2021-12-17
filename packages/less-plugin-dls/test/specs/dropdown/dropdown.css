@@ -6,4 +6,17 @@ div {
   -dls-dropdown-icon-color-aux-normal-disabled: #a8b0bf;
   -dls-dropdown-icon-color-aux-primary: currentColor;
   -dls-dropdown-icon-color-aux-primary-disabled: currentColor;
+  -dls-dropdown-max-display-items: 8;
+  -dls-dropdown-menu-max-height-xs: calc(24px * var(--dls-dropdown-max-display-items, 8) + 8px);
+  -dls-dropdown-menu-max-height-s: calc(28px * var(--dls-dropdown-max-display-items, 8) + 8px);
+  -dls-dropdown-menu-max-height-m: calc(32px * var(--dls-dropdown-max-display-items, 8) + 8px);
+  -dls-dropdown-menu-max-height-l: calc(36px * var(--dls-dropdown-max-display-items, 8) + 8px);
+  -dls-dropdown-menu-border-radius-xs: 2px;
+  -dls-dropdown-menu-border-radius-s: 2px;
+  -dls-dropdown-menu-border-radius-m: 4px;
+  -dls-dropdown-menu-border-radius-l: 6px;
+  -dls-dropdown-menu-target-spacing: 4px;
+  -dls-dropdown-menu-shadow: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+  -dls-dropdown-menu-placeholder-padding-y: 8px;
+  -dls-dropdown-menu-placeholder-font-color: #848b99;
 }

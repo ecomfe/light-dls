@@ -1,0 +1,17 @@
+div {
+  -dls-layout-min-width: 1248px;
+  -dls-layout-background-color: #f6f7fa;
+  -dls-layout-header-height: 64px;
+  -dls-layout-header-background-color: #fff;
+  -dls-layout-sidebar-background-color: #fff;
+  -dls-layout-sidebar-width: 200px;
+  -dls-layout-sidebar-width-slim: 60px;
+  -dls-layout-sidebar-separator-color: #e2e6f0;
+  -dls-layout-sidebar-toggle-height: 40px;
+  -dls-layout-sidebar-toggle-padding-x: 8px;
+  -dls-layout-sidebar-float-toggle-width: 18px;
+  -dls-layout-sidebar-float-toggle-radius: 4px;
+  -dls-layout-sidebar-float-toggle-backgroud-color: #a8b0bf;
+  -dls-layout-sidebar-float-toggle-backgroud-color-hover: #848b99;
+  -dls-layout-footer-height: 64px;
+}
