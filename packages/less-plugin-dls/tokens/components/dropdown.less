@@ -16,5 +16,43 @@
 @dls-dropdown-icon-color-aux-primary: currentColor;
 @dls-dropdown-icon-color-aux-primary-disabled: currentColor;
 
+/* Dropdown menu */
+@dls-dropdown-max-display-items: 8;
+@dls-dropdown-menu-max-height-xs: dls-sum(
+  calc(
+    @dls-option-height-xs *
+      var(--dls-dropdown-max-display-items, @dls-dropdown-max-display-items)
+  ),
+  @dls-option-group-padding-y * 2
+);
+@dls-dropdown-menu-max-height-s: dls-sum(
+  calc(
+    @dls-option-height-s *
+      var(--dls-dropdown-max-display-items, @dls-dropdown-max-display-items)
+  ),
+  @dls-option-group-padding-y * 2
+);
+@dls-dropdown-menu-max-height-m: dls-sum(
+  calc(
+    @dls-option-height-m *
+      var(--dls-dropdown-max-display-items, @dls-dropdown-max-display-items)
+  ),
+  @dls-option-group-padding-y * 2
+);
+@dls-dropdown-menu-max-height-l: dls-sum(
+  calc(
+    @dls-option-height-l *
+      var(--dls-dropdown-max-display-items, @dls-dropdown-max-display-items)
+  ),
+  @dls-option-group-padding-y * 2
+);
+@dls-dropdown-menu-border-radius-xs: @dls-border-radius-0;
+@dls-dropdown-menu-border-radius-s: @dls-border-radius-0;
+@dls-dropdown-menu-border-radius-m: @dls-border-radius-1;
+@dls-dropdown-menu-border-radius-l: @dls-border-radius-2;
+@dls-dropdown-menu-target-spacing: @dls-padding-unit * 1;
+@dls-dropdown-menu-shadow: @dls-shadow-1;
+@dls-dropdown-menu-placeholder-padding-y: @dls-padding-unit * 2;
+@dls-dropdown-menu-placeholder-font-color: @dls-foreground-color-neutral-weak;
+
 // See Button for Dropdown button styles (with text button variant)
-// See Option for dropdown option styles
