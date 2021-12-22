@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 5.1.0
+
+- Add more tokens for layout.
+
 ## 5.0.0
 
 - ⚠️ Remove dropdown menu related tokens from option, rename and put them in to dropdown.
