@@ -284,4 +284,12 @@ div {
   -dls-icon-size-aux: calc(1em + 2px);
   -dls-icon-color-aux: #848b99;
   -dls-icon-color-aux-disabled: #a8b0bf;
+  -dls-transition-duration-instant: 100ms;
+  -dls-transition-duration-fast: 200ms;
+  -dls-transition-duration-normal: 300ms;
+  -dls-transition-duration-slow: 400ms;
+  -dls-transition-timing-function-ease: ease;
+  -dls-transition-timing-function-ease-in: ease-in;
+  -dls-transition-timing-function-ease-out: ease-out;
+  -dls-transition-timing-function-linear: linear;
 }
