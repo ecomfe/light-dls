@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.1.0
+
+- Updated `blank`, `partial-blank`, `partial-blank-brush`, `image-placeholder`, `forbidden`, `not-found`, `partial-error`, `partial-forbidden` and `server-error`.
+
 ## 1.0.0
 
 - Adjusted the implementation of `loading` so that it won't trigger Chrome's bug that sometimes animation of different eleeents is not synchronized.
