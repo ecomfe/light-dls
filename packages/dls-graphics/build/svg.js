@@ -2,8 +2,12 @@ import Svgo from 'svgo'
 import { parse, stringify } from 'svgson'
 import { process as processCss } from './css'
 import { createHash } from 'crypto'
+import createDOMPurify from 'dompurify'
+import { JSDOM } from 'jsdom'
 
 const STRIP_ROOT_RE = /^[^>]*>|<[^<]*$/g
+
+const DOMPurify = createDOMPurify(new JSDOM('').window)
 
 const svgo = new Svgo({
   plugins: [
@@ -18,7 +22,7 @@ const svgo = new Svgo({
 
 export async function process (
   content,
-  { extractCss = false, exportData = false }
+  { extractCss = false }
 ) {
   const shasum = createHash('sha1')
   shasum.update(content)
@@ -56,7 +60,9 @@ export async function process (
       }
     })
 
-    const svg = stringify(el)
+    const svg = DOMPurify.sanitize(stringify(el), {
+      USE_PROFILES: { svg: true }
+    })
     const css = styleContents.length
       ? await processCss(styleContents.join(''), id)
       : null

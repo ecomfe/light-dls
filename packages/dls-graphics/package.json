@@ -21,8 +21,10 @@
   },
   "devDependencies": {
     "cssnano": "^5.0.8",
+    "dompurify": "^2.3.4",
     "ejs": "^3.1.5",
     "esm": "^3.2.25",
+    "jsdom": "^19.0.0",
     "mkdirp": "^1.0.4",
     "postcss": "^8.3.6",
     "rimraf": "^3.0.2",
