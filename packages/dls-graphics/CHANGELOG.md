@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.1.1
+
+- Updated `not-found`.
+
 ## 1.1.0
 
 - Updated `blank`, `partial-blank`, `partial-blank-brush`, `image-placeholder`, `forbidden`, `not-found`, `partial-error`, `partial-forbidden` and `server-error`.
