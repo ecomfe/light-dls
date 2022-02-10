@@ -1,0 +1,38 @@
+div {
+  -dls-sidenav-item-height: 32px;
+  -dls-sidenav-padding-x: 8px;
+  -dls-sidenav-padding-y: 8px;
+  -dls-sidenav-item-padding-start: 24px;
+  -dls-sidenav-item-padding-end: 16px;
+  -dls-sidenav-item-level-indent: 16px;
+  -dls-sidenav-item-spacing: 8px;
+  -dls-sidenav-item-content-spacing: 8px;
+  -dls-sidenav-item-icon-size: calc(1em + 2px);
+  -dls-sidenav-item-icon-size-aux: calc(1em + 2px);
+  -dls-sidenav-item-font-size: 14px;
+  -dls-sidenav-item-group-font-weight: 500;
+  -dls-sidenav-item-font-color: #282c33;
+  -dls-sidenav-item-font-color-hover: dls-foreground-color-neutral-hover;
+  -dls-sidenav-item-font-color-focus: dls-foreground-color-neutral-hover;
+  -dls-sidenav-item-font-color-active: #000;
+  -dls-sidenav-item-font-color-disabled: #a8b0bf;
+  -dls-sidenav-item-font-color-current: #0052cc;
+  -dls-sidenav-item-font-color-current-hover: #0066ff;
+  -dls-sidenav-item-font-color-current-focus: #0066ff;
+  -dls-sidenav-item-font-color-current-active: #0046ad;
+  -dls-sidenav-item-icon-color: currentColor;
+  -dls-sidenav-item-icon-color-disabled: currentColor;
+  -dls-sidenav-item-icon-color-current: currentColor;
+  -dls-sidenav-item-icon-color-aux: currentColor;
+  -dls-sidenav-item-icon-color-aux-disabled: currentColor;
+  -dls-sidenav-item-icon-color-aux-current: currentColor;
+  -dls-sidenav-item-background-color: #fff;
+  -dls-sidenav-item-background-color-hover: #f6f7fa;
+  -dls-sidenav-item-background-color-focus: #e1edff;
+  -dls-sidenav-item-background-color-active: #e2e6f0;
+  -dls-sidenav-item-background-color-disabled: #fff;
+  -dls-sidenav-item-background-color-current: #f2f7ff;
+  -dls-sidenav-item-background-color-current-hover: #e1edff;
+  -dls-sidenav-item-background-color-current-focus: #e1edff;
+  -dls-sidenav-item-background-color-current-active: #c0d9ff;
+}

@@ -1,0 +1,42 @@
+@import "../global.less";
+
+@dls-nav-item-font-size: @dls-font-size-1;
+
+/* Nav items */
+// Metrics
+@dls-nav-item-height: @dls-height-unit * 16;
+@dls-nav-item-padding: 0;
+@dls-nav-item-padding-more: @dls-padding-unit * 1.5;
+@dls-nav-item-spacing: @dls-padding-unit * 8;
+@dls-nav-item-content-spacing: @dls-padding-unit * 1;
+
+// Colors
+@dls-nav-item-font-color: @dls-foreground-color-neutral-highlightable;
+@dls-nav-item-font-color-hover: @dls-foreground-color-neutral-highlightable-hover;
+@dls-nav-item-font-color-focus: @dls-nav-item-font-color-hover;
+@dls-nav-item-font-color-active: @dls-foreground-color-neutral-highlightable-active;
+@dls-nav-item-font-color-disabled: @dls-foreground-color-neutral-highlightable-disabled;
+
+@dls-nav-item-font-color-current: @dls-foreground-color-primary;
+@dls-nav-item-font-color-current-hover: @dls-foreground-color-primary-hover;
+@dls-nav-item-font-color-current-focus: @dls-nav-item-font-color-current-hover;
+@dls-nav-item-font-color-current-active: @dls-foreground-color-primary-active;
+
+@dls-nav-item-icon-color-aux: currentColor;
+@dls-nav-item-icon-color-aux-disabled: currentColor;
+@dls-nav-item-icon-color-aux-current: currentColor;
+
+/* Indicators */
+// Metrics
+@dls-nav-indicator-stroke-width: 3px;
+@dls-nav-indicator-border-radius: @dls-nav-indicator-width / 2;
+@dls-nav-indicator-width: @dls-height-unit * 7;
+@dls-nav-indicator-width-hover: @dls-height-unit * 3;
+@dls-nav-indicator-width-focus: @dls-nav-indicator-width-hover;
+@dls-nav-indicator-width-active: @dls-height-unit * 9;
+
+// Colors
+@dls-nav-indicator-color: @dls-foreground-color-primary;
+@dls-nav-indicator-color-hover: @dls-nav-indicator-color;
+@dls-nav-indicator-color-focus: @dls-nav-indicator-color-hover;
+@dls-nav-indicator-color-active: @dls-menu-indicator-color;

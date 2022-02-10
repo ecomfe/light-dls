@@ -1,0 +1,30 @@
+div {
+  -dls-nav-item-font-size: 14px;
+  -dls-nav-item-height: 64px;
+  -dls-nav-item-padding: 0;
+  -dls-nav-item-padding-more: 6px;
+  -dls-nav-item-spacing: 32px;
+  -dls-nav-item-content-spacing: 4px;
+  -dls-nav-item-font-color: #282c33;
+  -dls-nav-item-font-color-hover: #0066ff;
+  -dls-nav-item-font-color-focus: #0066ff;
+  -dls-nav-item-font-color-active: #0046ad;
+  -dls-nav-item-font-color-disabled: #a8b0bf;
+  -dls-nav-item-font-color-current: #0052cc;
+  -dls-nav-item-font-color-current-hover: #0066ff;
+  -dls-nav-item-font-color-current-focus: #0066ff;
+  -dls-nav-item-font-color-current-active: #0046ad;
+  -dls-nav-item-icon-color-aux: currentColor;
+  -dls-nav-item-icon-color-aux-disabled: currentColor;
+  -dls-nav-item-icon-color-aux-current: currentColor;
+  -dls-nav-indicator-stroke-width: 3px;
+  -dls-nav-indicator-border-radius: 14px;
+  -dls-nav-indicator-width: 28px;
+  -dls-nav-indicator-width-hover: 12px;
+  -dls-nav-indicator-width-focus: 12px;
+  -dls-nav-indicator-width-active: 36px;
+  -dls-nav-indicator-color: #0052cc;
+  -dls-nav-indicator-color-hover: #0052cc;
+  -dls-nav-indicator-color-focus: #0052cc;
+  -dls-nav-indicator-color-active: #0052cc;
+}
