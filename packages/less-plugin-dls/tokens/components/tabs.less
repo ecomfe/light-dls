@@ -5,26 +5,48 @@
 @dls-tab-height-m: @dls-height-unit * 11;
 @dls-tab-height-l: @dls-height-unit * 12;
 
-// For normal and simple
-@dls-tab-padding-x-s: @dls-padding-unit * 4;
-@dls-tab-padding-x-m: @dls-padding-unit * 4;
-@dls-tab-padding-x-l: @dls-padding-unit * 4;
+// padding-x per tab
+@dls-tab-padding-normal-s: 0;
+@dls-tab-padding-normal-m: 0;
+@dls-tab-padding-normal-l: 0;
 
-@dls-tab-spacing-x-s: @dls-padding-unit * 5;
-@dls-tab-spacing-x-m: @dls-padding-unit * 6;
-@dls-tab-spacing-x-l: @dls-padding-unit * 7;
+@dls-tab-padding-simple-s: 0;
+@dls-tab-padding-simple-m: 0;
+@dls-tab-padding-simple-l: 0;
 
-@dls-tab-dropdown-spacing-x: @dls-padding-unit * 2;
-@dls-tab-dropdown-spacing-y: @dls-padding-unit * 2;
+@dls-tab-padding-strong-m: @dls-padding-unit * 6;
+
+// spacing between tabs
+@dls-tab-spacing-normal-s: @dls-padding-unit * 6;
+@dls-tab-spacing-normal-m: @dls-padding-unit * 8;
+@dls-tab-spacing-normal-l: @dls-padding-unit * 12;
+
+@dls-tab-spacing-simple-s: @dls-padding-unit * 8;
+@dls-tab-spacing-simple-m: @dls-padding-unit * 10;
+@dls-tab-spacing-simple-l: @dls-padding-unit * 12;
+
+@dls-tab-spacing-strong-m: 0;
+
+// padding-x of the tab menu
+@dls-tab-menu-padding-normal: var(--dls-tab-padding);
+
+// spacing between tab label and icons
 @dls-tab-content-spacing: @dls-padding-unit * 1;
+@dls-tab-remove-spacing: @dls-padding-unit * 0.5;
 
-@dls-tab-nav-spacing-s: @dls-padding-unit * 2;
-@dls-tab-nav-spacing-m: @dls-padding-unit * 3;
-@dls-tab-nav-spacing-l: @dls-padding-unit * 4;
+// spacing for nav buttons
+@dls-tab-nav-spacing-normal-s: @dls-padding-unit * 3;
+@dls-tab-nav-spacing-normal-m: @dls-padding-unit * 4;
+@dls-tab-nav-spacing-normal-l: @dls-padding-unit * 6;
 
-@dls-tab-add-spacing-s: @dls-padding-unit * 2;
-@dls-tab-add-spacing-m: @dls-padding-unit * 3;
-@dls-tab-add-spacing-l: @dls-padding-unit * 4;
+@dls-tab-nav-spacing-simple-s: @dls-padding-unit * 4;
+@dls-tab-nav-spacing-simple-m: @dls-padding-unit * 5;
+@dls-tab-nav-spacing-simple-l: @dls-padding-unit * 6;
+
+@dls-tab-nav-spacing-strong-m: @dls-padding-unit * 3;
+
+// add button and extra content are treated as tab items
+// thus they have the same spacing as normal tabs (except for strong)
 
 /* Typography */
 // Sizes
@@ -69,7 +91,7 @@
 @dls-tab-icon-size: @dls-icon-size-normal;
 @dls-tab-icon-size-aux: @dls-icon-size-aux;
 
-/* Variants */
+/* Variant-specific */
 // Simple
 @dls-tab-separator-height-simple: 1em;
 @dls-tab-separator-color: @dls-line-color-2;
@@ -78,9 +100,9 @@
 // TODO: add s/l sizes
 @dls-tab-menu-height-strong-m: @dls-padding-unit * 12;
 
-@dls-tab-padding-x-strong-m: @dls-padding-unit * 6;
-@dls-tab-spacing-x-strong-m: 0;
-@dls-tab-menu-padding-x-strong-m: @dls-padding-unit * 4;
+@dls-tab-nav-spacing-extra-strong-m: @dls-padding-unit * 6;
+
+@dls-tab-menu-padding-strong-m: @dls-padding-unit * 4;
 
 @dls-tab-border-radius-strong-m: @dls-border-radius-3;
 @dls-tab-container-border-radius-strong-m: @dls-border-radius-2;
