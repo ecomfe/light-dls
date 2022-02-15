@@ -2,9 +2,9 @@ div {
   -dls-link-font-size-s: 12px;
   -dls-link-font-size-m: 14px;
   -dls-link-text-decoration: none;
-  -dls-link-text-decoration-hover: underline;
+  -dls-link-text-decoration-hover: none;
   -dls-link-text-decoration-focus: underline;
-  -dls-link-text-decoration-active: underline;
+  -dls-link-text-decoration-active: none;
   -dls-link-font-color-normal: #282c33;
   -dls-link-font-color-normal-hover: #545b66;
   -dls-link-font-color-normal-focus: #545b66;
