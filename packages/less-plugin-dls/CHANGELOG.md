@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 5.2.0
+
+- Add transition tokens.
+
 ## 5.1.0
 
 - Add more tokens for layout.
