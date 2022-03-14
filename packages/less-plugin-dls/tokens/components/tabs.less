@@ -5,6 +5,73 @@
 @dls-tab-height-m: @dls-height-unit * 11;
 @dls-tab-height-l: @dls-height-unit * 12;
 
+@dls-tab-max-width-normal-s: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-normal-s * 2
+);
+@dls-tab-max-width-normal-m: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-normal-m * 2
+);
+@dls-tab-max-width-normal-l: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-normal-l * 2
+);
+
+@dls-tab-max-width-simple-s: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-simple-s * 2
+);
+@dls-tab-max-width-simple-m: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-simple-m * 2
+);
+@dls-tab-max-width-simple-l: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-simple-l * 2
+);
+
+@dls-tab-max-width-strong-m: dls-sum(
+  8em,
+  @dls-tab-icon-size,
+  @dls-tab-icon-size,
+  @dls-tab-content-spacing,
+  @dls-tab-content-spacing,
+  @dls-tab-padding-strong-m * 2
+);
+
+@dls-tab-min-width-normal-s: 2em;
+@dls-tab-min-width-normal-m: 2em;
+@dls-tab-min-width-normal-l: 2em;
+@dls-tab-min-width-simple-s: 2em;
+@dls-tab-min-width-simple-m: 2em;
+@dls-tab-min-width-simple-l: 2em;
+@dls-tab-min-width-normal-m: 2em;
+
 // padding-x per tab
 @dls-tab-padding-normal-s: 0;
 @dls-tab-padding-normal-m: 0;
@@ -28,7 +95,7 @@
 @dls-tab-spacing-strong-m: 0;
 
 // padding-x of the tab menu
-@dls-tab-menu-padding-normal: var(--dls-tab-padding);
+@dls-tab-menu-padding-normal: var(--dls-tab-menu-spacing-around);
 
 // spacing between tab label and icons
 @dls-tab-content-spacing: @dls-padding-unit * 1;
