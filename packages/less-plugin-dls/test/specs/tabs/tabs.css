@@ -2,6 +2,19 @@ div {
   -dls-tab-height-s: 40px;
   -dls-tab-height-m: 44px;
   -dls-tab-height-l: 48px;
+  -dls-tab-max-width-normal-s: calc(10em + 12px);
+  -dls-tab-max-width-normal-m: calc(10em + 12px);
+  -dls-tab-max-width-normal-l: calc(10em + 12px);
+  -dls-tab-max-width-simple-s: calc(10em + 12px);
+  -dls-tab-max-width-simple-m: calc(10em + 12px);
+  -dls-tab-max-width-simple-l: calc(10em + 12px);
+  -dls-tab-max-width-strong-m: calc(10em + 60px);
+  -dls-tab-min-width-normal-s: 2em;
+  -dls-tab-min-width-normal-l: 2em;
+  -dls-tab-min-width-simple-s: 2em;
+  -dls-tab-min-width-simple-m: 2em;
+  -dls-tab-min-width-simple-l: 2em;
+  -dls-tab-min-width-normal-m: 2em;
   -dls-tab-padding-normal-s: 0;
   -dls-tab-padding-normal-m: 0;
   -dls-tab-padding-normal-l: 0;
@@ -16,7 +29,7 @@ div {
   -dls-tab-spacing-simple-m: 40px;
   -dls-tab-spacing-simple-l: 48px;
   -dls-tab-spacing-strong-m: 0;
-  -dls-tab-menu-padding-normal: var(--dls-tab-padding);
+  -dls-tab-menu-padding-normal: var(--dls-tab-menu-spacing-around);
   -dls-tab-content-spacing: 4px;
   -dls-tab-remove-spacing: 2px;
   -dls-tab-nav-spacing-normal-s: 12px;
