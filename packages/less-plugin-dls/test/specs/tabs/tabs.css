@@ -61,7 +61,7 @@ div {
   -dls-tab-indicator-color: #0052cc;
   -dls-tab-indicator-width: 2px;
   -dls-tab-icon-size: calc(1em + 2px);
-  -dls-tab-icon-size-aux: calc(1em + 2px);
+  -dls-tab-icon-size-aux: calc(1em - 2px);
   -dls-tab-separator-height-simple: 1em;
   -dls-tab-separator-color: #d3d9e6;
   -dls-tab-menu-height-strong-m: 48px;
