@@ -1,5 +1,13 @@
 > ⚠️ - Breaking Changes
 
+## 6.0.0
+
+- ⚠️ Update tab tokens for the new design. See [ecomfe/light-dls/#90](https://github.com/ecomfe/light-dls/pull/90) for details.
+- ⚠️ Add tokens for nav and sidenav, deprecate menu tokens.
+- Remove link underline by default.
+- Add tokens for min/max width for tabs items.
+- Adjust size for tab close icons.
+
 ## 5.2.0
 
 - Add transition tokens.
