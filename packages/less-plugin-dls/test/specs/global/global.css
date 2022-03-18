@@ -80,12 +80,14 @@ div {
   -dls-font-size-0: 12px;
   -dls-font-size-1: 14px;
   -dls-font-size-2: 16px;
-  -dls-font-size-3: 20px;
-  -dls-font-size-4: 24px;
-  -dls-font-size-5: 32px;
+  -dls-font-size-3: 18px;
+  -dls-font-size-4: 20px;
+  -dls-font-size-5: 24px;
+  -dls-font-size-6: 32px;
   -dls-font-weight-1: 400;
   -dls-font-weight-2: 500;
   -dls-font-weight-3: 600;
+  -dls-line-height-0: 1.2;
   -dls-line-height-1: 1.4;
   -dls-line-height-2: 1.6;
   -dls-line-height-3: 1.8;
