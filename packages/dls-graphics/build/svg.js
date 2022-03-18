@@ -1,4 +1,4 @@
-import Svgo from 'svgo'
+import { optimize } from 'svgo'
 import { parse, stringify } from 'svgson'
 import { process as processCss } from './css'
 import { createHash } from 'crypto'
@@ -9,16 +9,30 @@ const STRIP_ROOT_RE = /^[^>]*>|<[^<]*$/g
 
 const DOMPurify = createDOMPurify(new JSDOM('').window)
 
-const svgo = new Svgo({
-  plugins: [
-    { removeViewBox: false },
-    { inlineStyles: false },
-    { convertStyleToAttrs: false },
-    { minifyStyles: false },
-    { sortAttrs: true },
-    { removeDimensions: false }
-  ]
-})
+function getSVGOConfig ({ id }) {
+  return {
+    plugins: [
+      {
+        name: 'preset-default',
+        params: {
+          overrides: {
+            removeViewBox: false,
+            inlineStyles: false,
+            convertStyleToAttrs: false,
+            minifyStyles: false,
+            removeDimensions: false,
+            cleanupIDs: {
+              prefix: `dls-${id}-`
+            }
+          }
+        }
+      },
+      {
+        name: 'sortAttrs'
+      }
+    ]
+  }
+}
 
 export async function process (
   content,
@@ -29,7 +43,7 @@ export async function process (
   const id = shasum.digest('hex').substring(0, 5)
 
   try {
-    const { data: optimized } = await svgo.optimize(content)
+    const { data: optimized } = await optimize(content, getSVGOConfig({ id }))
     const el = await parse(optimized)
 
     const styleContents = []

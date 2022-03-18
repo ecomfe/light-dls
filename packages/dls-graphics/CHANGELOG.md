@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 1.1.2
+
+- Updated deps for SVGO.
+- Added ID cleanup and prevent collision.
+
 ## 1.1.1
 
 - Updated `not-found`.

@@ -15,7 +15,7 @@ function rewriteKeyframes ({ id }) {
             if (!keyframesStore[id]) {
               keyframesStore[id] = {}
             }
-            keyframesStore[id][node.params] = node.params = `${node.params}-${id}`
+            keyframesStore[id][node.params] = node.params = `dls-${id}-${node.params}`
           }
         }
       })
