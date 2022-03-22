@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 6.0.1
+
+- Improve token references for button heights, and tag heights in select.
+
 ## 6.0.0
 
 - ⚠️ Update tab tokens for the new design. See [ecomfe/light-dls/#90](https://github.com/ecomfe/light-dls/pull/90) for details.
