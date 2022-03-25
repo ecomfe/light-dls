@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 7.0.0
+
+- ⚠️ Remove `@dls-loading-padding`.
+- ⚠️ Replace `@dls-loading-content-spacing` with size-specific tokens.
+- Add tokens for message.
+
 ## 6.0.1
 
 - Improve token references for button heights, and tag heights in select.

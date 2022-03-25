@@ -1,0 +1,18 @@
+div {
+  -dls-message-font-size-s: 12px;
+  -dls-message-font-size-m: 14px;
+  -dls-message-icon-size: calc(1em + 2px);
+  -dls-message-line-height: 1.4;
+  -dls-message-content-spacing: 4px;
+  -dls-message-font-color-standalone: #282c33;
+  -dls-message-font-color-info: #282c33;
+  -dls-message-font-color-success: #00bf5c;
+  -dls-message-font-color-warning: #ffa733;
+  -dls-message-font-color-error: #cc1800;
+  -dls-message-font-color-aux: #848b99;
+  -dls-message-icon-color-info: #0052cc;
+  -dls-message-icon-color-success: #00bf5c;
+  -dls-message-icon-color-warning: #ffa733;
+  -dls-message-icon-color-error: #cc1800;
+  -dls-message-icon-color-aux: #848b99;
+}
