@@ -2,11 +2,13 @@ div {
   -dls-loading-font-size-s: 12px;
   -dls-loading-font-size-m: 14px;
   -dls-loading-font-size-l: 16px;
+  -dls-loading-line-height: 1.4;
   -dls-loading-size-s: calc(1em + 2px);
   -dls-loading-size-m: calc(1em + 2px);
   -dls-loading-size-l: 24px;
-  -dls-loading-padding: 8px;
-  -dls-loading-content-spacing: 8px;
+  -dls-loading-content-spacing-s: 4px;
+  -dls-loading-content-spacing-m: 4px;
+  -dls-loading-content-spacing-l: 8px;
   -dls-loading-font-color-normal: #282c33;
   -dls-loading-font-color-strong: #282c33;
   -dls-loading-font-color-reverse: #fff;
