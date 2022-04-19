@@ -35,4 +35,7 @@ div {
   -dls-sidenav-item-background-color-current-hover: #e1edff;
   -dls-sidenav-item-background-color-current-focus: #e1edff;
   -dls-sidenav-item-background-color-current-active: #c0d9ff;
+  -dls-sidenav-item-border-radius: 6px;
+  -dls-sidenav-width: 200px;
+  -dls-sidenav-width-collapsed: 60px;
 }
