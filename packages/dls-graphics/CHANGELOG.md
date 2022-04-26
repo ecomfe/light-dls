@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 1.2.0
+
+- Added `under-review`.
+
 ## 1.1.2
 
 - Updated deps for SVGO.
