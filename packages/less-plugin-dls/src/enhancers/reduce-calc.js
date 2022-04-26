@@ -11,7 +11,7 @@ export default function install (less) {
     const { genCSS } = less.tree.Call.prototype
     less.tree.Call.prototype.genCSS = function (context, output) {
       if (this.calc) {
-        let buffer = []
+        const buffer = []
         const proxy = {
           add: chunk => buffer.push(chunk),
           isEmpty: () => buffer.length === 0

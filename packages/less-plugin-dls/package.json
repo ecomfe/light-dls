@@ -4,10 +4,10 @@
   "description": "Less plugin for Baidu Light DLS.",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "pnpm build",
     "test": "node -r esm test/run.js",
     "build": "rollup -c && cp src/index.js dist/index.js && node -r esm scripts/vars.js",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "pnpm test"
   },
   "bin": {
     "dls": "bin/dls"
@@ -35,12 +35,13 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
+    "chalk": "^4.1.2",
     "color-converters": "^0.1.1",
     "diff": "^4.0.1",
     "less": "^3.13.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.memoize": "^4.1.2",
-    "postcss-values-parser": "^6.0.2",
+    "postcss-value-parser": "^4.2.0",
     "reduce-css-calc": "^2.1.6",
     "rollup": "^2.26.10",
     "strip-css-comments": "^4.0.0"

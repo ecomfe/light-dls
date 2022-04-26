@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "bootstrap": "npm i && lerna bootstrap",
-    "test": "lerna run test",
-    "build": "lerna run build",
-    "prepublishOnly": "lerna run test"
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "prepublishOnly": "pnpm -r test"
   },
   "keywords": [
     "less",

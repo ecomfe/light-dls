@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Graphics materials for Baidu Light DLS.",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "pnpm build",
     "build": "node -r esm build/index.js && rollup -c"
   },
   "keywords": [
