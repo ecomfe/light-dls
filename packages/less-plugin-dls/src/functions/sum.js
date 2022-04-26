@@ -22,7 +22,7 @@ export default function install (less, _, functions) {
     const units = Object.keys(valueDic)
     let merged
     const nonZero = units.filter(
-      unit => valueDic[unit] !== 0 && unit !== 'calc'
+      (unit) => valueDic[unit] !== 0 && unit !== 'calc'
     )
     if (nonZero.length === 1) {
       // unified units
@@ -33,9 +33,9 @@ export default function install (less, _, functions) {
       merged = less.dimension(0)
     } else {
       // different units
-      merged = less['call'](
+      merged = less.call(
         'calc',
-        [sumExp(nonZero.map(unit => less.dimension(valueDic[unit], unit)))],
+        [sumExp(nonZero.map((unit) => less.dimension(valueDic[unit], unit)))],
         0,
         // eslint-disable-next-line no-undef
         typeof fileInfo === 'undefined' ? null : fileInfo
@@ -46,7 +46,7 @@ export default function install (less, _, functions) {
       return merged
     }
 
-    return less['call'](
+    return less.call(
       'calc',
       [
         sumExp([

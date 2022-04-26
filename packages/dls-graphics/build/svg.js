@@ -34,10 +34,7 @@ function getSVGOConfig ({ id }) {
   }
 }
 
-export async function process (
-  content,
-  { extractCss = false }
-) {
+export async function process (content, { extractCss = false }) {
   const shasum = createHash('sha1')
   shasum.update(content)
   const id = shasum.digest('hex').substring(0, 5)

@@ -83,7 +83,11 @@ function getType (value) {
     return 'string'
   }
 
-  if (value.toLowerCase() === 'transparent' || value.toLowerCase() === 'currentcolor' || node.isColor) {
+  if (
+    value.toLowerCase() === 'transparent' ||
+    value.toLowerCase() === 'currentcolor' ||
+    node.isColor
+  ) {
     return 'color'
   }
 

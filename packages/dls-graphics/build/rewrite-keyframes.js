@@ -15,7 +15,9 @@ function rewriteKeyframes ({ id }) {
             if (!keyframesStore[id]) {
               keyframesStore[id] = {}
             }
-            keyframesStore[id][node.params] = node.params = `dls-${id}-${node.params}`
+            keyframesStore[id][
+              node.params
+            ] = node.params = `dls-${id}-${node.params}`
           }
         }
       })
@@ -24,7 +26,7 @@ function rewriteKeyframes ({ id }) {
 
       if (Object.keys(keyframes || {}).length) {
         root.walkDecls((decl) => {
-        // individual animation-name declaration
+          // individual animation-name declaration
           if (/^(-\w+-)?animation-name$/.test(decl.prop)) {
             decl.value = decl.value
               .split(',')

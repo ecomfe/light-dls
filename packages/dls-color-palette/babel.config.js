@@ -5,7 +5,7 @@ module.exports = {
     [
       '@babel/preset-env',
       !isTestEnv && {
-        'modules': false
+        modules: false
       }
     ].filter(Boolean)
   ]

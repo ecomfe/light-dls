@@ -93,5 +93,9 @@ export default function getShade (color, level) {
 
   const saturation = getSatuation(s - deviation, level)
 
-  return hsvToHex([h, clamp(saturation, 0, S_MAX), clamp(brightness, B_MIN, B_MAX)])
+  return hsvToHex([
+    h,
+    clamp(saturation, 0, S_MAX),
+    clamp(brightness, B_MIN, B_MAX)
+  ])
 }

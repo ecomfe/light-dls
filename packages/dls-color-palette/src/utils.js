@@ -5,8 +5,8 @@ export function isNumber (val) {
 }
 
 export function isInRanges (h, ranges) {
-  return ranges.some(range => {
-    if (range.length !== 2 || range.some(edge => !isNumber(edge))) {
+  return ranges.some((range) => {
+    if (range.length !== 2 || range.some((edge) => !isNumber(edge))) {
       return
     }
 

@@ -13,7 +13,7 @@ export default function install (less) {
       if (this.calc) {
         const buffer = []
         const proxy = {
-          add: chunk => buffer.push(chunk),
+          add: (chunk) => buffer.push(chunk),
           isEmpty: () => buffer.length === 0
         }
         genCSS.call(this, context, proxy)

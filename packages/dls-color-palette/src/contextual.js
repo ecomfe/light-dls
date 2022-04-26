@@ -24,9 +24,9 @@ function isInContextualRanges (h, type) {
 export default function getContextual (color, type) {
   if (
     !type ||
-              ['info', 'success', 'warning', 'error'].indexOf(
-                type.trim().toLowerCase()
-              ) === -1
+    ['info', 'success', 'warning', 'error'].indexOf(
+      type.trim().toLowerCase()
+    ) === -1
   ) {
     throw new Error(
       '`type` must be one of `info`, `success`, `warning` or `error`.'

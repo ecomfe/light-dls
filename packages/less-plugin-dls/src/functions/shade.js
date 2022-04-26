@@ -3,9 +3,12 @@ import { rgbToHex } from 'color-converters'
 import { getShade } from 'dls-color-palette'
 import { isNumber } from '../utils'
 
-const getColorValue = memoize((hex, level) => {
-  return getShade(hex, level)
-}, (hex, level) => `${hex}#${level}`)
+const getColorValue = memoize(
+  (hex, level) => {
+    return getShade(hex, level)
+  },
+  (hex, level) => `${hex}#${level}`
+)
 
 export default function install (less, _, functions) {
   functions.add('dls-shade', (base = {}, level = {}) => {

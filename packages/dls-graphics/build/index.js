@@ -15,7 +15,8 @@ const SEPARATE_DIR = resolve(__dirname, '../dist/separate')
 const README_PATH = resolve(__dirname, '../README.md')
 const ENTRY_MODULE = resolve(DIST_DIR, 'index.js')
 const EXPORT_TPL = resolve(__dirname, './export.ejs')
-const BASE_PREVIEW_URL = 'https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/'
+const BASE_PREVIEW_URL =
+  'https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/'
 
 function clearDir (dir) {
   rimraf.sync(dir)
@@ -97,8 +98,13 @@ function toVar (file) {
 }
 
 function toDoc (graphs) {
-  return graphs.sort((a, b) => a.file >= b.file ? 1 : -1).map(({ file, variable }) => `* **\`${variable}\`** (${file})
+  return graphs
+    .sort((a, b) => (a.file >= b.file ? 1 : -1))
+    .map(
+      ({ file, variable }) => `* **\`${variable}\`** (${file})
 
   ![${variable}](${BASE_PREVIEW_URL + file})
-`).join('\n')
+`
+    )
+    .join('\n')
 }
