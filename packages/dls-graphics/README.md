@@ -123,4 +123,8 @@ If you want to use SVGs with `<style>` contents extracted into separate CSS file
 
   ![serverError](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/server-error.svg)
 
+* **`underReview`** (under-review.svg)
+
+  ![underReview](https://raw.githubusercontent.com/ecomfe/light-dls/master/packages/dls-graphics/src/under-review.svg)
+
 <!-- assets-end -->

@@ -102,7 +102,8 @@ importers:
       lodash.camelcase: ^4.3.0
       lodash.memoize: ^4.1.2
       pkg-dir: ^4.2.0
-      postcss-value-parser: ^4.2.0
+      postcss: ^8.3.6
+      postcss-values-parser: ^6.0.2
       reduce-css-calc: ^2.1.6
       rollup: ^2.26.10
       strip-css-comments: ^4.0.0
@@ -121,7 +122,8 @@ importers:
       less: 3.13.1
       lodash.camelcase: 4.3.0
       lodash.memoize: 4.1.2
-      postcss-value-parser: 4.2.0
+      postcss: 8.4.12
+      postcss-values-parser: 6.0.2_postcss@8.4.12
       reduce-css-calc: 2.1.8
       rollup: 2.70.2
       strip-css-comments: 4.1.0
@@ -5785,6 +5787,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /is-url-superb/4.0.0:
+    resolution: {integrity: sha512-GI+WjezhPPcbM+tqE9LnmsY5qqjwHzTvjJ36wxYX5ujNXefSUJ/T17r5bqDV8yLhcgB59KTPNOc9O9cmHTPWsA==}
+    engines: {node: '>=10'}
+    dev: true
+
   /is-weakref/1.0.2:
     resolution: {integrity: sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ==}
     dependencies:
@@ -8256,6 +8263,18 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
+  /postcss-values-parser/6.0.2_postcss@8.4.12:
+    resolution: {integrity: sha512-YLJpK0N1brcNJrs9WatuJFtHaV9q5aAOj+S4DI5S7jgHlRfm0PIbDCAFRYMQD5SHq7Fy6xsDhyutgS0QOAs0qw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      postcss: ^8.2.9
+    dependencies:
+      color-name: 1.1.4
+      is-url-superb: 4.0.0
+      postcss: 8.4.12
+      quote-unquote: 1.0.0
+    dev: true
+
   /postcss/7.0.39:
     resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
     engines: {node: '>=6.0.0'}
@@ -8395,6 +8414,10 @@ packages:
   /quick-lru/4.0.1:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
     engines: {node: '>=8'}
+    dev: true
+
+  /quote-unquote/1.0.0:
+    resolution: {integrity: sha1-Z6mncUjv/q+BpNQoQEpxC6qsigs=}
     dev: true
 
   /randombytes/2.1.0:

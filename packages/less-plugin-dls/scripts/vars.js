@@ -83,11 +83,19 @@ function getType (value) {
     return 'string'
   }
 
-  if (value === 'transparent' || value === 'currentColor' || node.isColor) {
+  if (value.toLowerCase() === 'transparent' || value.toLowerCase() === 'currentcolor' || node.isColor) {
     return 'color'
   }
 
+  if (node.isVar) {
+    return 'variable'
+  }
+
   if (node.type === 'function') {
+    if (node.name === 'calc') {
+      return 'length'
+    }
+
     return 'function'
   }
 

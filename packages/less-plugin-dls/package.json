@@ -41,7 +41,8 @@
     "less": "^3.13.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.memoize": "^4.1.2",
-    "postcss-value-parser": "^4.2.0",
+    "postcss": "^8.3.6",
+    "postcss-values-parser": "^6.0.2",
     "reduce-css-calc": "^2.1.6",
     "rollup": "^2.26.10",
     "strip-css-comments": "^4.0.0"
