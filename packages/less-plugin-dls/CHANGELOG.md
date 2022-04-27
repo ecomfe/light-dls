@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 7.1.2
+
+- Extract token type by name first, improve the exported metadata.
+
 ## 7.1.1
 
 - Refine export metadata for `calc()` and `var()` values.
