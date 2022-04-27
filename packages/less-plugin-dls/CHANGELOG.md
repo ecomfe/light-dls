@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 7.1.1
+
+- Refine export metadata for `calc()` and `var()` values.
+
 ## 7.1.0
 
 - Adjust form spacing tokens.

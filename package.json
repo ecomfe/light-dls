@@ -4,7 +4,6 @@
   "description": "Tooling for Baidu Light DLS.",
   "main": "dist/index.js",
   "scripts": {
-    "bootstrap": "npm i && lerna bootstrap",
     "test": "pnpm -r test",
     "build": "pnpm -r build",
     "prepublishOnly": "pnpm -r test"
