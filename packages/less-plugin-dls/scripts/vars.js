@@ -34,7 +34,7 @@ async function generate () {
           .map(([key, value]) => ({
             [key]: {
               value,
-              type: getType(value),
+              type: getTypeByName(key) || getTypeByValue(value),
               global: globalVariables.includes(key)
             }
           }))
@@ -54,8 +54,31 @@ async function generate () {
   }
 }
 
+const TOKEN_TYPES = {
+  color: 'color',
+  'font-family': 'font',
+  'font-weight': 'numeric',
+  gutter: 'length',
+  spacing: 'length',
+  size: 'length',
+  padding: 'length',
+  width: 'length',
+  height: 'length',
+  indent: 'length',
+  radius: 'length',
+  shadow: 'complex',
+  opacity: 'numeric'
+}
+
+const TOKEN_TYPE_KEYS = Object.keys(TOKEN_TYPES)
+
+function getTypeByName (name) {
+  const key = TOKEN_TYPE_KEYS.find((key) => name.includes(key))
+  return key ? TOKEN_TYPES[key] || null : null
+}
+
 // https://code.visualstudio.com/api/references/vscode-api#CompletionItemKind
-function getType (value) {
+function getTypeByValue (value) {
   if (['inherit', 'initial', 'unset', 'revert'].includes(value)) {
     return 'keyword'
   }
@@ -95,7 +118,7 @@ function getType (value) {
     return 'variable'
   }
 
-  if (node.type === 'function') {
+  if (node.type === 'func') {
     if (node.name === 'calc') {
       return 'length'
     }
