@@ -1,5 +1,17 @@
 > ⚠️ - Breaking Changes
 
+## 8.0.0
+
+- ⚠️ Upgrade tokens for uploader.
+
+  - `@dls-uploader-helper-text-spacing-file` → `@dls-uploader-helper-text-spacing-file-{s,m}`
+  - `@dls-uploader-helper-text-spacing-media` → `@dls-uploader-helper-text-spacing-media-{s,m}`
+  - `@dls-uploader-helper-text-max-width-media` → `@dls-uploader-helper-text-max-width-media-{s,m}`
+  - `@dls-uploader-file-item-label-spacing-before` → `@dls-uploader-file-item-label-spacing`
+  - `@dls-uploader-file-item-label-spacing-after` → `@dls-uploader-file-item-action-spacing`
+  - Remove `@dls-uploader-file-item-height`
+  - Add `dls-uploader-file-item-background-color-error` & `@dls-uploader-file-item-background-color-error-hover`
+
 ## 7.1.2
 
 - Extract token type by name first, improve the exported metadata.
