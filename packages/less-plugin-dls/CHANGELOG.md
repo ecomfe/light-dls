@@ -4,11 +4,11 @@
 
 - ⚠️ Upgrade tokens for uploader.
 
-  - `@dls-uploader-helper-text-spacing-file` → `@dls-uploader-helper-text-spacing-file-{s,m}`
-  - `@dls-uploader-helper-text-spacing-media` → `@dls-uploader-helper-text-spacing-media-{s,m}`
+  - `@dls-uploader-helper-text-spacing-{file,media}` → `@dls-uploader-helper-text-spacing-{x,y}`
   - `@dls-uploader-helper-text-max-width-media` → `@dls-uploader-helper-text-max-width-media-{s,m}`
   - `@dls-uploader-file-item-label-spacing-before` → `@dls-uploader-file-item-label-spacing`
   - `@dls-uploader-file-item-label-spacing-after` → `@dls-uploader-file-item-action-spacing`
+  - `@dls-uploader-media-error-spacing` → `@dls-uploader-error-spacing`
   - Remove `@dls-uploader-file-item-height`
   - Add `dls-uploader-file-item-background-color-error` & `@dls-uploader-file-item-background-color-error-hover`
 
