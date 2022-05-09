@@ -7,20 +7,22 @@
 @dls-uploader-font-size-s: @dls-font-size-0;
 @dls-uploader-font-size-m: @dls-font-size-1;
 
-// file button spacing with helper text
-@dls-uploader-helper-text-spacing-file-s: @dls-padding-unit * 1;
-@dls-uploader-helper-text-spacing-file-m: @dls-padding-unit * 2;
-@dls-uploader-helper-text-spacing-media-s: @dls-padding-unit * 1;
-@dls-uploader-helper-text-spacing-media-m: @dls-padding-unit * 2;
+// helper text
+@dls-uploader-helper-text-spacing-x: @dls-padding-unit * 2;
+@dls-uploader-helper-text-spacing-y: @dls-padding-unit * 1;
 @dls-uploader-helper-text-font-color: @dls-foreground-color-neutral-weak;
 @dls-uploader-helper-text-max-width-media-s: @dls-height-unit * 40;
 @dls-uploader-helper-text-max-width-media-m: @dls-height-unit * 80;
+
+// error message spacing
+@dls-uploader-error-spacing: @dls-padding-unit * 1; // vertical spacing for inline error messages
 
 //file button margin with list
 @dls-uploader-file-item-spacing-y: @dls-padding-unit * 2;
 
 // file list item styles
 @dls-uploader-file-item-padding-x: @dls-padding-unit * 1;
+@dls-uploader-file-item-padding-y: @dls-padding-unit * 1;
 @dls-uploader-file-item-label-spacing: @dls-padding-unit * 1; // before label
 @dls-uploader-file-item-action-spacing: @dls-padding-unit * 2; // before action icons
 @dls-uploader-file-item-width: @dls-height-unit * 66;
@@ -46,8 +48,8 @@
 @dls-uploader-media-icon-color: @dls-foreground-color-neutral-weak;
 @dls-uploader-media-padding-x-m: @dls-padding-unit * 3;
 @dls-uploader-media-padding-x-s: @dls-padding-unit * 2;
-@dls-uploader-media-content-spacing-m: @dls-padding-unit * 3;
-@dls-uploader-media-content-spacing-s: @dls-padding-unit * 2;
+@dls-uploader-media-content-spacing-m: @dls-padding-unit * 1; // between icon and label/filename(error), uploading and progress
+@dls-uploader-media-content-spacing-s: @dls-padding-unit * 1;
 
 // See button for upload media button styles
 
@@ -66,8 +68,7 @@
 // See whole view styles in dialog styles
 
 @dls-uploader-media-spacing-x: @dls-padding-unit * 4;
-@dls-uploader-media-spacing-y: @dls-padding-unit * 6;
-@dls-uploader-media-error-spacing: @dls-padding-unit * 1;
+@dls-uploader-media-spacing-y: @dls-padding-unit * 4;
 
 // media preview
 @dls-uploader-media-preview-min-width: @dls-height-unit * 60;
