@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 8.0.1
+
+- Update field icon color.
+- Update radio/checkbox group spacing.
+
 ## 8.0.0
 
 - ⚠️ Upgrade tokens for uploader.
