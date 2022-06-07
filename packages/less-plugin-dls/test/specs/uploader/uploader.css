@@ -28,6 +28,7 @@ div {
   -dls-uploader-media-width-s: 80px;
   -dls-uploader-media-icon-size-m: 40px;
   -dls-uploader-media-icon-size-s: 24px;
+  -dls-uploader-media-label-color: #848b99;
   -dls-uploader-media-icon-color: #848b99;
   -dls-uploader-media-padding-x-m: 12px;
   -dls-uploader-media-padding-x-s: 8px;
@@ -41,8 +42,10 @@ div {
   -dls-uploader-media-entry-spacing: 24px;
   -dls-uploader-media-entry-content-spacing: 8px;
   -dls-uploader-media-entry-icon-size: calc(1em + 2px);
-  -dls-uploader-media-spacing-x: 16px;
-  -dls-uploader-media-spacing-y: 16px;
+  -dls-uploader-media-spacing-x-m: 16px;
+  -dls-uploader-media-spacing-x-s: 12px;
+  -dls-uploader-media-spacing-y-m: 16px;
+  -dls-uploader-media-spacing-y-s: 12px;
   -dls-uploader-media-preview-min-width: 240px;
   -dls-uploader-media-preview-max-width: 480px;
 }

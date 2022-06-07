@@ -1,5 +1,14 @@
 > ⚠️ - Breaking Changes
 
+## 9.0.0
+
+- ⚠️ Upgrade tokens for uploader media spacing.
+
+  - `@dls-uploader-media-spacing-x` → `@dls-uploader-media-spacing-x-{m,s}`
+  - `@dls-uploader-media-spacing-y` → `@dls-uploader-media-spacing-y-{m,s}`
+
+- Add `@dls-uploader-media-label-color`.
+
 ## 8.0.1
 
 - Update field icon color.
