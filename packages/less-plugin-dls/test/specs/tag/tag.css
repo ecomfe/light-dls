@@ -1,7 +1,7 @@
 div {
   -dls-tag-height-s: 24px;
   -dls-tag-height-m: 28px;
-  -dls-tag-border-radius-s: 2px;
+  -dls-tag-border-radius-s: 4px;
   -dls-tag-border-radius-m: 4px;
   -dls-tag-padding: 8px;
   -dls-tag-content-spacing: 8px;
@@ -9,12 +9,12 @@ div {
   -dls-tag-font-size-s: 12px;
   -dls-tag-font-size-m: 14px;
   -dls-tag-icon-size-aux: calc(1em - 2px);
-  -dls-tag-color: #545b66;
-  -dls-tag-color-selected: #0052cc;
-  -dls-tag-color-info: #0052cc;
-  -dls-tag-color-success: #00bf5c;
-  -dls-tag-color-warning: #ffa733;
-  -dls-tag-color-error: #cc1800;
+  -dls-tag-color: rgba(45, 52, 64, 0.8);
+  -dls-tag-color-selected: #0054e6;
+  -dls-tag-color-info: #0054e6;
+  -dls-tag-color-success: #009940;
+  -dls-tag-color-warning: #ff9448;
+  -dls-tag-color-error: #d9150b;
   -dls-tag-font-color-selected: #fff;
   -dls-tag-font-color-reverse: #fff;
   -dls-tag-color-turquoise: #4db2b2;

@@ -3,7 +3,7 @@ div {
   -dls-dialog-width-medium: 600px;
   -dls-dialog-width-narrow: 400px;
   -dls-dialog-width-contextual: 400px;
-  -dls-dialog-border-radius: 6px;
+  -dls-dialog-border-radius: 4px;
   -dls-dialog-spacing-y: 20px;
   -dls-dialog-max-height: calc(100vh - 40px);
   -dls-dialog-padding-x: 24px;
@@ -22,16 +22,16 @@ div {
   -dls-dialog-body-font-size-s: 12px;
   -dls-dialog-body-font-size-m: 14px;
   -dls-dialog-title-font-weight: 500;
-  -dls-dialog-title-font-color: #282c33;
-  -dls-dialog-body-font-color: #282c33;
+  -dls-dialog-title-font-color: rgba(19, 22, 26, 0.9);
+  -dls-dialog-body-font-color: rgba(19, 22, 26, 0.9);
   -dls-dialog-close-icon-size: calc(1em + 2px);
   -dls-dialog-close-icon-size-fullscreen: calc(1em + 2px);
   -dls-dialog-close-icon-min-size: 10px;
-  -dls-dialog-icon-color-info: #0052cc;
-  -dls-dialog-icon-color-success: #00bf5c;
-  -dls-dialog-icon-color-warning: #ffa733;
-  -dls-dialog-icon-color-error: #cc1800;
+  -dls-dialog-icon-color-info: #0054e6;
+  -dls-dialog-icon-color-success: #009940;
+  -dls-dialog-icon-color-warning: #ff9448;
+  -dls-dialog-icon-color-error: #d9150b;
   -dls-dialog-background-color: #fff;
   -dls-dialog-backdrop-color: rgba(0, 0, 0, 0.6);
-  -dls-dialog-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
+  -dls-dialog-shadow: 0 1px 8px rgba(0, 0, 0, 0.06), 0 7px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 16px 4px rgba(0, 0, 0, 0.04);
 }

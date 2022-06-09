@@ -13,10 +13,10 @@ div {
   -dls-carousel-indicator-background-color-outside: #ebedf5;
   -dls-carousel-indicator-background-color-outside-hover: #e2e6f0;
   -dls-carousel-indicator-background-color-outside-active: #d3d9e6;
-  -dls-carousel-indicator-background-color-outside-current: #0052cc;
+  -dls-carousel-indicator-background-color-outside-current: #0054e6;
   -dls-carousel-control-size: 32px;
   -dls-carousel-control-border-radius: 50%;
-  -dls-carousel-control-shadow: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+  -dls-carousel-control-shadow: 0 6px 28px 2px rgba(0, 0, 0, 0.04), 0 4px 26px 2px rgba(0, 0, 0, 0.03), 0 2px 24px 1px rgba(0, 0, 0, 0.02);
   -dls-carousel-control-icon-size: 16px;
   -dls-carousel-control-spacing-inside: 24px;
   -dls-carousel-control-spacing-outside: 16px;
@@ -25,6 +25,6 @@ div {
   -dls-carousel-pages-font-color: #fff;
   -dls-carousel-pages-background-color: rgba(0, 0, 0, 0.6);
   -dls-carousel-pages-padding-x: 4px;
-  -dls-carousel-pages-border-radius: 2px;
+  -dls-carousel-pages-border-radius: 4px;
   -dls-carousel-slide-gutter: 12px;
 }

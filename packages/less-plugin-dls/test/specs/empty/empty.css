@@ -6,12 +6,12 @@ div {
   -dls-empty-title-font-size-s: 12px;
   -dls-empty-title-font-size-m: 14px;
   -dls-empty-title-line-height: 1.4;
-  -dls-empty-title-font-color: #282c33;
+  -dls-empty-title-font-color: rgba(19, 22, 26, 0.9);
   -dls-empty-title-font-weight: 500;
   -dls-empty-desc-font-size-s: 12px;
   -dls-empty-desc-font-size-m: 14px;
   -dls-empty-desc-line-height: 1.4;
-  -dls-empty-desc-font-color: #545b66;
+  -dls-empty-desc-font-color: rgba(45, 52, 64, 0.8);
   -dls-empty-desc-font-weight: 400;
   -dls-empty-content-spacing: 8px;
   -dls-empty-actions-spacing-before: 16px;

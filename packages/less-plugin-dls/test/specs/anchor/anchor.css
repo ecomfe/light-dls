@@ -5,8 +5,8 @@ div {
   -dls-anchor-track-color: #e2e6f0;
   -dls-anchor-track-width: 1px;
   -dls-anchor-indicator-width: 2px;
-  -dls-anchor-indicator-color: #0052cc;
-  -dls-anchor-indicator-color-hover: #0066ff;
-  -dls-anchor-indicator-color-focus: #0066ff;
-  -dls-anchor-indicator-color-active: #0046ad;
+  -dls-anchor-indicator-color: #0054e6;
+  -dls-anchor-indicator-color-hover: #1a6eff;
+  -dls-anchor-indicator-color-focus: #1a6eff;
+  -dls-anchor-indicator-color-active: #0047c4;
 }

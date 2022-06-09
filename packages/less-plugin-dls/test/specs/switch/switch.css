@@ -11,11 +11,11 @@ div {
   -dls-switch-padding-xs: 2px;
   -dls-switch-padding-s: 2px;
   -dls-switch-padding-m: 3px;
-  -dls-switch-track-color-on: #0052cc;
-  -dls-switch-track-color-on-hover: #0066ff;
-  -dls-switch-track-color-on-focus: #0066ff;
-  -dls-switch-track-color-on-active: #0046ad;
-  -dls-switch-track-color-on-disabled: #dae9ff;
+  -dls-switch-track-color-on: #0054e6;
+  -dls-switch-track-color-on-hover: #1a6eff;
+  -dls-switch-track-color-on-focus: #1a6eff;
+  -dls-switch-track-color-on-active: #0047c4;
+  -dls-switch-track-color-on-disabled: #dce9ff;
   -dls-switch-track-color-off: #a8b0bf;
   -dls-switch-track-color-off-hover: #848b99;
   -dls-switch-track-color-off-focus: #848b99;
@@ -31,6 +31,6 @@ div {
   -dls-switch-thumb-color-off-focus: #fff;
   -dls-switch-thumb-color-off-active: #fff;
   -dls-switch-thumb-color-off-disabled: #fff;
-  -dls-switch-shadow-on-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
-  -dls-switch-shadow-off-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);
+  -dls-switch-shadow-on-focus: 0 0 0 2px rgba(26, 110, 255, 0.2);
+  -dls-switch-shadow-off-focus: 0 0 0 2px rgba(26, 110, 255, 0.2);
 }

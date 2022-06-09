@@ -3,7 +3,7 @@
  */
 
 /* Brand colors */
-@dls-color-brand: #0052cc;
+@dls-color-brand: #0054e6;
 @dls-color-brand-0: #fff;
 @dls-color-brand-1: dls-shade(@dls-color-brand, 1);
 @dls-color-brand-2: dls-shade(@dls-color-brand, 2);
@@ -18,7 +18,7 @@
 @dls-color-brand-11: #000;
 
 /* contextual colors */
-@dls-color-info: dls-contextual(@dls-color-brand, info);
+@dls-color-info: #0054e6;
 @dls-color-info-0: #fff;
 @dls-color-info-1: dls-shade(@dls-color-info, 1);
 @dls-color-info-2: dls-shade(@dls-color-info, 2);
@@ -32,7 +32,7 @@
 @dls-color-info-10: dls-shade(@dls-color-info, 10);
 @dls-color-info-11: #000;
 
-@dls-color-success: dls-contextual(@dls-color-brand, success);
+@dls-color-success: #009940;
 @dls-color-success-0: #fff;
 @dls-color-success-1: dls-shade(@dls-color-success, 1);
 @dls-color-success-2: dls-shade(@dls-color-success, 2);
@@ -46,7 +46,7 @@
 @dls-color-success-10: dls-shade(@dls-color-success, 10);
 @dls-color-success-11: #000;
 
-@dls-color-warning: dls-contextual(@dls-color-brand, warning);
+@dls-color-warning: #f27318;
 @dls-color-warning-0: #fff;
 @dls-color-warning-1: dls-shade(@dls-color-warning, 1);
 @dls-color-warning-2: dls-shade(@dls-color-warning, 2);
@@ -60,7 +60,7 @@
 @dls-color-warning-10: dls-shade(@dls-color-warning, 10);
 @dls-color-warning-11: #000;
 
-@dls-color-error: dls-contextual(@dls-color-brand, error);
+@dls-color-error: #d9150b;
 @dls-color-error-0: #fff;
 @dls-color-error-1: dls-shade(@dls-color-error, 1);
 @dls-color-error-2: dls-shade(@dls-color-error, 2);
@@ -88,12 +88,26 @@
 @dls-color-gray-10: #0a0b0d;
 @dls-color-gray-11: #000;
 
+@dls-color-translucent-0: transparent;
+@dls-color-translucent-1: fade(#3a55a6, 5%);
+@dls-color-translucent-2: fade(#3a57a6, 10%);
+@dls-color-translucent-3: fade(#365299, 15%);
+@dls-color-translucent-4: fade(#314c8c, 20%);
+@dls-color-translucent-5: fade(#3c5385, 30%);
+@dls-color-translucent-6: fade(#536280, 50%);
+@dls-color-translucent-7: fade(#505a6b, 80%);
+@dls-color-translucent-8: fade(#2d3440, 80%);
+@dls-color-translucent-9: fade(#13161a, 90%);
+@dls-color-translucent-10: fade(#040405, 95%);
+@dls-color-translucent-11: #000;
+
 /**
  * Typography
  */
 @dls-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
   sans-serif;
+@dls-font-family-number: "Baidu Number", sans-serif;
 
 @dls-font-size-0: 12px;
 @dls-font-size-1: 14px;
@@ -144,40 +158,40 @@
 @dls-foreground-color-primary-active: @dls-color-brand-8;
 @dls-foreground-color-primary-disabled: @dls-color-brand-4;
 
-@dls-foreground-color-neutral: @dls-color-gray-9;
-@dls-foreground-color-neutral-hover: @dls-color-gray-8;
-@dls-foreground-color-neutral-active: @dls-color-gray-11;
-@dls-foreground-color-neutral-disabled: @dls-color-gray-6;
+@dls-foreground-color-neutral: @dls-color-translucent-9;
+@dls-foreground-color-neutral-hover: @dls-color-translucent-8;
+@dls-foreground-color-neutral-active: @dls-color-translucent-11;
+@dls-foreground-color-neutral-disabled: @dls-color-translucent-6;
 
-@dls-foreground-color-neutral-strong: @dls-color-gray-11;
-@dls-foreground-color-neutral-strong-hover: @dls-color-gray-10;
-@dls-foreground-color-neutral-strong-active: @dls-color-gray-11;
-@dls-foreground-color-neutral-strong-disabled: @dls-color-gray-6;
+@dls-foreground-color-neutral-strong: @dls-color-translucent-11;
+@dls-foreground-color-neutral-strong-hover: @dls-color-translucent-10;
+@dls-foreground-color-neutral-strong-active: @dls-color-translucent-11;
+@dls-foreground-color-neutral-strong-disabled: @dls-color-translucent-6;
 
-@dls-foreground-color-neutral-light: @dls-color-gray-8;
-@dls-foreground-color-neutral-light-hover: @dls-color-gray-7;
-@dls-foreground-color-neutral-light-active: @dls-color-gray-9;
-@dls-foreground-color-neutral-light-disabled: @dls-color-gray-6;
+@dls-foreground-color-neutral-light: @dls-color-translucent-8;
+@dls-foreground-color-neutral-light-hover: @dls-color-translucent-7;
+@dls-foreground-color-neutral-light-active: @dls-color-translucent-9;
+@dls-foreground-color-neutral-light-disabled: @dls-color-translucent-6;
 
-@dls-foreground-color-neutral-weak: @dls-color-gray-7;
-@dls-foreground-color-neutral-weak-hover: @dls-color-gray-8;
-@dls-foreground-color-neutral-weak-active: @dls-color-gray-9;
-@dls-foreground-color-neutral-weak-disabled: @dls-color-gray-5;
+@dls-foreground-color-neutral-weak: @dls-color-translucent-7;
+@dls-foreground-color-neutral-weak-hover: @dls-color-translucent-8;
+@dls-foreground-color-neutral-weak-active: @dls-color-translucent-9;
+@dls-foreground-color-neutral-weak-disabled: @dls-color-translucent-5;
 
-@dls-foreground-color-neutral-dim: @dls-color-gray-6;
-@dls-foreground-color-neutral-dim-hover: @dls-color-gray-7;
-@dls-foreground-color-neutral-dim-active: @dls-color-gray-8;
-@dls-foreground-color-neutral-dim-disabled: @dls-color-gray-3;
+@dls-foreground-color-neutral-dim: @dls-color-translucent-6;
+@dls-foreground-color-neutral-dim-hover: @dls-color-translucent-7;
+@dls-foreground-color-neutral-dim-active: @dls-color-translucent-8;
+@dls-foreground-color-neutral-dim-disabled: @dls-color-translucent-3;
 
-@dls-foreground-color-neutral-subtle: @dls-color-gray-5;
-@dls-foreground-color-neutral-subtle-hover: @dls-color-gray-6;
-@dls-foreground-color-neutral-subtle-active: @dls-color-gray-7;
-@dls-foreground-color-neutral-subtle-disabled: @dls-color-gray-3;
+@dls-foreground-color-neutral-subtle: @dls-color-translucent-5;
+@dls-foreground-color-neutral-subtle-hover: @dls-color-translucent-6;
+@dls-foreground-color-neutral-subtle-active: @dls-color-translucent-7;
+@dls-foreground-color-neutral-subtle-disabled: @dls-color-translucent-3;
 
-@dls-foreground-color-neutral-highlightable: @dls-color-gray-9;
+@dls-foreground-color-neutral-highlightable: @dls-color-translucent-9;
 @dls-foreground-color-neutral-highlightable-hover: @dls-color-brand-6;
 @dls-foreground-color-neutral-highlightable-active: @dls-color-brand-8;
-@dls-foreground-color-neutral-highlightable-disabled: @dls-color-gray-6;
+@dls-foreground-color-neutral-highlightable-disabled: @dls-color-translucent-6;
 
 @dls-foreground-color-info-primary: @dls-color-info-7;
 @dls-foreground-color-info-primary-disabled: @dls-color-info-4;
@@ -371,17 +385,19 @@
 /* Shadows */
 @dls-shadow-color: @dls-color-gray-11;
 
-@dls-shadow-1: 0 4px 6px fade(@dls-shadow-color, 6%),
-  0 1px 10px fade(@dls-shadow-color, 5%),
-  0 2px 4px -1px fade(@dls-shadow-color, 1%);
-@dls-shadow-2: 0 8px 10px 1px fade(@dls-shadow-color, 6%),
-  0 3px 14px 2px fade(@dls-shadow-color, 5%),
-  0 5px 5px -3px fade(@dls-shadow-color, 1%);
-@dls-shadow-3: 0 16px 24px 2px fade(@dls-shadow-color, 6%),
-  0 6px 30px 5px fade(@dls-shadow-color, 5%),
-  0 8px 10px -5px fade(@dls-shadow-color, 1%);
+@dls-shadow-1: 0 4px 10px fade(@dls-shadow-color, 3%),
+  0 3px 9px fade(@dls-shadow-color, 2%), 0 2px 8px fade(@dls-shadow-color, 1%);
+@dls-shadow-2: 0 6px 28px 2px fade(@dls-shadow-color, 4%),
+  0 4px 26px 2px fade(@dls-shadow-color, 3%),
+  0 2px 24px 1px fade(@dls-shadow-color, 2%);
+@dls-shadow-3: 0 6px 32px 2px fade(@dls-shadow-color, 6%),
+  0 5px 30px 1px fade(@dls-shadow-color, 5%),
+  0 4px 28px 1px fade(@dls-shadow-color, 4%);
+@dls-shadow-4: 0 1px 8px fade(@dls-shadow-color, 6%),
+  0 7px 14px 2px fade(@dls-shadow-color, 5%),
+  0 8px 16px 4px fade(@dls-shadow-color, 4%);
 
-/* Light shadows */
+/* @deprecated Light shadows */
 @dls-shadow-color-light: @dls-color-gray-11;
 
 @dls-shadow-light-1: 0 4px 10px fade(@dls-shadow-color-light, 3%),
