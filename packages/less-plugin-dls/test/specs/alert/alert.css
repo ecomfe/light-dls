@@ -1,7 +1,7 @@
 div {
   -dls-alert-font-size-s: 12px;
   -dls-alert-font-size-m: 14px;
-  -dls-alert-border-radius-s: 2px;
+  -dls-alert-border-radius-s: 4px;
   -dls-alert-border-radius-m: 4px;
   -dls-alert-line-height: 1.6;
   -dls-alert-icon-size: calc(1em + 2px);
@@ -18,20 +18,20 @@ div {
   -dls-alert-title-font-weight: 500;
   -dls-alert-title-line-height: 1.4;
   -dls-alert-title-spacing-after: 4px;
-  -dls-alert-font-color: #282c33;
-  -dls-alert-title-font-color: #282c33;
-  -dls-alert-background-color-info: #ebf3ff;
-  -dls-alert-background-color-success: #ebfff4;
-  -dls-alert-background-color-warning: #fff6eb;
-  -dls-alert-background-color-error: #ffedeb;
+  -dls-alert-font-color: rgba(19, 22, 26, 0.9);
+  -dls-alert-title-font-color: rgba(19, 22, 26, 0.9);
+  -dls-alert-background-color-info: #ebf2ff;
+  -dls-alert-background-color-success: #ebfff3;
+  -dls-alert-background-color-warning: #fff3eb;
+  -dls-alert-background-color-error: #ffeceb;
   -dls-alert-border-color-info: transparent;
   -dls-alert-border-color-success: transparent;
   -dls-alert-border-color-warning: transparent;
   -dls-alert-border-color-error: transparent;
-  -dls-alert-icon-color-info: #0052cc;
-  -dls-alert-icon-color-success: #00bf5c;
-  -dls-alert-icon-color-warning: #ffa733;
-  -dls-alert-icon-color-error: #cc1800;
+  -dls-alert-icon-color-info: #0054e6;
+  -dls-alert-icon-color-success: #009940;
+  -dls-alert-icon-color-warning: #ff9448;
+  -dls-alert-icon-color-error: #d9150b;
   -dls-alert-pages-spacing: 4px;
-  -dls-alert-pages-font-color: #848b99;
+  -dls-alert-pages-font-color: rgba(80, 90, 107, 0.8);
 }

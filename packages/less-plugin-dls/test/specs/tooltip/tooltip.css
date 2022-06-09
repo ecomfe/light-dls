@@ -7,10 +7,10 @@ div {
   -dls-tooltip-target-spacing: 4px;
   -dls-tooltip-arrow-width: 8px;
   -dls-tooltip-arrow-spacing: 8px;
-  -dls-tooltip-border-radius: 2px;
-  -dls-tooltip-font-color-normal: #282c33;
+  -dls-tooltip-border-radius: 4px;
+  -dls-tooltip-font-color-normal: rgba(19, 22, 26, 0.9);
   -dls-tooltip-background-color-normal: #fff;
-  -dls-tooltip-shadow-normal: 0 4px 6px rgba(0, 0, 0, 0.06), 0 1px 10px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+  -dls-tooltip-shadow-normal: 0 1px 8px rgba(0, 0, 0, 0.06), 0 7px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 16px 4px rgba(0, 0, 0, 0.04);
   -dls-tooltip-font-color-reverse: #fff;
   -dls-tooltip-background-color-reverse: rgba(0, 0, 0, 0.6);
   -dls-tooltip-shadow-reverse: none;

@@ -9,11 +9,11 @@ div {
   -dls-loading-content-spacing-s: 4px;
   -dls-loading-content-spacing-m: 4px;
   -dls-loading-content-spacing-l: 8px;
-  -dls-loading-font-color-normal: #282c33;
-  -dls-loading-font-color-strong: #282c33;
+  -dls-loading-font-color-normal: rgba(19, 22, 26, 0.9);
+  -dls-loading-font-color-strong: rgba(19, 22, 26, 0.9);
   -dls-loading-font-color-reverse: #fff;
-  -dls-loading-color-normal: #848b99;
-  -dls-loading-color-strong: #0052cc;
+  -dls-loading-color-normal: rgba(80, 90, 107, 0.8);
+  -dls-loading-color-strong: #0054e6;
   -dls-loading-color-reverse: #fff;
   -dls-loading-background-color: rgba(255, 255, 255, 0.8);
   -dls-loading-background-color-reverse: rgba(0, 0, 0, 0.6);

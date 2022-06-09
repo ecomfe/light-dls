@@ -11,7 +11,7 @@ div {
   -dls-progress-font-size-circular-xs: 12px;
   -dls-progress-font-size-circular-s: 14px;
   -dls-progress-font-size-circular-m: 16px;
-  -dls-progress-font-color: #545b66;
+  -dls-progress-font-color: rgba(45, 52, 64, 0.8);
   -dls-progress-icon-size-bar: calc(1em + 2px);
   -dls-progress-icon-size-circular-xs: 16px;
   -dls-progress-icon-size-circular-s: 24px;
@@ -25,9 +25,9 @@ div {
   -dls-progress-track-spacing-bar: 8px;
   -dls-progress-icon-spacing-bar: 8px;
   -dls-progress-track-color: #d3d9e6;
-  -dls-progress-indicator-color: #0052cc;
-  -dls-progress-indicator-color-success: #00bf5c;
-  -dls-progress-indicator-color-error: #cc1800;
-  -dls-progress-icon-color-success: #00bf5c;
-  -dls-progress-icon-color-error: #cc1800;
+  -dls-progress-indicator-color: #0054e6;
+  -dls-progress-indicator-color-success: #009940;
+  -dls-progress-indicator-color-error: #d9150b;
+  -dls-progress-icon-color-success: #009940;
+  -dls-progress-icon-color-error: #d9150b;
 }

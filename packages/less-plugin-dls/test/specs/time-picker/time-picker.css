@@ -2,6 +2,6 @@ div {
   -dls-time-picker-width: 150px;
   -dls-time-picker-dropdown-min-width: 150px;
   -dls-time-picker-option-content-min-width: 2ch;
-  -dls-time-picker-icon-color: #848b99;
-  -dls-time-picker-icon-color-disabled: #a8b0bf;
+  -dls-time-picker-icon-color: rgba(80, 90, 107, 0.8);
+  -dls-time-picker-icon-color-disabled: rgba(83, 98, 128, 0.5);
 }

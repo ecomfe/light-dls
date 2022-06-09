@@ -16,6 +16,6 @@ div {
   -dls-number-input-width-strong-xs: calc(6ch + 72px);
   -dls-number-input-width-strong-s: calc(6ch + 80px);
   -dls-number-input-width-strong-m: calc(6ch + 88px);
-  -dls-number-input-spin-icon-color: #848b99;
-  -dls-number-input-spin-icon-color-disabled: #c5ccdb;
+  -dls-number-input-spin-icon-color: rgba(80, 90, 107, 0.8);
+  -dls-number-input-spin-icon-color-disabled: rgba(60, 83, 133, 0.3);
 }

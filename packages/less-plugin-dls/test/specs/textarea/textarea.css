@@ -14,6 +14,6 @@ div {
   -dls-textarea-count-font-color: #fff;
   -dls-textarea-count-font-color-error: #fff;
   -dls-textarea-count-background-color: rgba(0, 0, 0, 0.6);
-  -dls-textarea-count-background-color-error: rgba(204, 24, 0, 0.6);
-  -dls-textarea-count-border-radius: 2px;
+  -dls-textarea-count-background-color-error: rgba(217, 21, 11, 0.6);
+  -dls-textarea-count-border-radius: 4px;
 }

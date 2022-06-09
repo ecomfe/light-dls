@@ -5,14 +5,14 @@ div {
   -dls-link-text-decoration-hover: none;
   -dls-link-text-decoration-focus: underline;
   -dls-link-text-decoration-active: none;
-  -dls-link-font-color-normal: #282c33;
-  -dls-link-font-color-normal-hover: #545b66;
-  -dls-link-font-color-normal-focus: #545b66;
+  -dls-link-font-color-normal: rgba(19, 22, 26, 0.9);
+  -dls-link-font-color-normal-hover: rgba(45, 52, 64, 0.8);
+  -dls-link-font-color-normal-focus: rgba(45, 52, 64, 0.8);
   -dls-link-font-color-normal-active: #000;
-  -dls-link-font-color-normal-disabled: #a8b0bf;
-  -dls-link-font-color-strong: #0052cc;
-  -dls-link-font-color-strong-hover: #0066ff;
-  -dls-link-font-color-strong-focus: #0066ff;
-  -dls-link-font-color-strong-active: #0046ad;
-  -dls-link-font-color-strong-disabled: #8bbaff;
+  -dls-link-font-color-normal-disabled: rgba(83, 98, 128, 0.5);
+  -dls-link-font-color-strong: #0054e6;
+  -dls-link-font-color-strong-hover: #1a6eff;
+  -dls-link-font-color-strong-focus: #1a6eff;
+  -dls-link-font-color-strong-active: #0047c4;
+  -dls-link-font-color-strong-disabled: #95bcff;
 }
