@@ -4,7 +4,7 @@ const SELF_MODULE_PATH = path.resolve(__dirname, '..')
 const ENTRY_LESS = path.resolve(__dirname, '../tokens/index.less')
 
 class Injector {
-  process (src, extra) {
+  process(src, extra) {
     // Don't inject self
     if (
       extra.fileInfo.filename !== 'input' &&
@@ -32,7 +32,7 @@ class Injector {
   }
 }
 
-export default function inject (_, pluginManager) {
+export default function inject(_, pluginManager) {
   const { inject = true } = this.options || {}
 
   if (inject) {

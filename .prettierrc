@@ -1,5 +1,6 @@
 {
-  "singleQuote": false,
+  "singleQuote": true,
+  "semi": false,
   "overrides": [
     {
       "files": ".*rc",
@@ -7,7 +8,7 @@
     },
     {
       "files": "*.less",
-      "options": { "parser": "less" }
+      "options": { "parser": "less", "singleQuote": false }
     },
     {
       "files": "*.svg",

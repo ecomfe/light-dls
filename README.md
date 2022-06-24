@@ -8,7 +8,6 @@ Packages included:
 
 * [`less-plugin-dls`](./packages/less-plugin-dls)
 * [`dls-color-palette`](./packages/dls-color-palette)
-* [`dls-graphics`](./packages/dls-graphics)
 
 ## License
 

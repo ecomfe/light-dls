@@ -5,7 +5,7 @@ import { VariablesOutputVisitor } from './visitors'
 
 const SELECTOR = 'DLS_VARS'
 
-export async function getVariables (path) {
+export async function getVariables(path) {
   const visitor = new VariablesOutputVisitor()
 
   await less.render(fs.readFileSync(path, 'utf-8'), {
@@ -14,7 +14,7 @@ export async function getVariables (path) {
         inject: false
       }),
       {
-        install (_, pluginManager) {
+        install(_, pluginManager) {
           pluginManager.addVisitor(visitor)
         }
       }
@@ -25,7 +25,7 @@ export async function getVariables (path) {
   return visitor.variables.map((v) => v.slice(1))
 }
 
-export async function getTuples (variables) {
+export async function getTuples(variables) {
   const src = [
     `${SELECTOR}{`,
     variables.map((v) => `${v}: @${v}`).join(';'),

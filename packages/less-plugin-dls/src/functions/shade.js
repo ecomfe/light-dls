@@ -10,7 +10,7 @@ const getColorValue = memoize(
   (hex, level) => `${hex}#${level}`
 )
 
-export default function install (less, _, functions) {
+export default function install(less, _, functions) {
   functions.add('dls-shade', (base = {}, level = {}) => {
     if (!isNumber(level.value) || level.value < 1 || level.value > 10) {
       throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')

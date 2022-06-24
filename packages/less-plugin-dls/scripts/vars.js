@@ -4,7 +4,7 @@ import camelCase from 'lodash.camelcase'
 import { parse } from 'postcss-values-parser'
 import { getVariables, getTuples } from '../lib/utils/evaluate'
 
-async function generate () {
+async function generate() {
   try {
     const allVariables = await getVariables('./tokens/index.less')
     const globalVariables = await getVariables('./tokens/global.less')
@@ -72,13 +72,13 @@ const TOKEN_TYPES = {
 
 const TOKEN_TYPE_KEYS = Object.keys(TOKEN_TYPES)
 
-function getTypeByName (name) {
+function getTypeByName(name) {
   const key = TOKEN_TYPE_KEYS.find((key) => name.includes(key))
   return key ? TOKEN_TYPES[key] || null : null
 }
 
 // https://code.visualstudio.com/api/references/vscode-api#CompletionItemKind
-function getTypeByValue (value) {
+function getTypeByValue(value) {
   if (['inherit', 'initial', 'unset', 'revert'].includes(value)) {
     return 'keyword'
   }

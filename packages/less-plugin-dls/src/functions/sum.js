@@ -1,4 +1,4 @@
-export default function install (less, _, functions) {
+export default function install(less, _, functions) {
   functions.add('dls-sum', (...values) => {
     const valueDic = values.reduce((acc, value) => {
       if (value.calc) {
@@ -60,7 +60,7 @@ export default function install (less, _, functions) {
     )
   })
 
-  function sumExp (operands) {
+  function sumExp(operands) {
     if (operands.length < 2) {
       return operands
     }

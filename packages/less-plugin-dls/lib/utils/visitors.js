@@ -1,11 +1,11 @@
 import less from 'less'
 
 export class VariablesOutputVisitor {
-  constructor () {
+  constructor() {
     this.native = new less.visitors.Visitor(this)
   }
 
-  run (root) {
+  run(root) {
     // `-dls` prefixed variables are private
     this.variables = Object.keys(root.variables()).filter(
       (v) => v.charAt(1) !== '-'

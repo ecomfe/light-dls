@@ -13,7 +13,7 @@ const access = promisify(fs.access)
 const COMPONENTS_DIR = resolve(__dirname, '../../../tokens/components')
 const IGNORE_FILE = '.dlsignore'
 
-export default async function check ({ dir, exclude, components, output }) {
+export default async function check({ dir, exclude, components, output }) {
   const ignoreFile = resolve(await pkgDir(), IGNORE_FILE)
   const ignoreVars = new Set()
 
@@ -55,7 +55,7 @@ export default async function check ({ dir, exclude, components, output }) {
     return acc
   }, new Map())
 
-  async function processFile (file) {
+  async function processFile(file) {
     try {
       const content = await readFile(file, 'utf8')
 
@@ -73,7 +73,7 @@ export default async function check ({ dir, exclude, components, output }) {
     }
   }
 
-  function isToCheck (key) {
+  function isToCheck(key) {
     return (
       componentNames === null ||
       componentNames.some((name) => key.indexOf(`@dls-${name}-`) === 0)
@@ -121,7 +121,7 @@ export default async function check ({ dir, exclude, components, output }) {
   }
 }
 
-function validateComponentNames (input, all) {
+function validateComponentNames(input, all) {
   return input.every((name) => {
     if (!all.includes(name)) {
       console.warn(`[${name}] is not a valid component name.`)

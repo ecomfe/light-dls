@@ -11,14 +11,14 @@ const B_CLAMP_S_DEVIATION_RATIO = 0.2
 const LOW_S_DEVIATION_RATIO = 0.4
 const S_COEF = 3.2
 
-function clamp (value, min, max) {
+function clamp(value, min, max) {
   if (min > max) {
-    [min, max] = [max, min]
+    ;[min, max] = [max, min]
   }
   return Math.min(max, Math.max(min, value))
 }
 
-function getBrightness (base, level) {
+function getBrightness(base, level) {
   if (level === BASE_LEVEL) {
     return base
   }
@@ -40,7 +40,7 @@ function getBrightness (base, level) {
   return base + (BASE_LEVEL - level) * LIGHT_B_STEP
 }
 
-function getSatuation (base, level) {
+function getSatuation(base, level) {
   if (level === BASE_LEVEL) {
     return base
   }
@@ -65,7 +65,7 @@ function getSatuation (base, level) {
   return portion * base
 }
 
-export default function getShade (color, level) {
+export default function getShade(color, level) {
   if (!isNumber(level) || level < 1 || level > 10) {
     throw new Error('`level` should be a number that ≥ 1 and ≤ 10.')
   }

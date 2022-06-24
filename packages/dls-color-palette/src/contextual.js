@@ -17,11 +17,11 @@ const CONTEXTUAL_COLORS = {
   error: [7, 100, 80]
 }
 
-function isInContextualRanges (h, type) {
+function isInContextualRanges(h, type) {
   return isInRanges(h, CONTEXTUAL_RANGES[type])
 }
 
-export default function getContextual (color, type) {
+export default function getContextual(color, type) {
   if (
     !type ||
     ['info', 'success', 'warning', 'error'].indexOf(

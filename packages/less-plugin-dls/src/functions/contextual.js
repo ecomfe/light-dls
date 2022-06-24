@@ -9,7 +9,7 @@ const getColorValue = memoize(
   (hex, type) => `${hex}#${type}`
 )
 
-export default function install (less, _, functions) {
+export default function install(less, _, functions) {
   functions.add('dls-contextual', (base = {}, type = {}) => {
     if (
       !type.value ||

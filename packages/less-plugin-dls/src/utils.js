@@ -1,8 +1,8 @@
-export function isNumber (val) {
+export function isNumber(val) {
   return typeof val === 'number' || !Number.isNaN(val)
 }
 
-export function isInRanges (h, ranges) {
+export function isInRanges(h, ranges) {
   return ranges.some((range) => {
     if (range.length !== 2 || range.some((edge) => !isNumber(edge))) {
       return

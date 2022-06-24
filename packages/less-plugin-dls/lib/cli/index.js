@@ -5,7 +5,7 @@ import check from './commands/check'
 const DEFAULT_DIR = '.'
 const DEFAULT_EXCLUDE = 'node_modules,test'
 
-export function cli (args) {
+export function cli(args) {
   try {
     const options = parseArgs(args)
 
@@ -21,7 +21,7 @@ export function cli (args) {
   }
 }
 
-function parseArgs (rawArgs) {
+function parseArgs(rawArgs) {
   const args = arg(
     {
       '--dir': String,

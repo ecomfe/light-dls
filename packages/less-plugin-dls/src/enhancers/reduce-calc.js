@@ -3,7 +3,7 @@ import memoize from 'lodash.memoize'
 
 const reduceMemo = memoize(reduce)
 
-export default function install (less) {
+export default function install(less) {
   const { reduceCalc = true } = this.options || {}
 
   if (reduceCalc) {

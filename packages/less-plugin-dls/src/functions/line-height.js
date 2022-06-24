@@ -1,4 +1,4 @@
-export default function install (less, _, functions) {
+export default function install(less, _, functions) {
   functions.add('dls-line-height', (lineHeight, fontSize) => {
     if (lineHeight.unit) {
       const unit = lineHeight.unit.numerator[0] || ''
