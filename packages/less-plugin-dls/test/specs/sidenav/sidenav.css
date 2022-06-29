@@ -12,8 +12,8 @@ div {
   -dls-sidenav-item-font-size: 14px;
   -dls-sidenav-item-group-font-weight: 500;
   -dls-sidenav-item-font-color: #282c33;
-  -dls-sidenav-item-font-color-hover: dls-foreground-color-neutral-hover;
-  -dls-sidenav-item-font-color-focus: dls-foreground-color-neutral-hover;
+  -dls-sidenav-item-font-color-hover: #545b66;
+  -dls-sidenav-item-font-color-focus: #545b66;
   -dls-sidenav-item-font-color-active: #000;
   -dls-sidenav-item-font-color-disabled: #a8b0bf;
   -dls-sidenav-item-font-color-current: #0052cc;

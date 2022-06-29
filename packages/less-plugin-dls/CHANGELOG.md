@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 9.0.1
+
+- Fix `@dls-sidenav-item-font-color-hover`.
+
 ## 9.0.0
 
 - ⚠️ Upgrade tokens for uploader media spacing.
