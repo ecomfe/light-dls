@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 9.1.0
+
+- Add tokens for empty state component.
+
 ## 9.0.1
 
 - Fix `@dls-sidenav-item-font-color-hover`.
