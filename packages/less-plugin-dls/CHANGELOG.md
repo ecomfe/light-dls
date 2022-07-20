@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 9.1.1
+
+- Add `@dls-empty-{title,desc}-font-weight`.
+
 ## 9.1.0
 
 - Add tokens for empty state component.
