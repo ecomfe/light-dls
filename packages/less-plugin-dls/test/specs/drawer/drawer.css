@@ -6,6 +6,6 @@ div {
   -dls-drawer-shadow-bottom: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
   -dls-drawer-shadow-left: 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.01);
   -dls-drawer-title-font-size-s: 16px;
-  -dls-drawer-title-font-size-m: 20px;
+  -dls-drawer-title-font-size-m: 18px;
   -dls-drawer-close-icon-size: calc(1em + 2px);
 }
