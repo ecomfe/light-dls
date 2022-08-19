@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 9.2.0
+
+- Add `@dls-font-size-6` and adjust other font-sizes.
+- Adjust line-heights for alert, popover, tooltip and collapse.
+
 ## 9.1.1
 
 - Add `@dls-empty-{title,desc}-font-weight`.
