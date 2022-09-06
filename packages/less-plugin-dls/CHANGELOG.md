@@ -1,5 +1,14 @@
 > ⚠️ - Breaking Changes
 
+## 10.0.0
+
+- ⚠️ Upgrade tokens for progress circle sizes.
+
+  - `@dls-progress-size-circular` → `@dls-progress-size-circular-{m,s,xs}`
+  - `@dls-progress-icon-size-circular` → `@dls-progress-icon-size-circular-{m,s,xs}`
+
+- Add `*-xs` tokens for progress component.
+
 ## 9.2.0
 
 - Add `@dls-font-size-6` and adjust other font-sizes.

@@ -1,15 +1,25 @@
 div {
+  -dls-progress-width-bar-xs: 160px;
   -dls-progress-width-bar-s: 200px;
   -dls-progress-width-bar-m: 300px;
-  -dls-progress-size-circular: 108px;
+  -dls-progress-size-circular-xs: 60px;
+  -dls-progress-size-circular-s: 80px;
+  -dls-progress-size-circular-m: 100px;
+  -dls-progress-font-size-xs: 12px;
   -dls-progress-font-size-s: 12px;
   -dls-progress-font-size-m: 14px;
-  -dls-progress-font-size-circular: 16px;
+  -dls-progress-font-size-circular-xs: 12px;
+  -dls-progress-font-size-circular-s: 14px;
+  -dls-progress-font-size-circular-m: 16px;
   -dls-progress-font-color: #545b66;
   -dls-progress-icon-size-bar: calc(1em + 2px);
-  -dls-progress-icon-size-circular: 32px;
+  -dls-progress-icon-size-circular-xs: 16px;
+  -dls-progress-icon-size-circular-s: 24px;
+  -dls-progress-icon-size-circular-m: 32px;
+  -dls-progress-track-width-xs: 2px;
   -dls-progress-track-width-s: 4px;
   -dls-progress-track-width-m: 6px;
+  -dls-progress-border-radius-xs: 1px;
   -dls-progress-border-radius-s: 2px;
   -dls-progress-border-radius-m: 3px;
   -dls-progress-track-spacing-bar: 8px;
