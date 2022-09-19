@@ -1,5 +1,17 @@
 > ⚠️ - Breaking Changes
 
+## 11.0.0
+
+- ⚠️ Upgrade tokens for steps.
+
+  - `@dls-steps-{title,desc}-max-width-horizontal` → `@dls-steps-{title,desc}-max-width`
+  - `@dls-steps-marker-shadow-{completed,error,current,error-current}-focus` → `@dls-steps-marker-shadow{,-error}-focus`
+  - `@dls-steps-marker-border-color-{current,error-current}-focus` → `@dls-steps-marker-border-color{,-error}-focus`
+
+- Add `@dls-steps-marker-background-color-incomplete-{hover,focus,active}`.
+- Add `@dls-steps-marker-background-color-dot-{incomplete,complete,error,current,error-current}{,-hover,-focus,-active}`.
+- Add `@dls-steps-marker-border-color-dot-{incomplete,complete,error,current,error-current}`.
+
 ## 10.0.0
 
 - ⚠️ Upgrade tokens for progress circle sizes.
