@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.1.0
+
+- Add step marker sizes for dot style.
+
 ## 11.0.0
 
 - ⚠️ Upgrade tokens for steps.
