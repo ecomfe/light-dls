@@ -1,8 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 0.1.0
+
+- feat: update minimal satuation when generating shades.
+
 ## 0.0.1-alpha.3
 
-- fix⚠️: shade hue accuray loss. Delete Math.round(hue) when normalizeHsv
+- ⚠️ fix: shade hue accuray loss. Delete Math.round(hue) when normalizeHsv
 
 ## 0.0.1-alpha.2
 

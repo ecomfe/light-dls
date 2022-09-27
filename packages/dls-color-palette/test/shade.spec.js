@@ -6,11 +6,11 @@ import { getShade } from '../src/index'
 
 test('getShades', () => {
   const brandColor = '#0052cc'
-  expect(getShade(brandColor, 1)).toBe('#f2f7ff')
-  expect(getShade(brandColor, 2)).toBe('#e1edff')
-  expect(getShade(brandColor, 3)).toBe('#c0d9ff')
-  expect(getShade(brandColor, 4)).toBe('#8fbcff')
-  expect(getShade(brandColor, 5)).toBe('#4f96ff')
+  expect(getShade(brandColor, 1)).toBe('#ebf3ff')
+  expect(getShade(brandColor, 2)).toBe('#dae9ff')
+  expect(getShade(brandColor, 3)).toBe('#bad6ff')
+  expect(getShade(brandColor, 4)).toBe('#8bbaff')
+  expect(getShade(brandColor, 5)).toBe('#4d95ff')
   expect(getShade(brandColor, 6)).toBe('#0066ff')
   expect(getShade(brandColor, 7)).toBe('#0052cc')
   expect(getShade(brandColor, 8)).toBe('#0046ad')
@@ -19,11 +19,11 @@ test('getShades', () => {
 })
 
 test('getShade: level=7 equals to brandColor', () => {
-  const brandColor = '#BD8552'
+  const brandColor = '#bd8552'
   expect(getShade(brandColor, 7)).toBe(brandColor)
 })
 
 test('getShade: works when Math.round(levelColorHue) ≈ 360', () => {
-  const brandColor = '#F13F40'
-  expect(getShade(brandColor, 1)).toBe('#fff2f2')
+  const brandColor = '#f13f40'
+  expect(getShade(brandColor, 1)).toBe('#ffebeb')
 })
