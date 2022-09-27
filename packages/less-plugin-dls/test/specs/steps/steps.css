@@ -19,7 +19,7 @@ div {
   -dls-steps-marker-size-dot-m: 10px;
   -dls-steps-marker-ring-width-dot-s: 2px;
   -dls-steps-marker-ring-width-dot-m: 2px;
-  -dls-steps-marker-icon-size: calc(1em + 2px);
+  -dls-steps-marker-icon-size: 14px;
   -dls-steps-title-max-width: 10em;
   -dls-steps-desc-max-width: 12em;
   -dls-steps-marker-spacing: 8px;
@@ -87,6 +87,12 @@ div {
   -dls-steps-marker-border-color-dot-error-current: transparent;
   -dls-steps-marker-foreground-color-error-current: #fff;
   -dls-steps-connector-color-error-current: #cc1800;
+  -dls-steps-marker-background-color-stateless: #f2f7ff;
+  -dls-steps-marker-border-color-stateless: transparent;
+  -dls-steps-marker-background-color-dot-stateless: #f2f7ff;
+  -dls-steps-marker-border-color-dot-stateless: transparent;
+  -dls-steps-marker-foreground-color-stateless: #0052cc;
+  -dls-steps-connector-color-stateless: #d3d9e6;
   -dls-steps-marker-border-color-focus: #0052cc;
   -dls-steps-marker-border-color-error-focus: #cc1800;
   -dls-steps-marker-shadow-focus: 0 0 0 2px rgba(0, 102, 255, 0.2);

@@ -26,7 +26,7 @@
 @dls-steps-marker-size-dot-m: @dls-height-unit * 2.5;
 @dls-steps-marker-ring-width-dot-s: @dls-height-unit * 0.5;
 @dls-steps-marker-ring-width-dot-m: @dls-height-unit * 0.5;
-@dls-steps-marker-icon-size: @dls-icon-size-aux;
+@dls-steps-marker-icon-size: @dls-height-unit * 3.5;
 
 /* Metrics */
 @dls-steps-title-max-width: 10em;
@@ -120,6 +120,16 @@
 
 @dls-steps-marker-foreground-color-error-current: @dls-foreground-color-reverse;
 @dls-steps-connector-color-error-current: @dls-border-color-error-strong;
+
+// Stateless
+@dls-steps-marker-background-color-stateless: @dls-background-color-info;
+@dls-steps-marker-border-color-stateless: transparent;
+
+@dls-steps-marker-background-color-dot-stateless: @dls-background-color-info;
+@dls-steps-marker-border-color-dot-stateless: transparent;
+
+@dls-steps-marker-foreground-color-stateless: @dls-foreground-color-info-primary;
+@dls-steps-connector-color-stateless: @dls-line-color-2;
 
 // Focus ring
 @dls-steps-marker-border-color-focus: @dls-border-color-focus;

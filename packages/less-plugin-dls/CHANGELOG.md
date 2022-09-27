@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.2.0
+
+- Add tokens for stateless steps.
+
 ## 11.1.0
 
 - Add step marker sizes for dot style.
