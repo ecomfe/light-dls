@@ -20,9 +20,9 @@ div {
   -dls-tree-node-background-color-hover: #f6f7fa;
   -dls-tree-node-background-color-focus: #f6f7fa;
   -dls-tree-node-background-color-active: #e2e6f0;
-  -dls-tree-node-background-color-selected: #f2f7ff;
-  -dls-tree-node-background-color-selected-hover: #e1edff;
-  -dls-tree-node-background-color-selected-focus: #e1edff;
-  -dls-tree-node-background-color-selected-active: #c0d9ff;
+  -dls-tree-node-background-color-selected: #ebf3ff;
+  -dls-tree-node-background-color-selected-hover: #dae9ff;
+  -dls-tree-node-background-color-selected-focus: #dae9ff;
+  -dls-tree-node-background-color-selected-active: #bad6ff;
   -dls-tree-node-font-weight-selected: 400;
 }

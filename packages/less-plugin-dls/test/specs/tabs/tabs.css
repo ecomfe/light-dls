@@ -51,7 +51,7 @@ div {
   -dls-tab-font-color-current-hover: #0066ff;
   -dls-tab-font-color-current-focus: #0066ff;
   -dls-tab-font-color-current-active: #0046ad;
-  -dls-tab-background-color-focus: #e1edff;
+  -dls-tab-background-color-focus: #dae9ff;
   -dls-tab-font-weight-current: 400;
   -dls-tab-container-separator-color: #d3d9e6;
   -dls-tab-container-border-width: 1px;
@@ -73,7 +73,7 @@ div {
   -dls-tab-menu-background-color-strong: #ebedf5;
   -dls-tab-background-color-strong: transparent;
   -dls-tab-background-color-strong-hover: #f6f7fa;
-  -dls-tab-background-color-strong-focus: #e1edff;
+  -dls-tab-background-color-strong-focus: #dae9ff;
   -dls-tab-background-color-strong-active: #e2e6f0;
   -dls-tab-background-color-strong-disabled: transparent;
   -dls-tab-background-color-strong-current: #fff;
