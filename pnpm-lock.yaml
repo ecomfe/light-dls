@@ -65,7 +65,7 @@ importers:
       chalk: ^4.1.2
       color-converters: ^0.1.1
       diff: ^4.0.1
-      dls-color-palette: 0.0.1-alpha.3
+      dls-color-palette: ^0.1.0
       esm: ^3.2.25
       fast-glob: ^3.0.4
       less: ^3.13.0

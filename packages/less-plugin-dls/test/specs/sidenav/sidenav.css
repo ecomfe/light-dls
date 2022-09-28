@@ -28,13 +28,13 @@ div {
   -dls-sidenav-item-icon-color-aux-current: currentColor;
   -dls-sidenav-item-background-color: #fff;
   -dls-sidenav-item-background-color-hover: #f6f7fa;
-  -dls-sidenav-item-background-color-focus: #e1edff;
+  -dls-sidenav-item-background-color-focus: #dae9ff;
   -dls-sidenav-item-background-color-active: #e2e6f0;
   -dls-sidenav-item-background-color-disabled: #fff;
-  -dls-sidenav-item-background-color-current: #f2f7ff;
-  -dls-sidenav-item-background-color-current-hover: #e1edff;
-  -dls-sidenav-item-background-color-current-focus: #e1edff;
-  -dls-sidenav-item-background-color-current-active: #c0d9ff;
+  -dls-sidenav-item-background-color-current: #ebf3ff;
+  -dls-sidenav-item-background-color-current-hover: #dae9ff;
+  -dls-sidenav-item-background-color-current-focus: #dae9ff;
+  -dls-sidenav-item-background-color-current-active: #bad6ff;
   -dls-sidenav-item-border-radius: 6px;
   -dls-sidenav-width: 200px;
   -dls-sidenav-width-collapsed: 60px;

@@ -56,9 +56,9 @@ div {
   -dls-date-picker-cell-background-color-aux-hover: #f6f7fa;
   -dls-date-picker-cell-background-color-aux-focus: #f6f7fa;
   -dls-date-picker-cell-background-color-aux-active: #e2e6f0;
-  -dls-date-picker-cell-background-color-range-end-hover: #e1edff;
-  -dls-date-picker-cell-background-color-range-end-active: #c0d9ff;
-  -dls-date-picker-cell-background-color-range-end-focus: #e1edff;
+  -dls-date-picker-cell-background-color-range-end-hover: #dae9ff;
+  -dls-date-picker-cell-background-color-range-end-active: #bad6ff;
+  -dls-date-picker-cell-background-color-range-end-focus: #dae9ff;
   -dls-date-picker-cell-border-color: transparent;
   -dls-date-picker-cell-border-color-focus: #0052cc;
   -dls-date-picker-cell-border-color-range-end-hover: transparent;
@@ -72,10 +72,10 @@ div {
   -dls-date-picker-list-background-color-hover: #f6f7fa;
   -dls-date-picker-list-background-color-focus: #f6f7fa;
   -dls-date-picker-list-background-color-active: #e2e6f0;
-  -dls-date-picker-list-background-color-selected: #f2f7ff;
-  -dls-date-picker-list-background-color-selected-hover: #e1edff;
-  -dls-date-picker-list-background-color-selected-focus: #e1edff;
-  -dls-date-picker-list-background-color-selected-active: #c0d9ff;
+  -dls-date-picker-list-background-color-selected: #ebf3ff;
+  -dls-date-picker-list-background-color-selected-hover: #dae9ff;
+  -dls-date-picker-list-background-color-selected-focus: #dae9ff;
+  -dls-date-picker-list-background-color-selected-active: #bad6ff;
   -dls-date-picker-list-font-color: #282c33;
   -dls-date-picker-list-font-color-hover: #282c33;
   -dls-date-picker-list-font-color-focus: #282c33;

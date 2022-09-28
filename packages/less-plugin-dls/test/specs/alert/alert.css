@@ -20,10 +20,10 @@ div {
   -dls-alert-title-spacing-after: 4px;
   -dls-alert-font-color: #282c33;
   -dls-alert-title-font-color: #282c33;
-  -dls-alert-background-color-info: #f2f7ff;
-  -dls-alert-background-color-success: #f2fff8;
-  -dls-alert-background-color-warning: #fffaf2;
-  -dls-alert-background-color-error: #fff4f2;
+  -dls-alert-background-color-info: #ebf3ff;
+  -dls-alert-background-color-success: #ebfff4;
+  -dls-alert-background-color-warning: #fff6eb;
+  -dls-alert-background-color-error: #ffedeb;
   -dls-alert-border-color-info: transparent;
   -dls-alert-border-color-success: transparent;
   -dls-alert-border-color-warning: transparent;

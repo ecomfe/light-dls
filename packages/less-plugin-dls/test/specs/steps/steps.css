@@ -39,10 +39,10 @@ div {
   -dls-steps-marker-border-color-dot-incomplete: transparent;
   -dls-steps-marker-foreground-color-incomplete: #848b99;
   -dls-steps-connector-color-incomplete: #d3d9e6;
-  -dls-steps-marker-background-color-completed: #f2f7ff;
-  -dls-steps-marker-background-color-completed-hover: #e1edff;
-  -dls-steps-marker-background-color-completed-focus: #e1edff;
-  -dls-steps-marker-background-color-completed-active: #c0d9ff;
+  -dls-steps-marker-background-color-completed: #ebf3ff;
+  -dls-steps-marker-background-color-completed-hover: #dae9ff;
+  -dls-steps-marker-background-color-completed-focus: #dae9ff;
+  -dls-steps-marker-background-color-completed-active: #bad6ff;
   -dls-steps-marker-border-color-completed: transparent;
   -dls-steps-marker-background-color-dot-completed: #0052cc;
   -dls-steps-marker-background-color-dot-completed-hover: #0066ff;
@@ -51,10 +51,10 @@ div {
   -dls-steps-marker-border-color-dot-completed: transparent;
   -dls-steps-marker-foreground-color-completed: #0052cc;
   -dls-steps-connector-color-completed: #0052cc;
-  -dls-steps-marker-background-color-error: #fff4f2;
-  -dls-steps-marker-background-color-error-hover: #ffe4e1;
-  -dls-steps-marker-background-color-error-focus: #ffe4e1;
-  -dls-steps-marker-background-color-error-active: #ffc7c0;
+  -dls-steps-marker-background-color-error: #ffedeb;
+  -dls-steps-marker-background-color-error-hover: #ffdeda;
+  -dls-steps-marker-background-color-error-focus: #ffdeda;
+  -dls-steps-marker-background-color-error-active: #ffc2ba;
   -dls-steps-marker-border-color-error: transparent;
   -dls-steps-marker-background-color-dot-error: #cc1800;
   -dls-steps-marker-background-color-dot-error-hover: #ff1e00;
@@ -87,7 +87,7 @@ div {
   -dls-steps-marker-border-color-dot-error-current: transparent;
   -dls-steps-marker-foreground-color-error-current: #fff;
   -dls-steps-connector-color-error-current: #cc1800;
-  -dls-steps-marker-background-color-stateless: #f2f7ff;
+  -dls-steps-marker-background-color-stateless: #ebf3ff;
   -dls-steps-marker-border-color-stateless: transparent;
   -dls-steps-marker-background-color-dot-stateless: #0052cc;
   -dls-steps-marker-border-color-dot-stateless: transparent;

@@ -28,7 +28,7 @@ div {
   -dls-checkbox-background-color-checked-hover: #0066ff;
   -dls-checkbox-background-color-checked-focus: #0066ff;
   -dls-checkbox-background-color-checked-active: #0046ad;
-  -dls-checkbox-background-color-checked-disabled: #e1edff;
+  -dls-checkbox-background-color-checked-disabled: #dae9ff;
   -dls-checkbox-foreground-color: #fff;
   -dls-checkbox-foreground-color-hover: #fff;
   -dls-checkbox-foreground-color-focus: #fff;
@@ -43,5 +43,5 @@ div {
   -dls-checkbox-icon-color-strong: #d3d9e6;
   -dls-checkbox-icon-color-strong-disabled: #e2e6f0;
   -dls-checkbox-icon-color-strong-checked: #0052cc;
-  -dls-checkbox-icon-color-strong-checked-disabled: #c0d9ff;
+  -dls-checkbox-icon-color-strong-checked-disabled: #bad6ff;
 }
