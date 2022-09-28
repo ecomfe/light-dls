@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.3.0-beta.1
+
+- Update color palette.
+
 ## 11.2.1
 
 - Update colors for stateless dot steps.
