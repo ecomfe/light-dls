@@ -3,7 +3,7 @@ div {
   -dls-steps-title-font-size-m: 14px;
   -dls-steps-desc-font-size-s: 12px;
   -dls-steps-desc-font-size-m: 12px;
-  -dls-steps-marker-font-size-s: 14px;
+  -dls-steps-marker-font-size-s: 16px;
   -dls-steps-marker-font-size-m: 16px;
   -dls-steps-title-font-weight: 500;
   -dls-steps-title-font-color: #282c33;
@@ -19,7 +19,7 @@ div {
   -dls-steps-marker-size-dot-m: 10px;
   -dls-steps-marker-ring-width-dot-s: 2px;
   -dls-steps-marker-ring-width-dot-m: 2px;
-  -dls-steps-marker-icon-size: 14px;
+  -dls-steps-marker-icon-size: 16px;
   -dls-steps-title-max-width: 10em;
   -dls-steps-desc-max-width: 12em;
   -dls-steps-marker-spacing: 8px;

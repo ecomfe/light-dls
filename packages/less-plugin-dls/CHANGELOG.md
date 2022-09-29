@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.3.0
+
+- Update tokens for steps.
+
 ## 11.3.0-beta.1
 
 - Update color palette.
