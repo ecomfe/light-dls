@@ -101,8 +101,8 @@ div {
   -dls-button-border-color-ghost: transparent;
   -dls-button-border-color-ghost-disabled: transparent;
   -dls-button-background-color-ghost: transparent;
-  -dls-button-background-color-ghost-hover: #fff;
-  -dls-button-background-color-ghost-focus: #fff;
+  -dls-button-background-color-ghost-hover: #f6f7fa;
+  -dls-button-background-color-ghost-focus: #f6f7fa;
   -dls-button-background-color-ghost-active: #e2e6f0;
   -dls-button-background-color-ghost-disabled: transparent;
   -dls-button-font-color-ghost-strong: #0052cc;
@@ -110,8 +110,8 @@ div {
   -dls-button-border-color-ghost-strong: transparent;
   -dls-button-border-color-ghost-strong-disabled: transparent;
   -dls-button-background-color-ghost-strong: transparent;
-  -dls-button-background-color-ghost-strong-hover: #fff;
-  -dls-button-background-color-ghost-strong-focus: #fff;
+  -dls-button-background-color-ghost-strong-hover: #ebf3ff;
+  -dls-button-background-color-ghost-strong-focus: #ebf3ff;
   -dls-button-background-color-ghost-strong-active: #dae9ff;
   -dls-button-background-color-ghost-strong-disabled: transparent;
   -dls-button-font-color-ghost-aux: #848b99;
@@ -119,8 +119,8 @@ div {
   -dls-button-border-color-ghost-aux: transparent;
   -dls-button-border-color-ghost-aux-disabled: transparent;
   -dls-button-background-color-ghost-aux: transparent;
-  -dls-button-background-color-ghost-aux-hover: #fff;
-  -dls-button-background-color-ghost-aux-focus: #fff;
+  -dls-button-background-color-ghost-aux-hover: #f6f7fa;
+  -dls-button-background-color-ghost-aux-focus: #f6f7fa;
   -dls-button-background-color-ghost-aux-active: #e2e6f0;
   -dls-button-background-color-ghost-aux-disabled: transparent;
   -dls-button-font-color-ghost-reverse: #fff;
