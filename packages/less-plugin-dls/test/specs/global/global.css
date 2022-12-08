@@ -255,6 +255,12 @@ div {
   -dls-background-color-translucent-disabled: rgba(0, 0, 0, 0.2);
   -dls-border-color-translucent: transparent;
   -dls-border-color-translucent-disabled: transparent;
+  -dls-background-color-translucent-reverse: transparent;
+  -dls-background-color-translucent-reverse-hover: rgba(255, 255, 255, 0.15);
+  -dls-background-color-translucent-reverse-active: rgba(255, 255, 255, 0.25);
+  -dls-background-color-translucent-reverse-disabled: transparent;
+  -dls-border-color-translucent-reverse: transparent;
+  -dls-border-color-translucent-reverse-disabled: transparent;
   -dls-background-color-modal: rgba(0, 0, 0, 0.6);
   -dls-line-color-0: #ebedf5;
   -dls-line-color-1: #e2e6f0;
