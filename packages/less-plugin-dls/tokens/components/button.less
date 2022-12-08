@@ -78,10 +78,10 @@
 @dls-button-font-color-primary: @dls-foreground-color-primary-reverse;
 @dls-button-font-color-primary-disabled: @dls-button-font-color-primary;
 
-@dls-button-border-color-primary: transparent;
+@dls-button-border-color-primary: @dls-border-color-primary;
 @dls-button-border-color-primary-hover: @dls-button-border-color-primary;
 @dls-button-border-color-primary-active: @dls-button-border-color-primary-hover;
-@dls-button-border-color-primary-disabled: @dls-button-border-color-primary;
+@dls-button-border-color-primary-disabled: @dls-border-color-primary-disabled;
 
 @dls-button-background-color-primary: @dls-background-color-primary;
 @dls-button-background-color-primary-hover: @dls-background-color-primary-hover;
@@ -93,10 +93,10 @@
 @dls-button-font-color-translucent: @dls-foreground-color-reverse;
 @dls-button-font-color-translucent-disabled: fade(@dls-foreground-color-reverse, 60%);
 
-@dls-button-border-color-translucent: transparent;
+@dls-button-border-color-translucent: @dls-border-color-translucent;
 @dls-button-border-color-translucent-hover: @dls-button-border-color-translucent;
 @dls-button-border-color-translucent-active: @dls-button-border-color-translucent-hover;
-@dls-button-border-color-translucent-disabled: @dls-button-border-color-translucent;
+@dls-button-border-color-translucent-disabled: @dls-border-color-translucent-disabled;
 
 @dls-button-background-color-translucent: @dls-background-color-translucent;
 @dls-button-background-color-translucent-hover: @dls-background-color-translucent-hover;
@@ -130,6 +130,58 @@
 @dls-button-background-color-text-disabled: @dls-button-background-color-text;
 
 @dls-button-padding-text: @dls-padding-unit * 0.5;
+
+// ghost buttons
+@dls-button-font-color-ghost: @dls-foreground-color-neutral;
+@dls-button-font-color-ghost-disabled: @dls-foreground-color-neutral-disabled;
+
+@dls-button-border-color-ghost: transparent;
+@dls-button-border-color-ghost-disabled: transparent;
+
+@dls-button-background-color-ghost: transparent;
+@dls-button-background-color-ghost-hover: @dls-background-color-pressable;
+@dls-button-background-color-ghost-focus: @dls-button-background-color-ghost-hover;
+@dls-button-background-color-ghost-active: @dls-background-color-pressable-active;
+@dls-button-background-color-ghost-disabled: transparent;
+
+// strong ghost buttons
+@dls-button-font-color-ghost-strong: @dls-foreground-color-primary;
+@dls-button-font-color-ghost-strong-disabled: @dls-foreground-color-primary-disabled;
+
+@dls-button-border-color-ghost-strong: transparent;
+@dls-button-border-color-ghost-strong-disabled: transparent;
+
+@dls-button-background-color-ghost-strong: transparent;
+@dls-button-background-color-ghost-strong-hover: @dls-background-color-strong;
+@dls-button-background-color-ghost-strong-focus: @dls-button-background-color-ghost-strong-hover;
+@dls-button-background-color-ghost-strong-active: @dls-background-color-strong-active;
+@dls-button-background-color-ghost-strong-disabled: transparent;
+
+// aux ghost buttons
+@dls-button-font-color-ghost-aux: @dls-foreground-color-neutral-weak;
+@dls-button-font-color-ghost-aux-disabled: @dls-foreground-color-neutral-weak-disabled;
+
+@dls-button-border-color-ghost-aux: transparent;
+@dls-button-border-color-ghost-aux-disabled: transparent;
+
+@dls-button-background-color-ghost-aux: transparent;
+@dls-button-background-color-ghost-aux-hover: @dls-background-color-pressable;
+@dls-button-background-color-ghost-aux-focus: @dls-button-background-color-ghost-aux-hover;
+@dls-button-background-color-ghost-aux-active: @dls-background-color-pressable-active;
+@dls-button-background-color-ghost-aux-disabled: transparent;
+
+// reverse ghost buttons
+@dls-button-font-color-ghost-reverse: @dls-foreground-color-reverse;
+@dls-button-font-color-ghost-reverse-disabled: fade(@dls-button-font-color-ghost-reverse, 50%);
+
+@dls-button-border-color-ghost-reverse: transparent;
+@dls-button-border-color-ghost-reverse-disabled: transparent;
+
+@dls-button-background-color-ghost-reverse: @dls-background-color-translucent-reverse;
+@dls-button-background-color-ghost-reverse-hover: @dls-background-color-translucent-reverse-hover;
+@dls-button-background-color-ghost-reverse-focus: @dls-button-background-color-ghost-reverse-hover;
+@dls-button-background-color-ghost-reverse-active: @dls-background-color-translucent-reverse-active;
+@dls-button-background-color-ghost-reverse-disabled: @dls-background-color-translucent-reverse-disabled;
 
 /* Checked variant */
 @dls-button-background-color-checked: @dls-background-color-current;
