@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.4.0
+
+- Add tokens for reverse translucent layers.
+- Add tokens for ghost buttons.
+
 ## 11.3.0
 
 - Update tokens for steps.
