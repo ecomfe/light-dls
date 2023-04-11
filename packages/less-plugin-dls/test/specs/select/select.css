@@ -6,6 +6,7 @@ div {
   -dls-select-tag-height-l: 28px;
   -dls-select-padding-x: 12px;
   -dls-select-padding-y: 4px;
+  -dls-select-padding-start: 4px;
   -dls-select-content-spacing: 8px;
   -dls-select-tag-spacing: 4px;
   -dls-select-icon-size-aux: calc(1em + 2px);

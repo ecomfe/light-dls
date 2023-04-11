@@ -1,5 +1,12 @@
 > ⚠️ - Breaking Changes
 
+## 11.5.0
+
+- Add tokens for tag input.
+- Refine tokens for multi-select.
+- Add subtle neutral foreground colors.
+- Add spacing tokens.
+
 ## 11.4.0
 
 - Add tokens for reverse translucent layers.

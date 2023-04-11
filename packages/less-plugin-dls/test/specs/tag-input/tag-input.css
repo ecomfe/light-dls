@@ -1,0 +1,8 @@
+div {
+  -dls-tag-input-padding-start: 4px;
+  -dls-tag-input-tag-spacing: 4px;
+  -dls-tag-input-tag-height-xs: 16px;
+  -dls-tag-input-tag-height-s: 20px;
+  -dls-tag-input-tag-height-m: 24px;
+  -dls-tag-input-tag-height-l: 28px;
+}

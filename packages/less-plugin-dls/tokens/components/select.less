@@ -1,5 +1,6 @@
 @import "../global.less";
 @import "./input.less";
+@import "./tag-input.less";
 
 // Height of single select is defined in Input,
 // and height of multiple select is fit to content.
@@ -8,15 +9,16 @@
 @dls-select-width: @dls-input-width;
 
 // multiple select
-@dls-select-tag-height-xs: dls-sum(@dls-height-xs, @dls-height-unit * -2);
-@dls-select-tag-height-s: dls-sum(@dls-height-s, @dls-height-unit * -2);
-@dls-select-tag-height-m: dls-sum(@dls-height-m, @dls-height-unit * -2);
-@dls-select-tag-height-l: dls-sum(@dls-height-l, @dls-height-unit * -2);
+@dls-select-tag-height-xs: @dls-tag-input-tag-height-xs;
+@dls-select-tag-height-s: @dls-tag-input-tag-height-s;
+@dls-select-tag-height-m: @dls-tag-input-tag-height-m;
+@dls-select-tag-height-l: @dls-tag-input-tag-height-l;
 
-@dls-select-padding-x: @dls-input-padding;
-@dls-select-padding-y: @dls-padding-unit * 1;
+@dls-select-padding-x: @dls-input-padding; /* @deprecated, use input padding */
+@dls-select-padding-y: @dls-select-padding-start; /* @deprecated, use padding-start */
+@dls-select-padding-start: @dls-tag-input-padding-start; /* both top/left */
 @dls-select-content-spacing: @dls-input-content-spacing;
-@dls-select-tag-spacing: @dls-padding-unit * 1;
+@dls-select-tag-spacing: @dls-tag-input-tag-spacing;
 
 @dls-select-icon-size-aux: @dls-icon-size-aux;
 @dls-select-icon-color-aux: @dls-icon-color-aux;
