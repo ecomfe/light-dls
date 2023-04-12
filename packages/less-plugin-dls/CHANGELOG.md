@@ -4,7 +4,7 @@
 
 - Add tokens for tag input.
 - Refine tokens for multi-select.
-- Add subtle neutral foreground colors.
+- Add subtle neutral foreground colors and subtle text buttons.
 - Add spacing tokens.
 
 ## 11.4.0
