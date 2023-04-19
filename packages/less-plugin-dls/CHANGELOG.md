@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.5.1
+
+- Adjust tag remove icon size.
+
 ## 11.5.0
 
 - Add tokens for tag input.
