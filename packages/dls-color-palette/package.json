@@ -1,8 +1,8 @@
 {
   "name": "dls-color-palette",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Color palette generator for Baidu Light DLS.",
-  "main": "dist/index.cjs.mim.js",
+  "main": "dist/index.cjs.min.js",
   "module": "dist/index.esm.min.js",
   "scripts": {
     "prepare": "pnpm build",

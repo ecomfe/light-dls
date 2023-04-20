@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 0.1.1
+
+- fix: fix path for cjs entry.
+
 ## 0.1.0
 
 - feat: update minimal satuation when generating shades.
