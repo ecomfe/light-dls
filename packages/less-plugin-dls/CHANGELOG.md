@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.0
+
+- Upgrade to D22 tokens.
+- Add tokens for scrollbar.
+
 ## 11.5.1
 
 - Adjust tag remove icon size.
