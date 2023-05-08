@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import chalk from 'chalk'
+import less3 from 'less3'
 import less from 'less'
 import strip from 'strip-css-comments'
 import arg from 'arg'
@@ -87,9 +88,9 @@ function getTests () {
   ]
 
   /**
-   * Get test suites
+   * Get tests
    */
-  const suites = []
+  const tests = []
   const noTests = []
 
   for (const module of modules) {
@@ -130,7 +131,7 @@ function getTests () {
           expected = fs.readFileSync(path.resolve(moduleDir, part) + '.css', 'utf8')
         }
 
-        suites.push({
+        tests.push({
           title: chalk.bold(module) + chalk.white('.') + part,
           module,
           part,
@@ -141,68 +142,71 @@ function getTests () {
     }
   }
   if (noTests.length) {
-    logLine(
-      '\u2731 No test specs found for the following module' +
-        (noTests.length > 1 ? 's' : '') +
-        ':\n' +
-        noTests.join('\n') +
-        '\n'
-    )
+    logLine(`\u2731 No test specs found for the following module${noTests.length > 1 ? 's' : ''}:\n${noTests.join('\n')}\n`)
   } else {
     logLine('\u2731 Great. Each module has got test specs.\n')
   }
 
+  return tests
+}
+
+function getSuite (name, tests, { less }) {
+
   /**
    * Prepare tests
    */
-  return suites.map(suite => {
-    return done => {
-      less
-        .render(suite.src, {
-          paths: [INCLUDE_PATH],
-          javascriptEnabled: true,
-          plugins: [dls()]
-        })
-        .then(
-          result => {
-            let passed = true
-            const actual = strip(result.css, { preserve: false })
-              .replace(/\n+/g, '\n')
-              .replace(/^\n/, '')
+  return {
+    name,
+    tests: tests.map(test => {
+      return done => {
+        less
+          .render(test.src, {
+            paths: [INCLUDE_PATH],
+            javascriptEnabled: true,
+            plugins: [dls()]
+          })
+          .then(
+            result => {
+              let passed = true
+              const actual = strip(result.css, { preserve: false })
+                .replace(/\n+/g, '\n')
+                .replace(/^\n/, '')
 
-            if (args['--update-snapshots']) {
-              const moduleDir = path.resolve(SPEC_DIR, suite.module)
-              fs.writeFileSync(path.resolve(moduleDir, `${suite.part}.css`), actual, 'utf8')
-              suite.expected = actual
-            }
+              if (args['--update-snapshots']) {
+                const moduleDir = path.resolve(SPEC_DIR, test.module)
+                fs.writeFileSync(path.resolve(moduleDir, `${test.part}.css`), actual, 'utf8')
+                test.expected = actual
+              }
 
-            const expected = suite.expected
-            if (actual !== expected) {
-              logLine(chalk.red('\u2718 ' + suite.title))
-              logDiff(actual, expected)
-              passed = false
-            } else {
-              logLine(chalk.green('\u2714 ' + suite.title))
+              const expected = test.expected
+              if (actual !== expected) {
+                logLine(chalk.red('\u2718 ' + test.title))
+                logDiff(actual, expected)
+                passed = false
+              } else {
+                logLine(chalk.green('\u2714 ' + test.title))
+              }
+              done(passed)
+            },
+            err => {
+              logLine(chalk.red('\u2718 ' + test.title))
+              logLine('Less compile error:')
+              logLine(err)
+              done(false)
             }
-            done(passed)
-          },
-          err => {
-            logLine(chalk.red('\u2718 ' + suite.title))
-            logLine('Less compile error:')
-            logLine(err)
-            done(false)
-          }
-        )
-    }
-  })
+          )
+      }
+    })
+  }
 }
 
 class TestRunner {
-  constructor (tests, endCallback) {
+  constructor ({ name, tests }, done) {
+    this.name = name
     this.tests = tests
     this.total = tests.length
     this.failed = 0
-    this.endCallback = endCallback
+    this.done = done
   }
 
   next () {
@@ -222,21 +226,10 @@ class TestRunner {
   end () {
     logLine('\n--------\n')
     if (!this.failed) {
-      logLine(
-        'All ' + this.total + ' spec' + (this.total > 1 ? 's' : '') + ' passed.'
-      )
+      logLine(`All ${this.total} spec${this.total > 1 ? 's' : ''} passed.`)
     } else {
       const passed = this.total - this.failed
-      logLine(
-        passed +
-          ' spec' +
-          (passed > 1 ? 's' : '') +
-          ' passed, ' +
-          this.failed +
-          ' spec' +
-          (this.failed > 1 ? 's' : '') +
-          ' failed.'
-      )
+      logLine(`${passed} spec${passed > 1 ? 's' : ''} passed, ${this.failed} spec${this.failed > 1 ? 's' : ''} failed.`)
 
       // exit with code 1
       process.on('exit', () => {
@@ -244,19 +237,30 @@ class TestRunner {
       })
     }
 
-    logLine(
-      'Time elapsed: ' +
-          (Date.now() - this.startTime) +
-          'ms.'
-    )
+    logLine(`Time elapsed: ${Date.now() - this.startTime}ms.`)
 
-    this.endCallback && this.endCallback()
+    this.done && this.done()
   }
 
   start () {
+    logLine(`Start test suite [${this.name}]...`)
     this.startTime = Date.now()
     this.next()
   }
 }
 
-new TestRunner(getTests()).start()
+async function runSuite (suite) {
+  return new Promise(resolve => {
+    new TestRunner(suite, resolve).start()
+  })
+}
+
+async function run () {
+  const tests = getTests()
+
+  await runSuite(getSuite('less@3', tests, { less: less3 }))
+  logLine('\n========\n')
+  await runSuite(getSuite('less@4', tests, { less }))
+}
+
+run()
