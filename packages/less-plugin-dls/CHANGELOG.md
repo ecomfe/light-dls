@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.2
+
+- Make nav tokens compatible with Less 4.
+
 ## 11.6.1
 
 - Make scrollbar tokens compatible with Less 4.
