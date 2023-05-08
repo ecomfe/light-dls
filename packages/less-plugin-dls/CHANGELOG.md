@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.1
+
+- Make scrollbar tokens compatible with Less 4.
+
 ## 11.6.0
 
 - Upgrade to D22 tokens.
