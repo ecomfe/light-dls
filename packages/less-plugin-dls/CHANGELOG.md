@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.3
+
+- Fix scrollbar thumb border radius.
+
 ## 11.6.2
 
 - Make nav tokens compatible with Less 4.

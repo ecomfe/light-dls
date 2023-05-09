@@ -15,6 +15,8 @@ const args = arg(
   }
 )
 
+const snapshotUpdated = {}
+
 const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
 const SRC_DIR = path.resolve(__dirname, '../tokens')
@@ -172,7 +174,10 @@ function getSuite (name, tests, { less }) {
                 .replace(/\n+/g, '\n')
                 .replace(/^\n/, '')
 
-              if (args['--update-snapshots']) {
+              // should only update snapshots once for each test
+              if (args['--update-snapshots'] && !snapshotUpdated[test.title]) {
+                snapshotUpdated[test.title] = true
+
                 const moduleDir = path.resolve(SPEC_DIR, test.module)
                 fs.writeFileSync(path.resolve(moduleDir, `${test.part}.css`), actual, 'utf8')
                 test.expected = actual

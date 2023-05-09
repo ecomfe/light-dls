@@ -4,5 +4,5 @@ div {
   -dls-scrollbar-thumb-width: 6px;
   -dls-scrollbar-thumb-color: rgba(49, 76, 140, 0.2);
   -dls-scrollbar-thumb-color-hover: rgba(83, 98, 128, 0.5);
-  -dls-scrollbar-thumb-border-radius: 5px;
+  -dls-scrollbar-thumb-border-radius: 3px;
 }
