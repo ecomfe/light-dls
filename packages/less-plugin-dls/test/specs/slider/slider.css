@@ -1,4 +1,5 @@
 div {
+  -dls-slider-height-vertical: 100px;
   -dls-slider-thumb-size-s: 8px;
   -dls-slider-thumb-size-m: 12px;
   -dls-slider-track-min-width: 2px;
