@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.5
+
+- Add default height for vertical sliders.
+
 ## 11.6.4
 
 - Update toast list top spacing.
