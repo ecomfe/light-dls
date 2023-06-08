@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.4
+
+- Update toast list top spacing.
+
 ## 11.6.3
 
 - Fix scrollbar thumb border radius.
