@@ -14,7 +14,7 @@ div {
   -dls-toast-content-spacing-after: 16px;
   -dls-toast-spacing: 8px;
   -dls-toast-max-width: 400px;
-  -dls-toast-list-spacing-before: 8px;
+  -dls-toast-list-spacing-before: 10vh;
   -dls-toast-title-font-size-s: 14px;
   -dls-toast-title-font-size-m: 16px;
   -dls-toast-title-font-weight: 500;
