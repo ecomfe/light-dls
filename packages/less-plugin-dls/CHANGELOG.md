@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.6.6
+
+- Fix translucent color.
+
 ## 11.6.5
 
 - Add default height for vertical sliders.
