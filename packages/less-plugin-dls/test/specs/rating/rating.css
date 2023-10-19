@@ -1,9 +1,10 @@
 div {
   -dls-rating-symbol-color: #d3d9e6;
-  -dls-rating-symbol-selected: #ff9448;
+  -dls-rating-symbol-color-selected: #ff9448;
   -dls-rating-symbol-gap: var(--dls-rating-symbol-gap, 2px);
-  -dls-rating-symbol-size: 1em;
+  -dls-rating-symbol-size: 14px;
   -dls-rating-symbol-scale-hover: 1.1;
   -dls-rating-label-spacing: var(--dls-rating-label-spacing, 16px);
   -dls-rating-label-font-color: rgba(19, 22, 26, 0.9);
+  -dls-rating-label-font-size: 14px;
 }

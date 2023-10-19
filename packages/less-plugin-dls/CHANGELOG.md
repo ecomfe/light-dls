@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.7.1
+
+- Fix rating selected symbol color token.
+- Add rating font size.
+
 ## 11.7.0
 
 - Add tokens for rating.
