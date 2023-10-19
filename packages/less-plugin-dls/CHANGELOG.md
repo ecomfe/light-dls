@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.7.0
+
+- Add tokens for rating.
+
 ## 11.6.6
 
 - Fix translucent color.
