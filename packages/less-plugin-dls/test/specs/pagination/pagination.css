@@ -12,13 +12,14 @@ div {
   -dls-pagination-goto-input-padding-x: 8px;
   -dls-pagination-goto-input-digits: 3;
   -dls-pagination-goto-input-width: calc(3ch + 18px);
+  -dls-pagination-page-item-font-color: rgba(19, 22, 26, 0.9);
   -dls-pagination-page-item-font-color-disabled: rgba(83, 98, 128, 0.5);
   -dls-pagination-page-item-background-color: #fff;
   -dls-pagination-page-item-background-color-hover: #f6f7fa;
   -dls-pagination-page-item-background-color-focus: #f6f7fa;
   -dls-pagination-page-item-background-color-active: #e2e6f0;
   -dls-pagination-page-item-background-color-disabled: #fff;
-  -dls-pagination-page-item-font-color: #0054e6;
+  -dls-pagination-page-item-font-color-current: #0054e6;
   -dls-pagination-page-item-background-color-current: #ebf2ff;
   -dls-pagination-page-item-background-color-current-hover: #dce9ff;
   -dls-pagination-page-item-background-color-current-focus: #dce9ff;
