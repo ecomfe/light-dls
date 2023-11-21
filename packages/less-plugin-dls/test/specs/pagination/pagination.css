@@ -19,4 +19,9 @@ div {
   -dls-pagination-page-item-background-color-focus: #f6f7fa;
   -dls-pagination-page-item-background-color-active: #e2e6f0;
   -dls-pagination-page-item-background-color-disabled: #fff;
+  -dls-pagination-page-item-background-color-current: #ebf2ff;
+  -dls-pagination-page-item-background-color-current-hover: #dce9ff;
+  -dls-pagination-page-item-background-color-current-focus: #dce9ff;
+  -dls-pagination-page-item-background-color-current-active: #bfd7ff;
+  -dls-pagination-page-item-background-color-current-disabled: #ebf2ff;
 }

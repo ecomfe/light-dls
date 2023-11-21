@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.8.0
+
+- Add tokens for pagination's current page.
+
 ## 11.7.1
 
 - Fix rating selected symbol color token.
