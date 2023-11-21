@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.8.1
+
+- Removed unnecessary tokens for pagination.
+- Add font color token for pagination's current page.
+
 ## 11.8.0
 
 - Add tokens for pagination's current page.
