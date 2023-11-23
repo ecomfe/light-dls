@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.8.3
+
+- Adjust border opacity for tags.
+
 ## 11.8.2
 
 - Fix pagination font color.
