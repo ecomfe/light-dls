@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.8.4
+
+- Adjust tokens for default tag.
+- Deprecate `@dls-tag-color` and `@dls-tag-color-selected`.
+
 ## 11.8.3
 
 - Adjust border opacity for tags.

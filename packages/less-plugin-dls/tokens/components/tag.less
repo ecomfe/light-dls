@@ -19,13 +19,18 @@
 @dls-tag-icon-size-aux: calc(1em - 2px);
 
 /* Colors */
-@dls-tag-color: @dls-foreground-color-neutral-light;
-@dls-tag-color-selected: @dls-foreground-color-primary;
+@dls-tag-color: @dls-foreground-color-neutral-light; // @deprecated
+@dls-tag-color-selected: @dls-foreground-color-primary; // @deprecated
+
+@dls-tag-color-default: @dls-color-gray-7;
+@dls-tag-color-default-selected: @dls-color-brand-7;
+
 @dls-tag-color-info: @dls-foreground-color-info-primary;
 @dls-tag-color-success: @dls-foreground-color-success-primary;
 @dls-tag-color-warning: @dls-foreground-color-warning-primary;
 @dls-tag-color-error: @dls-foreground-color-error-primary;
 
+@dls-tag-font-color-default: @dls-foreground-color-neutral;
 @dls-tag-font-color-selected: @dls-foreground-color-primary-reverse;
 @dls-tag-font-color-reverse: @dls-foreground-color-reverse;
 
