@@ -4,6 +4,6 @@ div {
   -dls-breadcrumb-separator-icon-size: calc(1em + 2px);
   -dls-breadcrumb-separator-color: rgba(80, 90, 107, 0.8);
   -dls-breadcrumb-separator-spacing: 8px;
-  -dls-breadcrumb-item-current-font-color: rgba(19, 22, 26, 0.9);
+  -dls-breadcrumb-item-current-font-color: rgba(13, 15, 18, 0.95);
   -dls-breadcrumb-item-current-font-weight: 500;
 }

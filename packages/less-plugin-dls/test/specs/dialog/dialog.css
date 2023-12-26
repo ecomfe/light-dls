@@ -22,8 +22,8 @@ div {
   -dls-dialog-body-font-size-s: 12px;
   -dls-dialog-body-font-size-m: 14px;
   -dls-dialog-title-font-weight: 500;
-  -dls-dialog-title-font-color: rgba(19, 22, 26, 0.9);
-  -dls-dialog-body-font-color: rgba(19, 22, 26, 0.9);
+  -dls-dialog-title-font-color: rgba(13, 15, 18, 0.95);
+  -dls-dialog-body-font-color: rgba(13, 15, 18, 0.95);
   -dls-dialog-close-icon-size: calc(1em + 2px);
   -dls-dialog-close-icon-size-fullscreen: calc(1em + 2px);
   -dls-dialog-close-icon-min-size: 10px;

@@ -30,7 +30,7 @@ div {
   -dls-date-picker-cell-border-radius-s: 4px;
   -dls-date-picker-cell-border-radius-m: 4px;
   -dls-date-picker-cell-shadow-focus: 0 0 0 2px rgba(26, 110, 255, 0.2);
-  -dls-date-picker-cell-font-color: rgba(19, 22, 26, 0.9);
+  -dls-date-picker-cell-font-color: rgba(13, 15, 18, 0.95);
   -dls-date-picker-cell-font-color-current: #0054e6;
   -dls-date-picker-cell-font-color-aux: rgba(80, 90, 107, 0.8);
   -dls-date-picker-cell-font-color-disabled: rgba(83, 98, 128, 0.5);
@@ -76,10 +76,10 @@ div {
   -dls-date-picker-list-background-color-selected-hover: #dce9ff;
   -dls-date-picker-list-background-color-selected-focus: #dce9ff;
   -dls-date-picker-list-background-color-selected-active: #bfd7ff;
-  -dls-date-picker-list-font-color: rgba(19, 22, 26, 0.9);
-  -dls-date-picker-list-font-color-hover: rgba(19, 22, 26, 0.9);
-  -dls-date-picker-list-font-color-focus: rgba(19, 22, 26, 0.9);
-  -dls-date-picker-list-font-color-active: rgba(19, 22, 26, 0.9);
+  -dls-date-picker-list-font-color: rgba(13, 15, 18, 0.95);
+  -dls-date-picker-list-font-color-hover: rgba(13, 15, 18, 0.95);
+  -dls-date-picker-list-font-color-focus: rgba(13, 15, 18, 0.95);
+  -dls-date-picker-list-font-color-active: rgba(13, 15, 18, 0.95);
   -dls-date-picker-list-font-color-selected: #0054e6;
   -dls-date-picker-list-font-color-selected-hover: #0054e6;
   -dls-date-picker-list-font-color-selected-focus: #0054e6;

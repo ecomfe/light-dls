@@ -4,8 +4,8 @@ div {
   -dls-message-icon-size: calc(1em + 2px);
   -dls-message-line-height: 1.4;
   -dls-message-content-spacing: 4px;
-  -dls-message-font-color-standalone: rgba(19, 22, 26, 0.9);
-  -dls-message-font-color-info: rgba(19, 22, 26, 0.9);
+  -dls-message-font-color-standalone: rgba(13, 15, 18, 0.95);
+  -dls-message-font-color-info: rgba(13, 15, 18, 0.95);
   -dls-message-font-color-success: #009940;
   -dls-message-font-color-warning: #ff9448;
   -dls-message-font-color-error: #d9150b;

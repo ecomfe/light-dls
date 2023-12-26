@@ -11,7 +11,7 @@ div {
   -dls-sidenav-item-icon-size-aux: calc(1em + 2px);
   -dls-sidenav-item-font-size: 14px;
   -dls-sidenav-item-group-font-weight: 500;
-  -dls-sidenav-item-font-color: rgba(19, 22, 26, 0.9);
+  -dls-sidenav-item-font-color: rgba(13, 15, 18, 0.95);
   -dls-sidenav-item-font-color-hover: rgba(45, 52, 64, 0.8);
   -dls-sidenav-item-font-color-focus: rgba(45, 52, 64, 0.8);
   -dls-sidenav-item-font-color-active: #000;

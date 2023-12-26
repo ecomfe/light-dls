@@ -21,8 +21,8 @@ div {
   -dls-toast-title-line-height: 1.4;
   -dls-toast-title-spacing-after: 4px;
   -dls-toast-background-color: #fff;
-  -dls-toast-font-color: rgba(19, 22, 26, 0.9);
-  -dls-toast-title-font-color: rgba(19, 22, 26, 0.9);
+  -dls-toast-font-color: rgba(13, 15, 18, 0.95);
+  -dls-toast-title-font-color: rgba(13, 15, 18, 0.95);
   -dls-toast-shadow: 0 1px 8px rgba(0, 0, 0, 0.06), 0 7px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 16px 4px rgba(0, 0, 0, 0.04);
   -dls-toast-icon-color-info: #0054e6;
   -dls-toast-icon-color-success: #009940;

@@ -9,8 +9,8 @@ div {
   -dls-loading-content-spacing-s: 4px;
   -dls-loading-content-spacing-m: 4px;
   -dls-loading-content-spacing-l: 8px;
-  -dls-loading-font-color-normal: rgba(19, 22, 26, 0.9);
-  -dls-loading-font-color-strong: rgba(19, 22, 26, 0.9);
+  -dls-loading-font-color-normal: rgba(13, 15, 18, 0.95);
+  -dls-loading-font-color-strong: rgba(13, 15, 18, 0.95);
   -dls-loading-font-color-reverse: #fff;
   -dls-loading-color-normal: rgba(80, 90, 107, 0.8);
   -dls-loading-color-strong: #0054e6;

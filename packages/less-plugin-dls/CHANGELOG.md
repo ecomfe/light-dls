@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.9.0
+
+- Update neutral color #9.
+- Update default tag background opacity.
+
 ## 11.8.4
 
 - Adjust tokens for default tag.

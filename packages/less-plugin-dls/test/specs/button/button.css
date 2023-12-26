@@ -20,7 +20,7 @@ div {
   -dls-button-border-radius-l: 4px;
   -dls-button-border-radius-xl: 4px;
   -dls-button-content-spacing: 4px;
-  -dls-button-font-color-normal: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-normal: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-normal-disabled: rgba(83, 98, 128, 0.5);
   -dls-button-border-color-normal: transparent;
   -dls-button-border-color-normal-hover: transparent;
@@ -31,7 +31,7 @@ div {
   -dls-button-background-color-normal-focus: #e2e6f0;
   -dls-button-background-color-normal-active: #d3d9e6;
   -dls-button-background-color-normal-disabled: #f6f7fa;
-  -dls-button-font-color-basic: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-basic: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-basic-disabled: rgba(83, 98, 128, 0.5);
   -dls-button-border-color-basic: #e2e6f0;
   -dls-button-border-color-basic-hover: #d3d9e6;
@@ -75,9 +75,9 @@ div {
   -dls-button-background-color-translucent-focus: rgba(0, 0, 0, 0.5);
   -dls-button-background-color-translucent-active: rgba(0, 0, 0, 0.7);
   -dls-button-background-color-translucent-disabled: rgba(0, 0, 0, 0.2);
-  -dls-button-font-color-text: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-text: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-text-hover: rgba(45, 52, 64, 0.8);
-  -dls-button-font-color-text-focus: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-text-focus: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-text-active: #000;
   -dls-button-font-color-text-disabled: rgba(83, 98, 128, 0.5);
   -dls-button-font-color-text-strong: #0054e6;
@@ -88,7 +88,7 @@ div {
   -dls-button-font-color-text-aux: rgba(80, 90, 107, 0.8);
   -dls-button-font-color-text-aux-hover: rgba(45, 52, 64, 0.8);
   -dls-button-font-color-text-aux-focus: rgba(80, 90, 107, 0.8);
-  -dls-button-font-color-text-aux-active: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-text-aux-active: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-text-aux-disabled: rgba(60, 83, 133, 0.3);
   -dls-button-font-color-text-subtle: rgba(60, 83, 133, 0.3);
   -dls-button-font-color-text-subtle-hover: rgba(83, 98, 128, 0.5);
@@ -101,7 +101,7 @@ div {
   -dls-button-background-color-text-active: transparent;
   -dls-button-background-color-text-disabled: transparent;
   -dls-button-padding-text: 2px;
-  -dls-button-font-color-ghost: rgba(19, 22, 26, 0.9);
+  -dls-button-font-color-ghost: rgba(13, 15, 18, 0.95);
   -dls-button-font-color-ghost-disabled: rgba(83, 98, 128, 0.5);
   -dls-button-border-color-ghost: transparent;
   -dls-button-border-color-ghost-disabled: transparent;
