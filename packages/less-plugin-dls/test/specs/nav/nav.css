@@ -6,7 +6,7 @@ div {
   -dls-nav-item-spacing: 32px;
   -dls-nav-item-content-spacing: 4px;
   -dls-nav-item-icon-size-aux: calc(1em + 2px);
-  -dls-nav-item-font-color: rgba(19, 22, 26, 0.9);
+  -dls-nav-item-font-color: rgba(13, 15, 18, 0.95);
   -dls-nav-item-font-color-hover: #1a6eff;
   -dls-nav-item-font-color-focus: #1a6eff;
   -dls-nav-item-font-color-active: #0047c4;
@@ -34,7 +34,7 @@ div {
   -dls-nav-card-padding: 24px;
   -dls-nav-card-column-spacing: 48px;
   -dls-nav-card-target-spacing: 4px;
-  -dls-nav-card-title-font-color: rgba(19, 22, 26, 0.9);
+  -dls-nav-card-title-font-color: rgba(13, 15, 18, 0.95);
   -dls-nav-card-title-font-size: 14px;
   -dls-nav-card-title-font-weight: 500;
   -dls-nav-card-item-spacing: 16px;

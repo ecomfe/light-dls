@@ -17,7 +17,7 @@ div {
   -dls-tag-color-success: #009940;
   -dls-tag-color-warning: #ff9448;
   -dls-tag-color-error: #d9150b;
-  -dls-tag-font-color-default: rgba(19, 22, 26, 0.9);
+  -dls-tag-font-color-default: rgba(13, 15, 18, 0.95);
   -dls-tag-font-color-selected: #fff;
   -dls-tag-font-color-reverse: #fff;
   -dls-tag-color-turquoise: #4db2b2;
@@ -26,7 +26,7 @@ div {
   -dls-tag-font-opacity-disabled: 0.3;
   -dls-tag-font-opacity-selected-disabled: 1;
   -dls-tag-font-opacity-reverse-disabled: 1;
-  -dls-tag-background-opacity: 0.1;
+  -dls-tag-background-opacity: 0.08;
   -dls-tag-background-opacity-hover: 0.2;
   -dls-tag-background-opacity-active: 0.3;
   -dls-tag-background-opacity-disabled: 0.1;
