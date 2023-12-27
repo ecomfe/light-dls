@@ -6,9 +6,14 @@ import { VariablesOutputVisitor } from './visitors'
 const SELECTOR = 'DLS_VARS'
 
 export async function getVariables(path) {
+  if (!fs.existsSync(path)) {
+    return []
+  }
+
   const visitor = new VariablesOutputVisitor()
 
   await less.render(fs.readFileSync(path, 'utf-8'), {
+    filename: path,
     plugins: [
       dls({
         inject: false
@@ -25,15 +30,15 @@ export async function getVariables(path) {
   return visitor.variables.map((v) => v.slice(1))
 }
 
-export async function getTuples(variables) {
+export async function getTuples(variables, { theme }) {
   const src = [
     `${SELECTOR}{`,
-    variables.map((v) => `${v}: @${v}`).join(';'),
+    dedupe(variables).map((v) => `${v}: @${v}`).join(';'),
     '}'
   ].join('')
 
   const { css } = await less.render(src, {
-    plugins: [dls()]
+    plugins: [dls({ theme })]
   })
 
   return css
@@ -42,4 +47,8 @@ export async function getTuples(variables) {
     .split(/;[\n\s]*/)
     .filter((v) => v)
     .map((decl) => decl.split(/:\s*/))
+}
+
+function dedupe (arr) {
+  return Array.from(new Set(arr))
 }

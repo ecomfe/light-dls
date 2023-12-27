@@ -32,7 +32,9 @@ With [less-loader](https://github.com/webpack-contrib/less-loader):
 ```less
 @import "~less-plugin-dls/tokens/index.less";
 
-a { color: @dls-link-font-color-normal; }
+a {
+  color: @dls-link-font-color-normal;
+}
 ```
 
 ### Use CLI argument
@@ -40,6 +42,29 @@ a { color: @dls-link-font-color-normal; }
 ```sh
 lessc style.less --dls
 ```
+
+## Using metadata
+
+Variable values/metadata are provided in three formats for each theme.
+
+| File | Description |
+| -- | -- |
+| `variables.js` | The raw variable values in JavaScript ESM format. Token names are transformed from `@dls-color-brand-7` to `dlsColorBrand7` as named exports. |
+| `variables.json` | The raw variable values in JSON format.                                                                                                       |
+| `variables.less` | The variable values in Less format.                                                                                                           |
+
+```ts
+// types for the JSON format:
+interface Variables {
+  [tokenName: string]: {
+    value: string
+    type: 'color' | 'font' | 'numeric' | 'length' | 'complex'
+    global: boolean
+  }
+}
+```
+
+There are also themed versions of the above files, which are named with the theme name as the suffix, namely `variables.<theme>.js`, `variables.<theme>.json` and `variables.<theme>.less`. Currently the only supported theme is `ai`.
 
 ## Custom functions
 
@@ -137,6 +162,10 @@ The absolute length of the line-height.
 ```
 
 ## Options
+
+### `theme: 'ai' | undefined`
+
+The theme of the DLS. If not specified, the default theme will be used.
 
 ### `reduceCalc: boolean`
 
