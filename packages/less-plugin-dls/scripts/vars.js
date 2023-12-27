@@ -4,22 +4,27 @@ import camelCase from 'lodash.camelcase'
 import { parse } from 'postcss-values-parser'
 import { getVariables, getTuples } from '../lib/utils/evaluate'
 
-async function generate() {
+async function generate({ theme } = {}) {
   try {
     const allVariables = await getVariables('./tokens/index.less')
     const globalVariables = await getVariables('./tokens/global.less')
+    const themeVariables = await getVariables(`./tokens/themes/${theme}.less`)
 
-    const tuples = await getTuples(allVariables)
+    const tuples = await getTuples(allVariables.concat(themeVariables), {
+      theme
+    })
+
+    const themeTail = theme ? `.${theme}` : ''
 
     // generate variables.less
     fs.writeFileSync(
-      path.resolve(__dirname, '..', 'variables.less'),
+      path.resolve(__dirname, '..', `variables${themeTail}.less`),
       tuples.map(([key, value]) => `@${key}: ${value};`).join('\n') + '\n',
       'utf8'
     )
 
     fs.writeFileSync(
-      path.resolve(__dirname, '..', 'variables.js'),
+      path.resolve(__dirname, '..', `variables${themeTail}.js`),
       tuples
         .map(([key, value]) => `export const ${camelCase(key)} = '${value}'`)
         .join('\n') + '\n',
@@ -28,7 +33,7 @@ async function generate() {
 
     // generate variables.json
     fs.writeFileSync(
-      path.resolve(__dirname, '..', 'variables.json'),
+      path.resolve(__dirname, '..', `variables${themeTail}.json`),
       JSON.stringify(
         tuples
           .map(([key, value]) => ({
@@ -48,7 +53,7 @@ async function generate() {
       'utf8'
     )
 
-    console.log(`${tuples.length} variables generated.`)
+    console.log(`${tuples.length} variables generated for theme [${theme || 'default'}].`)
   } catch (e) {
     console.error(e)
   }
@@ -129,4 +134,9 @@ function getTypeByValue(value) {
   return 'unknown'
 }
 
-generate()
+async function run() {
+  await generate()
+  await generate({ theme: 'ai' })
+}
+
+run()

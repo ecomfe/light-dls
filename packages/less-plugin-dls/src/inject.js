@@ -1,9 +1,15 @@
 import path from 'path'
+import fs from 'fs'
 
 const SELF_MODULE_PATH = path.resolve(__dirname, '..')
 const ENTRY_LESS = path.resolve(__dirname, '../tokens/index.less')
+const THEME_DIR = path.resolve(__dirname, '../tokens/themes')
 
 class Injector {
+  constructor ({ theme }) {
+    this.theme = theme
+  }
+
   process(src, extra) {
     // Don't inject self
     if (
@@ -19,11 +25,24 @@ class Injector {
       path.dirname(extra.fileInfo.filename),
       ENTRY_LESS
     )
+
+    const themeLess = path.resolve(THEME_DIR, `${this.theme}.less`)
+    let themeRelative = fs.existsSync(themeLess) ? path.relative(
+      path.dirname(extra.fileInfo.filename),
+      themeLess
+    ) : null
+
     // less requires relative path to starts with ./
     if (relative.charAt(0) !== '.') {
       relative = `./${relative}`
     }
-    const injected = `@import "${relative}";\n`
+    if (themeRelative && themeRelative.charAt(0) !== '.') {
+      themeRelative = `./${themeRelative}`
+    }
+
+    let injected = `@import "${relative}";\n`
+    injected += themeRelative ? `@import "${themeRelative}";\n` : ''
+
     const ignored = extra.imports.contentsIgnoredChars
     const fileInfo = extra.fileInfo
     ignored[fileInfo.filename] = ignored[fileInfo.filename] || 0
@@ -33,9 +52,9 @@ class Injector {
 }
 
 export default function inject(_, pluginManager) {
-  const { inject = true } = this.options || {}
+  const { inject = true, theme } = this.options || {}
 
   if (inject) {
-    pluginManager.addPreProcessor(new Injector())
+    pluginManager.addPreProcessor(new Injector({ theme }))
   }
 }

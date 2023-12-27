@@ -21,7 +21,7 @@ const INCLUDE_PATH = path.resolve(__dirname, '../src')
 const SPEC_DIR = path.resolve(__dirname, 'specs')
 const SRC_DIR = path.resolve(__dirname, '../tokens')
 const SRC_COMPONENTS_DIR = path.resolve(SRC_DIR, 'components')
-const MANUAL_SPEC_MODULES = ['functions', 'global']
+const MANUAL_SPEC_MODULES = ['functions', 'global', 'ai']
 const VAR_DEF_RE = /@([a-z]+(?:-[a-z0-9]+)*)\s*:/g
 
 function extractVarDefs (file) {
@@ -114,11 +114,16 @@ function getTests () {
         }
 
         const specFile = path.resolve(moduleDir, partFile)
-        if (args['--update-snapshots']) {
-          const srcFile = !MANUAL_SPEC_MODULES.includes(module)
-            ? path.resolve(SRC_COMPONENTS_DIR, module + '.less')
-            : module === 'global' ? path.resolve(SRC_DIR, 'global.less') : null
 
+        const srcFile = !MANUAL_SPEC_MODULES.includes(module)
+        ? path.resolve(SRC_COMPONENTS_DIR, module + '.less')
+        : module === 'global'
+        ? path.resolve(SRC_DIR, 'global.less')
+        : module === 'ai'
+        ? path.resolve(SRC_DIR, 'themes/ai.less')
+        : null
+
+        if (args['--update-snapshots']) {
           if (srcFile) {
             const vars = extractVarDefs(srcFile)
             if (vars.length) {
@@ -138,6 +143,7 @@ function getTests () {
           module,
           part,
           src,
+          theme: module === 'ai' ? 'ai' : null,
           expected
         })
       }
@@ -165,7 +171,7 @@ function getSuite (name, tests, { less }) {
           .render(test.src, {
             paths: [INCLUDE_PATH],
             javascriptEnabled: true,
-            plugins: [dls()]
+            plugins: [dls({ theme: test.theme })]
           })
           .then(
             result => {
