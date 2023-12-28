@@ -64,7 +64,12 @@ interface Variables {
 }
 ```
 
-There are also themed versions of the above files, which are named with the theme name as the suffix, namely `variables.<theme>.js`, `variables.<theme>.json` and `variables.<theme>.less`. Currently the only supported theme is `ai`.
+We also included a set of metadata files for different themes and scopes. Currently the only supported theme is `ai` and supported scopes are `global` and `palette`. The dist file names are in the format of `variables.<scope>.<theme>.<format>`, where `<scope>` and `<theme>` are both optional. eg.
+
+```sh
+variables.global.less # global variables, w/o component variables
+variables.palette.ai.less # global color palette variables in AI theme
+```
 
 ## Custom functions
 
