@@ -7,7 +7,8 @@
     "prepare": "pnpm build",
     "test": "node -r esm test/run.js",
     "build": "rollup -c && cp src/index.js dist/index.js && node -r esm scripts/vars.js",
-    "prepublishOnly": "pnpm test"
+    "prepublishOnly": "pnpm test",
+    "postpublish": "npmmirror-sync less-plugin-dls"
   },
   "bin": {
     "dls": "bin/dls"
@@ -33,13 +34,14 @@
     "pkg-dir": "^4.2.0"
   },
   "devDependencies": {
+    "@justineo/npmmirror-sync": "^0.1.0",
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "chalk": "^4.1.2",
     "color-converters": "^0.1.1",
     "diff": "^4.0.1",
-    "less3": "npm:less@^3.13.1",
     "less": "^4.1.3",
+    "less3": "npm:less@^3.13.1",
     "lodash.camelcase": "^4.3.0",
     "lodash.memoize": "^4.1.2",
     "postcss": "^8.3.6",
