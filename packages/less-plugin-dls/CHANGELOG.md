@@ -1,5 +1,10 @@
 > ⚠️ - Breaking Changes
 
+## 11.10.0
+
+- Add theme tokens.
+- Add more metadata output options.
+
 ## 11.9.0
 
 - Update neutral color #9.
