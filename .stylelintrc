@@ -6,6 +6,7 @@
     "no-empty-source": null,
     "number-leading-zero": "always",
     "declaration-colon-newline-after": null,
-    "at-rule-no-unknown": null
+    "at-rule-no-unknown": null,
+    "import-notation": "string"
   }
 }
