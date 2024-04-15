@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.11.0
+
+- Adjust global translucent color tokens.
+
 ## 11.10.0
 
 - Add theme tokens.
