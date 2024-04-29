@@ -7,10 +7,10 @@ div {
   -dls-tree-icon-size-aux: calc(1em + 2px);
   -dls-tree-padding-x: 16px;
   -dls-tree-node-content-spacing: 8px;
-  -dls-tree-icon-color-aux: rgba(80, 90, 107, 0.8);
-  -dls-tree-icon-color-aux-disabled: rgba(83, 98, 128, 0.5);
+  -dls-tree-icon-color-aux: rgba(73, 86, 107, 0.8);
+  -dls-tree-icon-color-aux-disabled: rgba(83, 101, 138, 0.5);
   -dls-tree-node-font-color: rgba(13, 15, 18, 0.95);
-  -dls-tree-node-font-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-tree-node-font-color-disabled: rgba(83, 101, 138, 0.5);
   -dls-tree-node-font-color-selected: #0054e6;
   -dls-tree-node-font-color-selected-hover: #1a6eff;
   -dls-tree-node-font-color-selected-focus: #1a6eff;

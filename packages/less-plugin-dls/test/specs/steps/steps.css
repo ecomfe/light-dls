@@ -10,9 +10,9 @@ div {
   -dls-steps-title-font-color-hover: rgba(13, 15, 18, 0.95);
   -dls-steps-title-font-color-focus: rgba(13, 15, 18, 0.95);
   -dls-steps-title-font-color-active: rgba(13, 15, 18, 0.95);
-  -dls-steps-desc-font-color: rgba(80, 90, 107, 0.8);
-  -dls-steps-title-font-color-incomplete: rgba(80, 90, 107, 0.8);
-  -dls-steps-desc-font-color-incomplete: rgba(80, 90, 107, 0.8);
+  -dls-steps-desc-font-color: rgba(73, 86, 107, 0.8);
+  -dls-steps-title-font-color-incomplete: rgba(73, 86, 107, 0.8);
+  -dls-steps-desc-font-color-incomplete: rgba(73, 86, 107, 0.8);
   -dls-steps-marker-size-s: 28px;
   -dls-steps-marker-size-m: 28px;
   -dls-steps-marker-size-dot-s: 10px;
@@ -37,7 +37,7 @@ div {
   -dls-steps-marker-background-color-dot-incomplete-focus: #848b99;
   -dls-steps-marker-background-color-dot-incomplete-active: #545b66;
   -dls-steps-marker-border-color-dot-incomplete: transparent;
-  -dls-steps-marker-foreground-color-incomplete: rgba(80, 90, 107, 0.8);
+  -dls-steps-marker-foreground-color-incomplete: rgba(73, 86, 107, 0.8);
   -dls-steps-connector-color-incomplete: #d3d9e6;
   -dls-steps-marker-background-color-completed: #ebf2ff;
   -dls-steps-marker-background-color-completed-hover: #dce9ff;

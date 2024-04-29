@@ -6,10 +6,10 @@ div {
   -dls-link-text-decoration-focus: underline;
   -dls-link-text-decoration-active: none;
   -dls-link-font-color-normal: rgba(13, 15, 18, 0.95);
-  -dls-link-font-color-normal-hover: rgba(45, 52, 64, 0.8);
-  -dls-link-font-color-normal-focus: rgba(45, 52, 64, 0.8);
+  -dls-link-font-color-normal-hover: rgba(46, 52, 64, 0.9);
+  -dls-link-font-color-normal-focus: rgba(46, 52, 64, 0.9);
   -dls-link-font-color-normal-active: #000;
-  -dls-link-font-color-normal-disabled: rgba(83, 98, 128, 0.5);
+  -dls-link-font-color-normal-disabled: rgba(83, 101, 138, 0.5);
   -dls-link-font-color-strong: #0054e6;
   -dls-link-font-color-strong-hover: #1a6eff;
   -dls-link-font-color-strong-focus: #1a6eff;

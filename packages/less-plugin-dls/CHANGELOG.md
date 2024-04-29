@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.12.0
+
+- Adjust global translucent color tokens again.
+
 ## 11.11.0
 
 - Adjust global translucent color tokens.

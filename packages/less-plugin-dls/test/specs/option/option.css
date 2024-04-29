@@ -22,10 +22,10 @@ div {
   -dls-option-font-color-hover: rgba(13, 15, 18, 0.95);
   -dls-option-font-color-focus: rgba(13, 15, 18, 0.95);
   -dls-option-font-color-active: rgba(13, 15, 18, 0.95);
-  -dls-option-font-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-option-font-color-disabled: rgba(83, 101, 138, 0.5);
   -dls-option-font-color-highlighted: #f27318;
-  -dls-option-icon-color-aux: rgba(80, 90, 107, 0.8);
-  -dls-option-icon-color-aux-disabled: rgba(83, 98, 128, 0.5);
+  -dls-option-icon-color-aux: rgba(73, 86, 107, 0.8);
+  -dls-option-icon-color-aux-disabled: rgba(83, 101, 138, 0.5);
   -dls-option-font-color-selected: #0054e6;
   -dls-option-font-color-selected-hover: #1a6eff;
   -dls-option-font-color-selected-focus: #1a6eff;
@@ -38,7 +38,7 @@ div {
   -dls-option-font-weight-selected-parent: 400;
   -dls-option-font-weight-selected: 400;
   -dls-option-group-label-line-height: 1.4;
-  -dls-option-group-label-font-color: rgba(80, 90, 107, 0.8);
+  -dls-option-group-label-font-color: rgba(73, 86, 107, 0.8);
   -dls-option-group-label-padding-y: 4px;
   -dls-option-group-padding-y: 4px;
   -dls-option-group-separator-color: #e2e6f0;

@@ -43,10 +43,10 @@ div {
   -dls-tab-font-size-m: 14px;
   -dls-tab-font-size-l: 16px;
   -dls-tab-font-color: rgba(13, 15, 18, 0.95);
-  -dls-tab-font-color-hover: rgba(45, 52, 64, 0.8);
-  -dls-tab-font-color-focus: rgba(45, 52, 64, 0.8);
+  -dls-tab-font-color-hover: rgba(46, 52, 64, 0.9);
+  -dls-tab-font-color-focus: rgba(46, 52, 64, 0.9);
   -dls-tab-font-color-active: #000;
-  -dls-tab-font-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-tab-font-color-disabled: rgba(83, 101, 138, 0.5);
   -dls-tab-font-color-current: #0054e6;
   -dls-tab-font-color-current-hover: #1a6eff;
   -dls-tab-font-color-current-focus: #1a6eff;
@@ -81,10 +81,10 @@ div {
   -dls-tab-background-color-strong-current-focus: #fff;
   -dls-tab-background-color-strong-current-active: #fff;
   -dls-tab-font-color-strong: rgba(13, 15, 18, 0.95);
-  -dls-tab-font-color-strong-hover: rgba(45, 52, 64, 0.8);
-  -dls-tab-font-color-strong-focus: rgba(45, 52, 64, 0.8);
+  -dls-tab-font-color-strong-hover: rgba(46, 52, 64, 0.9);
+  -dls-tab-font-color-strong-focus: rgba(46, 52, 64, 0.9);
   -dls-tab-font-color-strong-active: #000;
-  -dls-tab-font-color-strong-disabled: rgba(83, 98, 128, 0.5);
+  -dls-tab-font-color-strong-disabled: rgba(83, 101, 138, 0.5);
   -dls-tab-font-color-strong-current: #0054e6;
   -dls-tab-font-color-strong-current-hover: #1a6eff;
   -dls-tab-font-color-strong-current-focus: #1a6eff;

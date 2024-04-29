@@ -13,7 +13,7 @@ div {
   -dls-pagination-goto-input-digits: 3;
   -dls-pagination-goto-input-width: calc(3ch + 18px);
   -dls-pagination-page-item-font-color: rgba(13, 15, 18, 0.95);
-  -dls-pagination-page-item-font-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-pagination-page-item-font-color-disabled: rgba(83, 101, 138, 0.5);
   -dls-pagination-page-item-background-color: #fff;
   -dls-pagination-page-item-background-color-hover: #f6f7fa;
   -dls-pagination-page-item-background-color-focus: #f6f7fa;

@@ -12,10 +12,10 @@ div {
   -dls-sidenav-item-font-size: 14px;
   -dls-sidenav-item-group-font-weight: 500;
   -dls-sidenav-item-font-color: rgba(13, 15, 18, 0.95);
-  -dls-sidenav-item-font-color-hover: rgba(45, 52, 64, 0.8);
-  -dls-sidenav-item-font-color-focus: rgba(45, 52, 64, 0.8);
+  -dls-sidenav-item-font-color-hover: rgba(46, 52, 64, 0.9);
+  -dls-sidenav-item-font-color-focus: rgba(46, 52, 64, 0.9);
   -dls-sidenav-item-font-color-active: #000;
-  -dls-sidenav-item-font-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-sidenav-item-font-color-disabled: rgba(83, 101, 138, 0.5);
   -dls-sidenav-item-font-color-current: #0054e6;
   -dls-sidenav-item-font-color-current-hover: #1a6eff;
   -dls-sidenav-item-font-color-current-focus: #1a6eff;

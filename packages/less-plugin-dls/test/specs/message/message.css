@@ -9,10 +9,10 @@ div {
   -dls-message-font-color-success: #009940;
   -dls-message-font-color-warning: #ff9448;
   -dls-message-font-color-error: #d9150b;
-  -dls-message-font-color-aux: rgba(80, 90, 107, 0.8);
+  -dls-message-font-color-aux: rgba(73, 86, 107, 0.8);
   -dls-message-icon-color-info: #0054e6;
   -dls-message-icon-color-success: #009940;
   -dls-message-icon-color-warning: #ff9448;
   -dls-message-icon-color-error: #d9150b;
-  -dls-message-icon-color-aux: rgba(80, 90, 107, 0.8);
+  -dls-message-icon-color-aux: rgba(73, 86, 107, 0.8);
 }

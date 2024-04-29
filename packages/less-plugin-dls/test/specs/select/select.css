@@ -10,6 +10,6 @@ div {
   -dls-select-content-spacing: 8px;
   -dls-select-tag-spacing: 4px;
   -dls-select-icon-size-aux: calc(1em + 2px);
-  -dls-select-icon-color-aux: rgba(80, 90, 107, 0.8);
-  -dls-select-icon-color-aux-disabled: rgba(83, 98, 128, 0.5);
+  -dls-select-icon-color-aux: rgba(73, 86, 107, 0.8);
+  -dls-select-icon-color-aux-disabled: rgba(83, 101, 138, 0.5);
 }

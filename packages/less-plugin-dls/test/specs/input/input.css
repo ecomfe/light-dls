@@ -29,16 +29,16 @@ div {
   -dls-input-background-color-disabled: #f6f7fa;
   -dls-input-font-color: rgba(13, 15, 18, 0.95);
   -dls-input-font-color-error: rgba(13, 15, 18, 0.95);
-  -dls-input-font-color-read-only: rgba(80, 90, 107, 0.8);
-  -dls-input-font-color-disabled: rgba(83, 98, 128, 0.5);
-  -dls-input-placeholder-color: rgba(80, 90, 107, 0.8);
-  -dls-input-count-color: rgba(80, 90, 107, 0.8);
+  -dls-input-font-color-read-only: rgba(73, 86, 107, 0.8);
+  -dls-input-font-color-disabled: rgba(83, 101, 138, 0.5);
+  -dls-input-placeholder-color: rgba(73, 86, 107, 0.8);
+  -dls-input-count-color: rgba(73, 86, 107, 0.8);
   -dls-input-count-color-error: #d9150b;
   -dls-input-shadow-focus: 0 0 0 2px rgba(26, 110, 255, 0.2);
   -dls-input-shadow-inline-focus: 0 1px 0 0 #1a6eff;
   -dls-input-shadow-error-focus: 0 0 0 2px rgba(255, 43, 32, 0.2);
   -dls-input-shadow-inline-error-focus: 0 1px 0 0 #ff2b20;
   -dls-input-icon-size: calc(1em + 2px);
-  -dls-input-icon-color: rgba(80, 90, 107, 0.8);
-  -dls-input-icon-color-disabled: rgba(83, 98, 128, 0.5);
+  -dls-input-icon-color: rgba(73, 86, 107, 0.8);
+  -dls-input-icon-color-disabled: rgba(83, 101, 138, 0.5);
 }

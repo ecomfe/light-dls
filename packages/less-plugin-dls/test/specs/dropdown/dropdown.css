@@ -2,8 +2,8 @@ div {
   -dls-dropdown-icon-size-aux: calc(1em + 2px);
   -dls-dropdown-icon-spacing-aux: 8px;
   -dls-dropdown-split-button-padding-x: 12px;
-  -dls-dropdown-icon-color-aux-normal: rgba(80, 90, 107, 0.8);
-  -dls-dropdown-icon-color-aux-normal-disabled: rgba(83, 98, 128, 0.5);
+  -dls-dropdown-icon-color-aux-normal: rgba(73, 86, 107, 0.8);
+  -dls-dropdown-icon-color-aux-normal-disabled: rgba(83, 101, 138, 0.5);
   -dls-dropdown-icon-color-aux-primary: currentColor;
   -dls-dropdown-icon-color-aux-primary-disabled: currentColor;
   -dls-dropdown-max-display-items: 8;
@@ -18,5 +18,5 @@ div {
   -dls-dropdown-menu-target-spacing: 4px;
   -dls-dropdown-menu-shadow: 0 1px 8px rgba(0, 0, 0, 0.06), 0 7px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 16px 4px rgba(0, 0, 0, 0.04);
   -dls-dropdown-menu-placeholder-padding-y: 8px;
-  -dls-dropdown-menu-placeholder-font-color: rgba(80, 90, 107, 0.8);
+  -dls-dropdown-menu-placeholder-font-color: rgba(73, 86, 107, 0.8);
 }

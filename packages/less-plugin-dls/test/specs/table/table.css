@@ -28,10 +28,10 @@ div {
   -dls-table-border-radius-m: 4px;
   -dls-table-icon-size: calc(1em + 2px);
   -dls-table-icon-size-aux: calc(1em + 2px);
-  -dls-table-header-icon-color: rgba(83, 98, 128, 0.5);
-  -dls-table-header-icon-color-hover: rgba(80, 90, 107, 0.8);
-  -dls-table-header-icon-color-active: rgba(45, 52, 64, 0.8);
-  -dls-table-header-icon-color-disabled: rgba(133, 163, 224, 0.25);
+  -dls-table-header-icon-color: rgba(83, 101, 138, 0.5);
+  -dls-table-header-icon-color-hover: rgba(73, 86, 107, 0.8);
+  -dls-table-header-icon-color-active: rgba(46, 52, 64, 0.9);
+  -dls-table-header-icon-color-disabled: rgba(102, 146, 222, 0.15);
   -dls-table-overflow-shadow-top: none;
   -dls-table-overflow-shadow-right: 0 1px 8px rgba(0, 0, 0, 0.06), 0 7px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 16px 4px rgba(0, 0, 0, 0.04);
   -dls-table-overflow-shadow-bottom: none;
