@@ -1,5 +1,11 @@
 > ⚠️ - Breaking Changes
 
+## 11.13.0
+
+- Adjust tokens for tags.
+
+  - Add xs size, support 0.5px border.
+
 ## 11.12.0
 
 - Adjust global translucent color tokens again.
