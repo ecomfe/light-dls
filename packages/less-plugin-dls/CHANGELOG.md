@@ -1,5 +1,9 @@
 > ⚠️ - Breaking Changes
 
+## 11.13.0
+
+- Add `xs` size for tag.
+
 ## 11.12.0
 
 - Adjust global translucent color tokens again.
