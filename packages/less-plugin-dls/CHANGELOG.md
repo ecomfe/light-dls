@@ -2,9 +2,7 @@
 
 ## 11.13.0
 
-- Adjust tokens for tags.
-
-  - Add xs size, support 0.5px border.
+- Add `xs` size for tag.
 
 ## 11.12.0
 
