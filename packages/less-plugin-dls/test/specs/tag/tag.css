@@ -1,11 +1,21 @@
 div {
+  -dls-tag-height-xs: 20px;
   -dls-tag-height-s: 24px;
   -dls-tag-height-m: 28px;
+  -dls-tag-border-radius-xs: 2px;
   -dls-tag-border-radius-s: 4px;
   -dls-tag-border-radius-m: 4px;
+  -dls-tag-border-width: 1px;
+  -dls-tag-border-width-xs: 0.5px;
+  -dls-tag-border-width-s: 1px;
+  -dls-tag-border-width-m: 1px;
   -dls-tag-padding: 8px;
+  -dls-tag-padding-xs: 4px;
+  -dls-tag-padding-s: 4px;
+  -dls-tag-padding-m: 4px;
   -dls-tag-content-spacing: 8px;
   -dls-tag-list-spacing: 4px;
+  -dls-tag-font-size-xs: 12px;
   -dls-tag-font-size-s: 12px;
   -dls-tag-font-size-m: 14px;
   -dls-tag-icon-size-aux: calc(1em - 2px);
