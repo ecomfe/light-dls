@@ -5,3 +5,4 @@ npm-debug.log
 **/dist
 **/variables.*
 **/test/snapshots
+**/coverage/
